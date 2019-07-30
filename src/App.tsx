@@ -55,7 +55,15 @@ const routes = mount({
     }),
   }),
   '/country/:id': route(async req => {
-    const data = await dataPromise;
+    let data = await dataPromise;
+    const mapWocToName = new Map();
+    data.forEach((link) => {
+      mapWocToName.set(link.COW_code, link.COW_name);
+    });
+    data = data.map(link => ({
+      ...link,
+      sovereign_COW_name: mapWocToName.get(link.sovereign_COW_code)
+    }));
     return {
       title: 'Coutry',
       view: <Country id={+req.params.id} data={data} />,

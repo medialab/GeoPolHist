@@ -5,4 +5,7 @@ interface Link {
   start_year: Date;
   link_type: string;
   sovereign_COW_code: number;
+  sovereign_COW_name: string;
 }
+
+declare module 'd3-timeline-chart';
