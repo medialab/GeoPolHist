@@ -33,44 +33,46 @@ class Timeline {
     element.classList.add('timeline-container');
     const minDate = min(data, d => d.start_year) as Date;
     const maxDate = max(data, d => d.end_year) as Date;
+    console.log(minDate, maxDate);
     const elWidth = options.width || element.clientWidth;
     const elHeight = options.height || element.clientHeight;
     const margins = {
-      top: 0,
+      top: 50,
       right: 0,
-      bottom: 20,
+      bottom: 50,
       left: 0
     };
     const width = elWidth - margins.left - margins.right;
     const height = elHeight - margins.top - margins.bottom;
     const groupWidth = options.hideGroupLabels ? 0 : 200;
     const groupHeight = height / data.length;
+    const intervalRectWidth = (d: Link) => Math.max(options.intervalMinWidth, xScale(d.end_year) - xScale(d.start_year))
 
     const xScale = scaleTime()
       .domain([minDate, maxDate])
       .range([groupWidth, width]);
     const xAxis = axisBottom(xScale);
-    const zoomed = () => {
-      const res = svg.select<SVGGElement>('all-item-group')
-      console.log('ouizoom', res);
-      res.attr('transform', event.transform as any);
-      // svg.select<SVGGElement>('.x.axis').call(xAxis)
-      // svg
-      //   .selectAll<SVGRectElement, Link>('rect.interval')
-      //   .attr('x', (d) => xScale(d.start_year))
-      //   .attr('width', d => Math.max(options.intervalMinWidth, xScale(d.end_year) - xScale(d.start_year)))
-    };
-    const zooming = zoom()
-      .extent([[0, 0], [width, height]])
-      .on('zoom', zoomed as any);
-    console.log(width + margins.left + margins.right);
+    // Don't zoom too soon
+    // const zoomed = () => {
+    //   xScale.range([margins.left, width - margins.right].map(d => event.transform.applyX(d)));
+    //   svg
+    //     .selectAll<SVGRectElement, Link>('rect.interval')
+    //     .attr('x', (d: Link) => xScale(d.start_year))
+    //     .attr('width', intervalRectWidth);
+    //   svg.selectAll<SVGGElement, Link>('.x.axis').call(xAxis);
+    // };
+
+    // const zooming = zoom()
+    //   .translateExtent([[0, 0], [width, height]])
+    //   .extent([[0, 0], [width, height]])
+    //   .on('zoom', zoomed as any);
+
     const svg = select(element).append('svg')
-      .attr('width', width + margins.left + margins.right)
-      .attr('height', height + margins.top + margins.bottom)
+      .attr('width', elWidth)
+      .attr('height', elHeight)
       .append('g')
       .attr('transform', 'translate(' + margins.left + ',' + margins.top + ')')
-      .call(zooming as any)
-    console.log(width - groupWidth);
+      // .call(zooming as any);
     svg.append('defs')
       .append('clipPath')
       .attr('id', 'chart-content')
@@ -80,12 +82,12 @@ class Timeline {
       .attr('height', height)
       .attr('width', width - groupWidth);
 
-    // svg.append('rect')
-    //   .attr('class', 'chart-bounds')
-    //   .attr('x', groupWidth)
-    //   .attr('y', 0)
-    //   .attr('height', height)
-    //   .attr('width', width - groupWidth);
+    svg.append('rect')
+      .attr('class', 'chart-bounds')
+      .attr('x', groupWidth)
+      .attr('y', 0)
+      .attr('height', height)
+      .attr('width', width - groupWidth);
 
     svg.append('g')
       .attr('class', 'x axis')
@@ -156,21 +158,18 @@ class Timeline {
     groupIntervalItems
       .append('rect')
       .attr('class', 'interval')
-      .attr('width', (d) => {
-        console.log('ojoazeuaz', d)
-        return Math.max(options.intervalMinWidth, xScale(d.end_year) - xScale(d.start_year))
-      })
+      .attr('width', intervalRectWidth)
       .attr('height', intervalBarHeight)
       .attr('y', intervalBarMargin)
-      .attr('x', (d: any) => xScale(d.start_year));
+      .attr('x', (d: Link) => xScale(d.start_year));
 
     groupIntervalItems
       .append('text')
-      .text((d: any) => d.COW_name)
+      .text((d) => d.link_type)
       .attr('fill', 'white')
       .attr('class', 'interval-text')
       .attr('y', (groupHeight / 2) + 5)
-      .attr('x', (d: any) => xScale(d.start_year));
+      .attr('x', (d) => xScale(d.start_year));
   }
 }
 

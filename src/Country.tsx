@@ -4,8 +4,9 @@ import filter from 'ramda/es/filter';
 import { xCowName, xSovereignCowName } from './utils';
 import equals from 'ramda/es/equals';
 import map from 'ramda/es/map';
+import length from 'ramda/es/length';
 import { scaleTime, scaleOrdinal, schemeAccent, axisTop, select } from 'd3';
-import { Link } from 'react-navi';
+import { Link, useNavigation } from 'react-navi';
 import head from 'ramda/es/head';
 import TimelineChart from './timeline';
 
@@ -14,7 +15,7 @@ const height = 100;
 
 const margins = {
   left: 20,
-  top: 20,
+  top: 55,
   right: 20,
   bottom: 20,
 }
@@ -42,22 +43,27 @@ const Mainland: React.FC<{
       ...first,
       start_year: firstYear,
       end_year: first.start_year,
-      sovereign_COW_code: Infinity
+      sovereign_COW_code: ''
     }];
   }
+  const navigation = useNavigation();
   return (
     <g transform={translate(margins.left, margins.top)}>
       {[...data].reverse().map((link, index) => {
         const x = xScale(link.start_year);
         const y = 0;
-        const color = link.sovereign_COW_code === Infinity ? 'black' : colorScale(`${link.sovereign_COW_code}`);
+        const color = link.sovereign_COW_code === '' ? 'black' : colorScale(`${link.sovereign_COW_code}`);
         const width = xScale(link.end_year) - xScale(link.start_year);
+        const onClick = () => {
+          navigation.navigate(`/country/${link.sovereign_COW_code}`);
+        }
         return (
-          <g key={index} transform={translate(x, y)}>
-            <text y={35 * (index % 2 ? 1 : -1)}>{link.sovereign_COW_name}</text>
+          <g key={index} transform={translate(x, y)} onClick={onClick}>
+            <text transform={`rotate(45) translate(45, 0)`}>{link.link_type} {link.sovereign_COW_name}</text>
             <rect
               x={0}
               width={width}
+              stroke='black'
               y={0}
               height={20}
               fill={color}
@@ -80,9 +86,8 @@ const Conquetes: React.FC<{
 }> = (props) => {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    console.log('coucou', ref.current)
     new TimelineChart(ref.current as HTMLDivElement, props.data, {
-      height: 25 * props.data.length,
+      height: 25 * props.data.length + 100,
       width: width
     });
   }, [props.data]);
@@ -90,14 +95,17 @@ const Conquetes: React.FC<{
 }
 
 const Country: React.FC<{
-  id: number,
+  id: string,
   data: Link[],
 }> = ({id, data}) => {
-  const upperLinks = filter((link: Link) => link.link_type !== 'Sovereign' && equals(link.COW_code, id) )(data);
+  const upperLinks = filter(
+    (link: Link) => link.link_type !== 'Sovereign' && equals(link.COW_code, id)
+  )(data);
   const lowerLinks = filter((link: Link) => equals(link.sovereign_COW_code, id))(data);
+  console.log(upperLinks, lowerLinks);
   const country = data.find(link => equals(link.COW_code, id)) as Link;
   const print = (lens: (link: any) => any) => map((link: Link) => 
-    <li key={Math.random()}>{link.link_type} <Link href={`/country/${link.sovereign_COW_code}`}>{lens(link)}</Link></li>
+    <li key={Math.random()}>{link.link_type} <Link href={`/country/${link.COW_code}`}>{lens(link)}</Link></li>
   );
   return <div>
     <aside>
@@ -108,10 +116,10 @@ const Country: React.FC<{
     <ul>
       {print(xSovereignCowName)(upperLinks)}
     </ul>
-    <svg width={width} height={height}>
+    <svg width={width} height={height + 200}>
       <Mainland data={upperLinks} />
     </svg>
-    <Conquetes data={lowerLinks} />
+    {length(lowerLinks) >= 1 && <Conquetes data={lowerLinks} />}
     <h2>Occupying territories</h2>
     <ul>
       {print(xCowName)(lowerLinks)}

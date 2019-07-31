@@ -14,10 +14,8 @@ function onFirstLoad () {
   return csv('/data/RICentities_links.csv')
     .then((res) => map((rawRow: any) => ({
       ...rawRow,
-      COW_code: +rawRow.COW_code,
       end_year: new Date(rawRow.end_year),
       start_year: new Date(rawRow.start_year),
-      sovereign_COW_code: +rawRow.sovereign_COW_code
     }), res)
   );
 }
@@ -66,7 +64,7 @@ const routes = mount({
     }));
     return {
       title: 'Coutry',
-      view: <Country id={+req.params.id} data={data} />,
+      view: <Country id={req.params.id} data={data} />,
     }
   })
 });
