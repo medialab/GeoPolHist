@@ -1,8 +1,8 @@
 
 export const xCowName = (link: Link) => link.COW_name;
-export const xSovereignCowName = (link: Link) => link.sovereign_COW_name;
-export const xType = (link: Link) => link.link_type === 'Sovereign';
-export const translate_link_type = {
+// export const xSovereignCowName = (link: Link) => link.sovereign_COW_name;
+// export const xType = (link: Link) => link.link_type === 'Sovereign';
+export const translate_link_type: any = {
   "Became part of" : {"slug":"part","priority":2},
   "Became colony of": {"slug":"col","priority":3},
   "Became possession of": {"slug":"poss","priority":3},
@@ -19,5 +19,30 @@ export const translate_link_type = {
   "Sovereign (unrecognised)": {"slug":"SOV_U","priority":0},
   "Sovereign (limited)": {"slug":"SOV_L","priority":1},
   "Protected area of": {"slug":"protected","priority":0},
-  "Unknown": {"slug":"N/A","priority":0}
+  "Unknown": {"slug":"N/A","priority":0},
+  "": {
+    "slug": "alliance",
+    priority: 0,
+  }
+}
+
+export enum STATUS_SLUG {
+  part = "part",
+  col = "col",
+  poss = "poss",
+  claim = "claim",
+  prot = "prot",
+  assoc = "assoc",
+  occ = "occ",
+  leas = "leas",
+  neut = "neut",
+  mand = "mand",
+  SOV = "SOV",
+  uninc = "uninc",
+  autonom = "autonom",
+  SOV_U = "SOV_U",
+  SOV_L = "SOV_L",
+  protected = "protected",
+  NA = "N/A",
+  alliance = "alliance",
 }
