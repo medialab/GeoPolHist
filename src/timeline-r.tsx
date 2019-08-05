@@ -1,21 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { scaleTime, scaleOrdinal, min, max, axisBottom, select, scaleLinear, timeFormat } from 'd3';
 import values from 'ramda/es/values';
 import MultiMap from 'mnemonist/multi-map';
 import { translate, STATUS_SLUG } from './utils';
-import { Tooltip } from 'react-svg-tooltip';
 import './timelines.css'
+import { useNavigation } from 'react-navi';
 
 const colorScale = scaleOrdinal(['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000']);
 const elWidth = 1000;
+const legend = {
+  height: 50,
+}
 const margins = {
-  top: 50,
+  top: 50 + legend.height,
   right: 0,
   bottom: 50,
   left: 0
 };
 const slugs = values(STATUS_SLUG);
-const formater = timeFormat('%Y')
+const formater = timeFormat('%Y');
 
 const Timelines: React.FC<{
   data: MultiMap<Entity, Link>
@@ -27,10 +30,7 @@ const Timelines: React.FC<{
   const minDate = min(data, ([{start}]) => start);
   const maxDate = max(data, ([{end}]) => end);
   const width = elWidth - margins.left - margins.right;
-  const legend = {
-    height: 50,
-  }
-  const elHeight = props.data.dimension * props.lineHeight + legend.height;
+  const elHeight = props.data.dimension * props.lineHeight;
   const height = elHeight - margins.top - margins.bottom;
   const groupWidth = props.hideGroupLabels ? 0 : 200;
   const groupHeight = height / data.length;
@@ -47,8 +47,21 @@ const Timelines: React.FC<{
   const xAxis = axisBottom(xScale);
   const intervalBarHeight = 0.8 * groupHeight;
   const intervalBarMargin = (groupHeight - intervalBarHeight) / 2;
+  const [hover, setHover] = useState<{link: Link, index: number}>();
+  const navigation = useNavigation();
+  const cancel = () => {
+    return setHover;
+  };
+  useEffect(cancel as any, [props.data]);
+  console.log(height, elHeight);
   return (
-    <>
+    <div className='timelines-container' style={{width: width}} /* onMouseLeave={() => setHover(null)} */ >
+      {hover && <div className='tooltip-container' style={{
+        transform: `translate(${xScale(hover.link.start_year)}px, ${yScale(hover.index) + legend.height + margins.top + groupHeight}px)`,
+        minWidth: intervalRectWidth(hover.link)
+      }}>
+        <span className='tooltip'>{hover.link.COW_name} was a {hover.link.status.slug} from {formater(hover.link.start_year)} to {formater(hover.link.end_year)}</span>
+      </div>}
       <svg height={elHeight} width={elWidth}>
         <g transform={translate(margins.left, margins.top)}>
           <defs>
@@ -64,7 +77,7 @@ const Timelines: React.FC<{
           <g className='legend'>
             {slugs.map((slug, index) => {
               return (
-                <g transform={translate(width / slugs.length * (index), 0)}>
+                <g key={slug} transform={translate(width / slugs.length * (index), 0)}>
                   <rect height={legend.height} width={25} fill={colorScale(slug)}>
                     <title>{slug}</title>
                   </rect>
@@ -82,25 +95,27 @@ const Timelines: React.FC<{
                   <g>
                     {links.map((link: Link) => {
                       const color = colorScale(link.status.slug);
-                      const ref = React.createRef<SVGElement>();
                       return (
                         <g key={link.id} transform={translate(xScale(link.start_year), intervalBarMargin)}>
                           <rect
-                            ref={ref as any}
+                            rx='5'
+                            className='link-rect'
+                            onClick={() => navigation.navigate(`/country/${link.COW_code}`)}
+                            onMouseEnter={() => {
+                              setHover({
+                                link: link,
+                                index: index
+                              })
+                            }}
                             fill={color}
-                            stroke='black'
-                            strokeOpacity={0.2}
-                            strokeWidth={1}
+                            stroke={hover && hover.link === link ? 'white' : 'black'}
+                            strokeOpacity={hover && hover.link === link ? 1 : 0.2}
+                            strokeWidth={hover && hover.link === link ? 2 : 1}
                             width={intervalRectWidth(link)}
                             height={intervalBarHeight}
                             y={0}
                             x={0}
                           />
-                          <Tooltip triggerRef={ref}>
-                            <text x={22} y={5} fill="white">
-                              <tspan>{link.COW_name} was a {link.status.slug} from {formater(link.start_year)} to {formater(link.end_year)}</tspan>
-                            </text>
-                          </Tooltip>
                         </g>
                       )
                     })}
@@ -111,7 +126,7 @@ const Timelines: React.FC<{
           </g>
         </g>
       </svg>
-    </>
+    </div>
   );
 }
 

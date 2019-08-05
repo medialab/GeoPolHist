@@ -1,6 +1,25 @@
-.tooltip {
+.tooltip-container {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: red;
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+.tooltip {
+  background-color: #fff;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+  padding: 7px;
+  margin: 0 2px 0 0;
+  box-shadow: 0px 7px 26px 0px rgba(0,0,0,0.15);
+}
+
+.link-rect {
+  transition: all 0.4s ease;
+}
+
+.timelines-container {
+  position: relative;
+  margin: 0 auto;
 }
