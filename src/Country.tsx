@@ -1,12 +1,13 @@
 import React, { useRef, useEffect, useContext } from 'react';
 
 import equals from 'ramda/es/equals';
-import length from 'ramda/es/length';
 import { scaleTime, scaleOrdinal, schemeAccent, axisTop, select } from 'd3';
 import { Link, useNavigation } from 'react-navi';
-import head from 'ramda/es/head';
 import TimelineChart from './timeline';
 import { AppContext } from './AppContext';
+import MultiMap from 'mnemonist/multi-map';
+import Timelines from './timeline-r';
+import { translate } from './utils';
 
 const width = 1000;
 const height = 100;
@@ -21,7 +22,6 @@ const margins = {
 const innerWidth = width - margins.left - margins.right;
 // const innerHeight = height - margins.top - margins.bottom;
 
-const translate = (x: number, y: number) => `translate(${x}, ${y})`
 const colorScale = scaleOrdinal(schemeAccent);
 const firstYear = new Date('1816-01-01T00:00:00.000Z');
 const lastYear = new Date();
@@ -33,7 +33,6 @@ const xAxis = axisTop(xScale);
 const Mainland: React.FC<{
   data: Link[]
 }> = (props) => {
-  console.log(props.data);
   let data = props.data;
   // Add black bar if data is unknown.
   // if (first && first.start_year > firstYear) {
@@ -81,7 +80,7 @@ const Mainland: React.FC<{
 }
 
 const Conquetes: React.FC<{
-  data: Map<Entity, Link[]>
+  data: MultiMap<Entity, Link>,
 }> = (props) => {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -99,24 +98,27 @@ const Country: React.FC<{
   const {state}: {state: GlobalState} = useContext(AppContext);
   const country = state.entities.find(entity => equals(entity.id, id));
   if (country === undefined) {
-    return (<div>Loading</div>)
+    return (<div>Loading</div>);
   }
   const occupations = Array.from(country.occupations.values());
-  if (occupations.length > 1) {
-    throw new Error('Si ca arrive c chaud parceque je sais pas comment ca serais possible 🤷');
-  }
-  return <div>
-    <aside>
-      <Link href='/'>Home</Link>
-    </aside>
-    <h1>{country.name}</h1>
-    <h2>Territory masters</h2>
-    <svg width={width} height={height + 200}>
-      <Mainland data={head(occupations)} />
-    </svg>
-    {length(country.campains) >= 1 && <Conquetes data={country.campains} />}
-    <h2>Occupying territories</h2>
-  </div>;
+  return (
+    <div>
+      <aside>
+        <Link href='/'>Home</Link>
+      </aside>
+      <h1>{country.name}</h1>
+      <h2>Territory masters</h2>
+      <svg width={width} height={height + 200}>
+        <Mainland data={occupations as Link[]} />
+      </svg>
+      <Timelines
+        intervalMinWidth={8}
+        data={country.campains as MultiMap<Entity, Link>}
+        lineHeight={25}
+      />
+      <h2>Occupying territories</h2>
+    </div>
+  );
 }
 
 export default Country;

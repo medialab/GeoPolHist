@@ -5,7 +5,6 @@
   "dependencies": {
     "@types/jest": "24.0.15",
     "@types/node": "12.6.8",
-    "@types/ramda": "^0.26.18",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.5",
     "@types/react-select": "^3.0.0",
@@ -20,6 +19,7 @@
     "react-navi": "^0.13.5",
     "react-scripts": "3.0.1",
     "react-select": "^3.0.4",
+    "react-svg-tooltip": "0.0.11",
     "typesafe-actions": "^4.4.2",
     "typescript": "3.5.3",
     "uuid": "^3.3.2"

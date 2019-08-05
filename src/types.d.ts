@@ -36,14 +36,14 @@ interface WEntity {
   readonly name: COW_name;
   readonly start: Date;
   readonly end: Date;
-  // campains: Map<Entity, Link[]>
+  // campains: MultiMap<Entity, Link>()
   occupations: {[key: COW_code]: Link[]};
   campains: {[key: COW_code]: Link[]};
 }
 
 interface Entity extends WEntity {
-  readonly campains: Map<Entity, Link[]>
-  readonly occupations: Map<Entity, Link[]>
+  readonly campains: MultiMap<Entity, Link>
+  readonly occupations: MultiMap<Entity, Link>
 }
 
 interface GlobalState {

@@ -26,6 +26,8 @@ export const translate_link_type: any = {
   }
 }
 
+export const translate = (x: number, y: number) => `translate(${x}, ${y})`
+
 export enum STATUS_SLUG {
   part = "part",
   col = "col",
