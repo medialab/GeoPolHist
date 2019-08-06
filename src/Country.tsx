@@ -1,9 +1,8 @@
-import React, { useRef, useEffect, useContext } from 'react';
+import React, { useContext } from 'react';
 
 import equals from 'ramda/es/equals';
 import { scaleTime, scaleOrdinal, schemeAccent, axisTop, select } from 'd3';
 import { Link, useNavigation } from 'react-navi';
-import TimelineChart from './timeline';
 import { AppContext } from './AppContext';
 import MultiMap from 'mnemonist/multi-map';
 import Timelines from './timeline-r';
@@ -20,7 +19,6 @@ const margins = {
 }
 
 const innerWidth = width - margins.left - margins.right;
-// const innerHeight = height - margins.top - margins.bottom;
 
 const colorScale = scaleOrdinal(schemeAccent);
 const firstYear = new Date('1816-01-01T00:00:00.000Z');
@@ -34,17 +32,6 @@ const Mainland: React.FC<{
   data: Link[]
 }> = (props) => {
   let data = props.data;
-  // Add black bar if data is unknown.
-  // if (first && first.start_year > firstYear) {
-  //   data = [...data, {
-  //     ...first,
-  //     start_year: firstYear,
-  //     end_year: first.start_year,
-  //     sovereign: {
-  //       COW_code: ''
-  //     }
-  //   }];
-  // }
   const navigation = useNavigation();
   return (
     <g transform={translate(margins.left, margins.top)}>
@@ -79,19 +66,6 @@ const Mainland: React.FC<{
   );
 }
 
-const Conquetes: React.FC<{
-  data: MultiMap<Entity, Link>,
-}> = (props) => {
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    new TimelineChart(ref.current as HTMLDivElement, props.data, {
-      height: 25 * props.data.size + 100,
-      width: width
-    });
-  }, [props.data]);
-  return <div ref={ref} />;
-}
-
 const Country: React.FC<{
   id: string,
 }> = ({id}) => {
@@ -112,9 +86,9 @@ const Country: React.FC<{
         <Mainland data={occupations as Link[]} />
       </svg>
       <Timelines
-        intervalMinWidth={8}
+        intervalMinWidth={5}
         data={country.campains as MultiMap<Entity, Link>}
-        lineHeight={25}
+        lineHeight={20}
       />
       <h2>Occupying territories</h2>
     </div>

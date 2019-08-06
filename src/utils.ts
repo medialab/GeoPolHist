@@ -20,10 +20,7 @@ export const translate_link_type: any = {
   "Sovereign (limited)": {"slug":"SOV_L","priority":1},
   "Protected area of": {"slug":"protected","priority":0},
   "Unknown": {"slug":"N/A","priority":0},
-  "": {
-    "slug": "alliance",
-    priority: 0,
-  }
+  "": {"slug": "alliance", "priority": 0}
 }
 
 export const translate = (x: number, y: number) => `translate(${x}, ${y})`
