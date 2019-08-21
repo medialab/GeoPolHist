@@ -1,0 +1,16 @@
+.histogram-container {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 10px 20px 10px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.histogram-container path {
+  border-right: 1px solid black;
+}
+
+.histogram-container .grid-container {
+  opacity: 0.2;
+  fill: none;
+  stroke-width: 0.5;
+}

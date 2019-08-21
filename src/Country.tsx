@@ -85,10 +85,12 @@ const Country: React.FC<{
       <svg width={width} height={height + 200}>
         <Mainland data={occupations as Link[]} />
       </svg>
+      {/* <Histogram width={1000} height={300} data={Array.from(country.campains.values())} /> */}
       <Timelines
         intervalMinWidth={5}
         data={country.campains as MultiMap<Entity, Link>}
         lineHeight={20}
+        width={1000}
       />
       <h2>Occupying territories</h2>
     </div>

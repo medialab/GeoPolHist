@@ -2,41 +2,47 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { scaleTime, scaleOrdinal, min, max, axisBottom, select, scaleLinear, timeFormat } from 'd3';
 import values from 'ramda/es/values';
 import sort from 'ramda/es/sort';
+import reduce from 'ramda/es/reduce';
+import countBy from 'ramda/es/countBy';
+import mapObjIndexed from 'ramda/es/mapObjIndexed';
+import pipe from 'ramda/es/pipe';
 import MultiMap from 'mnemonist/multi-map';
 import { translate, STATUS_SLUG } from './utils';
 import './timelines.css'
 import { useNavigation } from 'react-navi';
+import cx from 'classnames';
 
 const colorScale = scaleOrdinal(['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000']);
-const elWidth = 1000;
 const legend = {
   height: 50,
 }
 const margins = {
-  top: 50,
+  top: 0,
   right: 0,
   bottom: 50,
   left: 0
 };
-const slugs = values(STATUS_SLUG);
 const formater = timeFormat('%Y');
 
-const dateReducer = (accumulator, link: Link) => {
-  return accumulator + (+link.end_year) - +link.start_year
-}
+const dateReducer = (accumulator, link: Link) => accumulator + (+link.end_year) - +link.start_year
 
-const sortByDuration = sort(([, aLinks], [, bLinks]) => bLinks.reduce(dateReducer, 0) - aLinks.reduce(dateReducer, 0))
+const sortByDuration = sort(([, aLinks], [, bLinks]) => bLinks.reduce(dateReducer, 0) - aLinks.reduce(dateReducer, 0));
+const countByStatus = pipe(
+  reduce((acc, [, links]: [Entity, Link[]]) => [...acc, ...links], []),
+  countBy((link: Link) => link.status.slug),
+);
 
 const Timelines: React.FC<{
-  data: MultiMap<Entity, Link>
-  hideGroupLabels?: boolean,
-  intervalMinWidth: number,
-  lineHeight: number
+  data: MultiMap<Entity, Link>;
+  hideGroupLabels?: boolean;
+  intervalMinWidth: number;
+  lineHeight: number;
+  width: number;
 }> = props => {
   const data: [Entity, Link[]][] = useMemo(() => sortByDuration(Array.from(props.data.associations() as any)), [props.data]);
   const minDate = min(data, ([{start}]) => start);
   const maxDate = max(data, ([{end}]) => end);
-  const width = elWidth - margins.left - margins.right;
+  const width = props.width - margins.left - margins.right;
   const elHeight = props.data.dimension * props.lineHeight + margins.top + margins.bottom;
   const height = elHeight - margins.top - margins.bottom;
   const groupWidth = props.hideGroupLabels ? 0 : 200;
@@ -53,30 +59,29 @@ const Timelines: React.FC<{
   const intervalBarMargin = (groupHeight - intervalBarHeight) / 2;
   const [hover, setHover] = useState<{link: Link, index: number}>();
   const navigation = useNavigation();
+  const [status, setStatus] = useState<STATUS_SLUG>();
+  const countedByStatus = useMemo(() => countByStatus(data), [data]);
   const cancel = () => {
-    return setHover;
+    return () => {
+      setHover(null);
+      setStatus(null);
+    };
   };
   useEffect(cancel as any, [props.data]);
   return (
     <div className='timelines-container' style={{width: width}} /* onMouseLeave={() => setHover(null)} */ >
       {hover && <div className='tooltip-container' style={{
-        transform: `translate(${xScale(hover.link.start_year)}px, ${yScale(hover.index) + margins.top + props.lineHeight}px)`,
+        transform: `translate(${xScale(hover.link.start_year)}px, ${yScale(hover.index) + legend.height + margins.top + props.lineHeight}px)`,
         minWidth: intervalRectWidth(hover.link)
       }}>
         <span className='tooltip'>{hover.link.COW_name} was a {hover.link.status.slug} from {formater(hover.link.start_year)} to {formater(hover.link.end_year)}</span>
       </div>}
-      <svg height={elHeight} width={elWidth}>
-        <g className='legend'>
-          {slugs.map((slug, index) => {
-            return (
-              <g key={slug} transform={translate(width / slugs.length * (index), 0)}>
-                <rect height={legend.height} width={25} fill={colorScale(slug)}>
-                  <title>{slug}</title>
-                </rect>
-              </g>
-            );
-          })}
-        </g>
+      <div className='legend-container'>
+        {values(mapObjIndexed((number, label) => 
+          <div onClick={() => status === label ? setStatus(null) : setStatus(label)} className='legend-item' key={label} style={{backgroundColor: colorScale(label)}}>{label} : {number}</div>
+        , countedByStatus))}
+      </div>
+      <svg height={elHeight} width={props.width}>
         <g transform={translate(margins.left, margins.top)}>
           <defs>
             <clipPath id='chart-content'>
@@ -91,7 +96,10 @@ const Timelines: React.FC<{
               select(element).call(xAxis);
             }
           }} />
-          <g className="groups">
+          <g className={cx({
+            group: true,
+            has_status: !!status
+          }, status)}>
             {data.map(([entity, links], index) => {
               return (
                 <g key={entity.name} className={entity.name} transform={translate(0, yScale(index))}>
@@ -103,7 +111,7 @@ const Timelines: React.FC<{
                         <g key={link.id} transform={translate(xScale(link.start_year), intervalBarMargin)}>
                           <rect
                             rx='5'
-                            className='link-rect'
+                            className={cx('link-rect', link.status.slug)}
                             onClick={() => navigation.navigate(`/country/${link.COW_code}`)}
                             onMouseEnter={() => setHover({link: link, index: index})}
                             fill={colorScale(link.status.slug)}

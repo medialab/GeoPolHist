@@ -31,3 +31,76 @@
 .entity-label:hover {
   clip-path: none;
 }
+
+.legend-container {
+  display: flex;
+  position: sticky;
+  background: #fff;
+  top: 0;
+  padding: 5px;
+}
+
+.legend-item {
+  border-radius: 5px;
+  flex-grow: 1;
+  padding: 10px 0px;
+}
+
+.group.has_status rect {
+  opacity: 0.2;
+}
+
+.group.has_status.part rect.part {
+  opacity: 1;
+}
+.group.has_status.col rect.col {
+  opacity: 1;
+}
+.group.has_status.poss rect.poss {
+  opacity: 1;
+}
+.group.has_status.claim rect.claim {
+  opacity: 1;
+}
+.group.has_status.prot rect.prot {
+  opacity: 1;
+}
+.group.has_status.assoc rect.assoc {
+  opacity: 1;
+}
+.group.has_status.occ rect.occ {
+  opacity: 1;
+}
+.group.has_status.leas rect.leas {
+  opacity: 1;
+}
+.group.has_status.neut rect.neut {
+  opacity: 1;
+}
+.group.has_status.mand rect.mand {
+  opacity: 1;
+}
+.group.has_status.SOV rect.SOV {
+  opacity: 1;
+}
+.group.has_status.uninc rect.uninc {
+  opacity: 1;
+}
+.group.has_status.autonom rect.autonom {
+  opacity: 1;
+}
+.group.has_status.SOV_U rect.SOV_U {
+  opacity: 1;
+}
+.group.has_status.SOV_L rect.SOV_L {
+  opacity: 1;
+}
+.group.has_status.protected rect.protected {
+  opacity: 1;
+}
+.group.has_status.NA rect.NA {
+  opacity: 1;
+}
+.group.has_status.alliance rect.alliance {
+  opacity: 1;
+}
