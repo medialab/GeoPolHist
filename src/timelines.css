@@ -15,8 +15,9 @@
   box-shadow: 0px 7px 26px 0px rgba(0,0,0,0.15);
 }
 
-.link-rect {
+.link-rect, .legend-item {
   transition: all 0.4s ease;
+  cursor: pointer;
 }
 
 .timelines-container {
@@ -46,7 +47,7 @@
   padding: 10px 0px;
 }
 
-.group.has_status rect {
+.group.has_status rect, .legend-item--hidden {
   opacity: 0.2;
 }
 

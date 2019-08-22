@@ -1,80 +1,27 @@
-import React, { useContext } from 'react';
+import React, { useContext, useCallback } from 'react';
 
 import equals from 'ramda/es/equals';
-import { scaleTime, scaleOrdinal, schemeAccent, axisTop, select } from 'd3';
 import { Link, useNavigation } from 'react-navi';
 import { AppContext } from './AppContext';
 import MultiMap from 'mnemonist/multi-map';
 import Timelines from './timeline-r';
-import { translate } from './utils';
-
-const width = 1000;
-const height = 100;
-
-const margins = {
-  left: 20,
-  top: 55,
-  right: 20,
-  bottom: 20,
-}
-
-const innerWidth = width - margins.left - margins.right;
-
-const colorScale = scaleOrdinal(schemeAccent);
-const firstYear = new Date('1816-01-01T00:00:00.000Z');
-const lastYear = new Date();
-const xScale = scaleTime()
-  .domain([firstYear, lastYear])
-  .range([0, innerWidth]);
-const xAxis = axisTop(xScale);
-
-const Mainland: React.FC<{
-  data: Link[]
-}> = (props) => {
-  let data = props.data;
-  const navigation = useNavigation();
-  return (
-    <g transform={translate(margins.left, margins.top)}>
-      {[...data].reverse().map((link, index) => {
-        const x = xScale(link.start_year);
-        const y = 0;
-        const color = link.sovereign ? colorScale(`${link.sovereign.id}`) : 'black';
-        const width = xScale(link.end_year) - xScale(link.start_year);
-        const onClick = () => {
-          navigation.navigate(`/country/${link.sovereign.id}`);
-        }
-        return (
-          <g key={index} transform={translate(x, y)} onClick={onClick}>
-            <text transform={`rotate(45) translate(45, 0)`}>{link.status.slug} {link.sovereign && link.sovereign.name}</text>
-            <rect
-              x={0}
-              width={width}
-              stroke='black'
-              y={0}
-              height={20}
-              fill={color}
-            />
-          </g>
-        );
-      })}
-      <g transform={translate(0, 0)} ref={element => {
-        if (element) {
-          select(element).call(xAxis);
-        }
-      }} />
-    </g>
-  );
-}
 
 const Country: React.FC<{
   id: string,
 }> = ({id}) => {
   const {state}: {state: GlobalState} = useContext(AppContext);
   const country = state.entities.find(entity => equals(entity.id, id));
+  const navigation = useNavigation();
+  const onOccupiedLinkClick = useCallback(link => {
+    console.log(link);
+    navigation.navigate(`/country/${link.sovereign.id}`)
+  }, [navigation]);
+  const onCampainsLinkClick = useCallback(link => {
+    navigation.navigate(`/country/${link.COW_code}`)
+  }, [navigation]);
   if (country === undefined) {
     return (<div>Loading</div>);
   }
-  const occupations = Array.from(country.occupations.values());
   return (
     <div>
       <aside>
@@ -82,17 +29,22 @@ const Country: React.FC<{
       </aside>
       <h1>{country.name}</h1>
       <h2>Territory masters</h2>
-      <svg width={width} height={height + 200}>
-        <Mainland data={occupations as Link[]} />
-      </svg>
-      {/* <Histogram width={1000} height={300} data={Array.from(country.campains.values())} /> */}
       <Timelines
+        onLinkClick={onOccupiedLinkClick}
+        intervalMinWidth={5}
+        data={country.occupations as MultiMap<Entity, Link>}
+        lineHeight={20}
+        width={1000}
+      />
+      {/* <Histogram width={1000} height={300} data={Array.from(country.campains.values())} /> */}
+      <h2>Occupying territories</h2>
+      <Timelines
+        onLinkClick={onCampainsLinkClick}
         intervalMinWidth={5}
         data={country.campains as MultiMap<Entity, Link>}
         lineHeight={20}
         width={1000}
       />
-      <h2>Occupying territories</h2>
     </div>
   );
 }

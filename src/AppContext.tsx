@@ -39,6 +39,9 @@ const toMap = (object: {[key: string]: Link[]}, entities: {[key: string]: Entity
     if (object.hasOwnProperty(key)) {
       const links = object[key];
       const entity = entities[key]
+      if (entity === undefined) {
+        continue
+      }
       for (let index = 0; index < links.length; index++) {
         const link = links[index];
         map.set(entity, link);
@@ -69,25 +72,26 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
       const wEntities: {[key: string]: Entity} = mapObjIndexed((ownLinks: Link[], COW_code: COW_code) => {
         const selectOccupations = pipe(
           filter((link: WLink) => !SOV.includes(link.status.slug) && equals(link.COW_code, COW_code)),
-          groupByCOWCode,
-        ); 
+          // groupByCOWCode,
+          groupBy((link: WLink) => link.sovereign.COW_code),
+        );
         const selectCampains = pipe(
           filter((link: WLink) => equals(link.sovereign.COW_code, COW_code)),
           groupByCOWCode,
         );
+        const occ = selectOccupations(ownLinks);
+        // console.log(occ);
         return {
           id: COW_code,
           name: entitiesMap[COW_code][0].COW_name,
           start: min(ownLinks, d => d.start_year),
           end: max(ownLinks, d => d.end_year),
-          occupations: selectOccupations(ownLinks),
+          occupations: occ,
           campains: selectCampains(links)
         };
       }, entitiesMap);
       const wMapEntities = map((entity: WEntity) => ({
         ...entity,
-        // occupations: new Map(toMap(entity.occupations)),
-        // campains: new Map(toMap(entity.campains))
         occupations: toMap(entity.occupations, wEntities),
         campains: toMap(entity.campains, wEntities)
       }), wEntities);

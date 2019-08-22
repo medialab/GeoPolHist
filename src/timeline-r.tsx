@@ -9,10 +9,9 @@ import pipe from 'ramda/es/pipe';
 import MultiMap from 'mnemonist/multi-map';
 import { translate, STATUS_SLUG } from './utils';
 import './timelines.css'
-import { useNavigation } from 'react-navi';
 import cx from 'classnames';
 
-const colorScale = scaleOrdinal(['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000']);
+const colorScale = scaleOrdinal(['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000']).domain(values(STATUS_SLUG));
 const legend = {
   height: 50,
 }
@@ -38,6 +37,7 @@ const Timelines: React.FC<{
   intervalMinWidth: number;
   lineHeight: number;
   width: number;
+  onLinkClick: (link: Link) => void;
 }> = props => {
   const data: [Entity, Link[]][] = useMemo(() => sortByDuration(Array.from(props.data.associations() as any)), [props.data]);
   const minDate = min(data, ([{start}]) => start);
@@ -58,16 +58,9 @@ const Timelines: React.FC<{
   const intervalBarHeight = 0.8 * groupHeight;
   const intervalBarMargin = (groupHeight - intervalBarHeight) / 2;
   const [hover, setHover] = useState<{link: Link, index: number}>();
-  const navigation = useNavigation();
   const [status, setStatus] = useState<STATUS_SLUG>();
   const countedByStatus = useMemo(() => countByStatus(data), [data]);
-  const cancel = () => {
-    return () => {
-      setHover(null);
-      setStatus(null);
-    };
-  };
-  useEffect(cancel as any, [props.data]);
+  useEffect(() => () => {setHover(null); setStatus(null)}, [props.data]);
   return (
     <div className='timelines-container' style={{width: width}} /* onMouseLeave={() => setHover(null)} */ >
       {hover && <div className='tooltip-container' style={{
@@ -78,12 +71,21 @@ const Timelines: React.FC<{
       </div>}
       <div className='legend-container'>
         {values(mapObjIndexed((number, label) => 
-          <div onClick={() => status === label ? setStatus(null) : setStatus(label)} className='legend-item' key={label} style={{backgroundColor: colorScale(label)}}>{label} : {number}</div>
+          <button onClick={() => status === label ? setStatus(null) : setStatus(label)} className={cx({
+            'legend-item': true,
+            'legend-item--hidden': status && status !== label,
+          })} key={label} style={{backgroundColor: colorScale(label)}}>{label} : {number}</button>
         , countedByStatus))}
       </div>
       <svg height={elHeight} width={props.width}>
         <g transform={translate(margins.left, margins.top)}>
           <defs>
+          <pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="4" height="4">
+            <path d="M-1,1 l2,-2
+                    M0,4 l4,-4
+                    M3,5 l2,-2"
+              style={{stroke: 'black', strokeWidth: 1}} />
+            </pattern>
             <clipPath id='chart-content'>
               <rect x={groupWidth} y={0} height={height} width={width - groupWidth} />
             </clipPath>
@@ -107,18 +109,19 @@ const Timelines: React.FC<{
                   <text className='entity-label' fontSize={props.lineHeight} dy='1em'>{entity.name}</text>
                   <g>
                     {links.map((link: Link) => {
+                      const w = intervalRectWidth(link);
                       return (
                         <g key={link.id} transform={translate(xScale(link.start_year), intervalBarMargin)}>
                           <rect
                             rx='5'
                             className={cx('link-rect', link.status.slug)}
-                            onClick={() => navigation.navigate(`/country/${link.COW_code}`)}
+                            onClick={() => props.onLinkClick(link)}
                             onMouseEnter={() => setHover({link: link, index: index})}
-                            fill={colorScale(link.status.slug)}
+                            fill={isNaN(w) ? "url(#diagonalHatch)" : colorScale(link.status.slug)}
                             stroke={hover && hover.link === link ? 'white' : 'black'}
                             strokeOpacity={hover && hover.link === link ? 1 : 0.2}
                             strokeWidth={hover && hover.link === link ? 2 : 1}
-                            width={intervalRectWidth(link)}
+                            width={isNaN(w) ? '100%' : w}
                             height={intervalBarHeight}
                             y={0}
                             x={0}
