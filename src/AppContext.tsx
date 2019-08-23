@@ -109,7 +109,7 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
 
 const loadedActionCreator = (data: DSVRowArray<string>) => action('LOADED', data);
 
-const dataPromise = csv('/data/RICentities_links.csv');
+const dataPromise = csv('data/RICentities_links.csv');
 const AppContextProvider: React.FC = (props: any) => {
   const [state, dispatch] = useReducer(reducer, initialState as never);
   useEffect(() => {

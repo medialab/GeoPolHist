@@ -25,10 +25,6 @@
   margin: 0 auto;
 }
 
-.entity-label {
-  clip-path: url(#name-area);
-}
-
 .entity-label:hover {
   clip-path: none;
 }

@@ -1,23 +1,24 @@
-import React, { useCallback, Suspense, useContext } from 'react';
+import React, { useCallback, useContext } from 'react';
 import { map } from 'ramda';
-import { mount, route } from 'navi';
-import { Router, View, useNavigation} from 'react-navi';
+import { HashRouter as Router, Route } from "react-router-dom";
 import Select from 'react-select';
 
 import './App.css';
 import Country from './Country';
 import AppContextProvider, { AppContext } from './AppContext';
+import { RouterProps } from 'react-router';
+// import createMemoryHistory from 'history/createMemoryHistory';
 
 const countriesToOptions = map((country: Entity) => ({
   value: country.id, label: country.name,
 }));
 
-const Home: React.FC = () => {
-  const navigation = useNavigation();
+const Home: React.FC<RouterProps> = (props) => {
+  console.log(props);
   const { state }: {state: GlobalState} = useContext(AppContext);
   const onChange = useCallback((event) => {
-    navigation.navigate(`/country/${event.value}`);
-  }, [navigation]);
+    props.history.push(`/country/${event.value}`);
+  }, [props.history]);
   return (
     <Select
       onChange={onChange}
@@ -26,27 +27,13 @@ const Home: React.FC = () => {
   );
 }
 
-const routes = mount({
-  '/': route({
-    title: 'Welcome',
-    view: <Home />,
-  }),
-  '/country/:id': route(async req => {
-    return {
-      title: 'Coutry',
-      view: <Country id={req.params.id} />,
-    }
-  })
-});
-
 const App: React.FC = () => {
   return (
     <div className="App">
       <AppContextProvider>
-        <Router routes={routes}>
-          <Suspense fallback={null}>
-            <View />
-          </Suspense>
+        <Router basename={process.env.NODE_ENV === 'production' ? '/ric_entities_timelines' : '/'}>
+          <Route path='/' exact component={Home} />
+          <Route path='/country/:id' component={Country} />
         </Router>
       </AppContextProvider>
     </div>

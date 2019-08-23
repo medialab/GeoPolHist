@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { scaleTime, scaleOrdinal, min, max, axisBottom, select, scaleLinear, timeFormat } from 'd3';
 import values from 'ramda/es/values';
 import sort from 'ramda/es/sort';
@@ -7,9 +7,10 @@ import countBy from 'ramda/es/countBy';
 import mapObjIndexed from 'ramda/es/mapObjIndexed';
 import pipe from 'ramda/es/pipe';
 import MultiMap from 'mnemonist/multi-map';
-import { translate, STATUS_SLUG } from './utils';
-import './timelines.css'
 import cx from 'classnames';
+import { translate, STATUS_SLUG } from './utils';
+import './timeline.css'
+import uuid from 'uuid';
 
 const colorScale = scaleOrdinal(['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000']).domain(values(STATUS_SLUG));
 const legend = {
@@ -31,6 +32,41 @@ const countByStatus = pipe(
   countBy((link: Link) => link.status.slug),
 );
 
+// Hook
+function useWhyDidYouUpdate(name, props) {
+  // Get a mutable ref object where we can store props ...
+  // ... for comparison next time this hook runs.
+  const previousProps = useRef({});
+  
+  useEffect(() => {
+    if (previousProps.current) {
+      // Get all keys from previous and current props
+      const allKeys = Object.keys({ ...previousProps.current, ...props });
+      // Use this object to keep track of changed props
+      const changesObj = {};
+      // Iterate through keys
+      allKeys.forEach(key => {
+        // If previous is different from current
+        if (previousProps.current[key] !== props[key]) {
+          // Add to changesObj
+          changesObj[key] = {
+            from: previousProps.current[key],
+            to: props[key]
+            };
+          }
+        });
+    
+    // If changesObj not empty then output to console
+      if (Object.keys(changesObj).length) {
+        console.log('[why-did-you-update]', name, changesObj);
+        }
+      }
+  
+  // Finally update previousProps with current props for next hook call
+    previousProps.current = props;
+  });
+}
+
 const Timelines: React.FC<{
   data: MultiMap<Entity, Link>;
   hideGroupLabels?: boolean;
@@ -39,6 +75,8 @@ const Timelines: React.FC<{
   width: number;
   onLinkClick: (link: Link) => void;
 }> = props => {
+  // useWhyDidYouUpdate('timeline', props);
+  const id = useMemo(uuid, []);
   const data: [Entity, Link[]][] = useMemo(() => sortByDuration(Array.from(props.data.associations() as any)), [props.data]);
   const minDate = min(data, ([{start}]) => start);
   const maxDate = max(data, ([{end}]) => end);
@@ -80,17 +118,12 @@ const Timelines: React.FC<{
       <svg height={elHeight} width={props.width}>
         <g transform={translate(margins.left, margins.top)}>
           <defs>
-          <pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="4" height="4">
-            <path d="M-1,1 l2,-2
-                    M0,4 l4,-4
-                    M3,5 l2,-2"
-              style={{stroke: 'black', strokeWidth: 1}} />
+            <pattern id={`diagonalHatch-${id}`} patternUnits="userSpaceOnUse" width="4" height="4">
+              <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" style={{stroke: 'black', strokeWidth: 1}} />
             </pattern>
-            <clipPath id='chart-content'>
-              <rect x={groupWidth} y={0} height={height} width={width - groupWidth} />
-            </clipPath>
-            <clipPath id='name-area'>
+            <clipPath id={`name-area-${id}`}>
               <rect x={0} y={0} height={height} width={groupWidth} />
+              {console.log(height)}
             </clipPath>
           </defs>
           <g transform={translate(0, height)} ref={element => {
@@ -106,7 +139,7 @@ const Timelines: React.FC<{
               return (
                 <g key={entity.name} className={entity.name} transform={translate(0, yScale(index))}>
                   <line className='group-separator' x1={0} x2={width} y1={0} y2={0} stroke='black' strokeOpacity={0.1} />
-                  <text className='entity-label' fontSize={props.lineHeight} dy='1em'>{entity.name}</text>
+                  <text className='entity-label' style={{clipPath: `url(#name-area-${id})`}} fontSize={props.lineHeight} dy='1em'>{entity.name}</text>
                   <g>
                     {links.map((link: Link) => {
                       const w = intervalRectWidth(link);
@@ -117,7 +150,7 @@ const Timelines: React.FC<{
                             className={cx('link-rect', link.status.slug)}
                             onClick={() => props.onLinkClick(link)}
                             onMouseEnter={() => setHover({link: link, index: index})}
-                            fill={isNaN(w) ? "url(#diagonalHatch)" : colorScale(link.status.slug)}
+                            fill={isNaN(w) ? `url(#diagonalHatch-${id})` : colorScale(link.status.slug)}
                             stroke={hover && hover.link === link ? 'white' : 'black'}
                             strokeOpacity={hover && hover.link === link ? 1 : 0.2}
                             strokeWidth={hover && hover.link === link ? 2 : 1}

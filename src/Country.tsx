@@ -1,38 +1,39 @@
 import React, { useContext, useCallback } from 'react';
 
 import equals from 'ramda/es/equals';
-import { Link, useNavigation } from 'react-navi';
 import { AppContext } from './AppContext';
-import MultiMap from 'mnemonist/multi-map';
-import Timelines from './timeline-r';
+import Timelines from './timeline';
+import { Link, RouteComponentProps } from 'react-router-dom';
 
 const Country: React.FC<{
   id: string,
-}> = ({id}) => {
+} & RouteComponentProps<{
+  id: string
+}>> = (props) => {
+  const {history} = props;
+  const id = props.match.params.id;
   const {state}: {state: GlobalState} = useContext(AppContext);
   const country = state.entities.find(entity => equals(entity.id, id));
-  const navigation = useNavigation();
   const onOccupiedLinkClick = useCallback(link => {
-    console.log(link);
-    navigation.navigate(`/country/${link.sovereign.id}`)
-  }, [navigation]);
+    history.push(`/country/${link.sovereign.id}`);
+  }, [history]);
   const onCampainsLinkClick = useCallback(link => {
-    navigation.navigate(`/country/${link.COW_code}`)
-  }, [navigation]);
+    history.push(`/country/${link.COW_code}`);
+  }, [history]);
   if (country === undefined) {
     return (<div>Loading</div>);
   }
   return (
     <div>
       <aside>
-        <Link href='/'>Home</Link>
+        <Link to='/'>Home</Link>
       </aside>
       <h1>{country.name}</h1>
       <h2>Territory masters</h2>
       <Timelines
         onLinkClick={onOccupiedLinkClick}
         intervalMinWidth={5}
-        data={country.occupations as MultiMap<Entity, Link>}
+        data={country.occupations}
         lineHeight={20}
         width={1000}
       />
@@ -41,7 +42,7 @@ const Country: React.FC<{
       <Timelines
         onLinkClick={onCampainsLinkClick}
         intervalMinWidth={5}
-        data={country.campains as MultiMap<Entity, Link>}
+        data={country.campains}
         lineHeight={20}
         width={1000}
       />
