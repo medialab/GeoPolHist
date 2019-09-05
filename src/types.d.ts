@@ -44,6 +44,7 @@ interface WEntity {
 interface Entity extends WEntity {
   readonly campains: MultiMap<Entity, Link>
   readonly occupations: MultiMap<Entity, Link>
+  readonly campainsMap: {[key: string]: Link[]}
 }
 
 interface GlobalState {

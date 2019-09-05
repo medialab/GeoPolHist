@@ -4,11 +4,14 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Select from 'react-select';
 import sort from 'ramda/es/sort';
 import take from 'ramda/es/take';
+import values from 'ramda/es/values';
+import pathOr from 'ramda/es/pathOr';
 
 import './App.css';
 import Country from './Country';
 import AppContextProvider, { AppContext } from './AppContext';
 import { RouterProps } from 'react-router';
+import { STATUS_SLUG } from './utils';
 
 const countriesToOptions = map((country: Entity) => ({
   value: country.id, label: country.name,
@@ -22,11 +25,30 @@ const sortByOccupation = sort((a: Entity, b: Entity) =>
   b.occupations.size - a.occupations.size
 )
 
+const sortByColonyNumber = sort((a: Entity, b: Entity) => 
+  (b.campainsMap['col'] ? b.campainsMap['col'].length : 0) - (a.campainsMap['col'] ? a.campainsMap['col'].length : 0)
+)
+
 const takeTop5 = take(5)
 
 const Examples: React.FC<{entities: Entity[]}> = (props) => {
   const orderByBiggest: Entity[] = takeTop5(sortByBiggestEmpire(props.entities));
   const mostOccupied: Entity[] = takeTop5(sortByOccupation(props.entities));
+  const mostCollonies: Entity[] = takeTop5(sortByColonyNumber(props.entities));
+  const allByCols = values(STATUS_SLUG).map(status => {
+    const getNb = pathOr(0, ['campainsMap', status, 'length']);
+    const sortByStatus = sort((a, b) => getNb(b) - getNb(a));
+    return (
+      <div key={status} className='grow'>
+        <h3>counties with most {status}:</h3>
+        <ol>
+          {takeTop5(sortByStatus(props.entities)).map(entity => {
+            return <li key={entity.id}><Link to={`/country/${entity.id}`}>{entity.name}</Link></li>
+          })}
+        </ol>
+      </div>
+    );
+  });
   return (
     <div>
       <h2>Some examples:</h2>
@@ -47,6 +69,18 @@ const Examples: React.FC<{entities: Entity[]}> = (props) => {
             )}
           </ol>
         </div>
+        <div className='grow'>
+          <h3>Most colonies:</h3>
+          <ol>
+            {mostCollonies.map(entity =>
+              <li key={entity.id}><Link to={`/country/${entity.id}`}>{entity.name}</Link></li>
+            )}
+          </ol>
+        </div>
+      </div>
+      <h3>Countries by status</h3>
+      <div className='line'>
+        {allByCols}
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import { action, ActionType } from 'typesafe-actions';
 import uuid from 'uuid';
 import { translate_link_type, STATUS_SLUG } from './utils';
 import groupBy from 'ramda/es/groupBy';
+import flatten from 'ramda/es/flatten';
 import map from 'ramda/es/map';
 import equals from 'ramda/es/equals';
 import filter from 'ramda/es/filter';
@@ -80,14 +81,16 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
           groupByCOWCode,
         );
         const occ = selectOccupations(ownLinks);
-        // console.log(occ);
+        const campains = selectCampains(links);
+        const capMap = groupBy(link => link.status.slug, flatten(values(campains)));
         return {
           id: COW_code,
           name: entitiesMap[COW_code][0].COW_name,
           start: min(ownLinks, d => d.start_year),
           end: max(ownLinks, d => d.end_year),
           occupations: occ,
-          campains: selectCampains(links)
+          campains: campains,
+          campainsMap: capMap,
         };
       }, entitiesMap);
       const wMapEntities = map((entity: WEntity) => ({

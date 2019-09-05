@@ -37,8 +37,8 @@
   margin: 0 auto;
 }
 
-.line {
-  display: flex;
+.line>div {
+  display: inline-block;
 }
 
 .grow {

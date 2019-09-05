@@ -22,7 +22,6 @@ const margins = {
 };
 const formater = timeFormat('%Y');
 
-
 const countByStatus = pipe(
   reduce((acc, [, links]: [Entity, Link[]]) => [...acc, ...links], []),
   countBy((link: Link) => link.status.slug),
