@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ric_entities_timelines/static/css/main.df28758e.chunk.css",
-    "main.js": "/ric_entities_timelines/static/js/main.dc00cf22.chunk.js",
-    "main.js.map": "/ric_entities_timelines/static/js/main.dc00cf22.chunk.js.map",
+    "main.css": "/ric_entities_timelines/static/css/main.5d755f5f.chunk.css",
+    "main.js": "/ric_entities_timelines/static/js/main.4d1c7c80.chunk.js",
+    "main.js.map": "/ric_entities_timelines/static/js/main.4d1c7c80.chunk.js.map",
     "runtime~main.js": "/ric_entities_timelines/static/js/runtime~main.3c41de58.js",
     "runtime~main.js.map": "/ric_entities_timelines/static/js/runtime~main.3c41de58.js.map",
-    "static/js/2.9089a7f8.chunk.js": "/ric_entities_timelines/static/js/2.9089a7f8.chunk.js",
-    "static/js/2.9089a7f8.chunk.js.map": "/ric_entities_timelines/static/js/2.9089a7f8.chunk.js.map",
+    "static/js/2.d3a268fa.chunk.js": "/ric_entities_timelines/static/js/2.d3a268fa.chunk.js",
+    "static/js/2.d3a268fa.chunk.js.map": "/ric_entities_timelines/static/js/2.d3a268fa.chunk.js.map",
     "index.html": "/ric_entities_timelines/index.html",
-    "precache-manifest.2889a7830538e7c2c0b3121f736d1dcb.js": "/ric_entities_timelines/precache-manifest.2889a7830538e7c2c0b3121f736d1dcb.js",
+    "precache-manifest.41df65a9afc38842f05144f9fbf74302.js": "/ric_entities_timelines/precache-manifest.41df65a9afc38842f05144f9fbf74302.js",
     "service-worker.js": "/ric_entities_timelines/service-worker.js",
-    "static/css/main.df28758e.chunk.css.map": "/ric_entities_timelines/static/css/main.df28758e.chunk.css.map"
+    "static/css/main.5d755f5f.chunk.css.map": "/ric_entities_timelines/static/css/main.5d755f5f.chunk.css.map"
   }
 }
