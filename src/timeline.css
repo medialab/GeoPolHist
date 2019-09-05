@@ -30,11 +30,14 @@
   clip-path: none;
 }
 
-.legend-container {
-  display: flex;
+.legend {
   position: sticky;
   background: #fff;
   top: 0;
+}
+
+.legend-container {
+  display: flex;
   padding: 5px;
 }
 

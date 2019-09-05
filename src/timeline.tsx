@@ -1,12 +1,10 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { scaleTime, scaleOrdinal, min, max, axisBottom, select, scaleLinear, timeFormat } from 'd3';
+import { scaleOrdinal, axisBottom, select, scaleLinear, timeFormat, ScaleTime, axisTop } from 'd3';
 import values from 'ramda/es/values';
-import sort from 'ramda/es/sort';
 import reduce from 'ramda/es/reduce';
 import countBy from 'ramda/es/countBy';
 import mapObjIndexed from 'ramda/es/mapObjIndexed';
 import pipe from 'ramda/es/pipe';
-import MultiMap from 'mnemonist/multi-map';
 import cx from 'classnames';
 import { translate, STATUS_SLUG } from './utils';
 import './timeline.css'
@@ -24,40 +22,37 @@ const margins = {
 };
 const formater = timeFormat('%Y');
 
-const dateReducer = (accumulator, link: Link) => accumulator + (+link.end_year) - +link.start_year
 
-const sortByDuration = sort(([, aLinks], [, bLinks]) => bLinks.reduce(dateReducer, 0) - aLinks.reduce(dateReducer, 0));
 const countByStatus = pipe(
   reduce((acc, [, links]: [Entity, Link[]]) => [...acc, ...links], []),
   countBy((link: Link) => link.status.slug),
 );
 
 const Timelines: React.FC<{
-  data: MultiMap<Entity, Link>;
+  data: [Entity, Link[]][];
   hideGroupLabels?: boolean;
   intervalMinWidth: number;
   lineHeight: number;
   width: number;
   onLinkClick: (link: Link) => void;
+  xScale: ScaleTime<number, number>;
+  nbLines: number;
 }> = props => {
   // useWhyDidYouUpdate('timeline', props);
+  const { xScale, data, nbLines } = props;
   const id = useMemo(uuid, []);
-  const data: [Entity, Link[]][] = useMemo(() => sortByDuration(Array.from(props.data.associations() as any)), [props.data]);
-  const minDate = min(data, ([{start}]) => start);
-  const maxDate = max(data, ([{end}]) => end);
   const width = props.width - margins.left - margins.right;
-  const elHeight = props.data.dimension * props.lineHeight + margins.top + margins.bottom;
+  const elHeight = nbLines * props.lineHeight + margins.top + margins.bottom;
   const height = elHeight - margins.top - margins.bottom;
   const groupWidth = props.hideGroupLabels ? 0 : 200;
   const groupHeight = height / data.length;
   const intervalRectWidth = (d: Link) => Math.max(props.intervalMinWidth, xScale(d.end_year) - xScale(d.start_year))
-  const xScale = scaleTime()
-    .domain([minDate, maxDate])
-    .range([groupWidth, width]);
+  xScale.range([groupWidth, width]);
   const yScale = scaleLinear()
-    .domain([0, props.data.dimension])
+    .domain([0, nbLines])
     .range([0, height]);
-  const xAxis = axisBottom(xScale);
+  const xAxisTop = axisTop(xScale);
+  const xAxisBottom = axisBottom(xScale);
   const intervalBarHeight = 0.8 * groupHeight;
   const intervalBarMargin = (groupHeight - intervalBarHeight) / 2;
   const [hover, setHover] = useState<{link: Link, index: number}>();
@@ -65,20 +60,31 @@ const Timelines: React.FC<{
   const countedByStatus = useMemo(() => countByStatus(data), [data]);
   useEffect(() => () => {setHover(null); setStatus(null)}, [props.data]);
   return (
-    <div className='timelines-container' style={{width: width}} /* onMouseLeave={() => setHover(null)} */ >
+    <div className='timelines-container' style={{width: width}} onMouseLeave={() => setHover(null)}>
       {hover && <div className='tooltip-container' style={{
-        transform: `translate(${xScale(hover.link.start_year)}px, ${yScale(hover.index) + legend.height + margins.top + props.lineHeight}px)`,
+        transform: `translate(${xScale(hover.link.start_year)}px, ${yScale(hover.index) + legend.height + margins.top + props.lineHeight + 20}px)`,
         minWidth: intervalRectWidth(hover.link)
       }}>
         <span className='tooltip'>{hover.link.COW_name} was a {hover.link.status.slug} from {formater(hover.link.start_year)} to {formater(hover.link.end_year)}</span>
       </div>}
-      <div className='legend-container'>
-        {values(mapObjIndexed((number, label) => 
-          <button onClick={() => status === label ? setStatus(null) : setStatus(label)} className={cx({
-            'legend-item': true,
-            'legend-item--hidden': status && status !== label,
-          })} key={label} style={{backgroundColor: colorScale(label)}}>{label} : {number}</button>
-        , countedByStatus))}
+      <div className="legend">
+        <div className='legend-container'>
+          {values(mapObjIndexed((number, label) => 
+            <button onClick={() => status === label ? setStatus(null) : setStatus(label)} className={cx({
+              'legend-item': true,
+              'legend-item--hidden': status && status !== label,
+            })} key={label} style={{backgroundColor: colorScale(label)}}>{label} : {number}</button>
+          , countedByStatus))}
+        </div>
+        <svg height={20} width={props.width}>
+          <g transform={translate(margins.left, margins.top)}>
+            <g transform={translate(0, 17)} ref={element => {
+              if (element) {
+                select(element).call(xAxisTop);
+              }
+            }} />
+          </g>
+        </svg>
       </div>
       <svg height={elHeight} width={props.width}>
         <g transform={translate(margins.left, margins.top)}>
@@ -88,12 +94,11 @@ const Timelines: React.FC<{
             </pattern>
             <clipPath id={`name-area-${id}`}>
               <rect x={0} y={0} height={height} width={groupWidth} />
-              {console.log(height)}
             </clipPath>
           </defs>
           <g transform={translate(0, height)} ref={element => {
             if (element) {
-              select(element).call(xAxis);
+              select(element).call(xAxisBottom);
             }
           }} />
           <g className={cx({
