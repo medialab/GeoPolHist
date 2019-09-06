@@ -25,8 +25,10 @@ const sortByOccupation = sort((a: Entity, b: Entity) =>
   b.occupations.size - a.occupations.size
 )
 
+const getCol = pathOr(0, ['campainsMap', 'col', 'length'])
+
 const sortByColonyNumber = sort((a: Entity, b: Entity) => 
-  (b.campainsMap['col'] ? b.campainsMap['col'].length : 0) - (a.campainsMap['col'] ? a.campainsMap['col'].length : 0)
+  getCol(b) - getCol(a)
 )
 
 const takeTop5 = take(5)
@@ -35,20 +37,6 @@ const Examples: React.FC<{entities: Entity[]}> = (props) => {
   const orderByBiggest: Entity[] = takeTop5(sortByBiggestEmpire(props.entities));
   const mostOccupied: Entity[] = takeTop5(sortByOccupation(props.entities));
   const mostCollonies: Entity[] = takeTop5(sortByColonyNumber(props.entities));
-  const allByCols = values(STATUS_SLUG).map(status => {
-    const getNb = pathOr(0, ['campainsMap', status, 'length']);
-    const sortByStatus = sort((a, b) => getNb(b) - getNb(a));
-    return (
-      <div key={status} className='grow'>
-        <h3>counties with most {status}:</h3>
-        <ol>
-          {takeTop5(sortByStatus(props.entities)).map(entity => {
-            return <li key={entity.id}><Link to={`/country/${entity.id}`}>{entity.name}</Link></li>
-          })}
-        </ol>
-      </div>
-    );
-  });
   return (
     <div>
       <h2>Some examples:</h2>
@@ -80,7 +68,20 @@ const Examples: React.FC<{entities: Entity[]}> = (props) => {
       </div>
       <h3>Countries by status</h3>
       <div className='line'>
-        {allByCols}
+        {values(STATUS_SLUG).map(status => {
+          const getNb = pathOr(0, ['campainsMap', status, 'length']);
+          const sortByStatus = sort((a, b) => getNb(b) - getNb(a));
+          return (
+            <div key={status} className='grow'>
+              <h3>counties with most {status}:</h3>
+              <ol>
+                {takeTop5(sortByStatus(props.entities)).map(entity => {
+                  return <li key={entity.id}><Link to={`/country/${entity.id}`}>{entity.name}</Link></li>
+                })}
+              </ol>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
