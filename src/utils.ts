@@ -6,6 +6,8 @@ export const translate_link_type: any = {
   "Became part of" : {"slug":"part","priority":2},
   "Became colony of": {"slug":"col","priority":3},
   "Became possession of": {"slug":"poss","priority":3},
+  "Became dependency of": {"slug":"dep", "priority":3},
+  "Became concession of": {"slug":"conc", "priority":3},
   "Claimed by": {"slug":"claim","priority":0},
   "Became protectorate of": {"slug":"prot","priority":3},
   "Became associated state of": {"slug":"assoc","priority":0},
@@ -18,9 +20,11 @@ export const translate_link_type: any = {
   "Autonomous constituent country of": {"slug":"autonom","priority":0},
   "Sovereign (unrecognised)": {"slug":"SOV_U","priority":0},
   "Sovereign (limited)": {"slug":"SOV_L","priority":1},
+  "International":  {"slug":"int","priority":3},
+  "Informal":  {"slug":"inf","priority":2},
   "Protected area of": {"slug":"protected","priority":0},
   "Unknown": {"slug":"N/A","priority":0},
-  "": {"slug": "alliance", "priority": 0}
+  "": {"slug": "???", "priority":3}
 }
 
 export const translate = (x: number, y: number) => `translate(${x}, ${y})`
@@ -44,4 +48,8 @@ export enum STATUS_SLUG {
   protected = "protected",
   NA = "N/A",
   alliance = "alliance",
+  inf = "informal",
+  conc = "concession",
+  int = "international",
+  dep = "dependency"
 }

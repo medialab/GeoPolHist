@@ -56,7 +56,7 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
   switch (action.type) {
     case 'LOADED': {
       const links: WLink[] = action.payload.map((csvLink: CSVLink) => {
-        return {
+        const l = {
           id: uuid() as string,
           COW_code: csvLink.COW_code,
           COW_name: csvLink.COW_name,
@@ -67,7 +67,10 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
             COW_code: csvLink.sovereign_COW_code,
             COW_name: csvLink.sovereign_COW_name,
           }
-        } as WLink;
+        } as WLink
+        if (!l.status)
+          console.error("unknown link type", csvLink)
+        return l;
       });
       const entitiesMap = groupByCOWCode(links);
       const wEntities: {[key: string]: Entity} = mapObjIndexed((ownLinks: Link[], COW_code: COW_code) => {
@@ -112,7 +115,7 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
 
 const loadedActionCreator = (data: DSVRowArray<string>) => action('LOADED', data);
 
-const dataPromise = csv('data/RICentities_links.csv');
+const dataPromise = csv('data/COW_Entities_extended.csv');
 const AppContextProvider: React.FC = (props: any) => {
   const [state, dispatch] = useReducer(reducer, initialState as never);
   useEffect(() => {
