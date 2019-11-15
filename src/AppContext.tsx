@@ -75,9 +75,9 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
       const entitiesMap = groupByCOWCode(links);
       const wEntities: {[key: string]: Entity} = mapObjIndexed((ownLinks: Link[], COW_code: COW_code) => {
         const selectOccupations = pipe(
-          filter((link: WLink) => !SOV.includes(link.status.slug) && equals(link.COW_code, COW_code)),
+          filter((link: WLink) => equals(link.COW_code, COW_code)),
           // groupByCOWCode,
-          groupBy((link: WLink) => link.sovereign.COW_code),
+          groupBy((link: WLink) => link.sovereign.COW_code || COW_code),
         );
         const selectCampains = pipe(
           filter((link: WLink) => equals(link.sovereign.COW_code, COW_code)),
