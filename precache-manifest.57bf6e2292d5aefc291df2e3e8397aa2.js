@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d97d0e2e78a36e01957f3abc97e5649",
+    "revision": "8f404b134f632e7c43dffeb073228824",
     "url": "/ric_entities_timelines/index.html"
   },
   {
-    "revision": "4714d24a5e5fe2cf3c60",
+    "revision": "a8e969f470a979afdb9d",
     "url": "/ric_entities_timelines/static/css/main.8b7f53f3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ric_entities_timelines/static/js/2.81611917.chunk.js"
   },
   {
-    "revision": "4714d24a5e5fe2cf3c60",
-    "url": "/ric_entities_timelines/static/js/main.4e560c5e.chunk.js"
+    "revision": "a8e969f470a979afdb9d",
+    "url": "/ric_entities_timelines/static/js/main.98d73ff6.chunk.js"
   },
   {
     "revision": "1a657f9bfa7f362bb373",
