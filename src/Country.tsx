@@ -37,8 +37,8 @@ const Country: React.FC<{
       <aside>
         <RLink to='/'>Home</RLink>
       </aside>
-      <h1>{country.name}</h1>
-      <h2>Territory masters</h2>
+      <h1>{country.name} ({country.id})</h1>
+      <h2>Status</h2>
       <Timelines
         onLinkClick={onOccupiedLinkClick}
         intervalMinWidth={5}
@@ -49,7 +49,7 @@ const Country: React.FC<{
         xScale={xScale}
       />
       {/* <Histogram width={1000} height={300} data={Array.from(country.campains.values())} /> */}
-      <h2>Occupying territories</h2>
+      <h2>Sovereign of</h2>
       <Timelines
         onLinkClick={onCampainsLinkClick}
         intervalMinWidth={5}
