@@ -46,8 +46,8 @@ fetch('./data/status_flows.csv')
             if (!nodeByName.has(link.target)) nodeByName.set(link.target, {name: link.target});
         }
         const sankeyData = {nodes: Array.from(nodeByName.values()), links:ls};
-        const width = 1500
-        const height = 900
+        const width = 1200 
+        const height = 800 
         const padding = 10
         const align="justify" 
         const inputOrder = false
@@ -59,14 +59,14 @@ fetch('./data/status_flows.csv')
             .nodeSort(inputOrder ? null : undefined)
             .nodeWidth(15)
             .nodePadding(padding)
-            .extent([[0, 15], [width, height - 15]])
+            .extent([[0, 18], [width, height - 18]])
             .nodeWidth(nodeWidth)
 
 
         const svg = d3.select(document.getElementById('statusSankey'))
             .style("background", "#fff")
-            .style("width", "100%")
-            .style("height", "auto");
+            .attr("preserveAspectRatio", "xMinYMin meet")
+            .attr("viewBox", `0 0 ${width} ${height}`);
         
         const {nodes, links} = sankey({
             nodes: sankeyData.nodes.map(d => Object.assign({}, d)),
@@ -113,7 +113,7 @@ fetch('./data/status_flows.csv')
             .text(d => `${d.source.name} → ${d.target.name}\n${d.value.toLocaleString()}`);
         
         svg.append("g")
-            .style("font", "10px sans-serif")
+            .style("font", "0.85em sans-serif")
             .selectAll("text")
             .data(nodes)
             .join("text")
@@ -128,7 +128,7 @@ fetch('./data/status_flows.csv')
 
         
         svg.append("g")
-            .style("font", "10px sans-serif")
+            .style("font", "0.95em sans-serif")
             .selectAll("text")
             .data(periods)
             .join('text')
