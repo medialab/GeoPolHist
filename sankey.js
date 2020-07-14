@@ -1,11 +1,12 @@
 //inspired from https://observablehq.com/@mbostock/flow-o-matic
 
 
+
 colors = {
-    part_of:"#a8c4ff",
-    sovereign:"#01e0ad",
-    nonSovereign:"#c35f6c",
-    miscellaneous:"#ffdd97"}
+    part_of:"#7aacd6",
+    sovereign:"#95ca6d",
+    nonSovereign:"#dc9056",
+    miscellaneous:"#d774c1"}
 
 agg_link_type = {
     "Dissolved into":  "nonSovereign",
@@ -46,7 +47,7 @@ fetch('./data/status_flows.csv')
             if (!nodeByName.has(link.target)) nodeByName.set(link.target, {name: link.target});
         }
         const sankeyData = {nodes: Array.from(nodeByName.values()), links:ls};
-        const width = 1200 
+        const width = 1300 
         const height = 800 
         const padding = 10
         const align="justify" 
@@ -102,7 +103,11 @@ fetch('./data/status_flows.csv')
             .selectAll("g")
             .data(links)
             .join("g")
-            .attr("stroke", d => d3.color(d.color) || color)
+            .attr("stroke", d => {
+                const targetType = d.target.name.match(/(.*) \d{4}-\d{4}/)[1]
+                return colors[agg_link_type[targetType]]
+            })
+            .attr("opacity",0.4)
             .style("mix-blend-mode", "multiply");
         
         link.append("path")
@@ -123,7 +128,7 @@ fetch('./data/status_flows.csv')
             .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
             .text(d =>  d.name.match(/(.*) (\d{4}-\d{4})/)[1])
             .append("tspan")
-            .attr("fill-opacity", 0.7)
+            .attr("fill-opacity", 0.9)
             .text(d => ` ${d.value.toLocaleString()}`);
 
         
