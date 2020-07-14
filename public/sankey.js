@@ -3,10 +3,11 @@
 
 
 colors = {
-    part_of:"#7aacd6",
-    sovereign:"#95ca6d",
-    nonSovereign:"#dc9056",
-    miscellaneous:"#d774c1"}
+    part_of:"#abdda4",
+    sovereign:"#2b83ba",
+    nonSovereign:"#d7191c",
+    miscellaneous:"#fdae61"}
+
 
 agg_link_type = {
     "Dissolved into":  "nonSovereign",
