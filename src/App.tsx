@@ -111,7 +111,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <AppContextProvider>
-        <Router basename={process.env.NODE_ENV === 'production' ? '/ric_entities_timelines' : '/'}>
+        <Router basename={process.env.NODE_ENV === 'production' ? '/GeoPolHist' : '/'}>
           <Route path='/' exact component={Home} />
           <Route path='/country/:id' component={Country} />
         </Router>

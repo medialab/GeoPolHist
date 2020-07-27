@@ -1,7 +1,7 @@
 {
   "name": "shing",
   "version": "0.1.0",
-  "homepage": "http://medialab.github.io/ric_entities_timelines",
+  "homepage": "http://medialab.github.io/GeoPolHist",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.15",
