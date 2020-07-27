@@ -2,7 +2,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 2,United States of America,America,http://www.wikidata.org/entity/Q30,,,,
 3,Alaska,America,http://www.wikidata.org/entity/Q797,,,,
 4,Hawaii,America,http://www.wikidata.org/entity/Q782,,,,
-5,Virgin Islands,America,,,,,
+5,Virgin Islands,America,https://www.wikidata.org/wiki/Q11703,,,,
 6,Puerto Rico,America,http://www.wikidata.org/entity/Q1183,,,,
 7,Texas,America,http://www.wikidata.org/entity/Q1439,,,,
 10,Greenland,America,http://www.wikidata.org/entity/Q223,,,,
@@ -65,7 +65,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 231,Gibraltar,Europe,http://www.wikidata.org/entity/Q1410,,,,
 232,Andorra,Europe,http://www.wikidata.org/entity/Q228,,,,
 235,Portugal,Europe,http://www.wikidata.org/entity/Q45,,,,
-239,Prussia,Europe,,,,,
+239,Prussia,Europe,https://www.wikidata.org/wiki/Q27306,https://www.wikidata.org/wiki/Q38872,,,
 240,Hanover,Europe,http://www.wikidata.org/entity/Q1715,,,,
 241,Anhalt Dessau,Europe,Q278874,,,,
 242,Anhalt Köthen,Europe,Q264970,,,,
@@ -75,7 +75,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 246,Bremen,Europe,https://www.wikidata.org/wiki/Q1209,,,,
 247,Frankfurt,Europe,http://www.wikidata.org/entity/Q1794,,,,
 248,Hamburg,Europe,http://www.wikidata.org/entity/Q1055,,,,
-249,Saxony Anhalt (Anhalt),Europe,,,,,
+249,Saxony Anhalt (Anhalt),Europe,https://www.wikidata.org/wiki/Q16550783,https://www.wikidata.org/wiki/Q27916627,https://www.wikidata.org/wiki/Q1206,,
 250,Hohenzollern Hechingen,Europe,Q673865,,,,
 251,Hohenzollern Sigmaringen,Europe,Q157013,,,,
 252,Lippe,Europe,Q14551680,,,,
@@ -92,11 +92,11 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 263,Saxe Gotha Altenburg,Europe,Q675085,,,,
 264,Saxe Coburg and Gotha,Europe,http://www.wikidata.org/entity/Q3462133,,,,
 265,German Democratic Republic,Europe,Q16957,,,,
-266,Saxe Meiningen,Europe,,,,,
+266,Saxe Meiningen,Europe,https://www.wikidata.org/wiki/Q157710,,,,
 267,Baden,Europe,https://www.wikidata.org/wiki/Q186320,,,,
-268,Schwartzburg Sondershausen,Europe,,,,,
+268,Schwarzburg Sondershausen,Europe,https://www.wikidata.org/wiki/Q630163,,,,
 269,Saxony,Europe,http://www.wikidata.org/entity/Q1202,,,,
-270,Schwartzburg Rodolstadt,Europe,,,,,
+270,Schwarzburg Rudolstadt,Europe,https://www.wikidata.org/wiki/Q695316,,,,
 271,Wuerttemberg,Europe,Q159631,,,,
 272,Waldeck,Europe,Q165763,,,,
 273,Hesse Electoral,Europe,Q529605,,,,
@@ -114,12 +114,12 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 315,Czechoslovakia,Europe,http://www.wikidata.org/entity/Q33946,,,,
 316,Czech Republic,Europe,Q213,,,,
 317,Slovakia,Europe,Q214,,,,
-324,Kingdom of Sardinia,Europe,,,,,
+324,Kingdom of Sardinia,Europe,https://www.wikidata.org/wiki/Q2577303,https://www.wikidata.org/wiki/Q165154,,,
 325,Italy,Europe,http://www.wikidata.org/entity/Q38,,,,
 326,Trieste,Europe,http://www.wikidata.org/entity/Q546,,,,
 327,Papal States,Europe,https://www.wikidata.org/wiki/Q237,,,,
 328,Vatican City,Europe,Q237,,,,
-329,Two Sicilies,Europe,,,,,
+329,Two Sicilies,Europe,https://www.wikidata.org/wiki/Q180393,,,,
 331,San Marino,Europe,Q238,,,,
 332,Modena,Europe,https://www.wikidata.org/wiki/Q252580,,,,
 335,Parma,Europe,http://www.wikidata.org/entity/Q2683,,,,
@@ -145,7 +145,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 367,Latvia,Europe,http://www.wikidata.org/entity/Q211,,,,
 368,Lithuania,Europe,http://www.wikidata.org/entity/Q37,,,,
 369,Ukraine,Europe,http://www.wikidata.org/entity/Q212,,,,
-370,Byelorussia (Belarus),Europe,Q184,,,,
+370,Belarus (Byelorussia),Europe,Q184,,,,
 371,Armenia,Europe,http://www.wikidata.org/entity/Q399,,,,
 372,Georgia,Europe,http://www.wikidata.org/entity/Q230,,,,
 373,Azerbaijan,Europe,Q227,,,,
@@ -156,47 +156,47 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 385,Norway,Europe,http://www.wikidata.org/entity/Q20,,,,
 390,Denmark,Europe,http://www.wikidata.org/entity/Q35,,,,
 395,Iceland,Europe,http://www.wikidata.org/entity/Q189,,,,
-400,Azores (Western Isles),,,,https://www.wikidata.org/wiki/Q899706,,
-401,Madeira Isles,,,,,,
+400,Azores (Western Isles),Africa,https://www.wikidata.org/wiki/Q25263,,,,
+401,Madeira Isles,Africa,https://www.wikidata.org/wiki/Q26253,,,,
 402,Cape Verde,Africa,http://www.wikidata.org/entity/Q1011,,,,
 403,Sao Tome-Principe,Africa,https://www.wikidata.org/wiki/Q1039,,,,
-404,Guinea-Bissau (Portuguese Guinea),Africa,,,,,
+404,Guinea-Bissau (Portuguese Guinea),Africa,https://www.wikidata.org/wiki/Q2002279,https://www.wikidata.org/wiki/Q1007,,,
 410,Canary Island,Africa,http://www.wikidata.org/entity/Q5813,,,,
-411,Equatorial Guinea (Spanish Guinea),Africa,,,,,
+411,Equatorial Guinea (Spanish Guinea),Africa,https://www.wikidata.org/wiki/Q1232509,https://www.wikidata.org/wiki/Q983,,,
 412,Rio Muni,Africa,Q845368,,,,
 413,Fernando Po (Bioko),Africa,https://www.wikidata.org/wiki/Q205022,,,,
 420,Gambia,Africa,http://www.wikidata.org/entity/Q1005,,,,
 430,French West Africa,Africa,http://www.wikidata.org/entity/Q210682,,,,
 431,Mali Federation,Africa,Q216632,,,,
-432,Mali (French Sudan) (Upper Senegal and Niger),Africa,,,,,
+432,Mali (French Sudan) (Upper Senegal and Niger),Africa,https://www.wikidata.org/wiki/Q1271523,https://www.wikidata.org/wiki/Q508014,https://www.wikidata.org/wiki/Q912,,
 433,Senegal,Africa,http://www.wikidata.org/entity/Q1041,,,,
 434,Benin (Dahomey),Africa,https://www.wikidata.org/wiki/Q962,,,,
 435,Mauritania,Africa,Q1025,,,,
 436,Niger,Africa,http://www.wikidata.org/entity/Q1032,,,,
 437,Ivory Coast,Africa,http://www.wikidata.org/entity/Q1008,,,,
-438,Guinea (French Guinea) (Rivieres du Sud),Africa,,,,,
+438,Guinea (French Guinea) (Rivieres du Sud),Africa,https://www.wikidata.org/wiki/Q4394393,https://www.wikidata.org/wiki/Q797433,https://www.wikidata.org/wiki/Q1006,,
 439,Burkina Faso (Upper Volta),Africa,Q965,,,,
 450,Liberia,Africa,http://www.wikidata.org/entity/Q1014,,,,
 451,Sierra Leone,Africa,http://www.wikidata.org/entity/Q1044,,,,
 452,Ghana (Gold Coast),Africa,https://www.wikidata.org/wiki/Q117,,,,
-460,German Togoland,Africa,,,,,
-461,Togo (French Togoland),Africa,,,,,
+460,German Togoland,Africa,https://www.wikidata.org/wiki/Q161062,,,,
+461,Togo (French Togoland),Africa,https://www.wikidata.org/wiki/Q797214,https://www.wikidata.org/wiki/Q945,,,
 462,British Togoland,Africa,Q797527,,,,
 470,Kamerun,Africa,http://www.wikidata.org/entity/Q668294,,,,
-471,Cameroun (French Cameroons),Africa,,,,,
-472,British Cameroons,Africa,,,,,
+471,Cameroun (French Cameroons),Africa,https://www.wikidata.org/wiki/Q1028848,,,,
+472,British Cameroons,Africa,https://www.wikidata.org/wiki/Q1028835,,,,
 475,Nigeria,Africa,http://www.wikidata.org/entity/Q1033,,,,
-480,French Equatorial Africa,Africa,,,,,
+480,French Equatorial Africa,Africa,https://www.wikidata.org/wiki/Q271894,,,,
 481,Gabon,Africa,http://www.wikidata.org/entity/Q1000,,,,
 482,Central African Republic,Africa,Q929,,,,
 483,Chad,Africa,Q657,,,,
-484,Congo (Brazzaville) (French Congo) (Middle Congo),Africa,,,,,
+484,Congo (Brazzaville) (French Congo) (Middle Congo),Africa,https://www.wikidata.org/wiki/Q265319,https://www.wikidata.org/wiki/Q971,,,
 490,Zaire (Kinshasa) (Belgian Congo),Africa,https://www.wikidata.org/wiki/Q974,,,,
 500,Uganda,Africa,Q1036,,,,
-501,Kenya (British East Africa Protectorate),Africa,,,,,
-510,Tanzania (Tanganyika) (German East Africa),Africa,,,,,
+501,Kenya (British East Africa Protectorate),Africa,https://www.wikidata.org/wiki/Q876185,https://www.wikidata.org/wiki/Q114,,,
+510,Tanzania (Tanganyika) (German East Africa),Africa,https://www.wikidata.org/wiki/Q153963,https://www.wikidata.org/wiki/Q431731,https://www.wikidata.org/wiki/Q924,,
 511,Zanzibar,Africa,http://www.wikidata.org/entity/Q1774,,,,
-515,Rwanda-Urundi,Africa,,,,,
+515,Ruanda-Urundi,Africa,https://www.wikidata.org/wiki/Q590743,,,,
 516,Burundi,Africa,Q967,,,,
 517,Rwanda,Africa,Q1037,,,,
 520,Somalia,Africa,https://www.wikidata.org/wiki/Q1045,,,,
@@ -214,13 +214,13 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 561,Cape Colony,Africa,http://www.wikidata.org/entity/Q370736,,,,
 562,Natal,Africa,https://www.wikidata.org/wiki/Q1301901,,,,
 563,Transvaal,Africa,https://www.wikidata.org/wiki/Q190959,,,,
-564,Orange Free State (Orange River Colony),Africa,,,,,
-565,South West Africa (German West Africa) (Namibia),Africa,,,,,
+564,Orange Free State (Orange River Colony),Africa,https://www.wikidata.org/wiki/Q1142179,https://www.wikidata.org/wiki/Q160284,,,
+565,Namibia (South West Africa) (German West Africa),Africa,https://www.wikidata.org/wiki/Q639691,https://www.wikidata.org/wiki/Q953068,https://www.wikidata.org/wiki/Q1030,,
 566,Transkei,Africa,Q466551,,,,
 567,Bophuthatswana,Africa,Q158236,,,,
 568,Venda,Africa,Q848668,,,,
 569,Ciskei,Africa,Q379042,,,,
-570,Lesotho (Basutoland),Africa,,,,,
+570,Lesotho (Basutoland),Africa,https://www.wikidata.org/wiki/Q2340665,https://www.wikidata.org/wiki/Q1013,,,
 571,Botswana (Bechuanaland),Africa,https://www.wikidata.org/wiki/Q963,,,,
 572,Swaziland,Africa,http://www.wikidata.org/entity/Q1050,,,,
 580,Malagasy Republic (Madagascar),Africa,https://www.wikidata.org/wiki/Q1019,,,,
@@ -233,22 +233,22 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 602,Spanish Morocco,Africa,https://www.wikidata.org/wiki/Q457242,,,,
 605,Ifni,Africa,Q763141,,,,
 609,Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara),Africa,Q40362,,,,
-610,Spanish West Africa,Africa,,,,,
+610,Spanish West Africa,Africa,https://www.wikidata.org/wiki/Q1191986,,,,
 615,Algeria,Africa,http://www.wikidata.org/entity/Q262,,,,
 616,Tunisia,Africa,http://www.wikidata.org/entity/Q948,,,,
-620,"Libya (Tripolitania, Cyrenaica, Fezzan)",Africa,,,,,
-625,Sudan (Anglo-Egyptian),Africa,,,,,
+620,"Libya (Tripolitania, Cyrenaica, Fezzan)",Africa,https://www.wikidata.org/wiki/Q7252591,https://www.wikidata.org/wiki/Q1016,,,
+625,Sudan (Anglo-Egyptian),Africa,https://www.wikidata.org/wiki/Q541455,https://www.wikidata.org/wiki/Q1049,,,
 626,South Sudan,Africa,Q958,,,,
 630,Iran (Persia),Asia,https://www.wikidata.org/wiki/Q794,,,,
 640,Turkey,Asia,http://www.wikidata.org/entity/Q43,,,,
 645,Iraq (Mesopotamia),Asia,https://www.wikidata.org/wiki/Q796,,,,
-651,Egypt Arab Republic (Egypt),Asia,,,,,
+651,Egypt Arab Republic (Egypt),Africa,https://www.wikidata.org/wiki/Q79,,,,
 652,Syria,Asia,http://www.wikidata.org/entity/Q858,,,,
 660,Lebanon,Asia,http://www.wikidata.org/entity/Q822,,,,
-663,Jordan (Transjordan),Asia,,,,,
+663,Jordan (Transjordan),Asia,https://www.wikidata.org/wiki/Q1121819,https://www.wikidata.org/wiki/Q810,,,
 665,Palestine,Asia,http://www.wikidata.org/entity/Q219060,,,,
 666,Israel,Asia,http://www.wikidata.org/entity/Q801,,,,
-670,Saudi Arabia (Nejd Wahabbid Empire),Asia,,,,,
+670,Saudi Arabia (Emirate of Nejd),Asia,https://www.wikidata.org/wiki/Q851,,,,
 671,Hejaz Sultanate,Asia,https://www.wikidata.org/wiki/Q956357,,,,
 672,Asir,Asia,https://www.wikidata.org/wiki/Q779855,https://www.wikidata.org/wiki/Q1656908,,,
 673,Al Hasa,Asia,https://www.wikidata.org/wiki/Q4702167,,,,
@@ -288,13 +288,13 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 761,Sikkim,Asia,https://www.wikidata.org/wiki/Q3960459,https://www.wikidata.org/wiki/Q1505,,,
 770,Pakistan,Asia,http://www.wikidata.org/entity/Q843,,,,
 771,Bangladesh,Asia,https://www.wikidata.org/wiki/Q902,,,,
-775,Burma (Myanmar),Asia,https://www.wikidata.org/wiki/Q836,,,,
+775,Myanmar (Burma),Asia,https://www.wikidata.org/wiki/Q836,,,,
 780,Sri Lanka (Ceylon),Asia,https://www.wikidata.org/wiki/Q854,,,,
 781,Maldive Islands,Asia,http://www.wikidata.org/entity/Q17044696,,,,
 790,Nepal,Asia,http://www.wikidata.org/entity/Q837,,,,
 800,Thailand (Siam),Asia,https://www.wikidata.org/wiki/Q869,,,,
 810,French Indochina,Asia,https://www.wikidata.org/wiki/Q185682,,,,
-811,Kampuchea (Cambodia),Asia,https://www.wikidata.org/wiki/Q424,,,,
+811,Cambodia (Kampuchea),Asia,https://www.wikidata.org/wiki/Q424,,,,
 812,Laos,Asia,https://www.wikidata.org/wiki/Q819,,,,
 815,Vietnam,Asia,http://www.wikidata.org/entity/Q881,,,,
 816,"Vietnam, Democratic Rep.",Asia,https://www.wikidata.org/wiki/Q172640,,,,
@@ -354,10 +354,10 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 1012,Mississippi,America,https://www.wikidata.org/wiki/Q1494,,,,
 1013,Louisiana,America,https://www.wikidata.org/wiki/Q1588,,,,
 1014,California (Great Bear Republic),America,https://www.wikidata.org/wiki/Q17557,,,,
-1015,Cherokee,America,,https://www.wikidata.org/wiki/Q14708404,,,
+1015,Cherokee,America,https://www.wikidata.org/wiki/Q14708404,,,,
 1016,Oregon Country,America,http://www.wikidata.org/entity/Q388164,,,,
 1017,Eastern Greenland,America,https://www.wikidata.org/wiki/Q14205239,,,,
-1018,U.S. Leased Bases in Newfoundland,America,,,,,
+1018,U.S. Leased Bases in Newfoundland,America,https://www.wikidata.org/wiki/Q5393217,,,,
 1019,Rupert's Land,America,http://www.wikidata.org/entity/Q738395,,,,
 1020,San Juan Island,America,https://www.wikidata.org/wiki/Q1935888,,,,
 1021,Cape Breton I.,America,https://www.wikidata.org/wiki/Q188489,,,,
@@ -414,7 +414,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 1105,San Andres and Providincial Is.,America,https://www.wikidata.org/wiki/Q26855,,,,
 1106,Malpelo I.,America,https://www.wikidata.org/wiki/Q750683,,,,
 1111,Aves I.,America,https://www.wikidata.org/wiki/Q790669,,,,
-1112,U.S. Leased Bases in Br. Guiana,America,,,,,
+1112,U.S. Leased Bases in Br. Guiana,America,https://www.wikidata.org/wiki/Q1333912,,,,
 1113,Demerara and Essequibo,America,https://www.wikidata.org/wiki/Q5255160,,,,
 1114,Berbice,America,http://www.wikidata.org/entity/Q675322,,,,
 1135,Viceroyalty of Peru,America,https://www.wikidata.org/wiki/Q211435,,,,
@@ -457,10 +457,10 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 2311,Spain-Gibralter Neutral Zone,Europe,https://www.wikidata.org/wiki/Q2473841,,,,
 2333,Ile des Faisans,Europe,https://www.wikidata.org/wiki/Q373767,,,,
 2481,Bergedorf,Europe,https://www.wikidata.org/wiki/Q1637,,,,
-2482,Schleswig Plebiscite Zone,Europe,,,,,
-2551,Allenstein Plebiscite Zone,Europe,,,,,
-2552,Marienwerder Plebiscite Zone,Europe,,https://www.wikidata.org/wiki/Q479818,,,pas de géolocalisation
-2553,Silesia Plebiscite Zone,Europe,,https://www.wikidata.org/wiki/Q574321,,,carte de la zone disponible sur la page wikipédia associée
+2482,Schleswig Plebiscite Zone,Europe,,https://www.wikidata.org/wiki/Q692146,,,
+2551,Allenstein Plebiscite Zone,Europe,,https://www.wikidata.org/wiki/Q574321,,,
+2552,Marienwerder Plebiscite Zone,Europe,,https://www.wikidata.org/wiki/Q479818,,,no geo-localization
+2553,Silesia Plebiscite Zone,Europe,,https://www.wikidata.org/wiki/Q574321,,,see map on wikipedia links
 2554,Brandenburg,Europe,https://www.wikidata.org/wiki/Q1208,,,,
 2555,Schleswig-Holstein,Europe,https://www.wikidata.org/wiki/Q1194,,,,
 2556,Rhineland,Europe,https://www.wikidata.org/wiki/Q152243,,,,
@@ -473,7 +473,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 2605,Rhineland Palatinate,Europe,https://www.wikidata.org/wiki/Q1200,,,,
 2606,Baden Wuerttemberg,Europe,https://www.wikidata.org/wiki/Q985,,,,
 2661,Saxe Hildburghausen,Europe,https://www.wikidata.org/wiki/Q281005,,,,
-3051,Klagenfurt Plebiscite Zone,Europe,,,,,
+3051,Klagenfurt Plebiscite Zone,Europe,,https://www.wikidata.org/wiki/Q692136,,,
 3052,Vorarlberg,Europe,https://www.wikidata.org/wiki/Q38981,,,,
 3053,Tyrol,Europe,https://www.wikidata.org/wiki/Q42880,,,,
 3253,Milan,Europe,http://www.wikidata.org/entity/Q490,,,,
@@ -513,7 +513,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 3461,Bosnia,Europe,https://www.wikidata.org/wiki/Q188736,,,,
 3462,Herzegovina,Europe,https://www.wikidata.org/wiki/Q189863,,,,
 3471,Novi Pazar,Europe,https://www.wikidata.org/wiki/Q202453,,,,
-3481,Brda,Europe,https://www.wikidata.org/wiki/Q3512355,,,,Pas de géolocalisation
+3481,Brda,Europe,https://www.wikidata.org/wiki/Q3512355,,,,no geo-localization
 3501,Western Thrace,Europe,https://www.wikidata.org/wiki/Q1192701,,,,
 3502,Mount Athos,Europe,https://www.wikidata.org/wiki/Q130321,,,,
 3503,New Greece,Europe,,,,,
@@ -545,7 +545,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 3762,"Ingushetia, Republic of",Europe,https://www.wikidata.org/wiki/Q5219,,,,
 3805,Sweden-Norway Neutral Zone,Europe,https://www.wikidata.org/wiki/Q2742785,,,,
 3901,Bornholm I.,Europe,https://www.wikidata.org/wiki/Q769680,,,,
-4031,Principe,Africa,,,,,
+4031,Principe,Africa,https://www.wikidata.org/wiki/Q210636,,,,
 4041,Cacheu,Africa,https://www.wikidata.org/wiki/Q1002807,,,,
 4042,Bissau,Africa,https://www.wikidata.org/wiki/Q3739,,,,
 4043,Oio,Africa,https://www.wikidata.org/wiki/Q853991,,,,
@@ -559,32 +559,32 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 4322,Timbuctu,Africa,https://www.wikidata.org/wiki/Q9427,,,,
 4323,Bambuk,Africa,https://www.wikidata.org/wiki/Q805975,,,,
 4324,Dinguiray,Africa,https://www.wikidata.org/wiki/Q1006013,,,,
-4325,Kaarta,Africa,https://www.wikidata.org/wiki/Q924833,,,,Pas de géolocalisation
-4326,Macina,Africa,https://www.wikidata.org/wiki/Q635394,,,,Pas de géolocalisation
+4325,Kaarta,Africa,https://www.wikidata.org/wiki/Q924833,,,,no geo-localization
+4326,Macina,Africa,https://www.wikidata.org/wiki/Q635394,,,,no geo-localization
 4327,Segu,Africa,https://www.wikidata.org/wiki/Q333476,,,,
 4328,Sikasso,Africa,https://www.wikidata.org/wiki/Q461298,,,,
 4331,Futa Toro,Africa,https://www.wikidata.org/wiki/Q1440091,,,,
 4332,Futa Bondu,Africa,https://www.wikidata.org/wiki/Q892272,,,,
 4333,Cayor,Africa,https://www.wikidata.org/wiki/Q1052040,,,,
-4334,Rip,Africa,https://www.wikidata.org/wiki/Q3433004,,,,Pas de géolocalisation
+4334,Rip,Africa,https://www.wikidata.org/wiki/Q3433004,,,,no geo-localization
 4335,Saloum,Africa,https://www.wikidata.org/wiki/Q1471373,,,,
-4336,Sine,Africa,https://www.wikidata.org/wiki/Q862467,,,,Pas de géolocalisation
+4336,Sine,Africa,https://www.wikidata.org/wiki/Q862467,,,,no geo-localization
 4337,Walo,Africa,https://www.wikidata.org/wiki/Q206279,,,,
 4338,Goree,Africa,http://www.wikidata.org/entity/Q244347,,,,
 4341,Old Dahomey,Africa,https://www.wikidata.org/wiki/Q468814,,,,
-4342,Gun,Africa,,,,,Lien renvoie à un peuple ou une langue
-4343,Ketu,Africa,https://www.wikidata.org/wiki/Q3311513,,,,Pas de géolocalisation
+4342,Gun,Africa,,https://www.wikidata.org/wiki/Q22132744,,,links to a tribe or a language
+4343,Ketu,Africa,https://www.wikidata.org/wiki/Q3311513,,,,no geo-localization
 4344,Grand Popo,Africa,https://www.wikidata.org/wiki/Q1542478,,,,
-4345,Ouidah,Africa,https://www.wikidata.org/wiki/Q850031,,,,
+4345,Ouidah,Africa,https://www.wikidata.org/wiki/Q850031,https://www.wikidata.org/wiki/Q1716449,,,
 4346,Anecho (Little Popo),Africa,https://www.wikidata.org/wiki/Q1018574,,,,
 4347,Cotonou,Africa,https://www.wikidata.org/wiki/Q43595,,,,
 4348,Porto Novo,Africa,http://www.wikidata.org/entity/Q3799,,,,
-4349,Ajuda,Africa,,,,,Voir Ouidah
+4349,Ajuda,Africa,https://www.wikidata.org/wiki/Q1969968,,,,
 4351,Adrar,Africa,https://www.wikidata.org/wiki/Q366626,,,,
 4352,Brakna,Africa,https://www.wikidata.org/wiki/Q12632,,,,
 4353,Tagant,Africa,https://www.wikidata.org/wiki/Q843903,,,,
 4354,Trarza,Africa,https://www.wikidata.org/wiki/Q1812976,,,,
-4361,Aïr,Africa,https://www.wikidata.org/wiki/Q1502813,,,,Pas de géolocalisation
+4361,Aïr,Africa,https://www.wikidata.org/wiki/Q1502813,,,,no geo-localization
 4362,Zinder,Africa,https://www.wikidata.org/wiki/Q204365,,,,
 4371,Odienne,Africa,https://www.wikidata.org/wiki/Q506811,,,,
 4372,Grand Bassam,Africa,https://www.wikidata.org/wiki/Q582922,,,,
@@ -594,7 +594,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 4391,Gurma,Africa,https://www.wikidata.org/wiki/Q432317,,,,
 4392,Kong,Africa,https://www.wikidata.org/wiki/Q1587244,,,,
 4393,Mandinka (Wassoulou) Empire,Africa,https://www.wikidata.org/wiki/Q568712,,,,
-4394,Mamprussi,Africa,,,,,Lien renvoie à un peuple ou une langue
+4394,Mamprussi,Africa,,https://www.wikidata.org/wiki/Q641337,,,links to a tribe or a language
 4395,Ouga Dougou,Africa,,https://www.wikidata.org/wiki/Q3777,,,
 4396,Yatenga,Africa,https://www.wikidata.org/wiki/Q65123867,https://www.wikidata.org/wiki/Q569904,,,
 4397,Busuma,Africa,,,,,
@@ -603,31 +603,31 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 4512,Aku,Africa,,https://www.wikidata.org/wiki/Q24697842,,,
 4513,Banana Islands,Africa,https://www.wikidata.org/wiki/Q806076,,,,
 4514,Bumpe,Africa,https://www.wikidata.org/wiki/Q2946676,,,,
-4515,Koya-Temne,Africa,https://www.wikidata.org/wiki/Q6412616,,,,Pas de géolocalisation
+4515,Koya-Temne,Africa,https://www.wikidata.org/wiki/Q6412616,,,,no geo-localization
 4516,Shenge (Plantation Island),Africa,https://www.wikidata.org/wiki/Q7494263,,,,
 4521,Asante,Africa,https://www.wikidata.org/wiki/Q722071,,,,
-4522,Adansi,Africa,https://www.wikidata.org/wiki/Q4680636,,,,Pas de géolocalisation
-4523,Akwamu,Africa,https://www.wikidata.org/wiki/Q1791839,,,,Pas de géolocalisation
+4522,Adansi,Africa,https://www.wikidata.org/wiki/Q4680636,,,,no geo-localization
+4523,Akwamu,Africa,https://www.wikidata.org/wiki/Q1791839,,,,no geo-localization
 4524,Akwapim,Africa,,https://www.wikidata.org/wiki/Q423691,https://www.wikidata.org/wiki/Q176435,,
-4525,Akyem,Africa,Q418389,,,,Lien renvoie à un peuple ou une langue
+4525,Akyem,Africa,Q418389,,,,links to a tribe or a language
 4526,Dagomba,Africa,https://www.wikidata.org/wiki/Q24697413,,,,
-4527,Denkyira,Africa,https://www.wikidata.org/wiki/Q1164302,,,,Pas de géolocalisation
-4528,Fante,Africa,,,,,Lien renvoie à un peuple ou une langue
+4527,Denkyira,Africa,https://www.wikidata.org/wiki/Q1164302,,,,no geo-localization
+4528,Fante,Africa,https://en.wikipedia.org/wiki/Fante_Confederacy,,,,
 4529,Ga,Africa,,https://www.wikidata.org/wiki/Q2553691,https://www.wikidata.org/wiki/Q2553740,https://www.wikidata.org/wiki/Q431729,
-4531,Gonja,Africa,https://www.wikidata.org/wiki/Q1477754,,,,Pas de géolocalisation
-4532,Gyamen,Africa,https://www.wikidata.org/wiki/Q1644002,,,,Pas de géolocalisation
-4533,Wassa,Africa,,,,,Lien renvoie à un peuple ou une langue
-4534,Danish Posts (Gold Coast),Africa,https://www.wikidata.org/wiki/Q770833,,,,Pas de géolocalisation
-4535,Dutch Posts (Gold Coast),Africa,https://www.wikidata.org/wiki/Q770776,,,,Pas de géolocalisation
+4531,Gonja,Africa,https://www.wikidata.org/wiki/Q1477754,,,,no geo-localization
+4532,Gyamen,Africa,https://www.wikidata.org/wiki/Q1644002,,,,no geo-localization
+4533,Wassa,Africa,,https://www.wikidata.org/wiki/Q7972734,,,links to a tribe or a language
+4534,Danish Posts (Gold Coast),Africa,https://www.wikidata.org/wiki/Q770833,,,,no geo-localization
+4535,Dutch Posts (Gold Coast),Africa,https://www.wikidata.org/wiki/Q770776,,,,no geo-localization
 4536,Northern Territories (Gold Coast),Africa,https://www.wikidata.org/wiki/Q503623,,,,
-4559,Gold Coast-Togoland (Neutral Zone),Africa,https://www.wikidata.org/wiki/Q319125,,,,Pas de géolocalisation
+4559,Gold Coast-Togoland (Neutral Zone),Africa,https://www.wikidata.org/wiki/Q319125,,,,no geo-localization
 4711,Bamum (Bamoun),Africa,https://www.wikidata.org/wiki/Q1629505,,,,
 4735,Kontagora,Africa,https://www.wikidata.org/wiki/Q6430319,,,,
-4736,Keana,Africa,https://www.wikidata.org/wiki/Q6382153,,,,Pas de géolocalisation
-4737,Fika,Africa,https://www.wikidata.org/wiki/Q5448221,,,,Pas de géolocalisation
+4736,Keana,Africa,https://www.wikidata.org/wiki/Q6382153,,,,no geo-localization
+4737,Fika,Africa,https://www.wikidata.org/wiki/Q5448221,,,,no geo-localization
 4738,Doma (Gara),Africa,,,,,
-4741,Abuja (Suleja),Africa,https://www.wikidata.org/wiki/Q1814476,,,,Pas de géolocalisation
-4742,Igala,Africa,https://www.wikidata.org/wiki/Q17029087,,,,Pas de géolocalisation
+4741,Abuja (Suleja),Africa,https://www.wikidata.org/wiki/Q1814476,,,,no geo-localization
+4742,Igala,Africa,https://www.wikidata.org/wiki/Q17029087,,,,no geo-localization
 4744,Wukari (Kwararafa),Africa,https://www.wikidata.org/wiki/Q15043630,https://www.wikidata.org/wiki/Q2518009,,,
 4746,Yauri,Africa,https://www.wikidata.org/wiki/Q8050352,,,,
 4751,Sokoto,Africa,https://www.wikidata.org/wiki/Q600524,,,,
@@ -639,21 +639,21 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 4757,Kano,Africa,https://www.wikidata.org/wiki/Q182984,https://www.wikidata.org/wiki/Q3123512,,,
 4758,Katsina,Africa,https://www.wikidata.org/wiki/Q937487,,,,
 4759,Katagum,Africa,https://www.wikidata.org/wiki/Q6375000,,,,
-4761,Nupe,Africa,https://www.wikidata.org/wiki/Q121869,,,,Pas de géolocalisation
+4761,Nupe,Africa,https://www.wikidata.org/wiki/Q121869,,,,no geo-localization
 4762,Zaria,Africa,https://www.wikidata.org/wiki/Q147975,,,,
-4763,Bornu (Kanem),Africa,https://www.wikidata.org/wiki/Q1139762,,,,Pas de géolocalisation
-4765,Mandara,Africa,https://www.wikidata.org/wiki/Q1796221,,,,Pas de géolocalisation
+4763,Bornu (Kanem),Africa,https://www.wikidata.org/wiki/Q1139762,,,,no geo-localization
+4765,Mandara,Africa,https://www.wikidata.org/wiki/Q1796221,,,,no geo-localization
 4766,Rabah,Africa,https://www.wikidata.org/wiki/Q7278481,,,,
-4768,Egba,Africa,,,,,
+4768,Egba,Africa,,https://www.wikidata.org/wiki/Q3268656,,,
 4769,Ibadan,Africa,https://www.wikidata.org/wiki/Q183298,,,,
 4771,Ife,Africa,https://www.wikidata.org/wiki/Q180084,,,,
-4772,Ijaiye,Africa,https://www.wikidata.org/wiki/Q5995069,,,,Pas de géolocalisation
-4773,Ijebu,Africa,https://www.wikidata.org/wiki/Q1658023,,,,Pas de géolocalisation
+4772,Ijaiye,Africa,https://www.wikidata.org/wiki/Q5995069,,,,no geo-localization
+4773,Ijebu,Africa,https://www.wikidata.org/wiki/Q1658023,,,,no geo-localization
 4774,Ilesha,Africa,https://www.wikidata.org/wiki/Q763595,,,,
-4775,New Oyo,Africa,https://www.wikidata.org/wiki/Q849623,https://www.wikidata.org/wiki/Q1023703,,,Pas de géolocalisation
+4775,New Oyo,Africa,https://www.wikidata.org/wiki/Q849623,https://www.wikidata.org/wiki/Q1023703,,,no geo-localization
 4776,Benin (Edo),Africa,https://www.wikidata.org/wiki/Q171203,,,,
 4781,Lagos,Africa,http://www.wikidata.org/entity/Q8673,,,,
-4782,Oil Rivers Protectorate,Africa,https://www.wikidata.org/wiki/Q2566427,,,,Pas de géolocalisation
+4782,Oil Rivers Protectorate,Africa,https://www.wikidata.org/wiki/Q2566427,,,,no geo-localization
 4783,Southern Nigeria,Africa,https://www.wikidata.org/wiki/Q2062030,,,,
 4784,Northern Nigeria,Africa,https://www.wikidata.org/wiki/Q585408,,,,
 4790,Biafra,Africa,https://www.wikidata.org/wiki/Q178469,,,,
@@ -665,46 +665,46 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 4796,Okrika,Africa,https://www.wikidata.org/wiki/Q7082573,,,,
 4821,Bangassou,Africa,https://www.wikidata.org/wiki/Q806478,,,,
 4822,Rafai,Africa,https://www.wikidata.org/wiki/Q665219,,,,
-4823,Zemio,Africa,https://www.wikidata.org/wiki/Q55425392,,,,Pas de géolocalisation
-4831,Bagirmi,Africa,https://www.wikidata.org/wiki/Q1472873,,,,Pas de géolocalisation
-4832,Wadai,Africa,https://www.wikidata.org/wiki/Q1132786,,,,Pas de géolocalisation
-4841,Bateke (Anziku),Africa,https://www.wikidata.org/wiki/Q4778463,,,,Pas de géolocalisation
+4823,Zemio,Africa,https://www.wikidata.org/wiki/Q55425392,,,,no geo-localization
+4831,Bagirmi,Africa,https://www.wikidata.org/wiki/Q1472873,,,,no geo-localization
+4832,Wadai,Africa,https://www.wikidata.org/wiki/Q1132786,,,,no geo-localization
+4841,Bateke (Anziku),Africa,https://www.wikidata.org/wiki/Q4778463,,,,no geo-localization
 4842,Loango,Africa,https://www.wikidata.org/wiki/Q1479630,,,,
-4901,Tippu Tip Empire,Africa,https://www.wikidata.org/wiki/Q60775599,,,,Pas de géolocalisation
-4902,Mwata Yamvo (Lunda) ,Africa,https://www.wikidata.org/wiki/Q1796223,,,,Pas de géolocalisation
-4903,Kalagne,Africa,,,,,
+4901,Tippu Tip Empire,Africa,https://www.wikidata.org/wiki/Q60775599,,,,no geo-localization
+4902,Mwata Yamvo (Lunda) ,Africa,https://www.wikidata.org/wiki/Q1796223,,,,no geo-localization
+4903,Kalagne,Africa,,https://www.wikidata.org/wiki/Q22141829,,,
 4904,Baluba,Africa,https://www.wikidata.org/wiki/Q1768252,,,,
 4905,Katanga,Africa,https://www.wikidata.org/wiki/Q217242,,,,
-4906,Kasai,Africa,https://www.wikidata.org/wiki/Q3820436,,,,Pas de géolocalisation
-4907,Msiri (Yeke),Africa,https://www.wikidata.org/wiki/Q3321385,,,,Pas de géolocalisation
-4908,Azande,Africa,,https://www.wikidata.org/wiki/Q793575,,,Lien renvoie à un peuple ou une langue
+4906,Kasai,Africa,https://www.wikidata.org/wiki/Q3820436,,,,no geo-localization
+4907,Msiri (Yeke),Africa,https://www.wikidata.org/wiki/Q3321385,,,,no geo-localization
+4908,Azande,Africa,,https://www.wikidata.org/wiki/Q793575,,,links to a tribe or a language
 4909,Mangbetu,Africa,,https://www.wikidata.org/wiki/Q1602764,,,
-4910,Kuba,Africa,https://www.wikidata.org/wiki/Q209327,,,,Pas de géolocalisation
+4910,Kuba,Africa,https://www.wikidata.org/wiki/Q209327,,,,no geo-localization
 5001,Buganda,Africa,https://www.wikidata.org/wiki/Q473748,,,,
 5002,Ankole,Africa,https://www.wikidata.org/wiki/Q538636,,,,
-5003,Bunyoro,Africa,https://www.wikidata.org/wiki/Q889897,,,,Pas de géolocalisation
-5004,Busoga,Africa,https://www.wikidata.org/wiki/Q691037,,,,Pas de géolocalisation
+5003,Bunyoro,Africa,https://www.wikidata.org/wiki/Q889897,,,,no geo-localization
+5004,Busoga,Africa,https://www.wikidata.org/wiki/Q691037,,,,no geo-localization
 5005,Butoro,Africa,,,,,
-5006,Rwenzururu,Africa,https://www.wikidata.org/wiki/Q2795682,,,,Pas de géolocalisation
-5011,Kenya Protectorate,Africa,https://www.wikidata.org/wiki/Q2538511,,,,Pas de géolocalisation
+5006,Rwenzururu,Africa,https://www.wikidata.org/wiki/Q2795682,,,,no geo-localization
+5011,Kenya Protectorate,Africa,https://www.wikidata.org/wiki/Q2538511,,,,no geo-localization
 5012,Mombassa,Africa,https://www.wikidata.org/wiki/Q1112885,,,,
 5013,Pate,Africa,https://www.wikidata.org/wiki/Q542168,,,,
 5017,Vumbu Kuu,Africa,,,,,
-5018,Wanga,Africa,,,,,
-5101,Ha,Africa,,,,,
+5018,Wanga (Wanga Kingdom),Africa,,https://abawanga.files.wordpress.com/2012/04/wanga_map.jpg,,,
+5101,Ha,Africa,,https://www.wikidata.org/wiki/Q2995962,,,
 5102,Haya,Africa,https://www.wikidata.org/wiki/Q1824726,,,,
-5103,Hehe,Africa,,https://www.wikidata.org/wiki/Q1261861,,,Lien renvoie à un peuple ou une langue
-5104,Karagwe,Africa,https://www.wikidata.org/wiki/Q28455505,,,,Pas de géolocalisation
+5103,Hehe,Africa,,https://www.wikidata.org/wiki/Q1261861,,,links to a tribe or a language
+5104,Karagwe,Africa,https://www.wikidata.org/wiki/Q28455505,,,,no geo-localization
 5105,Urambo,Africa,https://www.wikidata.org/wiki/Q2500021,,,,
-5106,Gwangara,Africa,,,,,Lien renvoie à un peuple ou une langue
+5106,Gwangara,Africa,,,,,links to a tribe or a language
 5107,North Gwangara,Africa,,,,,
 5108,South Gwangara,Africa,,https://www.wikidata.org/wiki/Q1474869,,,
 5200,Italian Somaliland,Africa,https://www.wikidata.org/wiki/Q319984,,,,
 5201,Italian East Africa,Africa,https://www.wikidata.org/wiki/Q328478,,,,
-5202,Oltre Giuba,Africa,https://www.wikidata.org/wiki/Q1231992,,,,Incomplet
+5202,Oltre Giuba,Africa,https://www.wikidata.org/wiki/Q1231992,,,,incomplete
 5203,Alula (Majeerteen),Africa,https://www.wikidata.org/wiki/Q448076,https://www.wikidata.org/wiki/Q2257830,,,
-5204,Obbia,Africa,https://www.wikidata.org/wiki/Q862404,,,,Pas de géolocalisation
-5205,Somali Coast Leased Territory,Africa,,,,,
+5204,Obbia,Africa,https://www.wikidata.org/wiki/Q862404,,,,no geo-localization
+5205,Somali Coast Leased Territory,Africa,https://www.wikidata.org/wiki/Q806070,,,,
 5206,Puntland,Africa,https://www.wikidata.org/wiki/Q485112,https://www.wikidata.org/wiki/Q822679,,,
 5207,Mogadishu,Africa,https://www.wikidata.org/wiki/Q2449,,,,
 5208,Merca,Africa,https://www.wikidata.org/wiki/Q657428,,,,
@@ -718,44 +718,44 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 5303,Shewa,Africa,https://www.wikidata.org/wiki/Q971375,,,,
 5304,Tigray,Africa,https://www.wikidata.org/wiki/Q200127,,,,
 5305,Gojjam,Africa,https://www.wikidata.org/wiki/Q1533914,,,,
-5306,Harar,Africa,https://www.wikidata.org/wiki/Q5372551,,,,Pas de géolocalisation
+5306,Harar,Africa,https://www.wikidata.org/wiki/Q5372551,,,,no geo-localization
 5307,"Jijega, Reserve Areas and Haud",Africa,,https://www.wikidata.org/wiki/Q755763,,,
 5309,Kaffa,Africa,https://www.wikidata.org/wiki/Q1462877,,,,
-5321,Limmu-Ennarea,Africa,https://www.wikidata.org/wiki/Q48723590,,,,Pas de géolocalisation
+5321,Limmu-Ennarea,Africa,https://www.wikidata.org/wiki/Q48723590,,,,no geo-localization
 5322,Jimma-Kakka (Jimma Abba Jifar),Africa,https://www.wikidata.org/wiki/Q1759078,,,,
 5323,Gera,Africa,https://www.wikidata.org/wiki/Q500965,,,,
-5324,Gomma,Africa,https://www.wikidata.org/wiki/Q501684,,,,Pas de géolocalisation
-5325,Guma,Africa,https://www.wikidata.org/wiki/Q5618018,,,,Pas de géolocalisation
+5324,Gomma,Africa,https://www.wikidata.org/wiki/Q501684,,,,no geo-localization
+5325,Guma,Africa,https://www.wikidata.org/wiki/Q5618018,,,,no geo-localization
 5331,Assab,Africa,http://www.wikidata.org/entity/Q5785,,,,
-5332,Awsa Sultanate,Africa,https://www.wikidata.org/wiki/Q791787,,,,Pas de géolocalisation
+5332,Awsa Sultanate,Africa,https://www.wikidata.org/wiki/Q791787,,,,no geo-localization
 5401,Chokwe,Africa,https://www.wikidata.org/wiki/Q618643,,,,
 5402,Ovimbundu,Africa,https://www.wikidata.org/wiki/Q214248,,,,
 5411,Kionga,Africa,https://www.wikidata.org/wiki/Q1742340,,,,
-5511,Citimukulu Bemba,Africa,,,,,
-5512,Mwamba Bemba,Africa,,,,,
-5513,Barotse,Africa,https://www.wikidata.org/wiki/Q808750,,,,Pas de géolocalisation
-5515,Maseko Ngoni,Africa,,,,,
+5511,Citimukulu Bemba,Africa,,https://www.wikidata.org/wiki/Q644450,,,
+5512,Mwamba Bemba,Africa,,https://www.wikidata.org/wiki/Q644450,,,
+5513,Barotse,Africa,https://www.wikidata.org/wiki/Q808750,,,,no geo-localization
+5515,Maseko Ngoni,Africa,,https://www.wikidata.org/wiki/Q17109664,,,
 5516,Shangane (Gaza Empire),Africa,https://www.wikidata.org/wiki/Q3780537,,,,
-5517,Kazembe,Africa,https://www.wikidata.org/wiki/Q5675285,,,,Pas de géolocalisation
-5518,Northeastern Rhodesia,Africa,https://www.wikidata.org/wiki/Q2753015,,,,Pas de géolocalisation
-5519,Northwestern Rhodesia,Africa,https://www.wikidata.org/wiki/Q2400545,,,,Pas de géolocalisation
+5517,Kazembe,Africa,https://www.wikidata.org/wiki/Q5675285,,,,no geo-localization
+5518,Northeastern Rhodesia,Africa,https://www.wikidata.org/wiki/Q2753015,,,,no geo-localization
+5519,Northwestern Rhodesia,Africa,https://www.wikidata.org/wiki/Q2400545,,,,no geo-localization
 5521,Rozwi,Africa,https://www.wikidata.org/wiki/Q986822,,,,
 5522,Ndebele (Matabeleland),Africa,https://www.wikidata.org/wiki/Q1266775,,,,
 5523,Mashona,Africa,https://www.wikidata.org/wiki/Q1640913,,,,
-5524,Mbelwa Ngoni,Africa,,,,,Lien renvoie à un peuple ou une langue
-5525,Mpezeni Ngoni,Africa,https://www.wikidata.org/wiki/Q7135313,,,,Pas de géolocalisation
+5524,Mbelwa Ngoni,Africa,,https://www.wikidata.org/wiki/Q17109664,,,links to a tribe or a language
+5525,Mpezeni Ngoni,Africa,https://www.wikidata.org/wiki/Q7135313,,,,no geo-localization
 5526,Kamanga,Africa,,,,,
 5531,Zwangendaba Ngoni,Africa,,https://www.wikidata.org/wiki/Q17109664,,,
-5532,Ciwere (Chewa),Africa,,https://www.wikidata.org/wiki/Q1071390,,,Lien renvoie à un peuple ou une langue
-5601,Zulu,Africa,,https://www.wikidata.org/wiki/Q129962,,,Lien renvoie à un peuple ou une langue
-5602,Ndandwe,Africa,,https://www.wikidata.org/wiki/Q3337519,,,Pas de géolocalisation
+5532,Ciwere (Chewa),Africa,,https://www.wikidata.org/wiki/Q1071390,,,links to a tribe or a language
+5601,Zulu,Africa,,https://www.wikidata.org/wiki/Q129962,,,links to a tribe or a language
+5602,Ndandwe,Africa,,https://www.wikidata.org/wiki/Q3337519,,,no geo-localization
 5603,Mtetwa,Africa,https://www.wikidata.org/wiki/Q600562,,,,
 5606,Prince Edward and Marion Is.,Africa,https://www.wikidata.org/wiki/Q46623,,,,
 5611,"Griqualand, West",Africa,https://www.wikidata.org/wiki/Q2547918,,,,
 5612,British Bechuanaland,Africa,https://www.wikidata.org/wiki/Q4530733,,,,
 5613,Stellaland & Goshen,Africa,https://www.wikidata.org/wiki/Q1269234,https://www.wikidata.org/wiki/Q2145397,,,
 5614,British Kaffraria,Africa,https://www.wikidata.org/wiki/Q918121,,,,
-5615,Lydenburg Republic,Africa,https://www.wikidata.org/wiki/Q220167,,,,Pas de géolocalisation
+5615,Lydenburg Republic,Africa,https://www.wikidata.org/wiki/Q220167,,,,no geo-localization
 5618,Zoutpansberg,Africa,https://www.wikidata.org/wiki/Q3110404,,,,
 5621,Zululand,Africa,https://www.wikidata.org/wiki/Q729768,,,,
 5622,New Republic,Africa,,https://www.wikidata.org/wiki/Q552157,,,
@@ -897,8 +897,8 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 7031,Karakalpakstan,Asia,https://www.wikidata.org/wiki/Q484245,,,,
 7040,Kazakh Lesser Horde,Asia,,https://www.wikidata.org/wiki/Q4208097,,,
 7050,Kazakh Middle Horde,Asia,,https://www.wikidata.org/wiki/Q4208097,,,
-7060,Kazakh Horde of Bukey,Asia,,https://www.wikidata.org/wiki/Q129799,,,Pas de géolocalisation
-7070,Kazakh Greater Horde,Asia,,https://www.wikidata.org/wiki/Q4208097,,,Pas de géolocalisation
+7060,Kazakh Horde of Bukey,Asia,,https://www.wikidata.org/wiki/Q129799,,,no geo-localization
+7070,Kazakh Greater Horde,Asia,,https://www.wikidata.org/wiki/Q4208097,,,no geo-localization
 7100,Spratley Is.,Asia,https://www.wikidata.org/wiki/Q215664,,,,
 7101,Ping-nan,Asia,https://www.wikidata.org/wiki/Q1355243,,,,
 7102,Jungaria,Asia,https://www.wikidata.org/wiki/Q284027,,,,
@@ -914,8 +914,8 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 7112,Szechwan (Sichuan),Asia,https://www.wikidata.org/wiki/Q19770,,,,
 7113,Chinghai (Tsinghai),Asia,https://www.wikidata.org/wiki/Q45833,,,,
 7114,Xinjiang (Sinkiang),Asia,https://www.wikidata.org/wiki/Q34800,,,,
-7115,Provisional Government of the Republic of China,Asia,https://www.wikidata.org/wiki/Q704714,,,,Pas de géolocalisation
-7116,Reformed Government of China,Asia,https://www.wikidata.org/wiki/Q708865,,,,Pas de géolocalisation
+7115,Provisional Government of the Republic of China,Asia,https://www.wikidata.org/wiki/Q704714,,,,no geo-localization
+7116,Reformed Government of China,Asia,https://www.wikidata.org/wiki/Q708865,,,,no geo-localization
 7117,Reorganized National Government of the Republic of China,Asia,https://www.wikidata.org/wiki/Q696242,,,,
 7118,Ningxia,Asia,https://www.wikidata.org/wiki/Q57448,,,,
 7121,Inner Mongolia,Asia,https://www.wikidata.org/wiki/Q41079,,,,
@@ -955,7 +955,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 7522,Banswara,Asia,https://www.wikidata.org/wiki/Q806963,,,,
 7523,Dungarpur,Asia,https://www.wikidata.org/wiki/Q973433,,,,
 7524,Dartabgarh,Asia,,,,,
-7525,Kushalgar,Asia,https://www.wikidata.org/wiki/Q2234705,,,,Wikidata correspond à la ville mais pas au territoire historique
+7525,Kushalgar,Asia,https://www.wikidata.org/wiki/Q2234705,,,,links to the city
 7526,Bundi,Asia,https://www.wikidata.org/wiki/Q4997536,,,,
 7527,Tonk,Asia,https://www.wikidata.org/wiki/Q914031,,,,
 7528,Pratapgarh,Asia,https://www.wikidata.org/wiki/Q175934,,,,
@@ -975,7 +975,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 7544,Sirmur,Asia,https://www.wikidata.org/wiki/Q1541353,,,,
 7545,Suket,Asia,https://www.wikidata.org/wiki/Q3503368,,,,
 7546,Garwahl,Asia,https://www.wikidata.org/wiki/Q1381495,,,,
-7548,Bagelkhand,Asia,https://www.wikidata.org/wiki/Q3628827,,,,Pas de géolocalisation
+7548,Bagelkhand,Asia,https://www.wikidata.org/wiki/Q3628827,,,,no geo-localization
 7549,Bundelkhand,Asia,https://www.wikidata.org/wiki/Q851955,,,,
 7551,Malwa,Asia,https://www.wikidata.org/wiki/Q550691,,,,
 7552,Khairpur,Asia,https://www.wikidata.org/wiki/Q2512083,,,,
@@ -1024,9 +1024,9 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 7708,Azad Kashmir,Asia,https://www.wikidata.org/wiki/Q200130,,,,
 7709,Northern Areas (of Kashmir),Asia,https://www.wikidata.org/wiki/Q200697,,,,
 7712,Tin Bigha,Asia,https://www.wikidata.org/wiki/Q4233073,,,,
-7746,Bawlake,Asia,https://www.wikidata.org/wiki/Q7987998,,,,Pas de géolocalisation
-7747,Kyebogyi,Asia,https://www.wikidata.org/wiki/Q7987998,,,,Pas de géolocalisation
-7748,Naungpale,Asia,https://www.wikidata.org/wiki/Q7987998,,,,Pas de géolocalisation
+7746,Bawlake,Asia,https://www.wikidata.org/wiki/Q7987998,,,,no geo-localization
+7747,Kyebogyi,Asia,https://www.wikidata.org/wiki/Q7987998,,,,no geo-localization
+7748,Naungpale,Asia,https://www.wikidata.org/wiki/Q7987998,,,,no geo-localization
 7749,Nammekon,Asia,https://www.wikidata.org/wiki/Q7987998,https://www.wikidata.org/wiki/Q12901160,,,
 7750,Hsenwi,Asia,https://www.wikidata.org/wiki/Q783492,,,,
 7751,Hsipaw,Asia,https://www.wikidata.org/wiki/Q18125758,,,,
@@ -1042,16 +1042,16 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 7761,Loi Maw,Asia,,,,,
 7762,Maw,Asia,https://www.wikidata.org/wiki/Q6746014,,,,
 7763,Mawnang,Asia,https://www.wikidata.org/wiki/Q16937734,,,,
-7764,Mawson,Asia,https://www.wikidata.org/wiki/Q6794457,,,,Pas de géolocalisation
-7765,Namhkam,Asia,https://www.wikidata.org/wiki/Q11938356,https://www.wikidata.org/wiki/Q6963579,,,Pas de géolocalisation
+7764,Mawson,Asia,https://www.wikidata.org/wiki/Q6794457,,,,no geo-localization
+7765,Namhkam,Asia,https://www.wikidata.org/wiki/Q11938356,https://www.wikidata.org/wiki/Q6963579,,,no geo-localization
 7766,Namtok,Asia,https://www.wikidata.org/wiki/Q775848,,,,
-7767,Pangmi,Asia,https://www.wikidata.org/wiki/Q642143,,,,Pas de géolocalisation
+7767,Pangmi,Asia,https://www.wikidata.org/wiki/Q642143,,,,no geo-localization
 7768,Pangtara,Asia,https://www.wikidata.org/wiki/Q25182697,,,,
-7769,Pwehla,Asia,https://www.wikidata.org/wiki/Q7207854,,,,Pas de géolocalisation
-7770,Yengan,Asia,https://www.wikidata.org/wiki/Q11955494,,,,Pas de géolocalisation
+7769,Pwehla,Asia,https://www.wikidata.org/wiki/Q7207854,,,,no geo-localization
+7770,Yengan,Asia,https://www.wikidata.org/wiki/Q11955494,,,,no geo-localization
 7771,Yawnghwe,Asia,https://www.wikidata.org/wiki/Q18750170,,,,
 7772,Lawksawk,Asia,https://www.wikidata.org/wiki/Q18164160,,,,
-7773,Wanyin,Asia,https://www.wikidata.org/wiki/Q675039,,,,Pas de géolocalisation
+7773,Wanyin,Asia,https://www.wikidata.org/wiki/Q675039,,,,no geo-localization
 7774,Samka,Asia,https://www.wikidata.org/wiki/Q7409604,,,,
 7775,Hsahtung,Asia,https://www.wikidata.org/wiki/Q5924160,https://www.wikidata.org/wiki/Q5924170,,,
 7776,Hopong,Asia,https://www.wikidata.org/wiki/Q18125697,https://www.wikidata.org/wiki/Q5901153,,,
@@ -1077,7 +1077,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 7796,Mong Mit,Asia,https://www.wikidata.org/wiki/Q3319734,,,,
 7797,Hkamti Long,Asia,https://www.wikidata.org/wiki/Q19459677,,,,
 7798,Western Karenni,Asia,https://www.wikidata.org/wiki/Q18126598,https://www.wikidata.org/wiki/Q7987998,,,
-7799,Kantarawadi (Eastern Karenni),Asia,https://www.wikidata.org/wiki/Q18126598,https://en.wikipedia.org/wiki/Kantarawadi,,,Pas de wikidata pour la page wikipédia sur Kantarawadi?
+7799,Kantarawadi (Eastern Karenni),Asia,https://www.wikidata.org/wiki/Q6365345,,,,no geo-localization
 7806,Jaffna Peninsula,Asia,https://www.wikidata.org/wiki/Q2495624,,,,
 7910,Tibet,Asia,https://www.wikidata.org/wiki/Q17252,https://www.wikidata.org/wiki/Q2444884,,,
 8001,Chiang Mai (Lan-na),Asia,https://www.wikidata.org/wiki/Q233588,,,,
@@ -1095,7 +1095,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 8203,Pahang,Asia,http://www.wikidata.org/entity/Q191346,,,,
 8210,Negeri Sembilan,Asia,http://www.wikidata.org/entity/Q213893,,,,
 8211,Seremban (Songei Ujong),Asia,https://www.wikidata.org/wiki/Q847610,,,,
-8212,Rembau,Asia,https://www.wikidata.org/wiki/Q2219158,,,,Incomplet
+8212,Rembau,Asia,https://www.wikidata.org/wiki/Q2219158,,,,incomplete
 8213,Seri Menanti,Asia,https://www.wikidata.org/wiki/Q3132595,,,,
 8214,Ulu Muar,Asia,https://www.wikidata.org/wiki/Q1832744,,,,
 8215,Jempol,Asia,https://www.wikidata.org/wiki/Q2048692,,,,
@@ -1116,11 +1116,11 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,N
 8531,Atjeh,Asia,https://www.wikidata.org/wiki/Q1823,,,,
 8532,Deli,Asia,https://www.wikidata.org/wiki/Q5804,https://www.wikidata.org/wiki/Q2030015,,,
 8533,Siak,Asia,https://www.wikidata.org/wiki/Q7777,,,,
-8534,Minangkabau (Melayu),Asia,https://www.wikidata.org/wiki/Q3112053,,,,Pas de géolocalisation
+8534,Minangkabau (Melayu),Asia,https://www.wikidata.org/wiki/Q3112053,,,,no geo-localization
 8535,Kulon,Asia,https://www.wikidata.org/wiki/Q11479,,,,
 8536,Jambi,Asia,https://www.wikidata.org/wiki/Q2051,,,,
 8537,Palembang,Asia,http://www.wikidata.org/entity/Q8131,,,,
-8538,Kutai,Asia,https://www.wikidata.org/wiki/Q1794655,,,,Pas de géolocalisation
+8538,Kutai,Asia,https://www.wikidata.org/wiki/Q1794655,,,,no geo-localization
 8539,Toraja,Asia,https://www.wikidata.org/wiki/Q14632,,,,
 8541,Bali,Asia,https://www.wikidata.org/wiki/Q12491027,,,,
 8542,Lombok,Asia,http://www.wikidata.org/entity/Q7564,,,,
