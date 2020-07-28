@@ -12,6 +12,8 @@ OUTPUT_PATH = "./aggregated"
 with open('./GeoPolHist_status.csv', 'r', encoding='utf8') as f:
     status = csv.DictReader(f)
     translate_GPH_status = {s['GPH_status']:s for s in status}
+    for k,v in translate_GPH_status.items():
+        v['priority_order'] =  int(v['priority_order'])
 
 
 periods = [
