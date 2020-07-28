@@ -1,6 +1,6 @@
 {
-  "short_name": "COW timelines",
-  "name": "COW entities timelines",
+  "short_name": "GeoPolHist",
+  "name": "Geo-Political entities History",
   "icons": [
     {
       "src": "favicon.ico",

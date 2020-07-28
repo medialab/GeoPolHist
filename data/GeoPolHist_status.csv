@@ -1,0 +1,21 @@
+GPH_status,slug,group,priority_order,COW_status,UN_status,definition
+Dissolved into,dis,,6,,,the geo-political entity ceases to be listed in GeoPolHist by being dissolved
+Sovereign,sov,Sovereign (all),5,Sovereign,UN member state; UN observer state,"supreme political authority and in full control of foreign policy; before 1919, diplomatic recognition by Britain and France; after 1919, member of the League of Nations or the United Nations, or diplomatic recognition from two major powers;  https://en.wikipedia.org/wiki/Sovereign_state"
+Associated state of,ass,Sovereign (all),4,,Self-governing associated state,https://en.wikipedia.org/wiki/Associated_state
+Sovereign (limited),sov_li,Sovereign (all),4,,,sovereign and dependent state
+Sovereign (unrecognised),sov_un,Sovereign (all),4,,Non-UN member state recognised by at least one UN member state;  Non-UN member state recognised only by other  non-UN member state; non UN-member state not recognised by any state,sovereign and independent state without diplomatic recognition; non-UN members recognized by UN or non-UN members; https://en.wikipedia.org/wiki/List_of_states_with_limited_recognition
+Colony of,col,Non sovereign,3,Colony of,Non-self-governing territory,https://en.wikipedia.org/wiki/Colony; https://en.wikipedia.org/wiki/United_Nations_list_of_Non-Self-Governing_Territories 
+Dependency of,dep,Non sovereign,3,,Autonomous territory; Constituent country; Crown dependency;  Dependent territory; External territory;  Self-governing oversea administrative region; Special administrative region; Sui generis collectivity; Unincorporated and (un)organized territory,https://en.wikipedia.org/wiki/Dependent_territory; https://en.wikipedia.org/wiki/Autonomous_administrative_division
+Possession of,poss,Non sovereign,3,Possession of,,"By Possession is meant a country which is held by no other title than mere conquest. In this sense Possession differs from Dependency, which belongs rightfully to the country which has dominion over it; and from Colony, which is a country settled by citizens or subjects of the mother country (https://legal-dictionary.thefreedictionary.com/possession)"
+Protectorate of,prot,Non sovereign,3,Protectorate of,,https://en.wikipedia.org/wiki/Protectorate
+Leased to,lea,Non sovereign,2,Leased to,Concession; Lease,https://en.wikipedia.org/wiki/Concessions_and_leases_in_international_relations
+Mandated to,man,Non sovereign,2,Mandated to,,https://en.wikipedia.org/wiki/League_of_Nations_mandate
+Occupied by,occ,Non sovereign,2,Occupied by,,https://en.wikipedia.org/wiki/Military_occupation; https://en.wikipedia.org/wiki/List_of_military_occupations 
+Vassal of,vass,Non sovereign,2,,,https://en.wikipedia.org/wiki/Vassal_state; https://en.wikipedia.org/wiki/Tributary_state
+Claimed by,claim,Non sovereign,1,Claimed by,Territorial claim,https://en.wikipedia.org/wiki/List_of_territorial_disputes
+Neutral or demilitarized zone of,neut,Non sovereign,1,Neutral or demilitarized zone of,Neutral zone; demilitarized zone,https://en.wikipedia.org/wiki/Neutral_zone_(territorial_entity); https://en.wikipedia.org/wiki/Demilitarized_zone 
+Discovered,disc,Miscellaneous,0,,,the geo-political entity is being discovered and has no legal dependent status
+Part of,part,Part of,0,Part of,Oversea territory/collectivity,non-sovereign entity part of a sovereign or a non-sovereign entity
+Unknown,N/A,Miscellaneous,0,,,no information about the status of the entity
+Informal,inf,,-1,,,"""fictive"" entities = Australia, Germany, Italia"
+International,int,,-1,,,"international organizations = Concessions in China, Inter-Allied Commission of Control, League of Nations, United Nations"

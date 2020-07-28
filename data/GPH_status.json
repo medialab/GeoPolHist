@@ -1,0 +1,102 @@
+{
+  "Dissolved into": {
+    "GPH_status": "Dissolved into",
+    "slug": "dis",
+    "priority": "6"
+  },
+  "Sovereign": {
+    "GPH_status": "Sovereign",
+    "slug": "sov",
+    "priority": "5"
+  },
+  "Associated state of": {
+    "GPH_status": "Associated state of",
+    "slug": "ass",
+    "priority": "4"
+  },
+  "Sovereign (limited)": {
+    "GPH_status": "Sovereign (limited)",
+    "slug": "sov_li",
+    "priority": "4"
+  },
+  "Sovereign (unrecognised)": {
+    "GPH_status": "Sovereign (unrecognised)",
+    "slug": "sov_un",
+    "priority": "4"
+  },
+  "Colony of": {
+    "GPH_status": "Colony of",
+    "slug": "col",
+    "priority": "3"
+  },
+  "Dependency of": {
+    "GPH_status": "Dependency of",
+    "slug": "dep",
+    "priority": "3"
+  },
+  "Possession of": {
+    "GPH_status": "Possession of",
+    "slug": "poss",
+    "priority": "3"
+  },
+  "Protectorate of": {
+    "GPH_status": "Protectorate of",
+    "slug": "prot",
+    "priority": "3"
+  },
+  "Leased to": {
+    "GPH_status": "Leased to",
+    "slug": "lea",
+    "priority": "2"
+  },
+  "Mandated to": {
+    "GPH_status": "Mandated to",
+    "slug": "man",
+    "priority": "2"
+  },
+  "Occupied by": {
+    "GPH_status": "Occupied by",
+    "slug": "occ",
+    "priority": "2"
+  },
+  "Vassal of": {
+    "GPH_status": "Vassal of",
+    "slug": "vass",
+    "priority": "2"
+  },
+  "Claimed by": {
+    "GPH_status": "Claimed by",
+    "slug": "claim",
+    "priority": "1"
+  },
+  "Neutral or demilitarized zone of": {
+    "GPH_status": "Neutral or demilitarized zone of",
+    "slug": "neut",
+    "priority": "1"
+  },
+  "Discovered": {
+    "GPH_status": "Discovered",
+    "slug": "disc",
+    "priority": "0"
+  },
+  "Part of": {
+    "GPH_status": "Part of",
+    "slug": "part",
+    "priority": "0"
+  },
+  "Unknown": {
+    "GPH_status": "Unknown",
+    "slug": "N/A",
+    "priority": "0"
+  },
+  "Informal": {
+    "GPH_status": "Informal",
+    "slug": "inf",
+    "priority": "-1"
+  },
+  "International": {
+    "GPH_status": "International",
+    "slug": "int",
+    "priority": "-1"
+  }
+}
