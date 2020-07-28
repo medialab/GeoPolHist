@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useContext } from 'react';
 import { scaleOrdinal, axisBottom, select, scaleLinear, timeFormat, ScaleTime, axisTop } from 'd3';
 import values from 'ramda/es/values';
 import reduce from 'ramda/es/reduce';
@@ -6,31 +6,12 @@ import countBy from 'ramda/es/countBy';
 import mapObjIndexed from 'ramda/es/mapObjIndexed';
 import pipe from 'ramda/es/pipe';
 import cx from 'classnames';
-import { translate, STATUS_SLUG } from './utils';
+import { translate } from './utils';
 import './timeline.css'
 import uuid from 'uuid';
+import { AppContext } from './AppContext';
 
-// color scale generated thanks to @jacomyma tools iwanthue
-const colorScale = scaleOrdinal(["#cd7f3d",
-"#af49d8",
-"#65da57",
-"#d84397",
-"#cbe240",
-"#6c6cd4",
-"#a3ca63",
-"#ad63ab",
-"#489046",
-"#d74433",
-"#6cdaaf",
-"#c15b67",
-"#86c5d8",
-"#d8b94f",
-"#6779a8",
-"#787938",
-"#d4a8cc",
-"#4f8178",
-"#cdcea7",
-"#997462"]).domain(values(STATUS_SLUG));
+
 const legend = {
   height: 50,
 }
@@ -57,6 +38,30 @@ const Timelines: React.FC<{
   xScale: ScaleTime<number, number>;
   nbLines: number;
 }> = props => {
+
+  // color scale generated thanks to @jacomyma tools iwanthue
+  const {state}: {state: GlobalState} = useContext(AppContext);
+  const colorScale = scaleOrdinal(["#cd7f3d",
+  "#af49d8",
+  "#65da57",
+  "#d84397",
+  "#cbe240",
+  "#6c6cd4",
+  "#a3ca63",
+  "#ad63ab",
+  "#489046",
+  "#d74433",
+  "#6cdaaf",
+  "#c15b67",
+  "#86c5d8",
+  "#d8b94f",
+  "#6779a8",
+  "#787938",
+  "#d4a8cc",
+  "#4f8178",
+  "#cdcea7",
+  "#997462"]).domain(Object.keys(state.status).map(s => state.status[s].slug));
+
   // useWhyDidYouUpdate('timeline', props);
   const { xScale, data, nbLines } = props;
   const id = useMemo(uuid, []);
@@ -75,7 +80,7 @@ const Timelines: React.FC<{
   const intervalBarHeight = 0.8 * groupHeight;
   const intervalBarMargin = (groupHeight - intervalBarHeight) / 2;
   const [hover, setHover] = useState<{link: Link, index: number}>();
-  const [status, setStatus] = useState<STATUS_SLUG>();
+  const [status, setStatus] = useState<any>();
   const countedByStatus = useMemo(() => countByStatus(data), [data]);
   useEffect(() => () => {setHover(null); setStatus(null)}, [props.data]);
   return (
@@ -84,7 +89,7 @@ const Timelines: React.FC<{
         transform: `translate(${xScale(hover.link.start_year)}px, ${yScale(hover.index) + legend.height + margins.top + props.lineHeight + 20}px)`,
         minWidth: intervalRectWidth(hover.link)
       }}>
-        <span className='tooltip'>{hover.link.COW_name} was a {hover.link.status.slug} from {formater(hover.link.start_year)} to {formater(hover.link.end_year)}</span>
+        <span className='tooltip'>{hover.link.GPH_name} was a {hover.link.status.slug} from {formater(hover.link.start_year)} to {formater(hover.link.end_year)}</span>
       </div>}
       <div className="legend">
         <div className='legend-container'>

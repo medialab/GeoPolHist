@@ -21,7 +21,7 @@ const Country: React.FC<{
     history.push(`/country/${link.sovereign.id}`);
   }, [history]);
   const onCampainsLinkClick = useCallback(link => {
-    history.push(`/country/${link.COW_code}`);
+    history.push(`/country/${link.GPH_code}`);
   }, [history]);
   const occupations: [Entity, Link[]][] = Array.from(country.occupations.associations());
   const campains: [Entity, Link[]][] = Array.from(country.campains.associations());

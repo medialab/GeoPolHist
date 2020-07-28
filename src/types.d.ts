@@ -1,20 +1,20 @@
-type COW_code = string;
-type COW_name = string;
+type GPH_code = string;
+type GPH_name = string;
 
 interface CSVLink {
-  COW_code: string;
-  COW_name: string;
+  GPH_code: string;
+  GPH_name: string;
   end_year: string;
   start_year: string;
-  link_type: string;
-  sovereign_COW_code: string;
-  sovereign_COW_name: string;  
+  GPH_status: string;
+  sovereign_GPH_code: string;
+  sovereign_GPH_name: string;  
 }
 
 interface WLink {
   readonly id: string;
-  readonly COW_code: COW_code;
-  readonly COW_name: COW_name;
+  readonly GPH_code: GPH_code;
+  readonly GPH_name: GPH_name;
   readonly start_year: Date;
   readonly end_year: Date;
   readonly status: {
@@ -22,8 +22,8 @@ interface WLink {
     readonly priority: number;
   }
   sovereign: {
-    readonly COW_code: COW_code;
-    readonly COW_name: COW_name;
+    readonly GPH_code: GPH_code;
+    readonly GPH_name: GPH_name;
   }
 }
 
@@ -32,13 +32,13 @@ interface Link extends WLink {
 }
 
 interface WEntity {
-  readonly id: COW_code;
-  readonly name: COW_name;
+  readonly id: GPH_code;
+  readonly name: GPH_name;
   readonly start: Date;
   readonly end: Date;
   // campains: MultiMap<Entity, Link>()
-  occupations: {[key: COW_code]: Link[]};
-  campains: {[key: COW_code]: Link[]};
+  occupations: {[key: GPH_code]: Link[]};
+  campains: {[key: GPH_code]: Link[]};
 }
 
 interface Entity extends WEntity {
@@ -47,9 +47,16 @@ interface Entity extends WEntity {
   readonly campainsMap: {[key: string]: Link[]}
 }
 
+interface Status {
+  readonly GPH_status: string,
+  readonly slug: string,
+  readonly priority: number
+}
+
 interface GlobalState {
   readonly links: Link[],
   readonly entities: Entity[],
+  readonly status: {[key:string]: Status}
 }
 
 declare module 'd3-timeline-chart';

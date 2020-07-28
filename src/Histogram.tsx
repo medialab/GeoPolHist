@@ -21,7 +21,7 @@ import {
 } from 'd3';
 import { axisBottom, axisLeft } from 'd3-axis';
 import { forEachObjIndexed, countBy, values, groupBy, map, pipe, head } from 'ramda';
-import { STATUS_SLUG } from './utils';
+//import { STATUS_SLUG } from './utils';
 import { MultiMap } from 'mnemonist';
 import { link } from 'fs';
 
@@ -53,8 +53,8 @@ const color = scaleOrdinal().range([
   '#d88c6c',
 ]);
 
-const slugs = values(STATUS_SLUG);
-const stack = stackCreator().keys(slugs);
+// const slugs = values(STATUS_SLUG);
+// const stack = stackCreator().keys(slugs);
 const groupByYears = groupBy(
   (d: Link) => d.start_year.getFullYear()
 );
@@ -106,9 +106,9 @@ const Linechart: React.FC<{
     })),
     values,
     )(data);
-  console.log(datum)
+  //console.log(datum)
   
-  console.log(stack(datum))
+  //console.log(stack(datum))
 
   // const area = areaCreator()
 

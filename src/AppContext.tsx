@@ -3,7 +3,6 @@ import { csv, DSVRowArray, max, min, values } from 'd3';
 import { useReducer, createContext } from "react";
 import { action, ActionType } from 'typesafe-actions';
 import uuid from 'uuid';
-import { translate_link_type, STATUS_SLUG } from './utils';
 import groupBy from 'ramda/es/groupBy';
 import flatten from 'ramda/es/flatten';
 import map from 'ramda/es/map';
@@ -16,6 +15,7 @@ import { MultiMap } from 'mnemonist';
 const initialState: GlobalState = {
   links: [],
   entities: [],
+  status: {}
 }
 
 interface AppContext {
@@ -30,9 +30,7 @@ export const AppContext = createContext<AppContext>({
   }
 });
 
-const groupByCOWCode = groupBy((link: Link) => link.COW_code);
-
-const SOV = [STATUS_SLUG.SOV, STATUS_SLUG.SOV_U, STATUS_SLUG.SOV_L]
+const groupByGPHCode = groupBy((link: Link) => link.GPH_code);
 
 const toMap = (object: {[key: string]: Link[]}, entities: {[key: string]: Entity}) => {
   const map = new MultiMap<Entity, Link>();
@@ -55,40 +53,41 @@ const toMap = (object: {[key: string]: Link[]}, entities: {[key: string]: Entity
 const reducer = (state: GlobalState, action: ActionType<any>) => {
   switch (action.type) {
     case 'LOADED': {
-      const links: WLink[] = action.payload.map((csvLink: CSVLink) => {
+      const linkPayload = action.payload[0];
+      const statusPayload = action.payload[1];
+      const links: WLink[] = linkPayload.map((csvLink: CSVLink) => {
         const l = {
           id: uuid() as string,
-          COW_code: csvLink.COW_code,
-          COW_name: csvLink.COW_name,
+          GPH_code: csvLink.GPH_code,
+          GPH_name: csvLink.GPH_name,
           end_year: new Date(csvLink.end_year),
           start_year: new Date(csvLink.start_year),
-          status: translate_link_type[csvLink.link_type],
+          status: statusPayload[csvLink.GPH_status],
           sovereign: {
-            COW_code: csvLink.sovereign_COW_code,
-            COW_name: csvLink.sovereign_COW_name,
+            GPH_code: csvLink.sovereign_GPH_code,
+            GPH_name: csvLink.sovereign_GPH_name,
           }
         } as WLink
         if (!l.status)
           console.error("unknown link type", csvLink)
         return l;
       });
-      const entitiesMap = groupByCOWCode(links);
-      const wEntities: {[key: string]: Entity} = mapObjIndexed((ownLinks: Link[], COW_code: COW_code) => {
+      const entitiesMap = groupByGPHCode(links);
+      const wEntities: {[key: string]: Entity} = mapObjIndexed((ownLinks: Link[], GPH_code: GPH_code) => {
         const selectOccupations = pipe(
-          filter((link: WLink) => equals(link.COW_code, COW_code)),
-          // groupByCOWCode,
-          groupBy((link: WLink) => link.sovereign.COW_code || COW_code),
+          filter((link: WLink) => equals(link.GPH_code, GPH_code)),
+          groupBy((link: WLink) => link.sovereign.GPH_code || GPH_code),
         );
         const selectCampains = pipe(
-          filter((link: WLink) => equals(link.sovereign.COW_code, COW_code)),
-          groupByCOWCode,
+          filter((link: WLink) => equals(link.sovereign.GPH_code, GPH_code)),
+          groupByGPHCode,
         );
         const occ = selectOccupations(ownLinks);
         const campains = selectCampains(links);
         const capMap = groupBy(link => link.status.slug, flatten(values(campains)));
         return {
-          id: COW_code,
-          name: entitiesMap[COW_code][0].COW_name,
+          id: GPH_code,
+          name: entitiesMap[GPH_code][0].GPH_name,
           start: min(ownLinks, d => d.start_year),
           end: max(ownLinks, d => d.end_year),
           occupations: occ,
@@ -102,11 +101,12 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
         campains: toMap(entity.campains, wEntities)
       }), wEntities);
       links.forEach((link: WLink) => {
-        link.sovereign = wMapEntities[link.sovereign.COW_code];
+        link.sovereign = wMapEntities[link.sovereign.GPH_code];
       });
       return {
         links: links as unknown as Link[],
-        entities: values(wMapEntities)
+        entities: values(wMapEntities),
+        status: statusPayload
       }
     }
   }
@@ -115,11 +115,14 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
 
 const loadedActionCreator = (data: DSVRowArray<string>) => action('LOADED', data);
 
-const dataPromise = csv('data/Political_entities_in_time.csv');
+const entitiesStatusPromise = csv('./data/GeoPolHist_entities_status_in_time.csv');
+const statusPromise = fetch('./data/GPH_status.json').then(response => response.json());
+const dataPromise = Promise.all([entitiesStatusPromise, statusPromise])
 const AppContextProvider: React.FC = (props: any) => {
   const [state, dispatch] = useReducer(reducer, initialState as never);
   useEffect(() => {
-    dataPromise.then(pipe(loadedActionCreator, dispatch));
+    dataPromise
+      .then(pipe(loadedActionCreator, dispatch));
   }, []);
   return (
     <AppContext.Provider value={{state, dispatch: dispatch}}>
