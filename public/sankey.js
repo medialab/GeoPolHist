@@ -3,45 +3,51 @@
 
 
 colors = {
-    part_of:"#abdda4",
-    sovereign:"#2b83ba",
-    nonSovereign:"#d7191c",
-    miscellaneous:"#fdae61"}
+    "Part of":"#abdda4",
+    "Sovereign (all)":"#2b83ba",
+    "Non sovereign":"#d7191c",
+    "Miscellaneous":"#fdae61",
+    "": "#CCCCCC"}
 
 
-agg_link_type = {
-    "Dissolved into":  "nonSovereign",
-    "Became vassal of": "nonSovereign",
-    "Became discovered" : "miscellaneous",
-    "Became part of" : "part_of",
-    "Became colony of": "nonSovereign",
-    "Became possession of": "nonSovereign",
-    "Became dependency of": "nonSovereign",
-    "Claimed by": "nonSovereign",
-    "Became protectorate of": "nonSovereign",
-    "Became associated state of": "sovereign",
-    "Occupied by": "nonSovereign",
-    "Leased to": "nonSovereign",
-    "Became neutral or demilitarized zone of": "nonSovereign",
-    "Mandated to": "nonSovereign",
-    "Sovereign": "sovereign",
-    "Unincorporated territory": "nonSovereign",
-    "Sovereign (unrecognized)": "sovereign",
-    "Sovereign (limited)": "sovereign",
-    "International": "nonSovereign",
-    "Informal": "nonSovereign",
-    "Unknown": "miscellaneous"
-}
+let agg_link_type = {}
+
+//     "Dissolved into":  "nonSovereign",
+//     "Became vassal of": "nonSovereign",
+//     "Became discovered" : "miscellaneous",
+//     "Became part of" : "part_of",
+//     "Became colony of": "nonSovereign",
+//     "Became possession of": "nonSovereign",
+//     "Became dependency of": "nonSovereign",
+//     "Claimed by": "nonSovereign",
+//     "Became protectorate of": "nonSovereign",
+//     "Became associated state of": "sovereign",
+//     "Occupied by": "nonSovereign",
+//     "Leased to": "nonSovereign",
+//     "Became neutral or demilitarized zone of": "nonSovereign",
+//     "Mandated to": "nonSovereign",
+//     "Sovereign": "sovereign",
+//     "Unincorporated territory": "nonSovereign",
+//     "Sovereign (unrecognized)": "sovereign",
+//     "Sovereign (limited)": "sovereign",
+//     "International": "nonSovereign",
+//     "Informal": "nonSovereign",
+//     "Unknown": "miscellaneous"
+// }
     
 
 
 
-  
-fetch('./data/status_flows.csv')
+fetch('./data/GeoPolHist_status.csv')
+  .then(response => response.text())
+  .then(statusData => {
+    d3.csvParse(statusData,row => {agg_link_type[row.GPH_status] = row.group;});
+    return fetch('./data/status_transitions_links_periods.csv');
+  })
   .then(response => response.text())
   .then(data => {
       const color = "#DDDDDD";
-        const ls = d3.csvParseRows(data, ([source, target, value, linkColor = color]) => (source && target ? {source, target, value: !value || isNaN(value = +value) ? 1 : value, color: linkColor} : null));
+        const ls = d3.csvParse(data, row => (row.source && row.target ? {source:row.source, target:row.target, value: !row.nb || isNaN(row.nb = +row.nb) ? 1 : row.nb, color: undefined} : null));
         const nodeByName = new Map;
         for (const link of ls) {
             if (!nodeByName.has(link.source)) nodeByName.set(link.source, {name: link.source});
@@ -61,7 +67,7 @@ fetch('./data/status_flows.csv')
             .nodeSort(inputOrder ? null : undefined)
             .nodeWidth(15)
             .nodePadding(padding)
-            .extent([[0, 18], [width, height - 18]])
+            .extent([[0, 18], [width, height - 50]])
             .nodeWidth(nodeWidth)
 
 
@@ -81,7 +87,7 @@ fetch('./data/status_flows.csv')
             }
             return acc;}, [])
             
-        
+
 
         svg.append("g")
             .selectAll("rect")
@@ -119,7 +125,7 @@ fetch('./data/status_flows.csv')
             .text(d => `${d.source.name} → ${d.target.name}\n${d.value.toLocaleString()}`);
         
         svg.append("g")
-            .style("font", "0.85em sans-serif")
+            .style("font", "0.8em sans-serif")
             .selectAll("text")
             .data(nodes)
             .join("text")
@@ -157,6 +163,32 @@ fetch('./data/status_flows.csv')
             .text(p => p.label)
             .append("tspan")
             .attr("fill-opacity", 0.7);
+        //legend
+        const legendMargin = 10;
+        const legendwidth = 100;
+        svg.append('g')
+          .selectAll("rect")
+          .data(Object.keys(colors))
+          .join("rect")
+          .attr("x", (d,i) => i*(legendMargin+legendwidth))
+          .attr("y", d => height-20)
+          .attr("height", d => 10)
+          .attr("width", d => 10)
+          .attr("fill", d => {
+              return colors[d];
+          })
+          .append("title")
+          .text(d => d);
+        svg.append("g")
+          .style("font", "0.6em sans-serif")
+          .selectAll("text")
+          .data(Object.keys(colors))
+          .join("text")
+          .attr("x", (d,i) => i*(legendMargin+legendwidth))
+          .attr("dx", 15)
+          .attr("y", height - 11)
+          .attr("text-anchor", "start")
+          .text(d =>  d)
 
         svg.node();
 }
