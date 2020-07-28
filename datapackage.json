@@ -43,6 +43,13 @@
         "web": "http://ouestware.com",
         "organization": "OuestWare, Nantes, France",
         "role": "author"
+      },
+      {
+        "title": "Ariane Treguer",
+        "email": "ariane.treguer@sciencespo.fr",
+        "web": "http://sciencespo.fr/chsp",
+        "organization": "Sciences Po, Centre d'Histoire (CHSP), Paris, France",
+        "role": "contributor"
       }
     ],
     "dependencies": {
@@ -59,6 +66,7 @@
         "path": "data/GeoPolHist_entities_status_in_time.csv",
         "profile": "tabular-data-resource",
         "schema": {
+          "missingValues": ["?"],
           "fields": [
             {
               "name": "GPH_code",
@@ -79,11 +87,7 @@
             {
               "name": "start_year",
               "type": "year",
-              "description": "year at which the status starts",
-              "constraints": {
-                "required": true,
-                "missingValues": ["?"]
-              }
+              "description": "year at which the status starts"
             },
             {
               "name": "end_year",
@@ -181,13 +185,31 @@
             {
               "name": "wikidata",
               "type": "string",
-              "format": "URI",
+              "format": "uri",
               "description": "The wikidata entity URI representing this entity."
+            },
+            {
+              "name": "wikidata_alt1",
+              "type": "string",
+              "format": "uri",
+              "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
+            },
+            {
+              "name": "wikidata_alt2",
+              "type": "string",
+              "format": "uri",
+              "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
+            },
+            {
+              "name": "wikidata_alt3",
+              "type": "string",
+              "format": "uri",
+              "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
             },
             {
               "name": "notes",
               "type": "string",
-              "description": "Notes about wikidata reconciliation."
+              "description": "Notes about wikidata reconciliation process."
             }
           ]
         }
@@ -229,8 +251,15 @@
                   "Sovereign (all)",
                   "Non sovereign",
                   "Part of",
-                  "Miscelaneaous"
+                  "Miscellaneous"
                 ]
+              }
+            },
+            {
+              "name": "priority_order",
+              "type": "number",
+              "constraints":{
+                "required": true
               }
             },
             {
