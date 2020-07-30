@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GeoPolHist/static/css/main.8b7f53f3.chunk.css",
-    "main.js": "/GeoPolHist/static/js/main.6b4a7ec9.chunk.js",
-    "main.js.map": "/GeoPolHist/static/js/main.6b4a7ec9.chunk.js.map",
+    "main.css": "/GeoPolHist/static/css/main.04ef65ec.chunk.css",
+    "main.js": "/GeoPolHist/static/js/main.b4a9a02f.chunk.js",
+    "main.js.map": "/GeoPolHist/static/js/main.b4a9a02f.chunk.js.map",
     "runtime~main.js": "/GeoPolHist/static/js/runtime~main.beaa52d1.js",
     "runtime~main.js.map": "/GeoPolHist/static/js/runtime~main.beaa52d1.js.map",
-    "static/js/2.a30a2a69.chunk.js": "/GeoPolHist/static/js/2.a30a2a69.chunk.js",
-    "static/js/2.a30a2a69.chunk.js.map": "/GeoPolHist/static/js/2.a30a2a69.chunk.js.map",
+    "static/js/2.9d30302f.chunk.js": "/GeoPolHist/static/js/2.9d30302f.chunk.js",
+    "static/js/2.9d30302f.chunk.js.map": "/GeoPolHist/static/js/2.9d30302f.chunk.js.map",
     "index.html": "/GeoPolHist/index.html",
-    "precache-manifest.f43dfb15bab5b59da960131371231ca6.js": "/GeoPolHist/precache-manifest.f43dfb15bab5b59da960131371231ca6.js",
+    "precache-manifest.b3bc9d7311fb2cc64f796d51d48c7beb.js": "/GeoPolHist/precache-manifest.b3bc9d7311fb2cc64f796d51d48c7beb.js",
     "service-worker.js": "/GeoPolHist/service-worker.js",
-    "static/css/main.8b7f53f3.chunk.css.map": "/GeoPolHist/static/css/main.8b7f53f3.chunk.css.map"
+    "static/css/main.04ef65ec.chunk.css.map": "/GeoPolHist/static/css/main.04ef65ec.chunk.css.map"
   }
 }
