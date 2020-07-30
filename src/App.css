@@ -36,11 +36,33 @@
   max-width: 980px;
   margin: 0 auto;
 }
+a[href] { 
+  color: #222;
+}
+a[href]:hover { 
+  color: #555;
+}
 
-.line>div {
-  display: inline-block;
+h2 {
+  margin-top: 50px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .grow {
   flex-grow: 1;
+  padding: 0 10px 0 10px;
+}
+.grow ol{
+  padding-left: 0;
+  list-style-type: none;
+}
+iframe {
+  margin-top: 50px;
+  border: 0;
+  width: 100%;
+  height: 700px;
 }

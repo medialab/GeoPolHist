@@ -17,10 +17,7 @@ interface WLink {
   readonly GPH_name: GPH_name;
   readonly start_year: Date;
   readonly end_year: Date;
-  readonly status: {
-    readonly slug: STATUS_SLUG;
-    readonly priority: number;
-  }
+  readonly status: Status;
   sovereign: {
     readonly GPH_code: GPH_code;
     readonly GPH_name: GPH_name;

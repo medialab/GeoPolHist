@@ -21,9 +21,16 @@
   cursor: pointer;
 }
 
+
 .timelines-container {
   position: relative;
   margin: 0 auto;
+}
+
+.entity-label {
+  font-size: 1em;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .entity-label:hover {
@@ -37,15 +44,25 @@
 }
 
 .legend-container {
-  display: flex;
-  padding: 5px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: 10px;
+}
+.legend-container .colorLegendItem {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: text-top;
 }
 
 .legend-item {
-  border-radius: 5px;
-  flex-grow: 1;
-  padding: 10px 0px;
+  text-align: left;
+  display:inline;
+  margin: 5px;
 }
+
 
 .group.has_status rect, .legend-item--hidden {
   opacity: 0.2;

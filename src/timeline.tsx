@@ -3,6 +3,7 @@ import { scaleOrdinal, axisBottom, select, scaleLinear, timeFormat, ScaleTime, a
 import values from 'ramda/es/values';
 import reduce from 'ramda/es/reduce';
 import countBy from 'ramda/es/countBy';
+import sort from 'ramda/es/sort';
 import mapObjIndexed from 'ramda/es/mapObjIndexed';
 import pipe from 'ramda/es/pipe';
 import cx from 'classnames';
@@ -23,9 +24,11 @@ const margins = {
 };
 const formater = timeFormat('%Y');
 
-const countByStatus = pipe(
+const groupByStatus = pipe(
   reduce((acc, [, links]: [Entity, Link[]]) => [...acc, ...links], []),
-  countBy((link: Link) => link.status.slug),
+  reduce((acc, link:Link) => { 
+    acc[link.status.slug] = link.status;
+    return acc;}, {})
 );
 
 const Timelines: React.FC<{
@@ -71,7 +74,7 @@ const Timelines: React.FC<{
   const groupWidth = props.hideGroupLabels ? 0 : 200;
   const groupHeight = height / data.length;
   const intervalRectWidth = (d: Link) => Math.max(props.intervalMinWidth, xScale(d.end_year) - xScale(d.start_year))
-  xScale.range([groupWidth, width]);
+  xScale.range([groupWidth, width-15]);
   const yScale = scaleLinear()
     .domain([0, nbLines])
     .range([0, height]);
@@ -81,7 +84,9 @@ const Timelines: React.FC<{
   const intervalBarMargin = (groupHeight - intervalBarHeight) / 2;
   const [hover, setHover] = useState<{link: Link, index: number}>();
   const [status, setStatus] = useState<any>();
-  const countedByStatus = useMemo(() => countByStatus(data), [data]);
+  const groupedByStatus = useMemo(() => groupByStatus(data), [data]);
+  const sortDate = sort((a:Date, b:Date) => a > b)
+  const sortEntityByStartDate = sort((a: [Entity, Link[]], b:[Entity, Link[]])=> sortDate(a[1].map(l => l.start_year))[0] > sortDate(b[1].map(l => l.start_year))[0])
   useEffect(() => () => {setHover(null); setStatus(null)}, [props.data]);
   return (
     <div className='timelines-container' style={{width: width}} onMouseLeave={() => setHover(null)}>
@@ -93,12 +98,18 @@ const Timelines: React.FC<{
       </div>}
       <div className="legend">
         <div className='legend-container'>
-          {values(mapObjIndexed((number, label) => 
-            <button onClick={() => status === label ? setStatus(null) : setStatus(label)} className={cx({
-              'legend-item': true,
-              'legend-item--hidden': status && status !== label,
-            })} key={label} style={{backgroundColor: colorScale(label)}}>{label} : {number}</button>
-          , countedByStatus))}
+          {values(mapObjIndexed((s, slug) => 
+            <span onClick={() => {
+                status === slug ? setStatus(null) : setStatus(slug);
+              }} 
+              className={cx({
+                'legend-item': true,
+                'legend-item--hidden': status && status !== slug,
+              })}>
+              <div className="colorLegendItem" key={slug} style={{backgroundColor: colorScale(slug)} as React.CSSProperties}></div>
+              <span>{s.GPH_status}</span>
+            </span>
+          , groupedByStatus))}
         </div>
         <svg height={20} width={props.width}>
           <g transform={translate(margins.left, margins.top)}>
@@ -129,11 +140,14 @@ const Timelines: React.FC<{
             group: true,
             has_status: !!status
           }, status)}>
-            {data.map(([entity, links], index) => {
+            {sortEntityByStartDate(data).map(([entity, links], index) => {
               return (
                 <g key={entity.name} className={entity.name} transform={translate(0, yScale(index))}>
                   <line className='group-separator' x1={0} x2={width} y1={0} y2={0} stroke='black' strokeOpacity={0.1} />
-                  <text className='entity-label' style={{clipPath: `url(#name-area-${id})`}} fontSize={props.lineHeight} dy='1em'>{entity.name}</text>
+                  <text className='entity-label' style={{clipPath: `url(#name-area-${id})`}} fontSize='1em' dy='1em' width={groupWidth}>
+                    {entity.name.length <= 22 ? entity.name : entity.name.slice(0,22)+'…'}
+                    <title>{entity.name}</title>
+                  </text>
                   <g>
                     {links.map((link: Link) => {
                       const w = intervalRectWidth(link);
