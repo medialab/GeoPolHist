@@ -110,6 +110,17 @@ const Home: React.FC<RouterProps> = (props) => {
         placeholder={state.entities.length ? 'Search for a Geo-Political entity' : 'Still loading'}
         onChange={onChange}
         options={countriesToOptions(state.entities)}
+        theme={theme => ({
+          ...theme,
+          borderRadius: 5,
+          colors: {
+            ...theme.colors,
+            primary25: "lightgrey",
+            primary: "grey",
+            background: "white",
+            color:"black"
+          }
+        })}
       />
       {state.entities.length ? <Examples entities={state.entities} /> : <p>Data is still loading...</p>}
       <h2>References</h2>
