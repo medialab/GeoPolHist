@@ -1,14 +1,57 @@
-import React, { useContext, useCallback, useMemo } from 'react';
+import React, { useContext, useCallback, useMemo, useState } from 'react';
 import sort from 'ramda/es/sort';
-
+import sortBy from 'ramda/es/sortBy';
 import equals from 'ramda/es/equals';
+import reduce from 'ramda/es/reduce';
+
 import { AppContext } from './AppContext';
 import Timelines from './timeline';
 import { Link as RLink, RouteComponentProps } from 'react-router-dom';
 import { min, max, scaleTime, scaleOrdinal } from 'd3';
 
-const dateReducer = (accumulator, link: Link) => accumulator + (+link.end_year) - +link.start_year
-const sortByDuration = sort(([, aLinks], [, bLinks]) => bLinks.reduce(dateReducer, 0) - aLinks.reduce(dateReducer, 0));
+import './Country.css'
+
+import Select from 'react-select'
+
+
+const sortDate = sort((a:Date, b:Date) => a > b);
+const countYears = reduce( (acc:number,l:Link) => +l.end_year - +l.start_year + acc, 0)
+const orderMethods = {
+  'duration': sort(([, aLinks], [, bLinks]) => countYears(bLinks) - countYears(aLinks)),
+  'year': sort(([, aLinks], [, bLinks])=> +sortDate(aLinks.map(l => l.start_year))[0] - +sortDate(bLinks.map(l => l.start_year))[0]),
+  'name': sortBy(([entity,])=> entity.name)
+}
+const sortByStartYear = sort((a:Link, b:Link) => a.start_year > b.start_year)
+const deOverlapLinks = (os:[Entity, Link[]][]) => os.map( (o:[Entity, Link[]]) =>
+      // rewrite links for every object
+      [o[0], sortByStartYear(o[1]).reduce((acc:Link[], l:Link) => {
+        if (!acc || acc.length === 0)
+          return [{...l}];
+        else {        
+          const previous:Link = acc[acc.length-1]
+          if(previous.end_year > l.start_year){
+            // manage overlap
+            if (previous.status.priority >= l.status.priority) {
+
+              const start_year = previous.end_year
+              if ((+start_year === +previous.end_year && +l.end_year === +previous.end_year) || +start_year > +l.end_year)
+                console.warn("one overlapping status removed", l)  
+              else
+                // add l but modify start_year
+                acc.push({...l, start_year})
+            }
+            else {
+              // previous is a copy we can mute it
+              previous.end_year = l.start_year
+              acc.push({...l})
+            } 
+          }
+          else
+            acc.push({...l})
+          return acc  
+        }
+      }, [])]
+    );
 
 const Country: React.FC<{
   id: string,
@@ -20,12 +63,15 @@ const Country: React.FC<{
   const onEntityClick = useCallback(GPH_code => {
     history.push(`/country/${GPH_code}`);
   }, [history]);
-  const occupations: [Entity, Link[]][] = Array.from(country.occupations.associations());
-  const campains: [Entity, Link[]][] = Array.from(country.campains.associations());
-  const data: [Entity, Link[]][] = useMemo(() => sortByDuration([
+ 
+  const occupations: [Entity, Link[]][] = deOverlapLinks(Array.from(country.occupations.associations())) as [Entity, Link[]][];
+  const campains: [Entity, Link[]][] = deOverlapLinks(Array.from(country.campains.associations())) as [Entity, Link[]][];
+
+  // deoverlap links
+  const data: [Entity, Link[]][] = useMemo(() => [
     ...occupations,
     ...campains,
-  ]), [occupations, campains]);
+  ], [occupations, campains]);
   const minDate = min(data, ([{start}]) => start);
   const maxDate = max(data, ([{end}]) => end);
   const xScale = scaleTime().domain([minDate, maxDate]);
@@ -51,6 +97,10 @@ const Country: React.FC<{
   "#4f8178",
   "#cdcea7",
   "#997462"]).domain(Object.keys(state.status).map(s => state.status[s].slug));
+  // sort select handler
+  const [orderBy, setOrderBy] = useState<any>();
+  const orderedCampains = orderMethods[orderBy || 'year'](campains)
+
   return (
     <div>
       <aside>
@@ -70,11 +120,30 @@ const Country: React.FC<{
         colorScale={colorScale}
       />
       {/* <Histogram width={1000} height={300} data={Array.from(country.campains.values())} /> */}
-      <h2>Sovereign of {country.campains.dimension} entities</h2>
-      <Timelines
+      <div style={{width:'1000px', margin: '0 auto'}}>
+        <h2>Sovereign of {country.campains.dimension} entities</h2>
+        <span >sort by <Select className='inlineSelect' onChange={e => setOrderBy(e.value)} defaultValue={{value:"year", label:"first date"}}
+           theme={theme => ({
+            ...theme,
+            borderRadius: 5,
+            colors: {
+              ...theme.colors,
+              primary25: "lightgrey",
+              primary: "grey",
+              background: "white",
+              color:"black",
+            }
+          })}
+          isSearchable={false}
+          options={[
+            {value:'year', label:'first date'},
+            {value:'duration', label:'duration'},
+            {value:'name', label:"entity name"}]}/></span></div>
+      
+      <Timelines 
         onEntityClick={onEntityClick}
         intervalMinWidth={5}
-        data={campains}
+        data={orderedCampains}
         nbLines={country.campains.dimension}
         lineHeight={20}
         width={1000}

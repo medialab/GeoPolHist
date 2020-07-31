@@ -15,8 +15,8 @@ interface WLink {
   readonly id: string;
   readonly GPH_code: GPH_code;
   readonly GPH_name: GPH_name;
-  readonly start_year: Date;
-  readonly end_year: Date;
+  start_year: Date;
+  end_year: Date;
   readonly status: Status;
   sovereign: {
     readonly GPH_code: GPH_code;

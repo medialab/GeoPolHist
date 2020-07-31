@@ -1,19 +1,13 @@
-import React, { useState, useEffect, useMemo, useContext } from 'react';
-import { scaleOrdinal, axisBottom, select, scaleLinear, timeFormat, ScaleTime, axisTop, ScaleOrdinal } from 'd3';
+import React, { useState, useEffect, useMemo } from 'react';
+import { axisBottom, select, scaleLinear, timeFormat, ScaleTime, axisTop, ScaleOrdinal } from 'd3';
 import values from 'ramda/es/values';
-import reduce from 'ramda/es/reduce';
-import sort from 'ramda/es/sort';
-import mapObjIndexed from 'ramda/es/mapObjIndexed';
-import pipe from 'ramda/es/pipe';
+import sortBy from 'ramda/es/sortBy';
 import cx from 'classnames';
 import { translate } from './utils';
 import './timeline.css'
 import uuid from 'uuid';
 
 
-const legend = {
-  height: 50,
-}
 const margins = {
   top: 0,
   right: 0,
@@ -54,31 +48,29 @@ const Timelines: React.FC<{
   const intervalBarMargin = (groupHeight - intervalBarHeight) / 2;
   const [hover, setHover] = useState<{link: Link, index: number}>();
   const [status, setStatus] = useState<any>();
-  
-  const groupedByStatus = data.reduce((acc, [, links]: [Entity, Link[]]) => [...acc, ...links], [])
+  const sortStatus = sortBy(e => e.priority+e.GPH_status);
+  const groupedByStatus = sortStatus(values(data.reduce((acc, [, links]: [Entity, Link[]]) => [...acc, ...links], [])
                       .reduce((acc, link:Link) => { 
                           acc[link.status.slug] = link.status;
-                          return acc;}, {});
-  const sortDate = sort((a:Date, b:Date) => a > b)
-  const sortEntityByStartDate = sort((a: [Entity, Link[]], b:[Entity, Link[]])=> sortDate(a[1].map(l => l.start_year))[0] > sortDate(b[1].map(l => l.start_year))[0])
-  console.log(data)
+                          return acc;}, {}))).reverse()
+
   useEffect(() => () => {setHover(null); setStatus(null)}, [props.data]);
   return (
     <div className='timelines-container' style={{width: width}} onMouseLeave={() => setHover(null)}>
       <div className="legend">
         <div className='legend-container'>
-          {values(mapObjIndexed((s, slug) => 
-            <span onClick={() => {
-                status === slug ? setStatus(null) : setStatus(slug);
+          {groupedByStatus.map( (s:Status) => 
+            <span key={s.slug} onClick={() => {
+                status === s.slug ? setStatus(null) : setStatus(s.slug);
               }} 
               className={cx({
                 'legend-item': true,
-                'legend-item--hidden': status && status !== slug,
+                'legend-item--hidden': status && status !== s.slug,
               })}>
-              <div className="colorLegendItem" key={slug} style={{backgroundColor: colorScale(slug)} as React.CSSProperties}></div>
+              <div className="colorLegendItem"  style={{backgroundColor: colorScale(s.slug)} as React.CSSProperties}></div>
               <span>{s.GPH_status}</span>
             </span>
-          , groupedByStatus))}
+          )}
         </div>
         <svg height={20} width={props.width}>
           <g transform={translate(margins.left, margins.top)}>
@@ -110,7 +102,7 @@ const Timelines: React.FC<{
               group: true,
               has_status: !!status
             }, status)}>
-              {sortEntityByStartDate(data).map(([entity, links], index) => {
+              {data.map(([entity, links], index) => {
                 return (
                   <g key={entity.name} className={entity.name} transform={translate(0, yScale(index))}>
                     <line className='group-separator' x1={0} x2={width} y1={0} y2={0} stroke='black' strokeOpacity={0.1} />
