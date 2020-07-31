@@ -5,6 +5,7 @@
   left: 0;
   pointer-events: none;
   transition: all 0.4s ease;
+  z-index: 9;
 }
 
 .tooltip {
@@ -41,6 +42,7 @@
   position: sticky;
   background: #fff;
   top: 0;
+  z-index: 6;
 }
 
 .legend-container {
@@ -63,6 +65,11 @@
   margin: 5px;
 }
 
+.timeline {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
 
 .group.has_status rect, .legend-item--hidden {
   opacity: 0.2;
@@ -83,42 +90,49 @@
 .group.has_status.prot rect.prot {
   opacity: 1;
 }
-.group.has_status.assoc rect.assoc {
+.group.has_status.ass rect.ass {
   opacity: 1;
 }
 .group.has_status.occ rect.occ {
   opacity: 1;
 }
-.group.has_status.leas rect.leas {
+.group.has_status.lea rect.lea {
   opacity: 1;
 }
 .group.has_status.neut rect.neut {
   opacity: 1;
 }
-.group.has_status.mand rect.mand {
+.group.has_status.man rect.man {
   opacity: 1;
 }
-.group.has_status.SOV rect.SOV {
+.group.has_status.sov rect.sov {
   opacity: 1;
 }
-.group.has_status.uninc rect.uninc {
+.group.has_status.sov_un rect.sov_un {
   opacity: 1;
 }
-.group.has_status.autonom rect.autonom {
-  opacity: 1;
-}
-.group.has_status.SOV_U rect.SOV_U {
-  opacity: 1;
-}
-.group.has_status.SOV_L rect.SOV_L {
-  opacity: 1;
-}
-.group.has_status.protected rect.protected {
+.group.has_status.sov_li rect.sov_li {
   opacity: 1;
 }
 .group.has_status.NA rect.NA {
   opacity: 1;
 }
-.group.has_status.alliance rect.alliance {
+.group.has_status.dis rect.dis {
   opacity: 1;
 }
+.group.has_status.dep rect.dep {
+  opacity: 1;
+}
+.group.has_status.vass rect.vass {
+  opacity: 1;
+}
+.group.has_status.disc rect.disc {
+  opacity: 1;
+}
+.group.has_status.inf rect.inf {
+  opacity: 1;
+}
+.group.has_status.int rect.int {
+  opacity: 1;
+}
+
