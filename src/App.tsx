@@ -4,7 +4,6 @@ import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Select from 'react-select';
 import sort from 'ramda/es/sort';
 import take from 'ramda/es/take';
-import values from 'ramda/es/values';
 import pathOr from 'ramda/es/pathOr';
 
 import './App.css';
@@ -15,10 +14,6 @@ import { RouterProps } from 'react-router';
 const countriesToOptions = map((country: Entity) => ({
   value: country.id, label: country.name,
 }));
-
-const sortByBiggestEmpire = sort((entityA: Entity, entityB: Entity) =>
-  entityB.campains.size - entityA.campains.size
-)
 
 const sortByOccupation = sort((a: Entity, b: Entity) =>
   b.occupations.size - a.occupations.size
@@ -45,12 +40,10 @@ const filterSortByDis = (entities: Entity[]) => {
 const takeTop5 = take(5)
 
 const Examples: React.FC<{entities: Entity[]}> = (props) => {
-  const orderByBiggest: Entity[] = takeTop5(sortByBiggestEmpire(props.entities));
   const mostOccupied: Entity[] = takeTop5(sortByOccupation(props.entities));
   const mostCollonies: Entity[] = takeTop5(sortByColonyNumber(props.entities));
   const disapeared: Entity[] = takeTop5(filterSortByDis(props.entities))
 
-  const {state}: {state: GlobalState} = useContext(AppContext);
   const yearFormat = new Intl.DateTimeFormat('en-GB', {year:'numeric'})
   return (
     <div>
@@ -123,7 +116,7 @@ const Home: React.FC<RouterProps> = (props) => {
       <p>See our data paper for more information about how and why we built this data set:</p>
       <p>Dedinger Béatrice, Girard Paul, "GeoPolHist, a new data set of the geo-political entities of the world (1816-2020)" 2020 (in review)</p>
       <p>Download the data set from <a href="https://github.com/medialab/GeoPolHist">GeoPolHist datapackage repository</a></p>
-      <iframe src="./sankey.html"></iframe>
+      <iframe title="GPH status evolutions in 1816,1885,1950 and 2020" src="./sankey.html"></iframe>
       <p><a href="./sankey.html">open the diagram in full page</a></p>
     </div>
   );
