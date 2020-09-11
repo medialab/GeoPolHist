@@ -36,10 +36,10 @@
   max-width: 980px;
   margin: 0 auto;
 }
-a[href] { 
+a[href] {
   color: #222;
 }
-a[href]:hover { 
+a[href]:hover {
   color: #555;
 }
 
@@ -56,13 +56,24 @@ h2 {
   flex-grow: 1;
   padding: 0 10px 0 10px;
 }
-.grow ol{
+.grow ol {
   padding-left: 0;
   list-style-type: none;
 }
 iframe {
-  margin-top: 50px;
+  margin-top: 10px;
   border: 0;
   width: 100%;
-  height: 700px;
+  height: 500px;
+}
+
+.container--home p {
+  max-width: 750px;
+  width: 85%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.container--home ul {
+  text-align: left;
 }

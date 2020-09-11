@@ -1,11 +1,10 @@
-
 .tooltip-container {
   position: absolute;
   top: 0;
   left: 0;
   pointer-events: none;
   transition: all 0.4s ease;
-  z-index: 9;
+  z-index: 8;
 }
 
 .tooltip {
@@ -14,14 +13,14 @@
   transition: all 0.1s linear;
   padding: 7px;
   margin: 0 2px 0 0;
-  box-shadow: 0px 7px 26px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 7px 26px 0px rgba(0, 0, 0, 0.15);
 }
 
-.link-rect, .legend-item {
+.link-rect,
+.legend-item {
   transition: all 0.4s ease;
   cursor: pointer;
 }
-
 
 .timelines-container {
   position: relative;
@@ -40,8 +39,8 @@
 
 .legend {
   position: sticky;
-  background: #fff;
-  top: 0;
+  background: #f5f5f5;
+  top: 80px;
   z-index: 6;
 }
 
@@ -61,7 +60,7 @@
 
 .legend-item {
   text-align: left;
-  display:inline;
+  display: inline;
   margin: 5px;
 }
 
@@ -71,7 +70,8 @@
   left: 0px;
 }
 
-.group.has_status rect, .legend-item--hidden {
+.group.has_status rect,
+.legend-item--hidden {
   opacity: 0.2;
 }
 
@@ -135,4 +135,3 @@
 .group.has_status.int rect.int {
   opacity: 1;
 }
-
