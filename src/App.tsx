@@ -131,14 +131,20 @@ const Home: React.FC<RouterProps> = (props) => {
         </h1>
         <p>
           GeoPolHist is a quantitative tool that focuses on the questions “what
-          are?” and “how many?” countries in the world. Created from the lists
-          of national political units built by the Correlates of War project
-          (mettre lien vers States et Entities si possible), GeoPolHist provides
-          a comprehensive dataset and visual documentation that identifies the
+          are?” and “how many?” countries in the world. Created from the list of{" "}
+          <a href="https://correlatesofwar.org/data-sets/state-system-membership">
+            national political units
+          </a>{" "}
+          and{" "}
+          <a href="https://correlatesofwar.org/data-sets/colonial-dependency-contiguity">
+            dependencies
+          </a>{" "}
+          built by the Correlates of War project, GeoPolHist provides a
+          comprehensive dataset and visual documentation that identifies the
           political status of each of the geopolitical entities that existed in
           the world since 1816. It allows for an approach of the political
           history of the world based on the dichotomy between sovereign and
-          non-sovereign entites.
+          non-sovereign entities.
         </p>
         <p>
           See the <HashLink to="#methodology">methodology</HashLink> and{" "}
@@ -192,15 +198,15 @@ const Home: React.FC<RouterProps> = (props) => {
         <h2 id="methodology">Methodology</h2>
         <p>
           A geopolitical entity is any form of human social community or
-          territory. It may be geographically based or not, inhabited or not,
-          sovereign and independent or not. It is ‘political’ in the
-          Aristotelian sense of the political order, whose ultimate goal is
-          peace through justice inside the entity, war and conflicts remaining a
-          potential option outside the limits of the entity. Through history,
-          political entities of the type ‘human social community’ have taken the
-          form of tribe, chiefdom, city-state, kingdom, empire, caste, seigneury
-          or nation. In the GPH database, political entities of the type
-          ‘territory’ are uninhabited islands, atolls or reefs.
+          territory. They are geographically based, inhabited or not, sovereign
+          and independent or not. It is ‘political’ in the Aristotelian sense of
+          the political order, whose ultimate goal is peace through justice
+          inside the entity, war and conflicts remaining a potential option
+          outside the limits of the entity. Through history, political entities
+          of the type ‘human social community’ have taken the form of tribe,
+          chiefdom, city-state, kingdom, empire, caste, seigneury or nation. In
+          the GPH database, political entities of the type ‘territory’ are
+          uninhabited islands, atolls or reefs.
         </p>
         <p>
           The GeoPolHist dataset will be fully described in the paper{" "}
@@ -228,7 +234,7 @@ const Home: React.FC<RouterProps> = (props) => {
               <a href="/data/GeoPolHist_entities_status_in_time.csv">
                 GeoPolHist_entities_status_in_time.csv
               </a>{" "}
-              - list of political dependencies between GPH entities in time;
+              - list of GPH entities by political status in time;
             </li>
           </ul>
         </p>
