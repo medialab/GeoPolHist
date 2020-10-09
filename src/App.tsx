@@ -131,9 +131,10 @@ const Home: React.FC<RouterProps> = (props) => {
         </h1>
         <p>
           GeoPolHist is a quantitative tool that focuses on the questions “what
-          are?” and “how many?” countries in the world. Created from the list of{" "}
+          are?” and “how many?” countries in the world. Created from the lists
+          of{" "}
           <a href="https://correlatesofwar.org/data-sets/state-system-membership">
-            national political units
+            states
           </a>{" "}
           and{" "}
           <a href="https://correlatesofwar.org/data-sets/colonial-dependency-contiguity">
@@ -240,7 +241,7 @@ const Home: React.FC<RouterProps> = (props) => {
         </p>
 
         <p>
-          The data set is versionned and fully documented in the{" "}
+          The data set is versioned and fully documented in the{" "}
           <a href="https://github.com/medialab/GeoPolHist">
             GeoPolHist datapackage repository
           </a>
