@@ -222,17 +222,17 @@ const Home: React.FC<RouterProps> = (props) => {
           The GeoPolHist data set is published under ODbl licence:
           <ul>
             <li>
-              <a href="/data/GeoPolHist_status.csv">GeoPolHist_status.csv</a> -
+              <a href="./data/GeoPolHist_status.csv">GeoPolHist_status.csv</a> -
               list of political status and their definitions;
             </li>
             <li>
-              <a href="/data/GeoPolHist_entities.csv">
+              <a href="./data/GeoPolHist_entities.csv">
                 GeoPolHist_entities.csv
               </a>{" "}
               - list of GPH entities;
             </li>
             <li>
-              <a href="/data/GeoPolHist_entities_status_in_time.csv">
+              <a href="./data/GeoPolHist_entities_status_in_time.csv">
                 GeoPolHist_entities_status_in_time.csv
               </a>{" "}
               - list of GPH entities by political status in time;
