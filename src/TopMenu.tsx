@@ -9,6 +9,7 @@ export const TopMenu: React.FC<{
     <>
       <div className="topMenu">
         <span className="appTitle">
+          <img src="./GeoPolHist.svg" />
           <Link to="/">GeoPolHist</Link>
         </span>
       </div>
