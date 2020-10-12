@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/GeoPolHist/static/css/main.c91ba701.chunk.css",
-    "main.js": "/GeoPolHist/static/js/main.75fdda47.chunk.js",
-    "main.js.map": "/GeoPolHist/static/js/main.75fdda47.chunk.js.map",
+    "main.js": "/GeoPolHist/static/js/main.8b933600.chunk.js",
+    "main.js.map": "/GeoPolHist/static/js/main.8b933600.chunk.js.map",
     "runtime~main.js": "/GeoPolHist/static/js/runtime~main.beaa52d1.js",
     "runtime~main.js.map": "/GeoPolHist/static/js/runtime~main.beaa52d1.js.map",
     "static/js/2.18e7ffea.chunk.js": "/GeoPolHist/static/js/2.18e7ffea.chunk.js",
     "static/js/2.18e7ffea.chunk.js.map": "/GeoPolHist/static/js/2.18e7ffea.chunk.js.map",
     "index.html": "/GeoPolHist/index.html",
-    "precache-manifest.722f77680f55fa1d474b4481ceb5432e.js": "/GeoPolHist/precache-manifest.722f77680f55fa1d474b4481ceb5432e.js",
+    "precache-manifest.2934eb80d73a91a5128affaf118f357a.js": "/GeoPolHist/precache-manifest.2934eb80d73a91a5128affaf118f357a.js",
     "service-worker.js": "/GeoPolHist/service-worker.js",
     "static/css/main.c91ba701.chunk.css.map": "/GeoPolHist/static/css/main.c91ba701.chunk.css.map"
   }
