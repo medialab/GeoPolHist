@@ -140,8 +140,7 @@ const Home: React.FC<RouterProps> = (props) => {
           <a href="https://correlatesofwar.org/data-sets/colonial-dependency-contiguity">
             dependencies
           </a>{" "}
-          built by the Correlates of War project, GeoPolHist provides a
-          comprehensive dataset and visual documentation that identifies the
+          built by the Correlates of War project, GeoPolHist provides a dataset and visual documentation that identifies the
           political status of each of the geopolitical entities that existed in
           the world since 1816. It allows for an approach of the political
           history of the world based on the dichotomy between sovereign and
@@ -183,9 +182,9 @@ const Home: React.FC<RouterProps> = (props) => {
         <h2>Three periods in the political history of the world since 1816</h2>
         <p>
           Over the last two centuries, the political structure of the world went
-          through three distinct periods during which one status predominated.
+          through three distinct periods during which one <a href="./data/GeoPolHist_status.csv">status</a> predominated.
           From 1816 to the Berlin Conference in 1884/85, 13 % of the
-          geopolitical entities of the world were sovereign (unrecognised); from
+          geopolitical entities of the world were sovereign (unrecognized); from
           1886 to 1949, 20 % were ‘colony’, ‘possession or ‘protectorate’’;
           since 1950, 16 % are ‘sovereign’ (in the strict sense).
         </p>
@@ -198,16 +197,16 @@ const Home: React.FC<RouterProps> = (props) => {
         </p>
         <h2 id="methodology">Methodology</h2>
         <p>
-          A geopolitical entity is any form of human social community or
-          territory. They are geographically based, inhabited or not, sovereign
-          and independent or not. It is ‘political’ in the Aristotelian sense of
-          the political order, whose ultimate goal is peace through justice
-          inside the entity, war and conflicts remaining a potential option
-          outside the limits of the entity. Through history, political entities
-          of the type ‘human social community’ have taken the form of tribe,
-          chiefdom, city-state, kingdom, empire, caste, seigneury or nation. In
-          the GPH database, political entities of the type ‘territory’ are
-          uninhabited islands, atolls or reefs.
+          A geopolitical entity is any form of human social community or territory{" "}
+          that has been involved in an international or intra-national conflict during{" "}
+          the post-Napoleonic period and that is geographically based.{" "}
+          These entities are “political” in the Aristotelian sense of the political order,{" "}
+          whose ultimate goal is peace through justice inside the entity,{" "}
+          war and conflicts remaining a potential option outside the limits of the entity.{" "}
+          Through the period covered by the GPH database, political entities of the type “human social community”{" "}
+          have taken the form of tribe, chiefdom, city-state, kingdom, empire, seigneury,{" "}
+          or nation. GPH entities are sovereign and independent or not.{" "}
+          Political entities of the type “territory” are uninhabited islands, atolls or reefs.
         </p>
         <p>
           The GeoPolHist dataset will be fully described in the paper{" "}
@@ -223,7 +222,7 @@ const Home: React.FC<RouterProps> = (props) => {
           <ul>
             <li>
               <a href="./data/GeoPolHist_status.csv">GeoPolHist_status.csv</a> -
-              list of political status and their definitions;
+              list of political status and their definition;
             </li>
             <li>
               <a href="./data/GeoPolHist_entities.csv">

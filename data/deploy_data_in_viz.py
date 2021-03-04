@@ -9,6 +9,9 @@ copy("GeoPolHist_entities_status_over_time.csv", "../public/data/")
 # copy full data
 print("copying GeoPolHist_entities.csv")
 copy("GeoPolHist_entities.csv", "../public/data/")
+# copy full data
+print("copying GeoPolHist_status.csv")
+copy("GeoPolHist_status.csv", "../public/data/")
 # copy status metadata
 print("copying GPH_status.json")
 with open('GeoPolHist_status.csv', 'r', encoding='utf8') as fcsv, open('../public/data/GPH_status.json', 'w', encoding='utf8') as fjson:

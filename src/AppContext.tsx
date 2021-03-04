@@ -115,7 +115,7 @@ const reducer = (state: GlobalState, action: ActionType<any>) => {
 
 const loadedActionCreator = (data: DSVRowArray<string>) => action('LOADED', data);
 
-const entitiesStatusPromise = csv('./data/GeoPolHist_entities_status_in_time.csv');
+const entitiesStatusPromise = csv('./data/GeoPolHist_entities_status_over_time.csv');
 const statusPromise = fetch('./data/GPH_status.json').then(response => response.json());
 const dataPromise = Promise.all([entitiesStatusPromise, statusPromise])
 const AppContextProvider: React.FC = (props: any) => {
