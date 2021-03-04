@@ -19,8 +19,8 @@
     "slug": "sov_li",
     "priority": "4"
   },
-  "Sovereign (unrecognised)": {
-    "GPH_status": "Sovereign (unrecognised)",
+  "Sovereign (unrecognized)": {
+    "GPH_status": "Sovereign (unrecognized)",
     "slug": "sov_un",
     "priority": "4"
   },

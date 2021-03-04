@@ -5,54 +5,54 @@ Sovereign 1886-1949,Sovereign 1950-2019,39
 Sovereign 1886-1949,Protectorate of 1950-2019,1
 Sovereign 1886-1949,Occupied by 1950-2019,1
 Sovereign 1950-2019,Sovereign 2020-2020,76
-Sovereign 1950-2019,Sovereign (unrecognised) 2020-2020,1
+Sovereign 1950-2019,Sovereign (unrecognized) 2020-2020,1
 Colony of 1816-1885,Colony of 1886-1949,49
 Colony of 1816-1885,Part of 1886-1949,38
 Colony of 1816-1885,Sovereign 1886-1949,5
-Colony of 1816-1885,Sovereign (unrecognised) 1886-1949,3
+Colony of 1816-1885,Sovereign (unrecognized) 1886-1949,3
 Colony of 1816-1885,Possession of 1886-1949,1
-Colony of 1886-1949,Colony of 1950-2019,50
+Colony of 1886-1949,Colony of 1950-2019,49
 Colony of 1886-1949,Dependency of 1950-2019,2
 Colony of 1886-1949,Sovereign 1950-2019,9
-Colony of 1886-1949,Part of 1950-2019,34
+Colony of 1886-1949,Part of 1950-2019,33
 Colony of 1886-1949,Protectorate of 1950-2019,1
 Colony of 1886-1949,Mandated to 1950-2019,2
 Colony of 1950-2019,Part of 2020-2020,8
 Colony of 1950-2019,Colony of 2020-2020,10
 Colony of 1950-2019,Dependency of 2020-2020,7
 Colony of 1950-2019,Sovereign 2020-2020,37
-Colony of 1950-2019,Sovereign (unrecognised) 2020-2020,1
+Colony of 1950-2019,Sovereign (unrecognized) 2020-2020,1
 Colony of 1950-2019,Claimed by 2020-2020,1
 Colony of 1950-2019,Associated state of 2020-2020,2
 Sovereign (limited) 1816-1885,Sovereign (limited) 1886-1949,1
-Sovereign (limited) 1816-1885,Sovereign (unrecognised) 1886-1949,1
+Sovereign (limited) 1816-1885,Sovereign (unrecognized) 1886-1949,1
 Sovereign (limited) 1816-1885,Part of 1886-1949,15
 Sovereign (limited) 1886-1949,Colony of 1950-2019,1
 Part of 1816-1885,Colony of 1886-1949,23
-Part of 1816-1885,Part of 1886-1949,324
+Part of 1816-1885,Part of 1886-1949,327
 Part of 1816-1885,Sovereign 1886-1949,13
 Part of 1816-1885,Occupied by 1886-1949,5
 Part of 1816-1885,Protectorate of 1886-1949,10
 Part of 1816-1885,Leased to 1886-1949,3
-Part of 1816-1885,Sovereign (unrecognised) 1886-1949,6
+Part of 1816-1885,Sovereign (unrecognized) 1886-1949,8
 Part of 1816-1885,Possession of 1886-1949,3
 Part of 1816-1885,Unknown 1886-1949,2
 Part of 1816-1885,Vassal of 1886-1949,13
-Part of 1886-1949,Part of 1950-2019,444
+Part of 1886-1949,Part of 1950-2019,447
 Part of 1886-1949,Sovereign 1950-2019,17
 Part of 1886-1949,Leased to 1950-2019,3
 Part of 1886-1949,Protectorate of 1950-2019,4
 Part of 1886-1949,Occupied by 1950-2019,13
 Part of 1886-1949,Mandated to 1950-2019,4
-Part of 1886-1949,Sovereign (unrecognised) 1950-2019,2
+Part of 1886-1949,Sovereign (unrecognized) 1950-2019,2
 Part of 1886-1949,Colony of 1950-2019,10
 Part of 1886-1949,Claimed by 1950-2019,3
 Part of 1886-1949,Dependency of 1950-2019,3
 Part of 1886-1949,Neutral or demilitarized zone of 1950-2019,3
-Part of 1950-2019,Part of 2020-2020,569
+Part of 1950-2019,Part of 2020-2020,572
 Part of 1950-2019,Sovereign 2020-2020,49
 Part of 1950-2019,Colony of 2020-2020,5
-Part of 1950-2019,Sovereign (unrecognised) 2020-2020,8
+Part of 1950-2019,Sovereign (unrecognized) 2020-2020,8
 Part of 1950-2019,Dependency of 2020-2020,43
 Part of 1950-2019,Leased to 2020-2020,2
 Part of 1950-2019,Neutral or demilitarized zone of 2020-2020,4
@@ -62,14 +62,14 @@ Part of 1950-2019,Occupied by 2020-2020,2
 Dependency of 1950-2019,Dependency of 2020-2020,21
 Dependency of 1950-2019,Sovereign 2020-2020,1
 Dependency of 1950-2019,Colony of 2020-2020,1
-Sovereign (unrecognised) 1816-1885,Sovereign 1886-1949,5
-Sovereign (unrecognised) 1816-1885,Sovereign (unrecognised) 1886-1949,82
-Sovereign (unrecognised) 1816-1885,Part of 1886-1949,47
-Sovereign (unrecognised) 1816-1885,Colony of 1886-1949,5
-Sovereign (unrecognised) 1816-1885,Protectorate of 1886-1949,6
-Sovereign (unrecognised) 1816-1885,Occupied by 1886-1949,5
-Sovereign (unrecognised) 1816-1885,Unknown 1886-1949,1
-Sovereign (unrecognised) 1816-1885,Vassal of 1886-1949,13
+Sovereign (unrecognized) 1816-1885,Sovereign 1886-1949,5
+Sovereign (unrecognized) 1816-1885,Sovereign (unrecognized) 1886-1949,92
+Sovereign (unrecognized) 1816-1885,Part of 1886-1949,50
+Sovereign (unrecognized) 1816-1885,Colony of 1886-1949,5
+Sovereign (unrecognized) 1816-1885,Protectorate of 1886-1949,8
+Sovereign (unrecognized) 1816-1885,Occupied by 1886-1949,5
+Sovereign (unrecognized) 1816-1885,Unknown 1886-1949,2
+Sovereign (unrecognized) 1816-1885,Vassal of 1886-1949,13
 Leased to 1950-2019,Part of 2020-2020,3
 Leased to 1950-2019,Leased to 2020-2020,1
 Occupied by 1816-1885,Colony of 1886-1949,1
@@ -77,34 +77,34 @@ Occupied by 1816-1885,Part of 1886-1949,6
 Occupied by 1816-1885,Possession of 1886-1949,1
 Occupied by 1816-1885,Vassal of 1886-1949,1
 Occupied by 1816-1885,Occupied by 1886-1949,1
-Protectorate of 1816-1885,Sovereign (unrecognised) 1886-1949,1
+Protectorate of 1816-1885,Sovereign (unrecognized) 1886-1949,1
 Protectorate of 1816-1885,Protectorate of 1886-1949,5
 Protectorate of 1816-1885,Part of 1886-1949,7
 Protectorate of 1816-1885,Occupied by 1886-1949,1
 Protectorate of 1816-1885,Colony of 1886-1949,1
-Sovereign (unrecognised) 1886-1949,Sovereign (unrecognised) 1950-2019,6
-Sovereign (unrecognised) 1886-1949,Part of 1950-2019,62
-Sovereign (unrecognised) 1886-1949,Sovereign 1950-2019,6
-Sovereign (unrecognised) 1886-1949,Protectorate of 1950-2019,6
-Sovereign (unrecognised) 1886-1949,Colony of 1950-2019,2
-Sovereign (unrecognised) 1886-1949,Mandated to 1950-2019,1
-Sovereign (unrecognised) 1886-1949,Vassal of 1950-2019,2
-Sovereign (unrecognised) 1950-2019,Sovereign 2020-2020,6
-Sovereign (unrecognised) 1950-2019,Part of 2020-2020,3
-Sovereign (unrecognised) 1950-2019,Sovereign (unrecognised) 2020-2020,1
-Sovereign (unrecognised) 1950-2019,Dependency of 2020-2020,1
+Sovereign (unrecognized) 1886-1949,Sovereign (unrecognized) 1950-2019,6
+Sovereign (unrecognized) 1886-1949,Part of 1950-2019,72
+Sovereign (unrecognized) 1886-1949,Sovereign 1950-2019,6
+Sovereign (unrecognized) 1886-1949,Protectorate of 1950-2019,6
+Sovereign (unrecognized) 1886-1949,Colony of 1950-2019,3
+Sovereign (unrecognized) 1886-1949,Mandated to 1950-2019,1
+Sovereign (unrecognized) 1886-1949,Vassal of 1950-2019,2
+Sovereign (unrecognized) 1950-2019,Sovereign 2020-2020,6
+Sovereign (unrecognized) 1950-2019,Part of 2020-2020,3
+Sovereign (unrecognized) 1950-2019,Sovereign (unrecognized) 2020-2020,1
+Sovereign (unrecognized) 1950-2019,Dependency of 2020-2020,1
 Informal 1816-1885,Sovereign 1886-1949,2
 Informal 1816-1885,Informal 1886-1949,1
 Protectorate of 1950-2019,Part of 2020-2020,4
 Protectorate of 1950-2019,Sovereign 2020-2020,15
-Protectorate of 1950-2019,Sovereign (unrecognised) 2020-2020,1
+Protectorate of 1950-2019,Sovereign (unrecognized) 2020-2020,1
 Protectorate of 1950-2019,Protectorate of 2020-2020,2
 Protectorate of 1950-2019,Dependency of 2020-2020,1
-Occupied by 1886-1949,Sovereign (unrecognised) 1950-2019,2
+Occupied by 1886-1949,Sovereign (unrecognized) 1950-2019,2
 Occupied by 1886-1949,Part of 1950-2019,14
+Occupied by 1886-1949,Sovereign 1950-2019,4
 Occupied by 1886-1949,Colony of 1950-2019,1
 Occupied by 1886-1949,Mandated to 1950-2019,2
-Occupied by 1886-1949,Sovereign 1950-2019,3
 Occupied by 1886-1949,Possession of 1950-2019,1
 Occupied by 1950-2019,Part of 2020-2020,14
 Occupied by 1950-2019,Sovereign 2020-2020,4
@@ -118,57 +118,62 @@ Vassal of 1816-1885,Protectorate of 1886-1949,4
 Vassal of 1816-1885,Occupied by 1886-1949,2
 Vassal of 1816-1885,Unknown 1886-1949,1
 Vassal of 1816-1885,Vassal of 1886-1949,59
-Vassal of 1816-1885,Part of 1886-1949,6
-Vassal of 1816-1885,Sovereign (unrecognised) 1886-1949,1
+Vassal of 1816-1885,Part of 1886-1949,7
+Vassal of 1816-1885,Sovereign (unrecognized) 1886-1949,1
 Vassal of 1816-1885,Colony of 1886-1949,1
-Protectorate of 1886-1949,Part of 1950-2019,18
-Protectorate of 1886-1949,Colony of 1950-2019,5
-Protectorate of 1886-1949,Protectorate of 1950-2019,11
+Informal 1950-2019,Informal 2020-2020,1
+Protectorate of 1886-1949,Part of 1950-2019,19
+Protectorate of 1886-1949,Colony of 1950-2019,6
+Protectorate of 1886-1949,Protectorate of 1950-2019,12
 Protectorate of 1886-1949,Dependency of 1950-2019,1
 Protectorate of 1886-1949,Sovereign 1950-2019,2
 Protectorate of 1886-1949,Occupied by 1950-2019,1
 Mandated to 1886-1949,Mandated to 1950-2019,4
-Discovered 1816-1885,Discovered 1886-1949,50
+Discovered 1816-1885,Discovered 1886-1949,42
 Discovered 1816-1885,Protectorate of 1886-1949,3
-Discovered 1816-1885,Colony of 1886-1949,13
-Discovered 1816-1885,Sovereign (unrecognised) 1886-1949,2
-Discovered 1816-1885,Part of 1886-1949,21
+Discovered 1816-1885,Colony of 1886-1949,11
+Discovered 1816-1885,Possession of 1886-1949,8
+Discovered 1816-1885,Sovereign (unrecognized) 1886-1949,2
+Discovered 1816-1885,Part of 1886-1949,17
 Discovered 1816-1885,Claimed by 1886-1949,16
-Discovered 1816-1885,Possession of 1886-1949,6
 Discovered 1816-1885,Occupied by 1886-1949,1
-Discovered 1886-1949,Colony of 1950-2019,6
+Discovered 1886-1949,Colony of 1950-2019,4
 Discovered 1886-1949,Mandated to 1950-2019,1
 Discovered 1886-1949,Protectorate of 1950-2019,2
-Discovered 1886-1949,Part of 1950-2019,15
+Discovered 1886-1949,Part of 1950-2019,12
 Discovered 1886-1949,Possession of 1950-2019,12
 Discovered 1886-1949,Discovered 1950-2019,1
-Discovered 1886-1949,Dependency of 1950-2019,6
+Discovered 1886-1949,Dependency of 1950-2019,5
 Discovered 1886-1949,Occupied by 1950-2019,5
-Unknown 1816-1885,Part of 1886-1949,37
-Unknown 1816-1885,Unknown 1886-1949,46
+Possession of 1886-1949,Colony of 1950-2019,1
+Possession of 1886-1949,Part of 1950-2019,10
+Possession of 1886-1949,Possession of 1950-2019,22
+Possession of 1886-1949,Dependency of 1950-2019,1
+Possession of 1886-1949,Claimed by 1950-2019,1
+Unknown 1816-1885,Part of 1886-1949,38
+Unknown 1816-1885,Unknown 1886-1949,37
 Unknown 1816-1885,Occupied by 1886-1949,1
 Unknown 1816-1885,Possession of 1886-1949,2
-Unknown 1816-1885,Sovereign (unrecognised) 1886-1949,2
+Unknown 1816-1885,Sovereign (unrecognized) 1886-1949,2
 Unknown 1816-1885,Vassal of 1886-1949,2
 Unknown 1816-1885,Protectorate of 1886-1949,2
 Leased to 1886-1949,Colony of 1950-2019,1
 Leased to 1886-1949,Leased to 1950-2019,3
-Leased to 1886-1949,Protectorate of 1950-2019,1
 Leased to 1886-1949,Part of 1950-2019,1
 Informal 1886-1949,Sovereign 1950-2019,1
 Claimed by 1816-1885,Part of 1886-1949,2
-Claimed by 1816-1885,Claimed by 1886-1949,6
+Claimed by 1816-1885,Claimed by 1886-1949,7
 Claimed by 1816-1885,Possession of 1886-1949,2
-Possession of 1886-1949,Part of 1950-2019,9
-Possession of 1886-1949,Possession of 1950-2019,22
-Possession of 1886-1949,Claimed by 1950-2019,1
-Possession of 1816-1885,Part of 1886-1949,13
-Possession of 1816-1885,Possession of 1886-1949,14
+Possession of 1816-1885,Dissolved into 1886-1949,1
+Possession of 1816-1885,Part of 1886-1949,12
+Possession of 1816-1885,Possession of 1886-1949,15
 Possession of 1816-1885,Claimed by 1886-1949,1
 Possession of 1816-1885,Colony of 1886-1949,1
+Dissolved into 1886-1949,Dissolved into 1950-2019,1
+Dissolved into 1950-2019,Dissolved into 2020-2020,1
+Claimed by 1886-1949,Part of 1950-2019,6
 Claimed by 1886-1949,Dependency of 1950-2019,6
 Claimed by 1886-1949,Claimed by 1950-2019,15
-Claimed by 1886-1949,Part of 1950-2019,5
 Claimed by 1886-1949,Possession of 1950-2019,1
 Claimed by 1886-1949,Neutral or demilitarized zone of 1950-2019,2
 Possession of 1950-2019,Possession of 2020-2020,23
@@ -184,7 +189,7 @@ Neutral or demilitarized zone of 1886-1949,Part of 1950-2019,2
 Neutral or demilitarized zone of 1886-1949,Neutral or demilitarized zone of 1950-2019,2
 Neutral or demilitarized zone of 1950-2019,Neutral or demilitarized zone of 2020-2020,3
 Neutral or demilitarized zone of 1950-2019,Part of 2020-2020,4
-Unknown 1886-1949,Part of 1950-2019,46
+Unknown 1886-1949,Part of 1950-2019,37
 Unknown 1886-1949,Vassal of 1950-2019,1
 Vassal of 1886-1949,Part of 1950-2019,75
 Vassal of 1886-1949,Occupied by 1950-2019,1
