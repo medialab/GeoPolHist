@@ -27,8 +27,8 @@
 11,"Faeroe Is.",1947,2020,"Dependency of",390
 20,"Canada (Province of Canada)",1841,1920,"Colony of",200
 20,"Canada (Province of Canada)",1920,2020,"Sovereign",
-21,"Newfoundland",1816,1949,"Colony of",200
-21,"Newfoundland",1949,2020,"Part of",20
+21,"Newfoundland and Labrador (Newfoundland)",1816,1949,"Colony of",200
+21,"Newfoundland and Labrador (Newfoundland)",1949,2020,"Part of",20
 30,"Bermuda",1816,2020,"Colony of",200
 31,"Bahamas",1816,1973,"Colony of",200
 31,"Bahamas",1973,2020,"Sovereign",
@@ -38,7 +38,7 @@
 40,"Cuba",1902,1906,"Sovereign",
 40,"Cuba",1906,1909,"Occupied by",2
 40,"Cuba",1906,2020,"Sovereign",
-41,"Haiti",1816,1859,"Sovereign (unrecognised)",
+41,"Haiti",1816,1859,"Sovereign (unrecognized)",
 41,"Haiti",1859,1915,"Sovereign",
 41,"Haiti",1915,1934,"Occupied by",2
 41,"Haiti",1934,2020,"Sovereign",
@@ -125,7 +125,7 @@
 89,"United States of Central America",1816,1821,"Part of",1070
 89,"United States of Central America",1816,1821,"Colony of",230
 89,"United States of Central America",1822,1823,"Part of",70
-89,"United States of Central America",1823,1841,"Sovereign (unrecognised)",
+89,"United States of Central America",1823,1841,"Sovereign (unrecognized)",
 90,"Guatemala",1816,1821,"Part of",1070
 90,"Guatemala",1821,1823,"Part of",70
 90,"Guatemala",1823,1839,"Part of",89
@@ -156,7 +156,8 @@
 96,"Panama Canal Zone",1903,1979,"Leased to",2
 96,"Panama Canal Zone",1979,2020,"Part of",95
 100,"Colombia (Gran Colombia)",1816,1819,"Colony of",230
-100,"Colombia (Gran Colombia)",1819,2020,"Sovereign",
+100,"Colombia (Gran Colombia)",1821,1831,"Sovereign (unrecognized)",
+100,"Colombia (Gran Colombia)",1831,2020,"Sovereign",
 101,"Venezuela",1816,1819,"Colony of",230
 101,"Venezuela",1819,1830,"Part of",100
 101,"Venezuela",1830,2020,"Sovereign",
@@ -174,16 +175,16 @@
 130,"Ecuador",1819,1830,"Part of",100
 130,"Ecuador",1830,2020,"Sovereign",
 135,"Peru",1816,1821,"Part of",1135
-135,"Peru",1821,1836,"Sovereign (unrecognised)",
+135,"Peru",1821,1836,"Sovereign (unrecognized)",
 135,"Peru",1836,1839,"Part of",136
 135,"Peru",1880,1883,"Occupied by",155
 135,"Peru",1839,2020,"Sovereign",
-136,"Bolivia-Peru Confederation",1836,1839,"Sovereign (unrecognised)",
+136,"Bolivia-Peru Confederation",1836,1839,"Sovereign (unrecognized)",
 140,"Brazil",1816,1822,"Colony of",235
 140,"Brazil",1822,2020,"Sovereign",
 145,"Bolivia",1816,1816,"Part of",1160
 145,"Bolivia",1816,1825,"Colony of",230
-145,"Bolivia",1825,1836,"Sovereign (unrecognised)",
+145,"Bolivia",1825,1836,"Sovereign (unrecognized)",
 145,"Bolivia",1836,1839,"Part of",136
 145,"Bolivia",1839,2020,"Sovereign",
 150,"Paraguay",1816,2020,"Sovereign",
@@ -205,7 +206,7 @@
 211,"Belgium",1940,1945,"Occupied by",255
 211,"Belgium",1945,2020,"Sovereign",
 212,"Luxemburg",1816,1890,"Part of",210
-212,"Luxemburg",1890,1914,"Sovereign (unrecognised)",
+212,"Luxemburg",1890,1914,"Sovereign (unrecognized)",
 212,"Luxemburg",1914,1918,"Occupied by",255
 212,"Luxemburg",1918,1940,"Sovereign",
 212,"Luxemburg",1940,1944,"Occupied by",255
@@ -217,18 +218,18 @@
 220,"France",1942,1944,"Occupied by",255
 220,"France",1944,2020,"Sovereign",
 221,"Monaco",1816,1861,"Protectorate of",324
-221,"Monaco",1861,1940,"Sovereign (unrecognised)",
+221,"Monaco",1861,1940,"Sovereign (unrecognized)",
 221,"Monaco",1940,1943,"Occupied by",325
 221,"Monaco",1943,1944,"Occupied by",255
-221,"Monaco",1944,1993,"Sovereign (unrecognised)",
+221,"Monaco",1944,1993,"Sovereign (unrecognized)",
 221,"Monaco",1993,2020,"Sovereign",
 223,"Liechtenstein",1816,1867,"Sovereign (limited)",
-223,"Liechtenstein",1867,1990,"Sovereign (unrecognised)",
+223,"Liechtenstein",1867,1990,"Sovereign (unrecognized)",
 223,"Liechtenstein",1990,2020,"Sovereign",
 225,"Switzerland",1816,2020,"Sovereign",
 230,"Spain",1816,2020,"Sovereign",
 231,"Gibraltar",1816,2020,"Colony of",200
-232,"Andorra",1816,1993,"Sovereign (unrecognised)",
+232,"Andorra",1816,1993,"Sovereign (unrecognized)",
 232,"Andorra",1993,2020,"Sovereign",
 235,"Portugal",1816,2020,"Sovereign",
 239,"Prussia",1816,1871,"Sovereign",
@@ -252,14 +253,14 @@
 245,"Bavaria",1945,1949,"Occupied by",2
 245,"Bavaria",1949,1990,"Part of",260
 245,"Bavaria",1990,2020,"Part of",255
-246,"Bremen",1816,1867,"Sovereign (unrecognised)",
+246,"Bremen",1816,1867,"Sovereign (unrecognized)",
 246,"Bremen",1867,1945,"Part of",255
 246,"Bremen",1947,1949,"Occupied by",2
 246,"Bremen",1949,1990,"Part of",260
 246,"Bremen",1990,2020,"Part of",255
-247,"Frankfurt",1816,1867,"Sovereign (unrecognised)",
+247,"Frankfurt",1816,1867,"Sovereign (unrecognized)",
 247,"Frankfurt",1867,1871,"Part of",239
-248,"Hamburg",1816,1867,"Sovereign (unrecognised)",
+248,"Hamburg",1816,1867,"Sovereign (unrecognized)",
 248,"Hamburg",1867,1945,"Part of",255
 248,"Hamburg",1945,1949,"Occupied by",200
 248,"Hamburg",1949,1990,"Part of",260
@@ -302,7 +303,7 @@
 259,"Reuss, Younger Line",1816,1867,"Sovereign (limited)",
 259,"Reuss, Younger Line",1867,1945,"Part of",255
 260,"German Federal Republic",1945,1949,"Occupied by",2
-260,"German Federal Republic",1949,1955,"Sovereign (unrecognised)",
+260,"German Federal Republic",1949,1955,"Sovereign (unrecognized)",
 260,"German Federal Republic",1955,1990,"Sovereign",
 260,"German Federal Republic",1990,1990,"Dissolved into",255
 261,"Saxe Weimar",1816,1867,"Sovereign (limited)",
@@ -314,7 +315,7 @@
 264,"Saxe Coburg",1816,1867,"Sovereign (limited)",
 264,"Saxe Coburg",1867,1920,"Part of",255
 265,"German Democratic Republic",1945,1949,"Occupied by",365
-265,"German Democratic Republic",1949,1954,"Sovereign (unrecognised)",
+265,"German Democratic Republic",1949,1954,"Sovereign (unrecognized)",
 265,"German Democratic Republic",1954,1990,"Sovereign",
 265,"German Democratic Republic",1990,1990,"Dissolved into",255
 266,"Saxe Meiningen",1816,1867,"Sovereign (limited)",
@@ -416,18 +417,18 @@
 327,"Papal States",1861,1870,"Part of",325
 328,"Vatican City",1816,1870,"Part of",327
 328,"Vatican City",1870,1929,"Part of",325
-328,"Vatican City",1929,1964,"Sovereign (unrecognised)",
+328,"Vatican City",1929,1964,"Sovereign (unrecognized)",
 328,"Vatican City",1964,2020,"Sovereign",
 329,"Two Sicilies",1816,1860,"Sovereign",
 329,"Two Sicilies",1860,1861,"Part of",324
 329,"Two Sicilies",1861,1861,"Dissolved into",325
-331,"San Marino",1816,1992,"Sovereign (unrecognised)",
+331,"San Marino",1816,1992,"Sovereign (unrecognized)",
 331,"San Marino",1992,2020,"Sovereign",
 332,"Modena",1816,1842,"Part of",305
 332,"Modena",1842,1859,"Sovereign",
 332,"Modena",1859,1861,"Part of",324
 332,"Modena",1861,1861,"Dissolved into",325
-335,"Parma",1816,1851,"Sovereign (unrecognised)",
+335,"Parma",1816,1851,"Sovereign (unrecognized)",
 335,"Parma",1851,1859,"Sovereign",
 335,"Parma",1859,1861,"Part of",324
 335,"Parma",1861,1861,"Dissolved into",325
@@ -446,10 +447,13 @@
 339,"Albania",1939,1944,"Occupied by",255
 339,"Albania",1944,2020,"Sovereign",
 341,"Montenegro",1816,1878,"Colony of",640
-341,"Montenegro",1878,1915,"Sovereign (unrecognised)",
+341,"Montenegro",1878,1915,"Sovereign (unrecognized)",
 341,"Montenegro",1915,1918,"Occupied by",300
 341,"Montenegro",1918,2006,"Part of",345
 341,"Montenegro",2006,2020,"Sovereign",
+342,"Serbia",1816,1878,"Vassal of",640
+342,"Serbia",1878,1918,"Sovereign",
+342,"Serbia",2006,2020,"Sovereign",
 343,"Macedonia, Former Yugoslav Republic of",1816,1912,"Part of",640
 343,"Macedonia, Former Yugoslav Republic of",1912,1993,"Part of",345
 343,"Macedonia, Former Yugoslav Republic of",1993,2020,"Sovereign",
@@ -458,11 +462,12 @@
 344,"Croatia",1941,1945,"Occupied by",325
 344,"Croatia",1945,1992,"Part of",345
 344,"Croatia",1992,2020,"Sovereign",
-345,"Yugoslavia/Serbia",1816,1878,"Vassal of",640
-345,"Yugoslavia/Serbia",1878,1941,"Sovereign",
-345,"Yugoslavia/Serbia",1914,1918,"Occupied by",300
-345,"Yugoslavia/Serbia",1941,1944,"Occupied by",255
-345,"Yugoslavia/Serbia",1944,2020,"Sovereign",
+345,"Serbia and Montenegro (Yugoslavia)",1918,1941,"Sovereign",
+345,"Serbia and Montenegro (Yugoslavia)",1914,1918,"Occupied by",300
+345,"Serbia and Montenegro (Yugoslavia)",1941,1944,"Occupied by",255
+345,"Serbia and Montenegro (Yugoslavia)",1944,2006,"Sovereign",
+345,"Serbia and Montenegro (Yugoslavia)",2006,2006,"Dissolved into",341
+345,"Serbia and Montenegro (Yugoslavia)",2006,2006,"Dissolved into",342
 346,"Bosnia-Herzegovina",1816,1878,"Part of",640
 346,"Bosnia-Herzegovina",1878,1908,"Occupied by",300
 346,"Bosnia-Herzegovina",1908,1918,"Part of",300
@@ -473,7 +478,7 @@
 347,"Kosovo",1816,1912,"Part of",640
 347,"Kosovo",1912,1999,"Part of",345
 347,"Kosovo",1999,2008,"Mandated to",1
-347,"Kosovo",2008,2020,"Sovereign (unrecognised)",
+347,"Kosovo",2008,2020,"Sovereign (unrecognized)",
 349,"Slovenia",1816,1918,"Part of",305
 349,"Slovenia",1918,1991,"Part of",345
 349,"Slovenia",1992,2020,"Sovereign",
@@ -504,9 +509,9 @@
 360,"Romania",1878,2020,"Sovereign",
 360,"Romania",1916,1918,"Occupied by",255
 360,"Romania",1944,1949,"Occupied by",365
-365,"Russia/USSR",1816,2020,"Sovereign",
-365,"Russia/USSR",1915,1918,"Occupied by",255
-365,"Russia/USSR",1941,1943,"Occupied by",255
+365,"Russia (USSR)",1816,2020,"Sovereign",
+365,"Russia (USSR)",1915,1918,"Occupied by",255
+365,"Russia (USSR)",1941,1943,"Occupied by",255
 366,"Estonia",1816,1918,"Part of",365
 366,"Estonia",1918,1940,"Sovereign",
 366,"Estonia",1939,1940,"Occupied by",365
@@ -526,7 +531,7 @@
 368,"Lithuania",1941,1943,"Occupied by",255
 368,"Lithuania",1991,2020,"Sovereign",
 369,"Ukraine",1816,1918,"Part of",365
-369,"Ukraine",1918,1920,"Sovereign (unrecognised)",
+369,"Ukraine",1918,1920,"Sovereign (unrecognized)",
 369,"Ukraine",1920,1941,"Part of",365
 369,"Ukraine",1941,1943,"Occupied by",255
 369,"Ukraine",1943,1991,"Part of",365
@@ -537,15 +542,15 @@
 370,"Belarus (Byelorussia)",1943,1991,"Part of",365
 370,"Belarus (Byelorussia)",1991,2020,"Sovereign",
 371,"Armenia",1816,1918,"Part of",365
-371,"Armenia",1918,1920,"Sovereign (unrecognised)",
+371,"Armenia",1918,1920,"Sovereign (unrecognized)",
 371,"Armenia",1920,1991,"Part of",365
 371,"Armenia",1991,2020,"Sovereign",
 372,"Georgia",1816,1918,"Part of",365
-372,"Georgia",1918,1920,"Sovereign (unrecognised)",
+372,"Georgia",1918,1920,"Sovereign (unrecognized)",
 372,"Georgia",1920,1991,"Part of",365
 372,"Georgia",1991,2020,"Sovereign",
 373,"Azerbaijan",1816,1918,"Part of",365
-373,"Azerbaijan",1918,1920,"Sovereign (unrecognised)",
+373,"Azerbaijan",1918,1920,"Sovereign (unrecognized)",
 373,"Azerbaijan",1920,1991,"Part of",365
 373,"Azerbaijan",1991,2020,"Sovereign",
 374,"Transcaucasia",1816,1917,"Part of",365
@@ -564,10 +569,11 @@
 390,"Denmark",1940,1945,"Occupied by",255
 390,"Denmark",1945,2020,"Sovereign",
 395,"Iceland",1816,1918,"Colony of",390
-395,"Iceland",1918,1944,"Sovereign (unrecognised)",
+395,"Iceland",1918,1944,"Sovereign (unrecognized)",
 395,"Iceland",1940,1941,"Occupied by",200
 395,"Iceland",1941,1944,"Occupied by",2
 395,"Iceland",1944,2020,"Sovereign",
+399,"European Union (European Economic Community)",1958,2020,"Informal",
 400,"Azores (Western Isles)",1816,1831,"Colony of",235
 400,"Azores (Western Isles)",1831,1976,"Part of",235
 400,"Azores (Western Isles)",1976,2020,"Dependency of",235
@@ -604,7 +610,7 @@
 420,"Gambia",1965,2020,"Sovereign",
 430,"French West Africa",1895,1958,"Colony of",220
 431,"Mali Federation",1959,1960,"Associated state of",220
-432,"Mali (French Sudan) (Upper Senegal and Niger)",1816,1880,"Sovereign (unrecognised)",
+432,"Mali (French Sudan) (Upper Senegal and Niger)",1816,1880,"Sovereign (unrecognized)",
 432,"Mali (French Sudan) (Upper Senegal and Niger)",1880,1895,"Colony of",220
 432,"Mali (French Sudan) (Upper Senegal and Niger)",1895,1958,"Part of",430
 432,"Mali (French Sudan) (Upper Senegal and Niger)",1959,1960,"Part of",431
@@ -644,15 +650,16 @@
 438,"Guinea (French Guinea) (Rivieres du Sud)",1958,2020,"Sovereign",
 439,"Burkina Faso (Upper Volta)",1816,1895,"Part of",4391
 439,"Burkina Faso (Upper Volta)",1870,1895,"Part of",4393
-439,"Burkina Faso (Upper Volta)",1895,1919,"Part of",432
-439,"Burkina Faso (Upper Volta)",1895,1958,"Part of",430
-439,"Burkina Faso (Upper Volta)",1919,1932,"Colony of",220
+439,"Burkina Faso (Upper Volta)",1896,1904,"Protectorate of",220
+439,"Burkina Faso (Upper Volta)",1904,1932,"Part of",432
 439,"Burkina Faso (Upper Volta)",1932,1947,"Part of",432
+439,"Burkina Faso (Upper Volta)",1932,1947,"Part of",436
+439,"Burkina Faso (Upper Volta)",1932,1947,"Part of",437
 439,"Burkina Faso (Upper Volta)",1947,1958,"Colony of",220
 439,"Burkina Faso (Upper Volta)",1958,1960,"Associated state of",220
 439,"Burkina Faso (Upper Volta)",1960,2020,"Sovereign",
 450,"Liberia",1822,1847,"Colony of",2
-450,"Liberia",1847,1920,"Sovereign (unrecognised)",
+450,"Liberia",1847,1920,"Sovereign (unrecognized)",
 450,"Liberia",1920,2020,"Sovereign",
 451,"Sierra Leone",1816,1961,"Colony of",200
 451,"Sierra Leone",1896,1961,"Protectorate of",200
@@ -699,7 +706,7 @@
 482,"Central African Republic (Ubangi Shari)",1910,1958,"Part of",480
 482,"Central African Republic (Ubangi Shari)",1958,1960,"Associated state of",220
 482,"Central African Republic (Ubangi Shari)",1960,2020,"Sovereign",
-483,"Chad",1816,1900,"Sovereign (unrecognised)",
+483,"Chad",1816,1900,"Sovereign (unrecognized)",
 483,"Chad",1900,1910,"Protectorate of",220
 483,"Chad",1910,1958,"Part of",480
 483,"Chad",1958,1960,"Associated state of",220
@@ -709,14 +716,16 @@
 484,"Congo (Brazzaville) (French Congo) (Middle Congo)",1910,1958,"Part of",480
 484,"Congo (Brazzaville) (French Congo) (Middle Congo)",1958,1960,"Associated state of",220
 484,"Congo (Brazzaville) (French Congo) (Middle Congo)",1960,2020,"Sovereign",
-490,"Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo)",1816,1885,"Discovered",
-490,"Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo)",1885,1960,"Colony of",211
-490,"Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo)",1960,2020,"Sovereign",
-500,"Uganda",1816,1894,"Sovereign (unrecognised)",
+490,"Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo) (Congo Free State)",1876,1885,"Discovered",
+490,"Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo) (Congo Free State)",1885,1908,"Possession of",211
+490,"Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo) (Congo Free State)",1908,1960,"Colony of",211
+490,"Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo) (Congo Free State)",1960,2020,"Sovereign",
+500,"Uganda",1816,1894,"Sovereign (unrecognized)",
 500,"Uganda",1894,1962,"Protectorate of",200
 500,"Uganda",1962,2020,"Sovereign",
 501,"Kenya (British East Africa Protectorate)",1816,1887,"Discovered",
-501,"Kenya (British East Africa Protectorate)",1887,1920,"Part of",5011
+501,"Kenya (British East Africa Protectorate)",1887,1895,"Leased to",200
+501,"Kenya (British East Africa Protectorate)",1895,1920,"Protectorate of",200
 501,"Kenya (British East Africa Protectorate)",1920,1963,"Colony of",200
 501,"Kenya (British East Africa Protectorate)",1963,2020,"Sovereign",
 510,"Tanzania (Tanganyika) (German East Africa)",1816,1891,"Discovered",
@@ -725,7 +734,7 @@
 510,"Tanzania (Tanganyika) (German East Africa)",1922,1961,"Mandated to",200
 510,"Tanzania (Tanganyika) (German East Africa)",1961,2020,"Sovereign",
 511,"Zanzibar",1816,1856,"Colony of",698
-511,"Zanzibar",1856,1890,"Sovereign (unrecognised)",
+511,"Zanzibar",1856,1890,"Sovereign (unrecognized)",
 511,"Zanzibar",1890,1963,"Protectorate of",200
 511,"Zanzibar",1963,1964,"Sovereign",
 511,"Zanzibar",1964,2020,"Part of",510
@@ -733,13 +742,13 @@
 515,"Ruanda-Urundi",1922,1962,"Mandated to",211
 515,"Ruanda-Urundi",1962,1962,"Dissolved into",516
 515,"Ruanda-Urundi",1962,1962,"Dissolved into",517
-516,"Burundi",1816,1891,"Sovereign (unrecognised)",
+516,"Burundi",1816,1891,"Sovereign (unrecognized)",
 516,"Burundi",1891,1962,"Part of",515
 516,"Burundi",1962,2020,"Sovereign",
-517,"Rwanda",1816,1891,"Sovereign (unrecognised)",
+517,"Rwanda",1816,1891,"Sovereign (unrecognized)",
 517,"Rwanda",1891,1962,"Part of",515
 517,"Rwanda",1962,2020,"Sovereign",
-520,"Somalia",1816,1884,"Sovereign (unrecognised)",
+520,"Somalia",1816,1884,"Sovereign (unrecognized)",
 520,"Somalia",1884,1960,"Part of",521
 520,"Somalia",1889,1960,"Part of",5200
 520,"Somalia",1960,2020,"Sovereign",
@@ -749,11 +758,11 @@
 521,"Somaliland Republic (British Somaliland)",1940,1941,"Occupied by",325
 521,"Somaliland Republic (British Somaliland)",1941,1960,"Colony of",200
 521,"Somaliland Republic (British Somaliland)",1960,1991,"Part of",520
-521,"Somaliland Republic (British Somaliland)",1991,2020,"Sovereign (unrecognised)",
+521,"Somaliland Republic (British Somaliland)",1991,2020,"Sovereign (unrecognized)",
 522,"Djibouti (Afar and Issas) (French Somaliland)",1816,1884,"Part of",651
 522,"Djibouti (Afar and Issas) (French Somaliland)",1884,1977,"Colony of",220
 522,"Djibouti (Afar and Issas) (French Somaliland)",1977,2020,"Sovereign",
-530,"Ethiopia (Abyssinia)",1816,1898,"Sovereign (unrecognised)",
+530,"Ethiopia (Abyssinia)",1816,1898,"Sovereign (unrecognized)",
 530,"Ethiopia (Abyssinia)",1898,1936,"Sovereign",
 530,"Ethiopia (Abyssinia)",1936,1941,"Part of",5201
 530,"Ethiopia (Abyssinia)",1941,2020,"Sovereign",
@@ -789,21 +798,21 @@
 561,"Cape Colony",1816,1910,"Colony of",200
 561,"Cape Colony",1910,2020,"Part of",560
 562,"Natal",1816,1839,"Discovered",
-562,"Natal",1839,1843,"Sovereign (unrecognised)",
+562,"Natal",1839,1843,"Sovereign (unrecognized)",
 562,"Natal",1843,1844,"Colony of",200
 562,"Natal",1844,1856,"Part of",561
 562,"Natal",1856,1910,"Colony of",200
 562,"Natal",1910,2020,"Part of",560
-563,"Transvaal",1816,1852,"Discovered",
-563,"Transvaal",1852,1877,"Sovereign (unrecognised)",
+563,"Transvaal",1816,1838,"Discovered",
+563,"Transvaal",1838,1877,"Sovereign (unrecognized)",
 563,"Transvaal",1877,1881,"Colony of",200
 563,"Transvaal",1881,1884,"Protectorate of",200
-563,"Transvaal",1884,1902,"Sovereign (unrecognised)",
+563,"Transvaal",1884,1902,"Sovereign (unrecognized)",
 563,"Transvaal",1902,1910,"Colony of",200
 563,"Transvaal",1910,2020,"Part of",560
 564,"Orange Free State (Orange River Colony)",1816,1848,"Discovered",
 564,"Orange Free State (Orange River Colony)",1848,1854,"Colony of",200
-564,"Orange Free State (Orange River Colony)",1854,1902,"Sovereign (unrecognised)",
+564,"Orange Free State (Orange River Colony)",1854,1902,"Sovereign (unrecognized)",
 564,"Orange Free State (Orange River Colony)",1902,1910,"Colony of",200
 564,"Orange Free State (Orange River Colony)",1910,2020,"Part of",560
 565,"Namibia (South West Africa) (German West Africa)",1816,1885,"Discovered",
@@ -812,28 +821,28 @@
 565,"Namibia (South West Africa) (German West Africa)",1922,1966,"Mandated to",560
 565,"Namibia (South West Africa) (German West Africa)",1966,1990,"Colony of",560
 565,"Namibia (South West Africa) (German West Africa)",1990,2020,"Sovereign",
-566,"Transkei",1976,1994,"Sovereign (unrecognised)",
+566,"Transkei",1976,1994,"Sovereign (unrecognized)",
 566,"Transkei",1994,2020,"Part of",560
-567,"Bophuthatswana",1977,1994,"Sovereign (unrecognised)",
+567,"Bophuthatswana",1977,1994,"Sovereign (unrecognized)",
 567,"Bophuthatswana",1994,2020,"Part of",560
-568,"Venda",1979,1994,"Sovereign (unrecognised)",
+568,"Venda",1979,1994,"Sovereign (unrecognized)",
 568,"Venda",1994,2020,"Part of",560
 569,"Ciskei",1910,1981,"Part of",561
-569,"Ciskei",1981,1994,"Sovereign (unrecognised)",
+569,"Ciskei",1981,1994,"Sovereign (unrecognized)",
 569,"Ciskei",1994,2020,"Part of",560
-570,"Lesotho (Basutoland)",1816,1868,"Sovereign (unrecognised)",
+570,"Lesotho (Basutoland)",1816,1868,"Sovereign (unrecognized)",
 570,"Lesotho (Basutoland)",1868,1871,"Protectorate of",200
 570,"Lesotho (Basutoland)",1871,1884,"Part of",561
 570,"Lesotho (Basutoland)",1884,1966,"Colony of",200
 570,"Lesotho (Basutoland)",1966,2020,"Sovereign",
-571,"Botswana (Bechuanaland)",1816,1885,"Sovereign (unrecognised)",
+571,"Botswana (Bechuanaland)",1816,1885,"Sovereign (unrecognized)",
 571,"Botswana (Bechuanaland)",1885,1966,"Protectorate of",200
 571,"Botswana (Bechuanaland)",1966,2020,"Sovereign",
-572,"Swaziland",1816,1894,"Sovereign (unrecognised)",
-572,"Swaziland",1894,1902,"Colony of",563
-572,"Swaziland",1902,1968,"Colony of",200
-572,"Swaziland",1968,2020,"Sovereign",
-580,"Madagascar (Malagasy Republic)",1816,1882,"Sovereign (unrecognised)",
+572,"Eswatini (Swaziland)",1816,1894,"Sovereign (unrecognized)",
+572,"Eswatini (Swaziland)",1894,1902,"Colony of",563
+572,"Eswatini (Swaziland)",1902,1968,"Colony of",200
+572,"Eswatini (Swaziland)",1968,2020,"Sovereign",
+580,"Madagascar (Malagasy Republic)",1816,1882,"Sovereign (unrecognized)",
 580,"Madagascar (Malagasy Republic)",1882,1896,"Protectorate of",220
 580,"Madagascar (Malagasy Republic)",1896,1960,"Colony of",220
 580,"Madagascar (Malagasy Republic)",1960,2020,"Sovereign",
@@ -849,7 +858,7 @@
 591,"Seychelles",1816,1903,"Part of",590
 591,"Seychelles",1903,1976,"Colony of",200
 591,"Seychelles",1976,2020,"Sovereign",
-600,"Morocco",1816,1847,"Sovereign (unrecognised)",
+600,"Morocco",1816,1847,"Sovereign (unrecognized)",
 600,"Morocco",1847,1912,"Sovereign",
 600,"Morocco",1912,1956,"Protectorate of",220
 600,"Morocco",1956,2020,"Sovereign",
@@ -872,7 +881,7 @@
 609,"Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara)",1958,1975,"Colony of",230
 609,"Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara)",1956,1975,"Claimed by",600
 609,"Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara)",1976,1979,"Occupied by",435
-609,"Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara)",1976,2020,"Sovereign (unrecognised)",
+609,"Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara)",1976,2020,"Sovereign (unrecognized)",
 609,"Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara)",1975,2020,"Occupied by",600
 610,"Spanish West Africa",1946,1958,"Colony of",230
 615,"Algeria",1816,1831,"Part of",640
@@ -888,15 +897,15 @@
 620,"Libya (Tripolitania, Cyrenaica, Fezzan)",1942,1951,"Occupied by",200
 620,"Libya (Tripolitania, Cyrenaica, Fezzan)",1942,1951,"Occupied by",220
 620,"Libya (Tripolitania, Cyrenaica, Fezzan)",1951,2020,"Sovereign",
-625,"Sudan (Anglo-Egyptian)",1816,1821,"Part of",6251
-625,"Sudan (Anglo-Egyptian)",1816,1821,"Part of",6252
-625,"Sudan (Anglo-Egyptian)",1816,1821,"Part of",640
-625,"Sudan (Anglo-Egyptian)",1821,1885,"Part of",651
-625,"Sudan (Anglo-Egyptian)",1885,1898,"Part of",6254
-625,"Sudan (Anglo-Egyptian)",1898,1956,"Colony of",200
-625,"Sudan (Anglo-Egyptian)",1956,2020,"Sovereign",
+625,"North Sudan (Sudan) (Anglo-Egyptian)",1816,1821,"Part of",6251
+625,"North Sudan (Sudan) (Anglo-Egyptian)",1816,1821,"Part of",6252
+625,"North Sudan (Sudan) (Anglo-Egyptian)",1816,1821,"Part of",640
+625,"North Sudan (Sudan) (Anglo-Egyptian)",1821,1885,"Part of",651
+625,"North Sudan (Sudan) (Anglo-Egyptian)",1885,1898,"Part of",6254
+625,"North Sudan (Sudan) (Anglo-Egyptian)",1898,1956,"Colony of",200
+625,"North Sudan (Sudan) (Anglo-Egyptian)",1956,2020,"Sovereign",
 626,"South Sudan",2011,2020,"Sovereign",
-630,"Iran (Persia)",1816,1855,"Sovereign (unrecognised)",
+630,"Iran (Persia)",1816,1855,"Sovereign (unrecognized)",
 630,"Iran (Persia)",1855,2020,"Sovereign",
 630,"Iran (Persia)",1911,1919,"Occupied by",200
 630,"Iran (Persia)",1911,1917,"Occupied by",365
@@ -936,27 +945,27 @@
 665,"Palestine",1949,1967,"Occupied by",651
 665,"Palestine",1949,1967,"Part of",663
 665,"Palestine",1967,2020,"Occupied by",666
-665,"Palestine",1988,2012,"Sovereign (unrecognised)",
+665,"Palestine",1988,2012,"Sovereign (unrecognized)",
 665,"Palestine",2012,2020,"Sovereign",
 666,"Israel",1948,2020,"Sovereign",
-670,"Saudi Arabia (Emirate of Nejd)",1816,1818,"Sovereign (unrecognised)",
+670,"Saudi Arabia (Emirate of Nejd)",1816,1818,"Sovereign (unrecognized)",
 670,"Saudi Arabia (Emirate of Nejd)",1818,1824,"Occupied by",651
-670,"Saudi Arabia (Emirate of Nejd)",1824,1838,"Sovereign (unrecognised)",
+670,"Saudi Arabia (Emirate of Nejd)",1824,1838,"Sovereign (unrecognized)",
 670,"Saudi Arabia (Emirate of Nejd)",1838,1843,"Occupied by",651
-670,"Saudi Arabia (Emirate of Nejd)",1843,1891,"Sovereign (unrecognised)",
+670,"Saudi Arabia (Emirate of Nejd)",1843,1891,"Sovereign (unrecognized)",
 670,"Saudi Arabia (Emirate of Nejd)",1891,1902,"Occupied by",674
-670,"Saudi Arabia (Emirate of Nejd)",1902,1927,"Sovereign (unrecognised)",
+670,"Saudi Arabia (Emirate of Nejd)",1902,1927,"Sovereign (unrecognized)",
 670,"Saudi Arabia (Emirate of Nejd)",1927,2020,"Sovereign",
 671,"Hejaz Sultanate",1816,1818,"Unknown",
 671,"Hejaz Sultanate",1818,1841,"Part of",651
 671,"Hejaz Sultanate",1841,1916,"Part of",640
-671,"Hejaz Sultanate",1916,1925,"Sovereign (unrecognised)",
+671,"Hejaz Sultanate",1916,1925,"Sovereign (unrecognized)",
 671,"Hejaz Sultanate",1925,2020,"Part of",670
 672,"Asir",1816,1818,"Vassal of",670
 672,"Asir",1818,1840,"Occupied by",651
-672,"Asir",1840,1871,"Sovereign (unrecognised)",
+672,"Asir",1840,1871,"Sovereign (unrecognized)",
 672,"Asir",1871,1914,"Occupied by",640
-672,"Asir",1914,1926,"Sovereign (unrecognised)",
+672,"Asir",1914,1926,"Sovereign (unrecognized)",
 672,"Asir",1926,1934,"Protectorate of",670
 672,"Asir",1934,2020,"Part of",670
 673,"Al Hasa",1816,1818,"Part of",670
@@ -964,9 +973,9 @@
 673,"Al Hasa",1830,1871,"Part of",670
 673,"Al Hasa",1871,1913,"Occupied by",640
 673,"Al Hasa",1913,2020,"Part of",670
-674,"Jabal Shammar",1836,1921,"Sovereign (unrecognised)",
+674,"Jabal Shammar",1836,1921,"Sovereign (unrecognized)",
 674,"Jabal Shammar",1921,2020,"Part of",670
-678,"Yemen Arab Republic (North Yemen) (Kingdom of Yemen)",1816,1871,"Sovereign (unrecognised)",
+678,"Yemen Arab Republic (North Yemen) (Kingdom of Yemen)",1816,1871,"Sovereign (unrecognized)",
 678,"Yemen Arab Republic (North Yemen) (Kingdom of Yemen)",1871,1918,"Part of",640
 678,"Yemen Arab Republic (North Yemen) (Kingdom of Yemen)",1918,1990,"Sovereign",
 678,"Yemen Arab Republic (North Yemen) (Kingdom of Yemen)",1990,1990,"Dissolved into",679
@@ -981,23 +990,23 @@
 682,"Aden Protectorate",1872,1937,"Protectorate of",200
 682,"Aden Protectorate",1937,1937,"Dissolved into",6811
 682,"Aden Protectorate",1937,1937,"Dissolved into",6812
-690,"Kuwait",1816,1899,"Sovereign (unrecognised)",
+690,"Kuwait",1816,1899,"Sovereign (unrecognized)",
 690,"Kuwait",1899,1961,"Protectorate of",200
 690,"Kuwait",1990,1991,"Occupied by",645
 690,"Kuwait",1961,2020,"Sovereign",
 692,"Bahrain",1816,1820,"Part of",698
 692,"Bahrain",1820,1971,"Protectorate of",200
 692,"Bahrain",1971,2020,"Sovereign",
-694,"Qatar",1816,1871,"Sovereign (unrecognised)",
+694,"Qatar",1816,1871,"Sovereign (unrecognized)",
 694,"Qatar",1871,1916,"Part of",640
 694,"Qatar",1896,1971,"Protectorate of",200
 694,"Qatar",1971,2020,"Sovereign",
-696,"United Arab Emirates (Trucial Oman)",1816,1892,"Sovereign (unrecognised)",
+696,"United Arab Emirates (Trucial Oman)",1816,1892,"Sovereign (unrecognized)",
 696,"United Arab Emirates (Trucial Oman)",1892,1971,"Protectorate of",200
 696,"United Arab Emirates (Trucial Oman)",1971,2020,"Sovereign",
-698,"Oman (Sultanate of Muscat and Oman)",1816,1971,"Sovereign (unrecognised)",
+698,"Oman (Sultanate of Muscat and Oman)",1816,1971,"Sovereign (unrecognized)",
 698,"Oman (Sultanate of Muscat and Oman)",1971,2020,"Sovereign",
-700,"Afghanistan",1816,1879,"Sovereign (unrecognised)",
+700,"Afghanistan",1816,1879,"Sovereign (unrecognized)",
 700,"Afghanistan",1855,1895,"Occupied by",365
 700,"Afghanistan",1879,1919,"Protectorate of",200
 700,"Afghanistan",1979,1989,"Occupied by",365
@@ -1021,20 +1030,20 @@
 705,"Kazakhstan",1816,1848,"Protectorate of",365
 705,"Kazakhstan",1848,1991,"Part of",365
 705,"Kazakhstan",1991,2020,"Sovereign",
-710,"People's Republic of China (China)",1816,1860,"Sovereign (unrecognised)",
+710,"People's Republic of China (China)",1816,1860,"Sovereign (unrecognized)",
 710,"People's Republic of China (China)",1860,2020,"Sovereign",
 710,"People's Republic of China (China)",1937,1945,"Occupied by",740
 711,"Manchukuo",1932,1945,"Occupied by",740
 711,"Manchukuo",1945,2020,"Part of",710
 712,"Mongolia",1816,1911,"Part of",710
-712,"Mongolia",1911,1919,"Sovereign (unrecognised)",
+712,"Mongolia",1911,1919,"Sovereign (unrecognized)",
 712,"Mongolia",1919,1921,"Occupied by",710
 712,"Mongolia",1921,1924,"Occupied by",365
 712,"Mongolia",1921,2020,"Sovereign",
 713,"Republic of China (Taiwan) (Formosa)",1816,1895,"Part of",710
 713,"Republic of China (Taiwan) (Formosa)",1895,1945,"Colony of",740
 713,"Republic of China (Taiwan) (Formosa)",1945,1971,"Sovereign",
-713,"Republic of China (Taiwan) (Formosa)",1971,2020,"Sovereign (unrecognised)",
+713,"Republic of China (Taiwan) (Formosa)",1971,2020,"Sovereign (unrecognized)",
 720,"Hong Kong",1816,1839,"Part of",710
 720,"Hong Kong",1839,1841,"Occupied by",200
 720,"Hong Kong",1841,1942,"Colony of",200
@@ -1056,9 +1065,9 @@
 732,"South Korea (Republic of South Korea)",1945,1948,"Occupied by",2
 732,"South Korea (Republic of South Korea)",1948,2020,"Sovereign",
 735,"Far Eastern Republic",1816,1920,"Part of",365
-735,"Far Eastern Republic",1920,1922,"Sovereign (unrecognised)",
+735,"Far Eastern Republic",1920,1922,"Sovereign (unrecognized)",
 735,"Far Eastern Republic",1922,2020,"Part of",365
-740,"Japan",1816,1860,"Sovereign (unrecognised)",
+740,"Japan",1816,1860,"Sovereign (unrecognized)",
 740,"Japan",1860,1945,"Sovereign",
 740,"Japan",1945,1952,"Occupied by",2
 740,"Japan",1952,2020,"Sovereign",
@@ -1087,7 +1096,7 @@
 770,"Pakistan",1947,2020,"Sovereign",
 771,"Bangladesh",1947,1971,"Part of",770
 771,"Bangladesh",1971,2020,"Sovereign",
-775,"Myanmar (Burma)",1816,1886,"Sovereign (unrecognised)",
+775,"Myanmar (Burma)",1816,1886,"Sovereign (unrecognized)",
 775,"Myanmar (Burma)",1886,1937,"Part of",750
 775,"Myanmar (Burma)",1937,1942,"Colony of",200
 775,"Myanmar (Burma)",1942,1945,"Occupied by",740
@@ -1101,7 +1110,7 @@
 781,"Maldive Islands",1965,2020,"Sovereign",
 790,"Nepal",1816,1923,"Protectorate of",200
 790,"Nepal",1923,2020,"Sovereign",
-800,"Thailand (Siam)",1816,1887,"Sovereign (unrecognised)",
+800,"Thailand (Siam)",1816,1887,"Sovereign (unrecognized)",
 800,"Thailand (Siam)",1887,2020,"Sovereign",
 800,"Thailand (Siam)",1941,1945,"Occupied by",740
 810,"French Indochina",1887,1941,"Colony of",220
@@ -1123,7 +1132,7 @@
 812,"Laos",1893,1954,"Part of",810
 812,"Laos",1975,1989,"Occupied by",816
 812,"Laos",1954,2020,"Sovereign",
-815,"Vietnam",1816,1887,"Sovereign (unrecognised)",
+815,"Vietnam",1816,1887,"Sovereign (unrecognized)",
 815,"Vietnam",1887,1949,"Part of",810
 815,"Vietnam",1945,1946,"Occupied by",710
 815,"Vietnam",1945,1945,"Dissolved into",816
@@ -1151,7 +1160,7 @@
 823,"Sabah (North Borneo)",1963,2020,"Part of",820
 823,"Sabah (North Borneo)",1963,2020,"Claimed by",840
 824,"Sarawak",1816,1841,"Part of",835
-824,"Sarawak",1841,1888,"Sovereign (unrecognised)",
+824,"Sarawak",1841,1888,"Sovereign (unrecognized)",
 824,"Sarawak",1888,1941,"Protectorate of",200
 824,"Sarawak",1941,1945,"Occupied by",740
 824,"Sarawak",1945,1963,"Colony of",200
@@ -1168,7 +1177,7 @@
 830,"Singapore",1946,1963,"Colony of",200
 830,"Singapore",1963,1965,"Part of",820
 830,"Singapore",1965,2020,"Sovereign",
-835,"Brunei",1816,1888,"Sovereign (unrecognised)",
+835,"Brunei",1816,1888,"Sovereign (unrecognized)",
 835,"Brunei",1888,1941,"Protectorate of",200
 835,"Brunei",1941,1945,"Occupied by",740
 835,"Brunei",1945,1983,"Protectorate of",200
@@ -1237,7 +1246,7 @@
 925,"Cook Is.",1888,1901,"Protectorate of",200
 925,"Cook Is.",1901,1965,"Colony of",920
 925,"Cook Is.",1965,2020,"Associated state of",920
-930,"New Caledonia and Dependencies",1816,1853,"Sovereign (unrecognised)",
+930,"New Caledonia and Dependencies",1816,1853,"Sovereign (unrecognized)",
 930,"New Caledonia and Dependencies",1853,1946,"Colony of",220
 930,"New Caledonia and Dependencies",1946,1986,"Dependency of",220
 930,"New Caledonia and Dependencies",1986,2020,"Colony of",220
@@ -1261,23 +1270,23 @@
 947,"Tuvalu",1975,2000,"Colony of",200
 947,"Tuvalu",2000,2020,"Sovereign",
 950,"Fiji",1816,1871,"Discovered",
-950,"Fiji",1871,1874,"Sovereign (unrecognised)",
+950,"Fiji",1871,1874,"Sovereign (unrecognized)",
 950,"Fiji",1874,1970,"Colony of",200
 950,"Fiji",1970,2020,"Sovereign",
-955,"Tonga",1845,1900,"Sovereign (unrecognised)",
-955,"Tonga",1900,1970,"Protectorate of",200
-955,"Tonga",1970,1999,"Sovereign (unrecognised)",
-955,"Tonga",1999,2020,"Sovereign",
-960,"French Polynesia",1816,1842,"Discovered",
+955,"Tonga (Ha'apai)",1820,1900,"Sovereign (unrecognized)",
+955,"Tonga (Ha'apai)",1900,1970,"Protectorate of",200
+955,"Tonga (Ha'apai)",1970,1999,"Sovereign (unrecognized)",
+955,"Tonga (Ha'apai)",1999,2020,"Sovereign",
+960,"French Polynesia",1816,1842,"Sovereign (unrecognized)",
 960,"French Polynesia",1842,1903,"Protectorate of",220
 960,"French Polynesia",1903,2020,"Colony of",220
-970,"Nauru",1816,1888,"Sovereign (unrecognised)",
+970,"Nauru",1816,1888,"Sovereign (unrecognized)",
 970,"Nauru",1888,1914,"Colony of",255
 970,"Nauru",1914,1919,"Occupied by",900
 970,"Nauru",1919,1942,"Mandated to",900
 970,"Nauru",1942,1945,"Occupied by",740
 970,"Nauru",1945,1968,"Mandated to",900
-970,"Nauru",1968,1999,"Sovereign (unrecognised)",
+970,"Nauru",1968,1999,"Sovereign (unrecognized)",
 970,"Nauru",1999,2020,"Sovereign",
 980,"U. S. Pacific Trust Territories",1947,1994,"Mandated to",2
 983,"Marshall Is.",1816,1874,"Part of",1070
@@ -1288,7 +1297,7 @@
 983,"Marshall Is.",1920,1945,"Mandated to",740
 983,"Marshall Is.",1945,1947,"Occupied by",2
 983,"Marshall Is.",1947,1979,"Part of",980
-983,"Marshall Is.",1979,1991,"Sovereign (unrecognised)",
+983,"Marshall Is.",1979,1991,"Sovereign (unrecognized)",
 983,"Marshall Is.",1991,2020,"Sovereign",
 984,"Northern Marianas Is.",1816,1898,"Part of",9820
 984,"Northern Marianas Is.",1898,1919,"Part of",912
@@ -1311,7 +1320,7 @@
 990,"Samoa (Western Samoa) (German Samoa)",1900,1914,"Colony of",255
 990,"Samoa (Western Samoa) (German Samoa)",1914,1920,"Occupied by",920
 990,"Samoa (Western Samoa) (German Samoa)",1920,1962,"Mandated to",920
-990,"Samoa (Western Samoa) (German Samoa)",1962,1976,"Sovereign (unrecognised)",
+990,"Samoa (Western Samoa) (German Samoa)",1962,1976,"Sovereign (unrecognized)",
 990,"Samoa (Western Samoa) (German Samoa)",1976,2020,"Sovereign",
 991,"American Samoa",1816,1900,"Part of",9900
 991,"American Samoa",1900,2020,"Colony of",2
@@ -1361,28 +1370,27 @@
 1014,"California (Great Bear Republic)",1816,1846,"Part of",70
 1014,"California (Great Bear Republic)",1846,2020,"Part of",2
 1015,"Cherokee",1816,2020,"Part of",2
-1016,"Oregon Country",1816,1821,"Part of",1070
-1016,"Oregon Country",1816,1825,"Claimed by",365
-1016,"Oregon Country",1816,1819,"Claimed by",230
-1016,"Oregon Country",1816,1846,"Claimed by",200
-1016,"Oregon Country",1818,1846,"Occupied by",200
-1016,"Oregon Country",1846,1849,"Possession of",200
-1016,"Oregon Country",1846,2020,"Part of",2
-1016,"Oregon Country",1849,1866,"Part of",1028
-1016,"Oregon Country",1858,1871,"Part of",1027
-1016,"Oregon Country",1871,2020,"Part of",20
+1016,"Oregon (Oregon Country)",1816,1821,"Part of",1070
+1016,"Oregon (Oregon Country)",1816,1825,"Claimed by",365
+1016,"Oregon (Oregon Country)",1816,1819,"Claimed by",230
+1016,"Oregon (Oregon Country)",1818,1848,"Claimed by",2
+1016,"Oregon (Oregon Country)",1818,1846,"Occupied by",200
+1016,"Oregon (Oregon Country)",1846,1849,"Possession of",200
+1016,"Oregon (Oregon Country)",1848,2020,"Part of",2
+1016,"Oregon (Oregon Country)",1849,1849,"Dissolved into",1027
 1017,"Eastern Greenland",1931,1933,"Possession of",385
 1017,"Eastern Greenland",1933,2020,"Part of",10
 1018,"U.S. Leased Bases in Newfoundland",1940,1994,"Leased to",2
 1018,"U.S. Leased Bases in Newfoundland",1994,1994,"Dissolved into",21
-1019,"Rupert's Land",1816,1869,"Possession of",200
-1019,"Rupert's Land",1869,2020,"Part of",20
+1019,"Rupert's Land",1816,1870,"Possession of",200
+1019,"Rupert's Land",1870,2020,"Dissolved into",1035
+1019,"Rupert's Land",1870,2020,"Dissolved into",1036
+1019,"Rupert's Land",1870,2020,"Dissolved into",1037
 1020,"San Juan Island",1816,1860,"Claimed by",2
 1020,"San Juan Island",1860,1872,"Occupied by",2
 1020,"San Juan Island",1872,2020,"Part of",2
 1021,"Cape Breton I.",1816,1820,"Colony of",200
-1021,"Cape Breton I.",1820,1867,"Part of",1022
-1021,"Cape Breton I.",1867,2020,"Part of",20
+1021,"Cape Breton I.",1820,2020,"Part of",1022
 1022,"Nova Scotia",1816,1867,"Colony of",200
 1022,"Nova Scotia",1867,2020,"Part of",20
 1023,"New Brunswick",1816,1867,"Colony of",200
@@ -1396,6 +1404,7 @@
 1027,"British Columbia",1816,1818,"Discovered",
 1027,"British Columbia",1818,1846,"Occupied by",2
 1027,"British Columbia",1818,1846,"Occupied by",200
+1027,"British Columbia",1846,1858,,
 1027,"British Columbia",1858,1871,"Colony of",200
 1027,"British Columbia",1871,2020,"Part of",20
 1028,"Vancouver",1816,1849,"Discovered",
@@ -1415,9 +1424,23 @@
 1032,"Turks and Caicos Is.",1973,2020,"Colony of",200
 1033,"Cayman Is.",1816,1962,"Part of",51
 1033,"Cayman Is.",1962,2020,"Colony of",200
+1034,"North-Western Territory",1816,1870,"Possession of",200
+1034,"North-Western Territory",1816,1870,"Dissolved into",1036
+1034,"North-Western Territory",1816,1870,"Dissolved into",1037
+1035,"Manitoba",1816,1870,"Part of",1019
+1035,"Manitoba",1870,2020,"Part of",20
+1036,"Alberta",1816,1870,"Part of",1019
+1036,"Alberta",1816,1870,"Part of",1034
+1036,"Alberta",1870,2020,"Part of",20
+1037,"Saskatchewan",1816,1870,"Part of",1019
+1037,"Saskatchewan",1816,1870,"Part of",1034
+1037,"Saskatchewan",1870,2020,"Part of",20
+1038,"Labrador",1816,1927,"Part of",21
+1038,"Labrador",1816,1927,"Claimed by",20
+1038,"Labrador",1927,2020,"Part of",21
 1040,"Guantanamo",1816,1903,"Part of",40
 1040,"Guantanamo",1903,2020,"Leased to",2
-1041,"North Haiti",1816,1820,"Sovereign (unrecognised)",
+1041,"North Haiti",1816,1820,"Sovereign (unrecognized)",
 1041,"North Haiti",1820,2020,"Part of",41
 1044,"Navassa I.",1816,1857,"Discovered",
 1044,"Navassa I.",1857,1903,"Claimed by",2
@@ -1469,7 +1492,7 @@
 1070,"Viceroyalty of New Spain",1816,1821,"Colony of",230
 1071,"Yucatan",1816,1823,"Part of",70
 1071,"Yucatan",1823,1841,"Part of",70
-1071,"Yucatan",1841,1848,"Sovereign (unrecognised)",
+1071,"Yucatan",1841,1848,"Sovereign (unrecognized)",
 1071,"Yucatan",1848,2020,"Part of",70
 1072,"Revillagigedo Is",1816,2020,"Possession of",70
 1073,"Sint Maarten",1816,1828,"Colony of",210
@@ -1559,7 +1582,8 @@
 1135,"Viceroyalty of Peru",1816,1821,"Colony of",230
 1135,"Viceroyalty of Peru",1821,1824,"Part of",135
 1150,"Free Surinam",1816,2020,"Part of",115
-1151,"Easter I.",1816,1888,"Discovered",
+1151,"Easter I.",1816,1878,"Discovered",
+1151,"Easter I.",1878,1888,"Protectorate of",220
 1151,"Easter I.",1888,1965,"Colony of",155
 1151,"Easter I.",1965,2020,"Part of",155
 1152,"Juan Fernandez I.",1816,1888,"Discovered",
@@ -1572,13 +1596,13 @@
 1154,"Sala y Gomez",1888,1965,"Possession of",155
 1154,"Sala y Gomez",1965,2020,"Part of",155
 1156,"Araucania",1816,1860,"Unknown",
-1156,"Araucania",1860,1862,"Sovereign (unrecognised)",
+1156,"Araucania",1860,1862,"Sovereign (unrecognized)",
 1156,"Araucania",1862,1884,"Unknown",
 1156,"Araucania",1884,2020,"Part of",155
 1160,"Viceroyalty of La Plata",1816,1816,"Colony of",230
 1160,"Viceroyalty of La Plata",1816,1816,"Dissolved into",145
 1161,"Buenos Aires",1816,1852,"Part of",160
-1161,"Buenos Aires",1852,1861,"Sovereign (unrecognised)",
+1161,"Buenos Aires",1852,1861,"Sovereign (unrecognized)",
 1161,"Buenos Aires",1861,2020,"Part of",160
 1162,"Cordoba",1816,2020,"Part of",160
 1163,"Falkland Is.",1816,1833,"Possession of",160
@@ -1732,7 +1756,7 @@
 3253,"Milan",1816,1848,"Part of",305
 3253,"Milan",1848,1860,"Part of",305
 3261,"Republic of St. Mark",1816,1848,"Part of",305
-3261,"Republic of St. Mark",1848,1849,"Sovereign (unrecognised)",
+3261,"Republic of St. Mark",1848,1849,"Sovereign (unrecognized)",
 3261,"Republic of St. Mark",1849,1866,"Part of",305
 3261,"Republic of St. Mark",1866,1866,"Dissolved into",325
 3271,"Ancona",1816,1832,"Part of",327
@@ -1752,7 +1776,7 @@
 3326,"Venezia-Giulia",1945,1947,"Occupied by",2
 3326,"Venezia-Giulia",1947,2020,"Part of",325
 3327,"S.M.O.M. (Sovereign & Military Order of Jerusalem, Rhodes and Malta)",1816,1822,"Part of",327
-3327,"S.M.O.M. (Sovereign & Military Order of Jerusalem, Rhodes and Malta)",1822,2020,"Sovereign (unrecognised)",
+3327,"S.M.O.M. (Sovereign & Military Order of Jerusalem, Rhodes and Malta)",1822,2020,"Sovereign (unrecognized)",
 3340,"Scutari",1816,1912,"Part of",640
 3340,"Scutari",1912,1914,"Occupied by",339
 3340,"Scutari",1914,2020,"Part of",339
@@ -1763,7 +1787,7 @@
 3343,"Fiume",1816,1867,"Part of",305
 3343,"Fiume",1867,1918,"Part of",300
 3343,"Fiume",1918,1919,"Occupied by",325
-3343,"Fiume",1920,1924,"Sovereign (unrecognised)",
+3343,"Fiume",1920,1924,"Sovereign (unrecognized)",
 3343,"Fiume",1924,1947,"Part of",325
 3343,"Fiume",1947,1991,"Part of",345
 3343,"Fiume",1992,2020,"Part of",344
@@ -1788,7 +1812,7 @@
 3351,"Corfu",1944,2020,"Part of",350
 3352,"Turkish Republic of Northern Cyprus",1960,1974,"Part of",352
 3352,"Turkish Republic of Northern Cyprus",1974,1983,"Occupied by",640
-3352,"Turkish Republic of Northern Cyprus",1983,2020,"Sovereign (unrecognised)",
+3352,"Turkish Republic of Northern Cyprus",1983,2020,"Sovereign (unrecognized)",
 3353,"Dodecanese Is. (Aegean Is.)",1816,1912,"Part of",640
 3353,"Dodecanese Is. (Aegean Is.)",1912,1923,"Occupied by",325
 3353,"Dodecanese Is. (Aegean Is.)",1923,1943,"Colony of",325
@@ -1833,7 +1857,7 @@
 3375,"Daghestan",1921,2020,"Part of",365
 3376,"Nakhichevan",1816,1990,"Part of",365
 3376,"Nakhichevan",1991,2020,"Dependency of",373
-3377,"Mountaineers' Republic of the North Caucasus",1917,1921,"Sovereign (unrecognised)",
+3377,"Mountaineers' Republic of the North Caucasus",1917,1921,"Sovereign (unrecognized)",
 3377,"Mountaineers' Republic of the North Caucasus",1921,1921,"Part of",365
 3378,"Porkkala",1816,1917,"Part of",365
 3378,"Porkkala",1917,1944,"Part of",375
@@ -1883,7 +1907,7 @@
 3503,"New Greece",1912,1913,"Occupied by",350
 3503,"New Greece",1913,2020,"Part of",350
 3504,"Samos",1816,1829,"Part of",640
-3504,"Samos",1829,1832,"Sovereign (unrecognised)",
+3504,"Samos",1829,1832,"Sovereign (unrecognized)",
 3504,"Samos",1832,1912,"Part of",640
 3504,"Samos",1912,1913,"Occupied by",350
 3504,"Samos",1913,2020,"Part of",350
@@ -1896,7 +1920,7 @@
 3551,"Eastern Rumelia",1816,1885,"Part of",640
 3551,"Eastern Rumelia",1885,2020,"Part of",355
 3591,"Transdniestria (Pridnestrovian Moldavian Republic)",1924,1992,"Part of",359
-3591,"Transdniestria (Pridnestrovian Moldavian Republic)",1992,2020,"Sovereign (unrecognised)",
+3591,"Transdniestria (Pridnestrovian Moldavian Republic)",1992,2020,"Sovereign (unrecognized)",
 3592,"Gagauzia",1816,1994,"Part of",359
 3592,"Gagauzia",1994,2020,"Dependency of",359
 3601,"Danube Islands Neutral Zone",1816,1826,"Neutral or demilitarized zone of",365
@@ -1939,30 +1963,30 @@
 3696,"Novorossiya",2014,2020,"Dependency of",369
 3697,"Donetsk",1816,1918,"Part of",365
 3697,"Donetsk",1918,2014,"Part of",369
-3697,"Donetsk",2014,2020,"Sovereign (unrecognised)",
+3697,"Donetsk",2014,2020,"Sovereign (unrecognized)",
 3698,"Luhansk",1816,1918,"Part of",365
 3698,"Luhansk",1918,2014,"Part of",369
-3698,"Luhansk",2014,2020,"Sovereign (unrecognised)",
+3698,"Luhansk",2014,2020,"Sovereign (unrecognized)",
 3712,"Artsakh (Republic of Karabakh)",1816,1918,"Part of",365
 3712,"Artsakh (Republic of Karabakh)",1918,1920,"Claimed by",371
 3712,"Artsakh (Republic of Karabakh)",1918,1920,"Claimed by",373
 3712,"Artsakh (Republic of Karabakh)",1920,1991,"Part of",365
 3712,"Artsakh (Republic of Karabakh)",1991,1992,"Part of",373
-3712,"Artsakh (Republic of Karabakh)",1992,2020,"Sovereign (unrecognised)",
+3712,"Artsakh (Republic of Karabakh)",1992,2020,"Sovereign (unrecognized)",
 3721,"Abkhazia",1816,1864,"Part of",640
 3721,"Abkhazia",1864,1918,"Part of",365
 3721,"Abkhazia",1918,1992,"Part of",372
-3721,"Abkhazia",1992,2020,"Sovereign (unrecognised)",
+3721,"Abkhazia",1992,2020,"Sovereign (unrecognized)",
 3722,"South Ossetia",1816,1918,"Part of",365
 3722,"South Ossetia",1918,1992,"Part of",372
-3722,"South Ossetia",1992,2020,"Sovereign (unrecognised)",
+3722,"South Ossetia",1992,2020,"Sovereign (unrecognized)",
 3723,"Adjara",1816,1878,"Part of",640
 3723,"Adjara",1878,1918,"Part of",365
 3723,"Adjara",1918,1920,"Occupied by",200
 3723,"Adjara",1921,1991,"Part of",372
 3723,"Adjara",1991,2020,"Dependency of",372
 3761,"Chechen Republic",1816,1828,"Part of",365
-3761,"Chechen Republic",1828,1859,"Sovereign (unrecognised)",
+3761,"Chechen Republic",1828,1859,"Sovereign (unrecognized)",
 3761,"Chechen Republic",1859,1917,"Part of",365
 3761,"Chechen Republic",1917,1921,"Part of",3377
 3761,"Chechen Republic",1921,1934,"Part of",365
@@ -2000,7 +2024,7 @@
 4111,"Annobon I.",1855,2020,"Part of",411
 4112,"Corisco I.",1816,1858,"Possession of",230
 4112,"Corisco I.",1858,2020,"Part of",411
-4321,"Tokolor Empire",1848,1893,"Sovereign (unrecognised)",
+4321,"Tokolor Empire",1848,1893,"Sovereign (unrecognized)",
 4321,"Tokolor Empire",1893,1895,"Occupied by",220
 4321,"Tokolor Empire",1895,1895,"Dissolved into",432
 4322,"Timbuctu",1816,1827,"Vassal of",600
@@ -2014,58 +2038,58 @@
 4324,"Dinguiray",1816,1848,"Unknown",
 4324,"Dinguiray",1848,1893,"Part of",4321
 4324,"Dinguiray",1893,2020,"Part of",438
-4325,"Kaarta",1816,1854,"Sovereign (unrecognised)",
+4325,"Kaarta",1816,1854,"Sovereign (unrecognized)",
 4325,"Kaarta",1854,1890,"Part of",4321
 4325,"Kaarta",1890,1904,"Occupied by",220
 4325,"Kaarta",1904,2020,"Part of",432
 4326,"Macina",1816,1818,"Part of",4327
-4326,"Macina",1818,1862,"Sovereign (unrecognised)",
+4326,"Macina",1818,1862,"Sovereign (unrecognized)",
 4326,"Macina",1862,1893,"Part of",4321
 4326,"Macina",1893,1895,"Occupied by",220
 4326,"Macina",1895,2020,"Part of",432
-4327,"Segu",1816,1862,"Sovereign (unrecognised)",
+4327,"Segu",1816,1862,"Sovereign (unrecognized)",
 4327,"Segu",1862,1890,"Part of",4321
 4327,"Segu",1890,1895,"Occupied by",220
 4327,"Segu",1895,2020,"Part of",432
-4328,"Sikasso",1816,1898,"Sovereign (unrecognised)",
+4328,"Sikasso",1816,1898,"Sovereign (unrecognized)",
 4328,"Sikasso",1898,2020,"Part of",432
-4331,"Futa Toro",1816,1861,"Sovereign (unrecognised)",
+4331,"Futa Toro",1816,1861,"Sovereign (unrecognized)",
 4331,"Futa Toro",1857,1895,"Occupied by",220
 4331,"Futa Toro",1895,2020,"Part of",433
-4332,"Futa Bondu",1816,1845,"Sovereign (unrecognised)",
+4332,"Futa Bondu",1816,1845,"Sovereign (unrecognized)",
 4332,"Futa Bondu",1845,1895,"Occupied by",220
 4332,"Futa Bondu",1895,2020,"Part of",433
-4333,"Cayor",1816,1865,"Sovereign (unrecognised)",
+4333,"Cayor",1816,1865,"Sovereign (unrecognized)",
 4333,"Cayor",1865,1886,"Occupied by",220
 4333,"Cayor",1886,1895,"Protectorate of",220
 4333,"Cayor",1895,2020,"Part of",433
-4334,"Rip",1816,1867,"Sovereign (unrecognised)",
+4334,"Rip",1816,1867,"Sovereign (unrecognized)",
 4334,"Rip",1867,1887,"Unknown",
 4334,"Rip",1887,1895,"Occupied by",220
 4334,"Rip",1895,2020,"Part of",433
-4335,"Saloum",1816,1887,"Sovereign (unrecognised)",
+4335,"Saloum",1816,1887,"Sovereign (unrecognized)",
 4335,"Saloum",1887,1895,"Protectorate of",220
 4335,"Saloum",1895,1958,"Part of",430
 4335,"Saloum",1958,1969,"Unknown",
 4335,"Saloum",1969,2020,"Part of",433
-4336,"Sine",1816,1867,"Sovereign (unrecognised)",
+4336,"Sine",1816,1867,"Sovereign (unrecognized)",
 4336,"Sine",1867,1895,"Occupied by",220
 4336,"Sine",1895,1958,"Part of",430
 4336,"Sine",1958,1969,"Unknown",
 4336,"Sine",1969,2020,"Part of",433
-4337,"Walo",1816,1855,"Sovereign (unrecognised)",
+4337,"Walo",1816,1855,"Sovereign (unrecognized)",
 4337,"Walo",1855,1895,"Occupied by",220
 4337,"Walo",1895,1958,"Part of",430
 4338,"Goree",1816,1854,"Part of",433
 4338,"Goree",1854,1859,"Possession of",220
 4338,"Goree",1859,2020,"Part of",433
-4341,"Old Dahomey",1816,1894,"Sovereign (unrecognised)",
+4341,"Old Dahomey",1816,1894,"Sovereign (unrecognized)",
 4341,"Old Dahomey",1894,1904,"Protectorate of",220
 4341,"Old Dahomey",1904,2020,"Part of",434
 4342,"Gun",1816,1871,"Unknown",
 4342,"Gun",1871,1894,"Occupied by",220
 4342,"Gun",1894,2020,"Part of",434
-4343,"Ketu",1816,1886,"Sovereign (unrecognised)",
+4343,"Ketu",1816,1886,"Sovereign (unrecognized)",
 4343,"Ketu",1886,2020,"Part of",434
 4344,"Grand Popo",1816,1857,"Unknown",
 4344,"Grand Popo",1857,1894,"Possession of",220
@@ -2079,7 +2103,7 @@
 4347,"Cotonou",1816,1851,"Discovered",
 4347,"Cotonou",1851,1894,"Possession of",220
 4347,"Cotonou",1894,2020,"Part of",434
-4348,"Porto Novo",1816,1863,"Sovereign (unrecognised)",
+4348,"Porto Novo",1816,1863,"Sovereign (unrecognized)",
 4348,"Porto Novo",1863,1883,"Protectorate of",220
 4348,"Porto Novo",1883,1894,"Part of",4341
 4348,"Porto Novo",1894,2020,"Part of",434
@@ -2087,14 +2111,14 @@
 4349,"Ajuda",1961,2020,"Part of",434
 4351,"Adrar",1816,1909,"Unknown",
 4351,"Adrar",1909,2020,"Part of",435
-4352,"Brakna",1816,1904,"Unknown",
+4352,"Brakna",1816,1904,"Sovereign (unrecognized)",
 4352,"Brakna",1904,2020,"Part of",435
 4353,"Tagant",1816,1905,"Unknown",
 4353,"Tagant",1905,2020,"Part of",435
-4354,"Trarza",1816,1902,"Sovereign (unrecognised)",
+4354,"Trarza",1816,1902,"Sovereign (unrecognized)",
 4354,"Trarza",1902,1904,"Protectorate of",220
 4354,"Trarza",1904,2020,"Part of",435
-4361,"Aïr",1816,1893,"Sovereign (unrecognised)",
+4361,"Aïr",1816,1893,"Sovereign (unrecognized)",
 4361,"Aïr",1893,1904,"Occupied by",220
 4361,"Aïr",1904,2020,"Part of",436
 4362,"Zinder",1816,1893,"Vassal of",4763
@@ -2109,26 +2133,26 @@
 4373,"Assini",1816,1843,"Discovered",
 4373,"Assini",1843,1871,"Possession of",220
 4373,"Assini",1871,2020,"Part of",437
-4381,"Futa Djallon",1816,1896,"Sovereign (unrecognised)",
+4381,"Futa Djallon",1816,1896,"Sovereign (unrecognized)",
 4381,"Futa Djallon",1896,1912,"Part of",430
-4382,"Kankan",1816,1880,"Sovereign (unrecognised)",
+4382,"Kankan",1816,1880,"Sovereign (unrecognized)",
 4382,"Kankan",1880,1893,"Occupied by",220
 4382,"Kankan",1893,1895,"Part of",438
 4382,"Kankan",1895,1958,"Part of",430
-4391,"Gurma",1816,1895,"Unknown",
+4391,"Gurma",1816,1895,"Sovereign (unrecognized)",
 4391,"Gurma",1895,1958,"Part of",430
-4392,"Kong",1816,1898,"Sovereign (unrecognised)",
+4392,"Kong",1816,1898,"Sovereign (unrecognized)",
 4392,"Kong",1898,1958,"Part of",430
 4393,"Mandinka (Wassoulou) Empire",1816,1878,"Unknown",
-4393,"Mandinka (Wassoulou) Empire",1878,1898,"Sovereign (unrecognised)",
+4393,"Mandinka (Wassoulou) Empire",1878,1898,"Sovereign (unrecognized)",
 4393,"Mandinka (Wassoulou) Empire",1898,1898,"Dissolved into",430
-4394,"Mamprussi",1816,1895,"Unknown",
+4394,"Mamprussi",1816,1895,"Sovereign (unrecognized)",
 4394,"Mamprussi",1895,1958,"Part of",430
-4395,"Ouga Dougou",1816,1895,"Unknown",
+4395,"Ouga Dougou",1816,1895,"Sovereign (unrecognized)",
 4395,"Ouga Dougou",1896,1958,"Part of",430
-4396,"Yatenga",1816,1895,"Unknown",
+4396,"Yatenga",1816,1895,"Sovereign (unrecognized)",
 4396,"Yatenga",1895,1958,"Part of",430
-4397,"Busuma",1816,1895,"Unknown",
+4397,"Busuma",1816,1895,"Sovereign (unrecognized)",
 4397,"Busuma",1895,1958,"Part of",430
 4398,"Riziam",1816,1895,"Unknown",
 4398,"Riziam",1895,1958,"Part of",430
@@ -2140,11 +2164,11 @@
 4513,"Banana Islands",1820,2020,"Part of",451
 4514,"Bumpe",1816,1888,"Unknown",
 4514,"Bumpe",1888,2020,"Part of",451
-4515,"Koya-Temne",1816,1896,"Sovereign (unrecognised)",
+4515,"Koya-Temne",1816,1896,"Sovereign (unrecognized)",
 4515,"Koya-Temne",1896,2020,"Part of",451
 4516,"Shenge (Plantation Island)",1816,1888,"Discovered",
 4516,"Shenge (Plantation Island)",1888,2020,"Part of",451
-4521,"Asante",1816,1896,"Sovereign (unrecognised)",
+4521,"Asante",1816,1896,"Sovereign (unrecognized)",
 4521,"Asante",1896,1901,"Occupied by",200
 4521,"Asante",1901,2020,"Part of",452
 4522,"Adansi",1816,1886,"Part of",4521
@@ -2157,20 +2181,23 @@
 4525,"Akyem",1816,1873,"Part of",4521
 4525,"Akyem",1873,1874,"Occupied by",200
 4525,"Akyem",1874,2020,"Part of",452
-4526,"Dagomba",1816,1897,"Unknown",
-4526,"Dagomba",1897,2020,"Part of",452
+4526,"Dagomba",1816,1874,"Part of",4521
+4526,"Dagomba",1874,1899,"Sovereign (unrecognized)",
+4526,"Dagomba",1899,2020,"Part of",452
+4526,"Dagomba",1899,2020,"Part of",460
 4527,"Denkyira",1816,1868,"Vassal of",4521
 4527,"Denkyira",1868,1874,"Part of",4528
 4527,"Denkyira",1874,2020,"Part of",452
 4528,"Fante",1816,1844,"Part of",4521
 4528,"Fante",1844,1868,"Protectorate of",200
-4528,"Fante",1868,1874,"Sovereign (unrecognised)",
+4528,"Fante",1868,1874,"Sovereign (unrecognized)",
 4528,"Fante",1874,2020,"Part of",452
 4529,"Ga",1816,1873,"Vassal of",4521
 4529,"Ga",1873,1874,"Occupied by",200
 4529,"Ga",1874,2020,"Part of",452
-4531,"Gonja",1816,1897,"Unknown",
-4531,"Gonja",1897,2020,"Part of",452
+4531,"Gonja",1816,1874,"Part of",4521
+4531,"Gonja",1874,1899,"Sovereign (unrecognized)",
+4531,"Gonja",1899,2020,"Part of",452
 4532,"Gyamen",1816,1895,"Unknown",
 4532,"Gyamen",1895,2020,"Part of",452
 4533,"Wassa",1816,1826,"Vassal of",4521
@@ -2184,7 +2211,7 @@
 4536,"Northern Territories (Gold Coast)",1897,1901,"Protectorate of",200
 4536,"Northern Territories (Gold Coast)",1901,2020,"Part of",452
 4559,"Gold Coast-Togoland (Neutral Zone)",1887,1899,"Neutral or demilitarized zone of",200
-4711,"Bamum (Bamoun)",1816,1884,"Sovereign (unrecognised)",
+4711,"Bamum (Bamoun)",1816,1884,"Sovereign (unrecognized)",
 4711,"Bamum (Bamoun)",1884,1919,"Part of",470
 4711,"Bamum (Bamoun)",1919,2020,"Part of",471
 4735,"Kontagora",1816,1864,"Unknown",
@@ -2194,26 +2221,27 @@
 4736,"Keana",1816,1900,"Unknown",
 4736,"Keana",1900,1914,"Part of",4784
 4736,"Keana",1914,2020,"Part of",475
-4737,"Fika",1816,1899,"Sovereign (unrecognised)",
+4737,"Fika",1816,1899,"Sovereign (unrecognized)",
 4737,"Fika",1899,1914,"Part of",4784
 4737,"Fika",1914,2020,"Part of",475
 4738,"Doma (Gara)",1816,1903,"Unknown",
 4738,"Doma (Gara)",1903,1914,"Part of",4784
 4738,"Doma (Gara)",1914,2020,"Part of",475
-4741,"Abuja (Suleja)",1828,1902,"Sovereign (unrecognised)",
+4741,"Abuja (Suleja)",1828,1902,"Sovereign (unrecognized)",
 4741,"Abuja (Suleja)",1902,1914,"Part of",4784
 4741,"Abuja (Suleja)",1914,2020,"Part of",475
-4742,"Igala",1816,1901,"Sovereign (unrecognised)",
+4742,"Igala",1816,1901,"Sovereign (unrecognized)",
 4742,"Igala",1901,1914,"Part of",4784
 4742,"Igala",1914,2020,"Part of",475
 4744,"Wukari (Kwararafa)",1816,1840,"Vassal of",4763
-4744,"Wukari (Kwararafa)",1840,1901,"Sovereign (unrecognised)",
+4744,"Wukari (Kwararafa)",1840,1901,"Sovereign (unrecognized)",
 4744,"Wukari (Kwararafa)",1901,1914,"Part of",4783
 4744,"Wukari (Kwararafa)",1914,2020,"Part of",475
 4746,"Yauri",1816,1903,"Vassal of",4754
 4746,"Yauri",1903,1914,"Part of",4784
 4746,"Yauri",1914,2020,"Part of",475
-4751,"Sokoto",1816,1903,"Sovereign (unrecognised)",
+4750,"Oyo Empire",1816,1835,"Sovereign (unrecognized)",
+4751,"Sokoto",1816,1903,"Sovereign (unrecognized)",
 4751,"Sokoto",1903,1914,"Part of",4784
 4751,"Sokoto",1914,2020,"Part of",475
 4752,"Adamawa",1816,1903,"Part of",4751
@@ -2228,7 +2256,7 @@
 4755,"Hadejia",1816,1903,"Part of",4751
 4755,"Hadejia",1903,1914,"Part of",4784
 4755,"Hadejia",1914,2020,"Part of",475
-4756,"Ilorin",1816,1824,"Unknown",
+4756,"Ilorin",1816,1824,"Vassal of",4750
 4756,"Ilorin",1824,1897,"Part of",4751
 4756,"Ilorin",1897,1900,"Vassal of",200
 4756,"Ilorin",1900,1914,"Part of",4784
@@ -2242,13 +2270,14 @@
 4759,"Katagum",1816,1903,"Part of",4751
 4759,"Katagum",1903,1914,"Part of",4784
 4759,"Katagum",1914,2020,"Part of",475
-4761,"Nupe",1816,1902,"Unknown",
+4761,"Nupe",1816,1836,"Unknown",
+4761,"Nupe",1836,1902,"Part of",4751
 4761,"Nupe",1902,1914,"Part of",4784
 4761,"Nupe",1914,2020,"Part of",475
 4762,"Zaria",1816,1903,"Part of",4751
 4762,"Zaria",1903,1914,"Part of",4784
 4762,"Zaria",1914,2020,"Part of",475
-4763,"Bornu (Kanem)",1816,1892,"Sovereign (unrecognised)",
+4763,"Bornu (Kanem)",1816,1892,"Sovereign (unrecognized)",
 4763,"Bornu (Kanem)",1892,1900,"Part of",4766
 4765,"Mandara",1816,1892,"Unknown",
 4765,"Mandara",1892,1900,"Part of",4766
@@ -2258,21 +2287,21 @@
 4768,"Egba",1816,1893,"Unknown",
 4768,"Egba",1893,1914,"Part of",4783
 4768,"Egba",1914,2020,"Part of",475
-4769,"Ibadan",1829,1893,"Sovereign (unrecognised)",
+4769,"Ibadan",1829,1893,"Sovereign (unrecognized)",
 4769,"Ibadan",1893,1914,"Part of",4781
 4769,"Ibadan",1914,2020,"Part of",475
 4771,"Ife",1816,1867,"Unknown",
 4771,"Ife",1867,1893,"Part of",4769
 4772,"Ijaiye",1816,1867,"Unknown",
 4772,"Ijaiye",1867,1893,"Part of",4769
-4773,"Ijebu",1816,1893,"Sovereign (unrecognised)",
+4773,"Ijebu",1816,1893,"Sovereign (unrecognized)",
 4773,"Ijebu",1893,1914,"Part of",4783
 4773,"Ijebu",1914,2020,"Part of",475
 4774,"Ilesha",1816,1867,"Unknown",
 4774,"Ilesha",1867,1893,"Part of",4769
 4775,"New Oyo",1816,1867,"Part of",434
 4775,"New Oyo",1867,1893,"Part of",4769
-4776,"Benin (Edo)",1816,1897,"Sovereign (unrecognised)",
+4776,"Benin (Edo)",1816,1897,"Sovereign (unrecognized)",
 4776,"Benin (Edo)",1897,1914,"Part of",4783
 4776,"Benin (Edo)",1914,2020,"Part of",475
 4781,"Lagos",1816,1861,"Vassal of",4776
@@ -2288,74 +2317,74 @@
 4783,"Southern Nigeria",1914,1914,"Dissolved into",475
 4784,"Northern Nigeria",1899,1914,"Protectorate of",200
 4784,"Northern Nigeria",1914,1914,"Dissolved into",475
-4790,"Biafra",1967,1970,"Sovereign (unrecognised)",
-4791,"Bonny",1816,1885,"Sovereign (unrecognised)",
+4790,"Biafra",1967,1970,"Sovereign (unrecognized)",
+4791,"Bonny",1816,1885,"Sovereign (unrecognized)",
 4791,"Bonny",1885,1899,"Part of",4782
 4791,"Bonny",1899,1914,"Part of",4783
 4791,"Bonny",1914,2020,"Part of",475
-4792,"0ld Calabar (Efik)",1816,1885,"Sovereign (unrecognised)",
+4792,"0ld Calabar (Efik)",1816,1885,"Sovereign (unrecognized)",
 4792,"0ld Calabar (Efik)",1885,1899,"Part of",4782
 4792,"0ld Calabar (Efik)",1899,1914,"Part of",4783
 4792,"0ld Calabar (Efik)",1914,2020,"Part of",475
-4793,"New Calabar (Kalabari)",1816,1885,"Sovereign (unrecognised)",
+4793,"New Calabar (Kalabari)",1816,1885,"Sovereign (unrecognized)",
 4793,"New Calabar (Kalabari)",1885,1899,"Part of",4782
 4793,"New Calabar (Kalabari)",1899,1914,"Part of",4783
 4793,"New Calabar (Kalabari)",1914,2020,"Part of",475
-4794,"Opobo",1870,1885,"Sovereign (unrecognised)",
+4794,"Opobo",1870,1885,"Sovereign (unrecognized)",
 4794,"Opobo",1885,1899,"Part of",4782
 4794,"Opobo",1899,1914,"Part of",4783
 4794,"Opobo",1914,2020,"Part of",475
-4795,"Nembe (Brass)",1816,1885,"Sovereign (unrecognised)",
+4795,"Nembe (Brass)",1816,1885,"Sovereign (unrecognized)",
 4795,"Nembe (Brass)",1885,1899,"Part of",4782
 4796,"Okrika",1816,1885,"Unknown",
 4796,"Okrika",1885,1899,"Part of",4782
-4821,"Bangassou",1816,1890,"Sovereign (unrecognised)",
+4821,"Bangassou",1816,1890,"Sovereign (unrecognized)",
 4821,"Bangassou",1890,1906,"Occupied by",220
 4821,"Bangassou",1906,2020,"Part of",482
-4822,"Rafai",1816,1890,"Sovereign (unrecognised)",
+4822,"Rafai",1816,1890,"Sovereign (unrecognized)",
 4822,"Rafai",1890,1906,"Occupied by",220
 4822,"Rafai",1906,2020,"Part of",482
 4823,"Zemio",1816,1890,"Unknown",
 4823,"Zemio",1890,1906,"Occupied by",220
 4823,"Zemio",1906,2020,"Part of",482
-4831,"Bagirmi",1816,1892,"Sovereign (unrecognised)",
+4831,"Bagirmi",1816,1892,"Sovereign (unrecognized)",
 4831,"Bagirmi",1892,1900,"Protectorate of",220
-4832,"Wadai",1816,1913,"Sovereign (unrecognised)",
+4832,"Wadai",1816,1913,"Sovereign (unrecognized)",
 4832,"Wadai",1913,2020,"Part of",483
-4841,"Bateke (Anziku)",1816,1882,"Sovereign (unrecognised)",
+4841,"Bateke (Anziku)",1816,1882,"Sovereign (unrecognized)",
 4841,"Bateke (Anziku)",1882,2020,"Part of",484
-4842,"Loango",1816,1882,"Sovereign (unrecognised)",
+4842,"Loango",1816,1882,"Sovereign (unrecognized)",
 4842,"Loango",1882,2020,"Part of",484
-4901,"Tippu Tip Empire",1860,1887,"Sovereign (unrecognised)",
+4901,"Tippu Tip Empire",1860,1887,"Sovereign (unrecognized)",
 4901,"Tippu Tip Empire",1887,1887,"Dissolved into",490
-4902,"Mwata Yamvo (Lunda)",1816,1895,"Sovereign (unrecognised)",
+4902,"Mwata Yamvo (Lunda)",1816,1895,"Sovereign (unrecognized)",
 4902,"Mwata Yamvo (Lunda)",1895,2020,"Part of",490
 4903,"Kalagne",1816,1885,"Unknown",
 4903,"Kalagne",1885,2020,"Part of",490
-4904,"Baluba",1816,1892,"Sovereign (unrecognised)",
+4904,"Baluba",1816,1892,"Sovereign (unrecognized)",
 4904,"Baluba",1892,2020,"Part of",490
 4905,"Katanga",1816,1885,"Unknown",
 4905,"Katanga",1885,1960,"Part of",490
 4905,"Katanga",1963,2020,"Part of",490
 4906,"Kasai",1816,1960,"Part of",490
-4906,"Kasai",1960,1961,"Sovereign (unrecognised)",
+4906,"Kasai",1960,1961,"Sovereign (unrecognized)",
 4906,"Kasai",1961,2020,"Part of",490
 4907,"Msiri (Yeke)",1816,1856,"Part of",5517
-4907,"Msiri (Yeke)",1856,1891,"Sovereign (unrecognised)",
+4907,"Msiri (Yeke)",1856,1891,"Sovereign (unrecognized)",
 4907,"Msiri (Yeke)",1891,1899,"Part of",5517
 4907,"Msiri (Yeke)",1899,2020,"Part of",490
-4908,"Azande",1816,1895,"Sovereign (unrecognised)",
+4908,"Azande",1816,1895,"Sovereign (unrecognized)",
 4908,"Azande",1895,2020,"Part of",490
 4909,"Mangbetu",1816,1895,"Unknown",
 4909,"Mangbetu",1895,2020,"Part of",490
-4910,"Kuba",1816,1910,"Sovereign (unrecognised)",
+4910,"Kuba",1816,1910,"Sovereign (unrecognized)",
 4910,"Kuba",1910,2020,"Part of",490
-5001,"Buganda",1816,1893,"Sovereign (unrecognised)",
+5001,"Buganda",1816,1893,"Sovereign (unrecognized)",
 5001,"Buganda",1893,1894,"Occupied by",200
 5001,"Buganda",1894,2020,"Part of",500
-5002,"Ankole",1816,1901,"Sovereign (unrecognised)",
+5002,"Ankole",1816,1901,"Sovereign (unrecognized)",
 5002,"Ankole",1901,1967,"Part of",500
-5003,"Bunyoro",1816,1894,"Sovereign (unrecognised)",
+5003,"Bunyoro",1816,1894,"Sovereign (unrecognized)",
 5003,"Bunyoro",1894,1899,"Protectorate of",200
 5003,"Bunyoro",1899,2020,"Part of",500
 5004,"Busoga",1862,1894,"Discovered",
@@ -2364,13 +2393,11 @@
 5005,"Butoro",1894,2020,"Part of",500
 5006,"Rwenzururu",1816,1894,"Unknown",
 5006,"Rwenzururu",1894,1962,"Part of",500
-5006,"Rwenzururu",1962,1969,"Sovereign (unrecognised)",
+5006,"Rwenzururu",1962,1969,"Sovereign (unrecognized)",
 5006,"Rwenzururu",1969,2020,"Part of",500
-5011,"Kenya Protectorate",1887,1895,"Leased to",200
-5011,"Kenya Protectorate",1895,1920,"Protectorate of",200
 5011,"Kenya Protectorate",1920,1963,"Protectorate of",200
 5011,"Kenya Protectorate",1963,1963,"Dissolved into",501
-5012,"Mombassa",1816,1824,"Sovereign (unrecognised)",
+5012,"Mombassa",1816,1824,"Sovereign (unrecognized)",
 5012,"Mombassa",1824,1826,"Occupied by",200
 5012,"Mombassa",1826,1837,"Occupied by",698
 5012,"Mombassa",1837,1856,"Part of",698
@@ -2378,21 +2405,21 @@
 5012,"Mombassa",1887,1963,"Part of",5011
 5012,"Mombassa",1963,2020,"Part of",501
 5013,"Pate",1816,1824,"Unknown",
-5013,"Pate",1824,1856,"Part of",698
+5013,"Pate",1824,1856,"Vassal of",698
 5013,"Pate",1856,1887,"Part of",511
 5013,"Pate",1887,1963,"Part of",5011
 5013,"Pate",1963,2020,"Part of",501
 5017,"Vumbu Kuu",1816,1840,"Unknown",
 5017,"Vumbu Kuu",1840,1856,"Part of",698
-5018,"Wanga (Wanga Kingdom)",1816,1887,"Sovereign (unrecognised)",
+5018,"Wanga (Wanga Kingdom)",1816,1887,"Sovereign (unrecognized)",
 5018,"Wanga (Wanga Kingdom)",1887,2020,"Part of",501
 5101,"Ha",1816,1898,"Unknown",
 5101,"Ha",1898,2020,"Part of",510
-5102,"Haya",1816,1898,"Sovereign (unrecognised)",
+5102,"Haya",1816,1898,"Sovereign (unrecognized)",
 5102,"Haya",1898,2020,"Part of",510
 5103,"Hehe",1816,1898,"Unknown",
 5103,"Hehe",1898,2020,"Part of",510
-5104,"Karagwe",1816,1898,"Sovereign (unrecognised)",
+5104,"Karagwe",1816,1898,"Sovereign (unrecognized)",
 5104,"Karagwe",1898,2020,"Part of",510
 5105,"Urambo",1816,1891,"Unknown",
 5105,"Urambo",1891,2020,"Part of",510
@@ -2416,9 +2443,9 @@
 5202,"Oltre Giuba",1895,1925,"Part of",501
 5202,"Oltre Giuba",1925,1926,"Colony of",325
 5202,"Oltre Giuba",1926,2020,"Part of",5200
-5203,"Alula (Majeerteen)",1816,1889,"Sovereign (unrecognised)",
+5203,"Alula (Majeerteen)",1816,1889,"Sovereign (unrecognized)",
 5203,"Alula (Majeerteen)",1889,1889,"Dissolved into",5200
-5204,"Obbia",1878,1889,"Sovereign (unrecognised)",
+5204,"Obbia",1878,1889,"Sovereign (unrecognized)",
 5204,"Obbia",1889,1905,"Protectorate of",325
 5204,"Obbia",1905,1960,"Part of",5200
 5204,"Obbia",1960,2020,"Part of",520
@@ -2444,7 +2471,7 @@
 5211,"Warsheikh",1842,1856,"Part of",511
 5211,"Warsheikh",1856,1900,"Part of",5212
 5211,"Warsheikh",1900,2020,"Part of",5200
-5212,"Geledi",1816,1908,"Sovereign (unrecognised)",
+5212,"Geledi",1816,1908,"Sovereign (unrecognized)",
 5212,"Geledi",1908,1910,"Part of",5200
 5221,"Tadjoura",1816,1840,"Part of",5332
 5221,"Tadjoura",1840,1884,"Occupied by",200
@@ -2456,37 +2483,37 @@
 5301,"Amhara",1855,2020,"Part of",530
 5302,"Gondar",1816,1855,"Part of",530
 5302,"Gondar",1855,2020,"Part of",530
-5303,"Shewa",1816,1855,"Sovereign (unrecognised)",
+5303,"Shewa",1816,1855,"Sovereign (unrecognized)",
 5303,"Shewa",1855,2020,"Part of",530
 5304,"Tigray",1816,1855,"Part of",530
 5304,"Tigray",1855,2020,"Part of",530
 5305,"Gojjam",1816,1855,"Part of",530
 5305,"Gojjam",1855,2020,"Part of",530
-5306,"Harar",1816,1875,"Sovereign (unrecognised)",
+5306,"Harar",1816,1875,"Sovereign (unrecognized)",
 5306,"Harar",1875,1884,"Protectorate of",651
 5306,"Harar",1884,2020,"Part of",530
 5307,"Jijega, Reserve Areas and Haud",1816,1887,"Vassal of",5306
 5307,"Jijega, Reserve Areas and Haud",1887,1942,"Part of",530
 5307,"Jijega, Reserve Areas and Haud",1942,1954,"Occupied by",200
 5307,"Jijega, Reserve Areas and Haud",1954,2020,"Part of",530
-5309,"Kaffa",1816,1897,"Sovereign (unrecognised)",
+5309,"Kaffa",1816,1897,"Sovereign (unrecognized)",
 5309,"Kaffa",1897,2020,"Part of",530
-5321,"Limmu-Ennarea",1816,1891,"Sovereign (unrecognised)",
+5321,"Limmu-Ennarea",1816,1891,"Sovereign (unrecognized)",
 5321,"Limmu-Ennarea",1891,2020,"Part of",530
-5322,"Jimma-Kakka (Jimma Abba Jifar)",1830,1884,"Sovereign (unrecognised)",
+5322,"Jimma-Kakka (Jimma Abba Jifar)",1830,1884,"Sovereign (unrecognized)",
 5322,"Jimma-Kakka (Jimma Abba Jifar)",1884,1932,"Vassal of",530
 5322,"Jimma-Kakka (Jimma Abba Jifar)",1932,2020,"Part of",530
 5323,"Gera",1816,1835,"Unknown",
-5323,"Gera",1835,1887,"Sovereign (unrecognised)",
+5323,"Gera",1835,1887,"Sovereign (unrecognized)",
 5323,"Gera",1887,2020,"Part of",530
-5324,"Gomma",1816,1886,"Sovereign (unrecognised)",
+5324,"Gomma",1816,1886,"Sovereign (unrecognized)",
 5324,"Gomma",1886,2020,"Part of",530
 5325,"Guma",1816,1885,"Unknown",
 5325,"Guma",1885,2020,"Part of",530
 5331,"Assab",1816,1869,"Unknown",
 5331,"Assab",1869,1882,"Possession of",325
 5331,"Assab",1882,1936,"Part of",531
-5332,"Awsa Sultanate",1816,1936,"Sovereign (unrecognised)",
+5332,"Awsa Sultanate",1816,1936,"Sovereign (unrecognized)",
 5332,"Awsa Sultanate",1936,1945,"Part of",5201
 5332,"Awsa Sultanate",1945,2020,"Part of",530
 5401,"Chokwe",1816,1917,"Unknown",
@@ -2501,23 +2528,24 @@
 5511,"Citimukulu Bemba",1900,1911,"Part of",5518
 5512,"Mwamba Bemba",1816,1900,"Unknown",
 5512,"Mwamba Bemba",1900,1911,"Part of",5518
-5513,"Barotse",1816,1845,"Sovereign (unrecognised)",
+5513,"Barotse",1816,1845,"Sovereign (unrecognized)",
 5513,"Barotse",1845,1889,"Part of",570
-5513,"Barotse",1889,1899,"Sovereign (unrecognised)",
+5513,"Barotse",1889,1899,"Sovereign (unrecognized)",
 5513,"Barotse",1899,1911,"Part of",5519
 5515,"Maseko Ngoni",1816,1899,"Unknown",
 5515,"Maseko Ngoni",1899,2020,"Part of",541
-5516,"Shangane (Gaza Empire)",1824,1895,"Sovereign (unrecognised)",
+5516,"Shangane (Gaza Empire)",1824,1895,"Sovereign (unrecognized)",
 5516,"Shangane (Gaza Empire)",1895,2020,"Part of",541
-5517,"Kazembe",1816,1899,"Discovered",
+5517,"Kazembe",1816,1831,"Sovereign (unrecognized)",
+5517,"Kazembe",1831,1899,"Unknown",
 5517,"Kazembe",1899,1911,"Part of",5518
 5518,"Northeastern Rhodesia",1899,1911,"Colony of",200
 5518,"Northeastern Rhodesia",1911,1911,"Dissolved into",551
 5519,"Northwestern Rhodesia",1899,1911,"Colony of",200
 5519,"Northwestern Rhodesia",1911,1911,"Dissolved into",551
-5521,"Rozwi",1816,1838,"Sovereign (unrecognised)",
+5521,"Rozwi",1816,1838,"Sovereign (unrecognized)",
 5521,"Rozwi",1838,1838,"Part of",5522
-5522,"Ndebele (Matabeleland)",1838,1890,"Sovereign (unrecognised)",
+5522,"Ndebele (Matabeleland)",1838,1890,"Sovereign (unrecognized)",
 5522,"Ndebele (Matabeleland)",1890,1923,"Colony of",200
 5522,"Ndebele (Matabeleland)",1923,2020,"Part of",552
 5523,"Mashona",1816,1890,"Part of",552
@@ -2544,7 +2572,7 @@
 5603,"Mtetwa",1818,1910,"Part of",5601
 5606,"Prince Edward and Marion Is.",1816,1919,"Possession of",200
 5606,"Prince Edward and Marion Is.",1919,2020,"Possession of",560
-5611,"Griqualand, West",1816,1871,"Sovereign (unrecognised)",
+5611,"Griqualand, West",1816,1871,"Sovereign (unrecognized)",
 5611,"Griqualand, West",1871,1880,"Colony of",200
 5611,"Griqualand, West",1880,1910,"Part of",561
 5611,"Griqualand, West",1910,2020,"Part of",560
@@ -2554,7 +2582,7 @@
 5612,"British Bechuanaland",1910,2020,"Part of",560
 5613,"Stellaland & Goshen",1816,1882,"Part of",561
 5613,"Stellaland & Goshen",1816,1882,"Part of",571
-5613,"Stellaland & Goshen",1882,1885,"Sovereign (unrecognised)",
+5613,"Stellaland & Goshen",1882,1885,"Sovereign (unrecognized)",
 5613,"Stellaland & Goshen",1885,1895,"Part of",5612
 5613,"Stellaland & Goshen",1895,1910,"Part of",561
 5613,"Stellaland & Goshen",1910,2020,"Part of",560
@@ -2565,23 +2593,23 @@
 5614,"British Kaffraria",1860,1866,"Colony of",200
 5614,"British Kaffraria",1866,1910,"Part of",561
 5614,"British Kaffraria",1910,1910,"Dissolved into",569
-5615,"Lydenburg Republic",1856,1860,"Sovereign (unrecognised)",
+5615,"Lydenburg Republic",1856,1860,"Sovereign (unrecognized)",
 5615,"Lydenburg Republic",1860,1910,"Part of",563
 5615,"Lydenburg Republic",1910,2020,"Part of",560
-5618,"Zoutpansberg",1845,1864,"Sovereign (unrecognised)",
+5618,"Zoutpansberg",1845,1864,"Sovereign (unrecognized)",
 5618,"Zoutpansberg",1864,1910,"Part of",563
 5618,"Zoutpansberg",1910,2020,"Part of",560
-5621,"Zululand",1816,1887,"Sovereign (unrecognised)",
-5621,"Zululand",1887,1897,"Colony of",200
+5621,"Zululand",1816,1887,"Sovereign (unrecognized)",
+5621,"Zululand",1887,1897,"Protectorate of",200
 5621,"Zululand",1897,1897,"Dissolved into",562
-5622,"New Republic",1884,1888,"Sovereign (unrecognised)",
+5622,"New Republic",1884,1888,"Sovereign (unrecognized)",
 5622,"New Republic",1888,1903,"Part of",563
 5622,"New Republic",1903,1903,"Dissolved into",562
 5641,"Griqualand, East",1816,1869,"Part of",5611
-5641,"Griqualand, East",1869,1874,"Sovereign (unrecognised)",
+5641,"Griqualand, East",1869,1874,"Sovereign (unrecognized)",
 5641,"Griqualand, East",1874,1879,"Colony of",200
 5641,"Griqualand, East",1879,1910,"Part of",561
-5642,"Winburg Republic (Natalia Republic)",1839,1843,"Sovereign (unrecognised)",
+5642,"Winburg Republic (Natalia Republic)",1839,1843,"Sovereign (unrecognized)",
 5642,"Winburg Republic (Natalia Republic)",1843,1843,"Dissolved into",564
 5651,"Walvis Bay",1816,1878,"Discovered",
 5651,"Walvis Bay",1878,1884,"Possession of",200
@@ -2591,12 +2619,12 @@
 5651,"Walvis Bay",1977,2020,"Part of",560
 5711,"Bamangwato",1816,1895,"Unknown",
 5711,"Bamangwato",1895,2020,"Part of",571
-5796,"Ambohimanga (Merina)",1816,1896,"Sovereign (unrecognised)",
+5796,"Ambohimanga (Merina)",1816,1896,"Sovereign (unrecognized)",
 5796,"Ambohimanga (Merina)",1896,1896,"Part of",580
-5797,"Menabe",1816,1834,"Sovereign (unrecognised)",
+5797,"Menabe",1816,1834,"Sovereign (unrecognized)",
 5797,"Menabe",1834,2020,"Part of",5796
 5798,"Antaimoro",1823,2020,"Part of",5796
-5799,"Boina",1816,1840,"Sovereign (unrecognised)",
+5799,"Boina",1816,1840,"Sovereign (unrecognized)",
 5799,"Boina",1840,1840,"Dissolved into",5796
 5801,"Nossi Be",1816,1840,"Discovered",
 5801,"Nossi Be",1840,1896,"Colony of",220
@@ -2627,10 +2655,10 @@
 5808,"Glorioso I.",1975,2020,"Claimed by",581
 5809,"Fort Dauphin",1816,1825,"Possession of",220
 5809,"Fort Dauphin",1825,2020,"Part of",580
-5811,"Grand Comoro",1816,1886,"Sovereign (unrecognised)",
+5811,"Grand Comoro",1816,1886,"Sovereign (unrecognized)",
 5811,"Grand Comoro",1886,1975,"Part of",581
 5811,"Grand Comoro",1975,2020,"Part of",581
-5812,"Mayotte",1816,1832,"Sovereign (unrecognised)",
+5812,"Mayotte",1816,1832,"Sovereign (unrecognized)",
 5812,"Mayotte",1832,1841,"Possession of",580
 5812,"Mayotte",1832,1841,"Possession of",5813
 5812,"Mayotte",1832,1841,"Possession of",5814
@@ -2640,19 +2668,19 @@
 5812,"Mayotte",1975,2011,"Dependency of",220
 5812,"Mayotte",2011,2020,"Part of",220
 5812,"Mayotte",1974,2020,"Claimed by",581
-5813,"Anjouan",1816,1886,"Sovereign (unrecognised)",
+5813,"Anjouan",1816,1886,"Sovereign (unrecognized)",
 5813,"Anjouan",1886,1912,"Protectorate of",220
 5813,"Anjouan",1912,1947,"Colony of",220
 5813,"Anjouan",1947,1997,"Part of",581
-5813,"Anjouan",1997,1998,"Sovereign (unrecognised)",
+5813,"Anjouan",1997,1998,"Sovereign (unrecognized)",
 5813,"Anjouan",1998,2020,"Part of",581
 5814,"Moheli",1816,1830,"Part of",5813
-5814,"Moheli",1830,1886,"Sovereign (unrecognised)",
+5814,"Moheli",1830,1886,"Sovereign (unrecognized)",
 5814,"Moheli",1886,1909,"Protectorate of",220
 5814,"Moheli",1909,1914,"Colony of",220
 5814,"Moheli",1914,1947,"Part of",580
 5814,"Moheli",1947,1997,"Part of",581
-5814,"Moheli",1997,1998,"Sovereign (unrecognised)",
+5814,"Moheli",1997,1998,"Sovereign (unrecognized)",
 5814,"Moheli",1998,2020,"Part of",581
 5815,"Andruna",1816,1852,"Unknown",
 5815,"Andruna",1852,1914,"Part of",5812
@@ -2672,7 +2700,7 @@
 6021,"Southern zone of Spanish Morocco",1956,1958,"Protectorate of",230
 6021,"Southern zone of Spanish Morocco",1958,1958,"Dissolved into",600
 6023,"Republic of the Rif",1912,1921,"Part of",602
-6023,"Republic of the Rif",1921,1926,"Sovereign (unrecognised)",
+6023,"Republic of the Rif",1921,1926,"Sovereign (unrecognized)",
 6023,"Republic of the Rif",1926,1926,"Dissolved into",602
 6030,"Tetuan",1816,1860,"Part of",600
 6030,"Tetuan",1860,1862,"Colony of",230
@@ -2704,7 +2732,7 @@
 6067,"Captaincy-general of north Africa",1913,1956,"Part of",602
 6067,"Captaincy-general of north Africa",1956,2020,"Part of",230
 6151,"Abdelkader Emirate",1816,1832,"Part of",615
-6151,"Abdelkader Emirate",1832,1847,"Sovereign (unrecognised)",
+6151,"Abdelkader Emirate",1832,1847,"Sovereign (unrecognized)",
 6151,"Abdelkader Emirate",1847,1847,"Dissolved into",615
 6152,"Kabylie",1816,1830,"Part of",615
 6152,"Kabylie",1830,1847,"Part of",6151
@@ -2723,11 +2751,11 @@
 6203,"Tripolitania",1912,1919,"Part of",620
 6203,"Tripolitania",1919,1928,"Colony of",325
 6203,"Tripolitania",1928,1963,"Part of",620
-6251,"Darfur",1816,1874,"Sovereign (unrecognised)",
+6251,"Darfur",1816,1874,"Sovereign (unrecognized)",
 6251,"Darfur",1874,1898,"Part of",651
-6251,"Darfur",1898,1916,"Sovereign (unrecognised)",
+6251,"Darfur",1898,1916,"Sovereign (unrecognized)",
 6251,"Darfur",1916,1916,"Part of",625
-6252,"Funj Sultanate",1816,1821,"Sovereign (unrecognised)",
+6252,"Funj Sultanate",1816,1821,"Sovereign (unrecognized)",
 6252,"Funj Sultanate",1821,1821,"Dissolved into",651
 6253,"Kordofan",1816,1821,"Part of",6252
 6253,"Kordofan",1821,1898,"Part of",651
@@ -2735,9 +2763,9 @@
 6253,"Kordofan",1994,1994,"Dissolved into",6256
 6253,"Kordofan",1994,1994,"Dissolved into",6257
 6253,"Kordofan",1994,1994,"Dissolved into",6258
-6254,"Mahdist Empire",1885,1899,"Sovereign (unrecognised)",
+6254,"Mahdist Empire",1885,1899,"Sovereign (unrecognized)",
 6254,"Mahdist Empire",1899,1899,"Dissolved into",625
-6255,"Shilluk",1816,1841,"Sovereign (unrecognised)",
+6255,"Shilluk",1816,1841,"Sovereign (unrecognized)",
 6255,"Shilluk",1841,1882,"Part of",651
 6255,"Shilluk",1882,2020,"Part of",626
 6256,"North Kordofan",1994,2020,"Part of",6253
@@ -2856,7 +2884,7 @@
 6811,"West Aden Protectorate",1963,1963,"Dissolved into",6801
 6812,"East Aden Protectorate",1937,1963,"Protectorate of",200
 6812,"East Aden Protectorate",1963,1963,"Dissolved into",6801
-6821,"Lahej",1816,1839,"Sovereign (unrecognised)",
+6821,"Lahej",1816,1839,"Sovereign (unrecognized)",
 6821,"Lahej",1839,1874,"Protectorate of",200
 6821,"Lahej",1914,1918,"Occupied by",640
 6821,"Lahej",1874,1937,"Part of",682
@@ -2864,13 +2892,13 @@
 6821,"Lahej",1959,1962,"Part of",6803
 6821,"Lahej",1962,1967,"Part of",6801
 6821,"Lahej",1967,1967,"Dissolved into",680
-6822,"Aqrabi",1816,1888,"Sovereign (unrecognised)",
+6822,"Aqrabi",1816,1888,"Sovereign (unrecognized)",
 6822,"Aqrabi",1888,1937,"Part of",682
 6822,"Aqrabi",1937,1959,"Part of",6811
 6822,"Aqrabi",1959,1962,"Part of",6803
 6822,"Aqrabi",1962,1967,"Part of",6801
 6822,"Aqrabi",1967,1967,"Dissolved into",680
-6823,"Dhala",1816,1904,"Sovereign (unrecognised)",
+6823,"Dhala",1816,1904,"Sovereign (unrecognized)",
 6823,"Dhala",1904,1937,"Part of",682
 6823,"Dhala",1937,1959,"Part of",6811
 6823,"Dhala",1959,1962,"Part of",6803
@@ -2887,7 +2915,7 @@
 6825,"Alawi",1959,1962,"Part of",6803
 6825,"Alawi",1962,1967,"Part of",6801
 6825,"Alawi",1967,1967,"Dissolved into",680
-6826,"Haushabi",1816,1895,"Sovereign (unrecognised)",
+6826,"Haushabi",1816,1895,"Sovereign (unrecognized)",
 6826,"Haushabi",1895,1937,"Part of",682
 6826,"Haushabi",1937,1959,"Part of",6811
 6826,"Haushabi",1959,1962,"Part of",6803
@@ -2896,7 +2924,7 @@
 6827,"Maflahi",1850,1962,"Part of",6829
 6827,"Maflahi",1962,1967,"Part of",6801
 6827,"Maflahi",1967,1967,"Dissolved into",680
-6828,"Shaibi",1816,1874,"Sovereign (unrecognised)",
+6828,"Shaibi",1816,1874,"Sovereign (unrecognized)",
 6828,"Shaibi",1874,1937,"Part of",682
 6828,"Shaibi",1937,1959,"Part of",6811
 6828,"Shaibi",1959,1962,"Part of",6803
@@ -2914,13 +2942,13 @@
 6831,"Lower Yafai",1959,1962,"Part of",6803
 6831,"Lower Yafai",1962,1967,"Part of",6801
 6831,"Lower Yafai",1967,1967,"Dissolved into",680
-6832,"Fadhli",1816,1888,"Sovereign (unrecognised)",
+6832,"Fadhli",1816,1888,"Sovereign (unrecognized)",
 6832,"Fadhli",1888,1937,"Part of",682
 6832,"Fadhli",1937,1959,"Part of",6811
 6832,"Fadhli",1959,1962,"Part of",6803
 6832,"Fadhli",1962,1967,"Part of",6801
 6832,"Fadhli",1967,1967,"Dissolved into",680
-6833,"Beihan",1816,1874,"Sovereign (unrecognised)",
+6833,"Beihan",1816,1874,"Sovereign (unrecognized)",
 6833,"Beihan",1874,1937,"Part of",682
 6833,"Beihan",1937,1959,"Part of",6811
 6833,"Beihan",1959,1962,"Part of",6803
@@ -2974,19 +3002,19 @@
 6843,"Irqa",1959,1962,"Part of",6803
 6843,"Irqa",1962,1967,"Part of",6801
 6843,"Irqa",1967,1967,"Dissolved into",680
-6844,"Kathiri of Seiyun",1816,1888,"Sovereign (unrecognised)",
+6844,"Kathiri of Seiyun",1816,1888,"Sovereign (unrecognized)",
 6844,"Kathiri of Seiyun",1888,1937,"Part of",682
 6844,"Kathiri of Seiyun",1937,1959,"Part of",6812
 6844,"Kathiri of Seiyun",1959,1962,"Part of",6803
 6844,"Kathiri of Seiyun",1962,1967,"Part of",6801
 6844,"Kathiri of Seiyun",1967,1967,"Dissolved into",680
-6845,"Quaiti of Shihr and Mukalla",1858,1888,"Sovereign (unrecognised)",
+6845,"Quaiti of Shihr and Mukalla",1858,1888,"Sovereign (unrecognized)",
 6845,"Quaiti of Shihr and Mukalla",1888,1937,"Part of",682
 6845,"Quaiti of Shihr and Mukalla",1937,1959,"Part of",6812
 6845,"Quaiti of Shihr and Mukalla",1959,1962,"Part of",6803
 6845,"Quaiti of Shihr and Mukalla",1962,1967,"Part of",6801
 6845,"Quaiti of Shihr and Mukalla",1967,1967,"Dissolved into",680
-6846,"Mahri of Qishn and Socotra",1816,1886,"Sovereign (unrecognised)",
+6846,"Mahri of Qishn and Socotra",1816,1886,"Sovereign (unrecognized)",
 6846,"Mahri of Qishn and Socotra",1886,1937,"Part of",682
 6846,"Mahri of Qishn and Socotra",1937,1959,"Part of",6812
 6846,"Mahri of Qishn and Socotra",1959,1962,"Part of",6803
@@ -3052,18 +3080,18 @@
 7002,"Kandahar",1839,1841,"Occupied by",200
 7002,"Kandahar",1841,2020,"Part of",700
 7003,"Herat",1816,1819,"Part of",700
-7003,"Herat",1819,1863,"Sovereign (unrecognised)",
+7003,"Herat",1819,1863,"Sovereign (unrecognized)",
 7003,"Herat",1863,2020,"Part of",700
 7004,"Badakhshan",1816,1881,"Part of",700
 7004,"Badakhshan",1881,2020,"Part of",700
-7010,"Kokand",1816,1867,"Sovereign (unrecognised)",
+7010,"Kokand",1816,1867,"Sovereign (unrecognized)",
 7010,"Kokand",1867,1876,"Vassal of",365
 7010,"Kokand",1876,1991,"Part of",365
 7010,"Kokand",1991,2020,"Part of",701
 7010,"Kokand",1991,2020,"Part of",702
 7010,"Kokand",1991,2020,"Part of",703
 7010,"Kokand",1991,2020,"Part of",704
-7020,"Bokhara",1816,1868,"Sovereign (unrecognised)",
+7020,"Bokhara",1816,1868,"Sovereign (unrecognized)",
 7020,"Bokhara",1868,1991,"Part of",365
 7020,"Bokhara",1991,2020,"Part of",704
 7021,"Gorno Badakhshan",1895,1925,"Claimed by",710
@@ -3072,7 +3100,7 @@
 7021,"Gorno Badakhshan",1925,1929,"Part of",365
 7021,"Gorno Badakhshan",1929,1992,"Part of",702
 7021,"Gorno Badakhshan",1992,2020,"Dependency of",702
-7030,"Khiva",1816,1873,"Sovereign (unrecognised)",
+7030,"Khiva",1816,1873,"Sovereign (unrecognized)",
 7030,"Khiva",1873,1920,"Protectorate of",365
 7030,"Khiva",1920,1991,"Part of",365
 7030,"Khiva",1991,2020,"Part of",701
@@ -3207,7 +3235,7 @@
 7360,"Tuvan People's Republic",1816,1912,"Part of",710
 7360,"Tuvan People's Republic",1912,1914,"Unknown",
 7360,"Tuvan People's Republic",1914,1921,"Protectorate of",365
-7360,"Tuvan People's Republic",1921,1944,"Sovereign (unrecognised)",
+7360,"Tuvan People's Republic",1921,1944,"Sovereign (unrecognized)",
 7360,"Tuvan People's Republic",1944,2020,"Part of",365
 7399,"Takeshima (Dokdo) I.",1905,1954,"Part of",740
 7399,"Takeshima (Dokdo) I.",1954,2020,"Occupied by",732
@@ -3261,23 +3289,23 @@
 7507,"Kashmir",1947,1947,"Dissolved into",7709
 7511,"Bikaner",1816,1947,"Vassal of",750
 7511,"Bikaner",1947,2020,"Part of",750
-7512,"Jaipur",1816,1818,"Sovereign (unrecognised)",
+7512,"Jaipur",1816,1818,"Sovereign (unrecognized)",
 7512,"Jaipur",1818,1947,"Vassal of",750
 7512,"Jaipur",1947,2020,"Part of",750
 7513,"Udaipur",1816,1818,"Part of",7589
 7513,"Udaipur",1818,1949,"Vassal of",750
 7513,"Udaipur",1949,2020,"Part of",750
-7514,"Kishangarh",1816,1818,"Sovereign (unrecognised)",
+7514,"Kishangarh",1816,1818,"Sovereign (unrecognized)",
 7514,"Kishangarh",1818,1948,"Vassal of",750
 7514,"Kishangarh",1948,2020,"Part of",750
 7515,"Lawa",1816,1817,"Part of",7512
 7515,"Lawa",1817,1867,"Vassal of",7527
 7515,"Lawa",1867,1947,"Vassal of",750
 7515,"Lawa",1947,2020,"Part of",750
-7516,"Jodhpur",1816,1818,"Sovereign (unrecognised)",
+7516,"Jodhpur",1816,1818,"Sovereign (unrecognized)",
 7516,"Jodhpur",1818,1947,"Vassal of",750
 7516,"Jodhpur",1947,2020,"Part of",750
-7517,"Jaisalmer",1816,1818,"Sovereign (unrecognised)",
+7517,"Jaisalmer",1816,1818,"Sovereign (unrecognized)",
 7517,"Jaisalmer",1818,1947,"Vassal of",750
 7517,"Jaisalmer",1947,2020,"Part of",750
 7518,"Dholpur",1816,1949,"Part of",750
@@ -3285,13 +3313,13 @@
 7519,"Karauli",1816,1817,"Part of",7589
 7519,"Karauli",1817,1949,"Vassal of",750
 7519,"Karauli",1949,2020,"Part of",750
-7521,"Kotah",1816,1817,"Sovereign (unrecognised)",
+7521,"Kotah",1816,1817,"Sovereign (unrecognized)",
 7521,"Kotah",1817,1947,"Vassal of",750
 7521,"Kotah",1947,2020,"Part of",750
-7522,"Banswara",1816,1818,"Sovereign (unrecognised)",
+7522,"Banswara",1816,1818,"Sovereign (unrecognized)",
 7522,"Banswara",1818,1949,"Vassal of",750
 7522,"Banswara",1949,2020,"Part of",750
-7523,"Dungarpur",1816,1818,"Sovereign (unrecognised)",
+7523,"Dungarpur",1816,1818,"Sovereign (unrecognized)",
 7523,"Dungarpur",1818,1947,"Vassal of",750
 7523,"Dungarpur",1947,2020,"Part of",750
 7524,"Dartabgarh",1818,1947,"Part of",750
@@ -3318,8 +3346,7 @@
 7532,"Holkar (Indore)",1950,2020,"Part of",750
 7533,"Bhopal",1816,1818,"Part of",7589
 7533,"Bhopal",1818,1947,"Vassal of",750
-7533,"Bhopal",1947,1949,"Unknown",
-7533,"Bhopal",1949,2020,"Part of",750
+7533,"Bhopal",1947,2020,"Part of",750
 7534,"Dhar",1816,1819,"Part of",7589
 7534,"Dhar",1819,1947,"Vassal of",750
 7534,"Dhar",1947,2020,"Part of",750
@@ -3355,7 +3382,7 @@
 7551,"Malwa",1816,1818,"Part of",7532
 7551,"Malwa",1818,1947,"Part of",750
 7551,"Malwa",1947,2020,"Part of",750
-7552,"Khairpur",1816,1838,"Sovereign (unrecognised)",
+7552,"Khairpur",1816,1838,"Sovereign (unrecognized)",
 7552,"Khairpur",1838,1947,"Vassal of",750
 7552,"Khairpur",1947,2020,"Part of",770
 7553,"Idar",1816,1947,"Vassal of",750
@@ -3394,10 +3421,10 @@
 7566,"Travancore",1949,2020,"Part of",750
 7570,"Junagadh",1816,1948,"Vassal of",750
 7570,"Junagadh",1948,2020,"Part of",750
-7571,"Sirohi",1816,1823,"Sovereign (unrecognised)",
+7571,"Sirohi",1816,1823,"Sovereign (unrecognized)",
 7571,"Sirohi",1823,1949,"Part of",750
 7571,"Sirohi",1949,2020,"Part of",750
-7572,"Assam",1816,1826,"Sovereign (unrecognised)",
+7572,"Assam",1816,1826,"Sovereign (unrecognized)",
 7572,"Assam",1826,1947,"Part of",750
 7572,"Assam",1947,2020,"Part of",750
 7573,"Kapurthala",1816,1947,"Vassal of",750
@@ -3437,38 +3464,38 @@
 7587,"Manipur",1816,1824,"Occupied by",775
 7587,"Manipur",1824,1947,"Vassal of",750
 7587,"Manipur",1947,2020,"Part of",750
-7588,"Baluchistan (Kalat)",1816,1839,"Sovereign (unrecognised)",
+7588,"Baluchistan (Kalat)",1816,1839,"Sovereign (unrecognized)",
 7588,"Baluchistan (Kalat)",1839,1947,"Vassal of",750
 7588,"Baluchistan (Kalat)",1947,1955,"Vassal of",770
 7588,"Baluchistan (Kalat)",1955,2020,"Part of",770
-7589,"Maratha Empire",1816,1818,"Sovereign (unrecognised)",
-7691,"Lahore (Sikh Empire)",1816,1849,"Sovereign (unrecognised)",
+7589,"Maratha Empire",1816,1818,"Sovereign (unrecognized)",
+7691,"Lahore (Sikh Empire)",1816,1849,"Sovereign (unrecognized)",
 7691,"Lahore (Sikh Empire)",1849,1947,"Part of",750
 7691,"Lahore (Sikh Empire)",1947,2020,"Part of",770
 7692,"Peshawar",1816,1818,"Part of",700
 7692,"Peshawar",1818,1834,"Part of",7691
 7692,"Peshawar",1834,1947,"Part of",750
 7692,"Peshawar",1947,2020,"Part of",770
-7693,"Sindh",1816,1843,"Sovereign (unrecognised)",
+7693,"Sindh",1816,1843,"Sovereign (unrecognized)",
 7693,"Sindh",1843,1947,"Part of",750
 7693,"Sindh",1947,2020,"Part of",770
-7694,"Bahawalpur",1816,1833,"Sovereign (unrecognised)",
+7694,"Bahawalpur",1816,1833,"Sovereign (unrecognized)",
 7694,"Bahawalpur",1833,1947,"Vassal of",750
 7694,"Bahawalpur",1947,1955,"Vassal of",770
 7694,"Bahawalpur",1955,2020,"Part of",770
 7701,"Swat",1849,1947,"Vassal of",750
 7701,"Swat",1947,1969,"Vassal of",770
 7701,"Swat",1969,1969,"Dissolved into",770
-7702,"Hunza",1816,1847,"Sovereign (unrecognised)",
+7702,"Hunza",1816,1847,"Sovereign (unrecognized)",
 7702,"Hunza",1847,1891,"Vassal of",710
 7702,"Hunza",1891,1947,"Vassal of",750
 7702,"Hunza",1947,1974,"Vassal of",770
 7702,"Hunza",1974,1974,"Dissolved into",770
-7703,"Nagar",1816,1891,"Sovereign (unrecognised)",
+7703,"Nagar",1816,1891,"Sovereign (unrecognized)",
 7703,"Nagar",1891,1947,"Vassal of",750
 7703,"Nagar",1947,1974,"Vassal of",770
 7703,"Nagar",1974,1974,"Dissolved into",770
-7704,"Chitral",1816,1895,"Sovereign (unrecognised)",
+7704,"Chitral",1816,1895,"Sovereign (unrecognized)",
 7704,"Chitral",1895,1947,"Vassal of",750
 7704,"Chitral",1947,1969,"Vassal of",770
 7704,"Chitral",1969,1969,"Dissolved into",770
@@ -3476,7 +3503,7 @@
 7705,"Dir",1895,1948,"Vassal of",750
 7705,"Dir",1948,1969,"Vassal of",770
 7705,"Dir",1969,1969,"Dissolved into",770
-7706,"Amb",1816,1845,"Sovereign (unrecognised)",
+7706,"Amb",1816,1845,"Sovereign (unrecognized)",
 7706,"Amb",1845,1948,"Vassal of",750
 7706,"Amb",1948,1969,"Vassal of",770
 7706,"Amb",1969,1969,"Dissolved into",770
@@ -3485,7 +3512,7 @@
 7708,"Azad Kashmir",1816,1947,"Part of",7507
 7708,"Azad Kashmir",1947,1949,"Occupied by",770
 7708,"Azad Kashmir",1949,2020,"Protectorate of",770
-7709,"Gilgit Baltistan (Northern Areas)",1816,1842,"Sovereign (unrecognised)",
+7709,"Gilgit Baltistan (Northern Areas)",1816,1842,"Sovereign (unrecognized)",
 7709,"Gilgit Baltistan (Northern Areas)",1842,1846,"Part of",7691
 7709,"Gilgit Baltistan (Northern Areas)",1846,1947,"Part of",7507
 7709,"Gilgit Baltistan (Northern Areas)",1947,1949,"Occupied by",770
@@ -3671,7 +3698,7 @@
 7806,"Jaffna Peninsula",1948,1987,"Part of",780
 7910,"Tibet",1816,1910,"Part of",710
 7910,"Tibet",1910,1912,"Occupied by",710
-7910,"Tibet",1912,1951,"Sovereign (unrecognised)",
+7910,"Tibet",1912,1951,"Sovereign (unrecognized)",
 7910,"Tibet",1951,2020,"Dependency of",710
 8001,"Chiang Mai (Lan-na)",1816,2020,"Part of",800
 8002,"Pattani",1817,2020,"Part of",800
@@ -3686,7 +3713,7 @@
 8123,"Xiangkhouang",1893,1949,"Part of",810
 8123,"Xiangkhouang",1949,2020,"Part of",812
 8124,"Champassak",1817,1826,"Part of",800
-8124,"Champassak",1826,1904,"Sovereign (unrecognised)",
+8124,"Champassak",1826,1904,"Sovereign (unrecognized)",
 8124,"Champassak",1904,1904,"Dissolved into",812
 8151,"Cochin China",1816,1862,"Part of",815
 8151,"Cochin China",1862,1887,"Colony of",220
@@ -3713,19 +3740,19 @@
 8171,"Paracel Is.",1954,1974,"Occupied by",817
 8171,"Paracel Is.",1975,2020,"Claimed by",815
 8171,"Paracel Is.",1999,2020,"Claimed by",713
-8201,"Perak",1816,1874,"Sovereign (unrecognised)",
+8201,"Perak",1816,1874,"Sovereign (unrecognized)",
 8201,"Perak",1874,1895,"Colony of",200
 8201,"Perak",1895,1946,"Part of",821
 8201,"Perak",1942,1945,"Occupied by",740
 8201,"Perak",1945,1946,"Occupied by",200
 8201,"Perak",1946,2020,"Part of",820
-8202,"Selangore",1816,1875,"Sovereign (unrecognised)",
+8202,"Selangore",1816,1875,"Sovereign (unrecognized)",
 8202,"Selangore",1875,1895,"Colony of",200
 8202,"Selangore",1895,1946,"Part of",821
 8202,"Selangore",1942,1945,"Occupied by",740
 8202,"Selangore",1945,1946,"Colony of",200
 8202,"Selangore",1946,2020,"Part of",820
-8203,"Pahang",1816,1888,"Sovereign (unrecognised)",
+8203,"Pahang",1816,1888,"Sovereign (unrecognized)",
 8203,"Pahang",1888,1895,"Colony of",200
 8203,"Pahang",1895,1946,"Part of",821
 8203,"Pahang",1942,1945,"Occupied by",740
@@ -3750,7 +3777,7 @@
 8217,"Tampin",1816,1840,"Part of",8212
 8217,"Tampin",1840,1889,"Unknown",
 8217,"Tampin",1889,2020,"Part of",8210
-8221,"Johore",1816,1914,"Sovereign (unrecognised)",
+8221,"Johore",1816,1914,"Sovereign (unrecognized)",
 8221,"Johore",1914,1942,"Protectorate of",200
 8221,"Johore",1942,1945,"Occupied by",740
 8221,"Johore",1945,1946,"Colony of",200
@@ -3767,7 +3794,7 @@
 8223,"Kelantan",1945,1946,"Colony of",200
 8223,"Kelantan",1946,2020,"Part of",820
 8224,"Perlis",1816,1843,"Part of",8222
-8224,"Perlis",1843,1909,"Sovereign (unrecognised)",
+8224,"Perlis",1843,1909,"Sovereign (unrecognized)",
 8224,"Perlis",1909,1942,"Protectorate of",200
 8224,"Perlis",1942,1945,"Occupied by",740
 8224,"Perlis",1945,1946,"Colony of",200
@@ -3790,7 +3817,7 @@
 8272,"Penang",1816,1826,"Possession of",200
 8272,"Penang",1826,1946,"Part of",827
 8272,"Penang",1946,2020,"Part of",820
-8401,"Sulu Sultanate",1816,1851,"Sovereign (unrecognised)",
+8401,"Sulu Sultanate",1816,1851,"Sovereign (unrecognized)",
 8401,"Sulu Sultanate",1851,1898,"Protectorate of",230
 8401,"Sulu Sultanate",1898,1903,"Unknown",
 8401,"Sulu Sultanate",1903,1915,"Protectorate of",2
@@ -3801,7 +3828,7 @@
 8403,"Mindanao",1977,2020,"Dependency of",840
 8525,"Sambas",1818,1949,"Part of",850
 8525,"Sambas",1949,2020,"Part of",850
-8531,"Atjeh",1816,1903,"Sovereign (unrecognised)",
+8531,"Atjeh",1816,1903,"Sovereign (unrecognized)",
 8531,"Atjeh",1903,1949,"Part of",850
 8531,"Atjeh",1949,2020,"Part of",850
 8532,"Deli",1816,1872,"Unknown",
@@ -3813,22 +3840,22 @@
 8534,"Minangkabau (Melayu)",1816,1837,"Unknown",
 8534,"Minangkabau (Melayu)",1837,1949,"Part of",850
 8534,"Minangkabau (Melayu)",1949,2020,"Part of",850
-8535,"Kulon",1816,1824,"Sovereign (unrecognised)",
+8535,"Kulon",1816,1824,"Sovereign (unrecognized)",
 8535,"Kulon",1824,1949,"Part of",850
 8535,"Kulon",1949,2020,"Part of",850
-8536,"Jambi",1816,1834,"Sovereign (unrecognised)",
+8536,"Jambi",1816,1834,"Sovereign (unrecognized)",
 8536,"Jambi",1834,1949,"Part of",850
 8536,"Jambi",1949,2020,"Part of",850
-8537,"Palembang",1816,1825,"Sovereign (unrecognised)",
+8537,"Palembang",1816,1825,"Sovereign (unrecognized)",
 8537,"Palembang",1825,1949,"Part of",850
 8537,"Palembang",1949,2020,"Part of",850
-8538,"Kutai",1816,1844,"Sovereign (unrecognised)",
+8538,"Kutai",1816,1844,"Sovereign (unrecognized)",
 8538,"Kutai",1844,1949,"Part of",850
 8538,"Kutai",1949,2020,"Part of",850
 8539,"Toraja",1816,1907,"Discovered",
 8539,"Toraja",1907,1949,"Part of",850
 8539,"Toraja",1949,2020,"Part of",850
-8541,"Bali",1816,1856,"Sovereign (unrecognised)",
+8541,"Bali",1816,1856,"Sovereign (unrecognized)",
 8541,"Bali",1856,1949,"Part of",850
 8541,"Bali",1949,2020,"Part of",850
 8542,"Lombok",1816,1894,"Occupied by",8541
@@ -3854,34 +3881,36 @@
 8549,"Buni",1816,1859,"Unknown",
 8549,"Buni",1859,1949,"Part of",850
 8549,"Buni",1949,2020,"Part of",850
-8551,"Indrapura",1816,1861,"Sovereign (unrecognised)",
+8551,"Indrapura",1816,1861,"Sovereign (unrecognized)",
 8551,"Indrapura",1861,1946,"Part of",850
 8551,"Indrapura",1946,2020,"Part of",850
-8552,"Bone",1816,1905,"Sovereign (unrecognised)",
+8552,"Bone",1816,1905,"Sovereign (unrecognized)",
 8552,"Bone",1905,1949,"Part of",850
 8552,"Bone",1949,2020,"Part of",850
-8553,"Gowa",1816,1911,"Sovereign (unrecognised)",
+8553,"Gowa",1816,1911,"Sovereign (unrecognized)",
 8553,"Gowa",1911,1949,"Part of",850
 8553,"Gowa",1949,2020,"Part of",850
-8554,"Luwu",1816,1861,"Sovereign (unrecognised)",
+8554,"Luwu",1816,1861,"Sovereign (unrecognized)",
 8554,"Luwu",1861,1949,"Part of",850
 8554,"Luwu",1949,2020,"Part of",850
 8555,"Bencoolen",1816,1825,"Part of",750
 8555,"Bencoolen",1825,1949,"Part of",850
 8555,"Bencoolen",1949,2020,"Part of",850
-8560,"Buleleng",1816,1856,"Sovereign (unrecognised)",
+8560,"Buleleng",1816,1856,"Sovereign (unrecognized)",
 8560,"Buleleng",1856,1949,"Part of",850
 8560,"Buleleng",1949,2020,"Part of",850
-8561,"Jembrana",1816,1856,"Sovereign (unrecognised)",
+8561,"Jembrana",1816,1856,"Sovereign (unrecognized)",
 8561,"Jembrana",1856,1949,"Part of",850
 8561,"Jembrana",1949,2020,"Part of",850
 9001,"Christmas I.",1816,1888,"Discovered",
-9001,"Christmas I.",1888,1942,"Part of",827
+9001,"Christmas I.",1888,1889,"Possession of",200
+9001,"Christmas I.",1889,1942,"Part of",827
 9001,"Christmas I.",1942,1945,"Occupied by",740
 9001,"Christmas I.",1945,1946,"Part of",827
 9001,"Christmas I.",1946,1958,"Part of",830
 9001,"Christmas I.",1958,2020,"Dependency of",900
-9002,"Cocos (Keeling) Is.",1816,1857,"Discovered",
+9002,"Cocos (Keeling) Is.",1816,1827,"Unknown",
+9002,"Cocos (Keeling) Is.",1827,1857,"Sovereign (unrecognized)",
 9002,"Cocos (Keeling) Is.",1857,1878,"Possession of",200
 9002,"Cocos (Keeling) Is.",1878,1882,"Part of",780
 9002,"Cocos (Keeling) Is.",1882,1942,"Part of",827
@@ -3895,7 +3924,7 @@
 9004,"Norfolk I.",1816,1920,"Colony of",200
 9004,"Norfolk I.",1920,1979,"Colony of",900
 9004,"Norfolk I.",1979,2020,"Dependency of",900
-9005,"Heard and McDonald Is.",1853,1947,"Discovered",
+9005,"Heard and McDonald Is.",1853,1947,"Possession of",200
 9005,"Heard and McDonald Is.",1947,2020,"Dependency of",900
 9006,"Macquarie I.",1816,1890,"Possession of",901
 9006,"Macquarie I.",1890,1901,"Possession of",906
@@ -3910,7 +3939,7 @@
 9100,"New Guinea",1828,1828,"Dissolved into",851
 9100,"New Guinea",1883,1883,"Dissolved into",911
 9100,"New Guinea",1884,1884,"Dissolved into",912
-9101,"Republic of the Northern Solomons",1975,1976,"Sovereign (unrecognised)",
+9101,"Republic of the Northern Solomons",1975,1976,"Sovereign (unrecognized)",
 9101,"Republic of the Northern Solomons",1976,1976,"Part of",9102
 9102,"Bougainville",1816,1885,"Discovered",
 9102,"Bougainville",1885,1914,"Part of",9401
@@ -3931,7 +3960,7 @@
 9251,"Rarotonga",1816,2020,"Part of",925
 9252,"Northern Cook Is.",1816,1901,"Discovered",
 9252,"Northern Cook Is.",1901,2020,"Possession of",925
-9253,"Niue I.",1816,1900,"Discovered",
+9253,"Niue I.",1816,1900,"Sovereign (unrecognized)",
 9253,"Niue I.",1900,1901,"Protectorate of",200
 9253,"Niue I.",1901,1904,"Part of",925
 9253,"Niue I.",1904,1974,"Colony of",920
@@ -3941,11 +3970,11 @@
 9321,"Wallis and Futuna Is.",1887,1961,"Protectorate of",220
 9321,"Wallis and Futuna Is.",1887,1961,"Part of",930
 9321,"Wallis and Futuna Is.",1961,2020,"Dependency of",220
-9322,"Uvea",1816,1887,"Discovered",
+9322,"Uvea",1816,1887,"Sovereign (unrecognized)",
 9322,"Uvea",1887,2020,"Part of",9321
 9323,"Tua (Singave)",1816,1888,"Discovered",
 9323,"Tua (Singave)",1888,2020,"Part of",9321
-9324,"Alo (Futuna)",1816,1888,"Discovered",
+9324,"Alo (Futuna)",1816,1888,"Sovereign (unrecognized)",
 9324,"Alo (Futuna)",1888,2020,"Part of",9321
 9351,"Vemarana (Espiritu Santo)",1816,1906,"Discovered",
 9351,"Vemarana (Espiritu Santo)",1906,1980,"Part of",935
@@ -3956,13 +3985,14 @@
 9401,"German Solomon Is.",1899,1899,"Dissolved into",940
 9401,"German Solomon Is.",1899,1914,"Part of",912
 9401,"German Solomon Is.",1914,1914,"Dissolved into",9102
-9451,"Banana I. (Ocean I.)",1816,1900,"Discovered",
-9451,"Banana I. (Ocean I.)",1900,1916,"Possession of",200
-9451,"Banana I. (Ocean I.)",1916,1942,"Part of",945
-9451,"Banana I. (Ocean I.)",1942,1945,"Occupied by",740
-9451,"Banana I. (Ocean I.)",1945,1975,"Part of",945
-9451,"Banana I. (Ocean I.)",1975,2020,"Part of",946
-9452,"Christmas Is.",1816,1888,"Discovered",
+9451,"Banaba I. (Ocean I.)",1816,1900,"Discovered",
+9451,"Banaba I. (Ocean I.)",1900,1916,"Possession of",200
+9451,"Banaba I. (Ocean I.)",1916,1942,"Part of",945
+9451,"Banaba I. (Ocean I.)",1942,1945,"Occupied by",740
+9451,"Banaba I. (Ocean I.)",1945,1975,"Part of",945
+9451,"Banaba I. (Ocean I.)",1975,2020,"Part of",946
+9452,"Christmas Is.",1816,1857,"Discovered",
+9452,"Christmas Is.",1857,1888,"Possession of",2
 9452,"Christmas Is.",1888,1916,"Possession of",200
 9452,"Christmas Is.",1916,1975,"Part of",945
 9452,"Christmas Is.",1975,2020,"Part of",946
@@ -4000,9 +4030,9 @@
 9466,"Caroline I.",1979,2020,"Part of",946
 9501,"Rotuma I.",1816,1881,"Discovered",
 9501,"Rotuma I.",1881,2020,"Part of",950
-9551,"Vava'u",1816,1833,"Discovered",
+9551,"Vava'u",1816,1833,"Sovereign (unrecognized)",
 9551,"Vava'u",1833,2020,"Part of",955
-9552,"Tongatapu",1816,1845,"Discovered",
+9552,"Tongatapu",1816,1845,"Sovereign (unrecognized)",
 9552,"Tongatapu",1845,2020,"Part of",955
 9553,"Ha'apai",1816,1845,"Discovered",
 9553,"Ha'apai",1845,2020,"Part of",955
@@ -4017,14 +4047,14 @@
 9603,"Tuamotu Is.",1844,1881,"Protectorate of",220
 9603,"Tuamotu Is.",1881,1903,"Colony of",220
 9603,"Tuamotu Is.",1903,2020,"Part of",960
-9604,"Gambier Is.",1816,1881,"Discovered",
-9604,"Gambier Is.",1881,1903,"Colony of",220
-9604,"Gambier Is.",1903,2020,"Part of",960
+9604,"Gambier Is.",1816,1844,"Sovereign (unrecognized)",
+9604,"Gambier Is.",1844,1886,"Protectorate of",220
+9604,"Gambier Is.",1886,2020,"Part of",960
 9605,"Tubuai Is. (Austral Is.)",1816,1850,"Discovered",
 9605,"Tubuai Is. (Austral Is.)",1850,1880,"Protectorate of",220
 9605,"Tubuai Is. (Austral Is.)",1880,1903,"Colony of",220
 9605,"Tubuai Is. (Austral Is.)",1903,2020,"Part of",960
-9606,"Tahiti",1816,1843,"Discovered",
+9606,"Tahiti",1816,1843,"Sovereign (unrecognized)",
 9606,"Tahiti",1843,2020,"Part of",9601
 9610,"Clipperton I.",1816,1856,"Discovered",
 9610,"Clipperton I.",1856,1897,"Claimed by",2
@@ -4079,8 +4109,10 @@
 9820,"Mariana Is.",1821,1899,"Colony of",230
 9820,"Mariana Is.",1899,1899,"Dissolved into",984
 9820,"Mariana Is.",1898,1898,"Dissolved into",985
-9900,"Samoa",1816,1889,"Discovered",
+9900,"Samoa",1816,1889,"Sovereign (unrecognized)",
 9900,"Samoa",1889,1900,"Protectorate of",2
+9900,"Samoa",1889,1900,"Protectorate of",200
+9900,"Samoa",1889,1900,"Protectorate of",255
 9900,"Samoa",1900,1900,"Dissolved into",990
 9900,"Samoa",1900,1900,"Dissolved into",991
 9960,"Australian Antarctic Territory",1841,1933,"Claimed by",200
