@@ -59,14 +59,14 @@
     "resources": [
       {
         "name": "entities_status",
-        "title": "Geo-Political entities status in time",
+        "title": "Geo-Political entities status over time",
         "description": "Sovereignty status of geo-political entities of the World 1816-2020",
         "format": "csv",
         "encoding": "utf-8",
-        "path": "data/GeoPolHist_entities_status_in_time.csv",
+        "path": "data/GeoPolHist_entities_status_over_time.csv",
         "profile": "tabular-data-resource",
         "schema": {
-          "missingValues": ["?"],
+          "missingValues": ["?",""],
           "fields": [
             {
               "name": "GPH_code",
