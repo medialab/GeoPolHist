@@ -689,8 +689,6 @@
 472,"British Cameroons",1919,1922,"Occupied by",200
 472,"British Cameroons",1922,1961,"Mandated to",200
 472,"British Cameroons",1961,1961,"Dissolved into",471
-475,"Nigeria",1816,1900,"Discovered",
-475,"Nigeria",1900,1914,"Protectorate of",200
 475,"Nigeria",1914,1960,"Colony of",200
 475,"Nigeria",1960,2020,"Sovereign",
 480,"French Equatorial Africa",1910,1958,"Colony of",220
@@ -835,7 +833,7 @@
 570,"Lesotho (Basutoland)",1871,1884,"Part of",561
 570,"Lesotho (Basutoland)",1884,1966,"Colony of",200
 570,"Lesotho (Basutoland)",1966,2020,"Sovereign",
-571,"Botswana (Bechuanaland)",1816,1885,"Sovereign (unrecognized)",
+571,"Botswana (Bechuanaland)",1816,1885,"Discovered",
 571,"Botswana (Bechuanaland)",1885,1966,"Protectorate of",200
 571,"Botswana (Bechuanaland)",1966,2020,"Sovereign",
 572,"Eswatini (Swaziland)",1816,1894,"Sovereign (unrecognized)",
@@ -1376,8 +1374,9 @@
 1016,"Oregon (Oregon Country)",1818,1848,"Claimed by",2
 1016,"Oregon (Oregon Country)",1818,1846,"Occupied by",200
 1016,"Oregon (Oregon Country)",1846,1849,"Possession of",200
-1016,"Oregon (Oregon Country)",1848,2020,"Part of",2
 1016,"Oregon (Oregon Country)",1849,1849,"Dissolved into",1027
+1016,"Oregon (Oregon Country)",1849,1849,"Dissolved into",1028
+1016,"Oregon (Oregon Country)",1848,2020,"Part of",2
 1017,"Eastern Greenland",1931,1933,"Possession of",385
 1017,"Eastern Greenland",1933,2020,"Part of",10
 1018,"U.S. Leased Bases in Newfoundland",1940,1994,"Leased to",2
@@ -1401,10 +1400,8 @@
 1025,"Quebec (Lower Canada)",1841,2020,"Part of",20
 1026,"Ontario (Upper Canada)",1816,1841,"Colony of",200
 1026,"Ontario (Upper Canada)",1841,2020,"Part of",20
-1027,"British Columbia",1816,1818,"Discovered",
-1027,"British Columbia",1818,1846,"Occupied by",2
-1027,"British Columbia",1818,1846,"Occupied by",200
-1027,"British Columbia",1846,1858,,
+1027,"British Columbia",1816,1849,"Part of",1016
+1027,"British Columbia",1849,1858,"Unknown",
 1027,"British Columbia",1858,1871,"Colony of",200
 1027,"British Columbia",1871,2020,"Part of",20
 1028,"Vancouver",1816,1849,"Discovered",
@@ -2313,10 +2310,12 @@
 4781,"Lagos",1914,2020,"Part of",475
 4782,"Oil Rivers Protectorate",1885,1899,"Protectorate of",200
 4782,"Oil Rivers Protectorate",1899,1899,"Part of",4783
-4783,"Southern Nigeria",1899,1914,"Protectorate of",200
-4783,"Southern Nigeria",1914,1914,"Dissolved into",475
-4784,"Northern Nigeria",1899,1914,"Protectorate of",200
-4784,"Northern Nigeria",1914,1914,"Dissolved into",475
+4783,"Southern Nigeria (Niger Coast Protectorate)",1884,1900,"Protectorate of",200
+4783,"Southern Nigeria (Niger Coast Protectorate)",1900,1914,"Protectorate of",200
+4783,"Southern Nigeria (Niger Coast Protectorate)",1914,1914,"Dissolved into",475
+4784,"Northern Nigeria (British Nigeria)",1879,1900,"Possession of",200
+4784,"Northern Nigeria (British Nigeria)",1900,1914,"Protectorate of",200
+4784,"Northern Nigeria (British Nigeria)",1914,1914,"Dissolved into",475
 4790,"Biafra",1967,1970,"Sovereign (unrecognized)",
 4791,"Bonny",1816,1885,"Sovereign (unrecognized)",
 4791,"Bonny",1885,1899,"Part of",4782
@@ -2576,16 +2575,13 @@
 5611,"Griqualand, West",1871,1880,"Colony of",200
 5611,"Griqualand, West",1880,1910,"Part of",561
 5611,"Griqualand, West",1910,2020,"Part of",560
-5612,"British Bechuanaland",1816,1885,"Part of",5605
 5612,"British Bechuanaland",1885,1895,"Colony of",200
 5612,"British Bechuanaland",1895,1910,"Part of",561
 5612,"British Bechuanaland",1910,2020,"Part of",560
 5613,"Stellaland & Goshen",1816,1882,"Part of",561
 5613,"Stellaland & Goshen",1816,1882,"Part of",571
 5613,"Stellaland & Goshen",1882,1885,"Sovereign (unrecognized)",
-5613,"Stellaland & Goshen",1885,1895,"Part of",5612
-5613,"Stellaland & Goshen",1895,1910,"Part of",561
-5613,"Stellaland & Goshen",1910,2020,"Part of",560
+5613,"Stellaland & Goshen",1885,1885,"Dissolved into",5612
 5614,"British Kaffraria",1816,1835,"Discovered",
 5614,"British Kaffraria",1835,1836,"Part of",561
 5614,"British Kaffraria",1836,1847,"Colony of",200
