@@ -236,6 +236,10 @@ const Home: React.FC<RouterProps> = (props) => {
             GeoPolHist datapackage repository
           </a>
         </p>
+        <p> To cite the dataset:
+          <blockquote>Béatrice Dedinger, & Paul Girard. (2021). GeoPolHist dataset (Version 202103) [Data set]. Zenodo. <a href="http://doi.org/10.5281/zenodo.4600809">http://doi.org/10.5281/zenodo.4600809</a></blockquote>
+          <a href="https://doi.org/10.5281/zenodo.4600809"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4600809.svg" alt="DOI"/></a>
+        </p>
       </div>
     </>
   );

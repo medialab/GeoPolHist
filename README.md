@@ -1,10 +1,12 @@
-# GeoPolHist data set
+# GeoPolHist dataset
 
 World Geo-Political entities sovereign status from 1816 to 2020.
 
 - ./data : the data set in CSV and python (3) scripts to aggregate 
 - ./datapackage.json : documentation of the data set
 - ./src : source code of the visualisation web application
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4600809.svg)](https://doi.org/10.5281/zenodo.4600809)
 
 ## Use the visualisation tool
 
