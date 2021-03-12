@@ -130,8 +130,8 @@ const Home: React.FC<RouterProps> = (props) => {
           by political status since 1816
         </h1>
         <p>
-          GeoPolHist is a quantitative tool that focuses on the questions “what
-          are?” and “how many?” countries in the world. Created from the lists
+          GeoPolHist is a quantitative tool that focuses on the questions <b>“what
+          is a country?”</b> and <b>“how many countries are there in the world?”</b> Created from the lists
           of{" "}
           <a href="https://correlatesofwar.org/data-sets/state-system-membership">
             states
@@ -181,12 +181,12 @@ const Home: React.FC<RouterProps> = (props) => {
 
         <h2>Three periods in the political history of the world since 1816</h2>
         <p>
-          Over the last two centuries, the political structure of the world went
-          through three distinct periods during which one <a href="./data/GeoPolHist_status.csv">status</a> predominated.
-          From 1816 to the Berlin Conference in 1884/85, 13 % of the
+          Over the last two centuries, the political situation of the world can be described
+          as a developmental process in three phases during which one <a href="./data/GeoPolHist_status.csv">status</a> predominated.
+          From 1816 to the Berlin Conference in 1884/85, 14% of the
           geopolitical entities of the world were sovereign (unrecognized); from
-          1886 to 1949, 20 % were ‘colony’, ‘possession or ‘protectorate’’;
-          since 1950, 16 % are ‘sovereign’ (in the strict sense).
+          1886 to 1949, 20% were ‘colony’, ‘possession or ‘protectorate’’;
+          since 1950, 16% are ‘sovereign’ (in the strict sense).
         </p>
         <iframe
           title="GPH status evolutions in 1816,1885,1950 and 2020"
@@ -197,16 +197,7 @@ const Home: React.FC<RouterProps> = (props) => {
         </p>
         <h2 id="methodology">Methodology</h2>
         <p>
-          A geopolitical entity is any form of human social community or territory{" "}
-          that has been involved in an international or intra-national conflict during{" "}
-          the post-Napoleonic period and that is geographically based.{" "}
-          These entities are “political” in the Aristotelian sense of the political order,{" "}
-          whose ultimate goal is peace through justice inside the entity,{" "}
-          war and conflicts remaining a potential option outside the limits of the entity.{" "}
-          Through the period covered by the GPH database, political entities of the type “human social community”{" "}
-          have taken the form of tribe, chiefdom, city-state, kingdom, empire, seigneury,{" "}
-          or nation. GPH entities are sovereign and independent or not.{" "}
-          Political entities of the type “territory” are uninhabited islands, atolls or reefs.
+          A geopolitical entity is any form of human social community or territory that has been involved in an international or intra-national conflict during the post-Napoleonic period and is also geographically based. These entities are “political” in the Aristotelian sense of the political order, whose ultimate goal is to maintain peace through justice within the entity, while war and conflicts remain a possibility outside the limits of the entity. Throughout the period covered by the GPH database, political entities of the “human social community” type have taken the form of the tribe, chiefdom, city-state, kingdom, empire, seigneury, or nation. GPH entities may or may not be sovereign and independent. Political entities of the “territory” type are made up of uninhabited islands, atolls or reefs.
         </p>
         <p>
           The GeoPolHist dataset will be fully described in the paper{" "}
@@ -231,10 +222,10 @@ const Home: React.FC<RouterProps> = (props) => {
               - list of GPH entities;
             </li>
             <li>
-              <a href="./data/GeoPolHist_entities_status_in_time.csv">
-                GeoPolHist_entities_status_in_time.csv
+              <a href="./data/GeoPolHist_entities_status_over_time.csv">
+                GeoPolHist_entities_status_over_time.csv
               </a>{" "}
-              - list of GPH entities by political status in time;
+              - list of GPH entities by political status over time;
             </li>
           </ul>
         </p>
