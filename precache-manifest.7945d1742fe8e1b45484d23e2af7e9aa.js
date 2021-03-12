@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00826dd87fdce9ec104ee572cd8dacb3",
+    "revision": "80b783e215f17af15bfe817b3f177087",
     "url": "/GeoPolHist/index.html"
   },
   {
-    "revision": "f0a859479a6fe909c201",
+    "revision": "37589354cc5efb3c11d3",
     "url": "/GeoPolHist/static/css/main.c91ba701.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GeoPolHist/static/js/2.18e7ffea.chunk.js"
   },
   {
-    "revision": "f0a859479a6fe909c201",
-    "url": "/GeoPolHist/static/js/main.8fb177ce.chunk.js"
+    "revision": "37589354cc5efb3c11d3",
+    "url": "/GeoPolHist/static/js/main.f61e3534.chunk.js"
   },
   {
     "revision": "2d6863e2d2d348a189f6",
