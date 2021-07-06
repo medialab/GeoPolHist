@@ -12,8 +12,6 @@
 /build
 /public/data
 
-# aggregated data
-/data/aggregated/*
 
 # misc
 .DS_Store

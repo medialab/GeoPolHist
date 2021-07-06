@@ -1,0 +1,72 @@
+[
+  {
+    "start_year": 1816,
+    "end_year": 1885,
+    "transitions": {
+      "Part of>Non sovereign": 96,
+      "Part of>Sovereign (all)": 38,
+      "Sovereign (all)>Part of": 87,
+      "Non sovereign>Sovereign (all)": 17,
+      "Sovereign (all)>Non sovereign": 47,
+      "Non sovereign>Part of": 138,
+      ">Sovereign (all)": 2,
+      "Sovereign (all)>": 7,
+      "Part of>": 4,
+      "Miscellaneous>Non sovereign": 59,
+      "Miscellaneous>Sovereign (all)": 7,
+      "Miscellaneous>Part of": 43,
+      "Non sovereign>": 7,
+      ">Part of": 1,
+      "Part of>Miscellaneous": 8,
+      "Sovereign (all)>Miscellaneous": 3,
+      "Non sovereign>Miscellaneous": 1
+    }
+  },
+  {
+    "start_year": 1886,
+    "end_year": 1949,
+    "transitions": {
+      "Sovereign (all)>Non sovereign": 61,
+      "Non sovereign>Sovereign (all)": 45,
+      "Non sovereign>Part of": 293,
+      "Part of>Sovereign (all)": 28,
+      "Part of>Non sovereign": 170,
+      "Part of>": 12,
+      "Sovereign (all)>": 7,
+      "Sovereign (all)>Part of": 74,
+      "Non sovereign>": 27,
+      "Miscellaneous>Non sovereign": 34,
+      ">Non sovereign": 4,
+      "Miscellaneous>Part of": 55,
+      "Non sovereign>Miscellaneous": 3,
+      "Part of>Miscellaneous": 1,
+      ">Part of": 2
+    }
+  },
+  {
+    "start_year": 1950,
+    "end_year": 2019,
+    "transitions": {
+      "Non sovereign>Part of": 104,
+      "Part of>Non sovereign": 90,
+      "Non sovereign>Sovereign (all)": 74,
+      "Part of>Sovereign (all)": 60,
+      "Part of>": 32,
+      ">Part of": 5,
+      ">Sovereign (all)": 2,
+      "Sovereign (all)>": 8,
+      "Non sovereign>": 20,
+      "Sovereign (all)>Part of": 10,
+      ">Non sovereign": 1,
+      "Miscellaneous>Non sovereign": 1,
+      "Part of>Miscellaneous": 2,
+      "Miscellaneous>Part of": 4,
+      "Sovereign (all)>Non sovereign": 1
+    }
+  },
+  {
+    "start_year": 2020,
+    "end_year": 2020,
+    "transitions": {}
+  }
+]

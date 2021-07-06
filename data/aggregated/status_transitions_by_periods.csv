@@ -1,0 +1,48 @@
+period,transition,nb
+1816-1885,Part of>Non sovereign,96
+1816-1885,Part of>Sovereign (all),38
+1816-1885,Sovereign (all)>Part of,87
+1816-1885,Non sovereign>Sovereign (all),17
+1816-1885,Sovereign (all)>Non sovereign,47
+1816-1885,Non sovereign>Part of,138
+1816-1885,>Sovereign (all),2
+1816-1885,Sovereign (all)>,7
+1816-1885,Part of>,4
+1816-1885,Miscellaneous>Non sovereign,59
+1816-1885,Miscellaneous>Sovereign (all),7
+1816-1885,Miscellaneous>Part of,43
+1816-1885,Non sovereign>,7
+1816-1885,>Part of,1
+1816-1885,Part of>Miscellaneous,8
+1816-1885,Sovereign (all)>Miscellaneous,3
+1816-1885,Non sovereign>Miscellaneous,1
+1886-1949,Sovereign (all)>Non sovereign,61
+1886-1949,Non sovereign>Sovereign (all),45
+1886-1949,Non sovereign>Part of,293
+1886-1949,Part of>Sovereign (all),28
+1886-1949,Part of>Non sovereign,170
+1886-1949,Part of>,12
+1886-1949,Sovereign (all)>,7
+1886-1949,Sovereign (all)>Part of,74
+1886-1949,Non sovereign>,27
+1886-1949,Miscellaneous>Non sovereign,34
+1886-1949,>Non sovereign,4
+1886-1949,Miscellaneous>Part of,55
+1886-1949,Non sovereign>Miscellaneous,3
+1886-1949,Part of>Miscellaneous,1
+1886-1949,>Part of,2
+1950-2019,Non sovereign>Part of,104
+1950-2019,Part of>Non sovereign,90
+1950-2019,Non sovereign>Sovereign (all),74
+1950-2019,Part of>Sovereign (all),60
+1950-2019,Part of>,32
+1950-2019,>Part of,5
+1950-2019,>Sovereign (all),2
+1950-2019,Sovereign (all)>,8
+1950-2019,Non sovereign>,20
+1950-2019,Sovereign (all)>Part of,10
+1950-2019,>Non sovereign,1
+1950-2019,Miscellaneous>Non sovereign,1
+1950-2019,Part of>Miscellaneous,2
+1950-2019,Miscellaneous>Part of,4
+1950-2019,Sovereign (all)>Non sovereign,1
