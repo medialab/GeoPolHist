@@ -1,16 +1,20 @@
-cff-version: "1.2.0"
-message: "If you use this data set, please cite it as below."
-title: "How many countries in the world? The geopolitical entities of the world and their political status from 1816 to the present"
+# YAML 1.2
+---
 abstract: "Answering the question “how many countries are there in the world?” turns out to be more complex than it seems, as there is currently no quantitative tool dedicated to this issue. Starting from the lists of national political units created by the instigators of the Correlates of War project, we have built a dataset and visual documentation that identifies the political status, whether sovereign or non-sovereign, of the geopolitical entities of the world from 1816 to the present. This paper aims to present the new dataset, GeoPolHist, by explaining the conceptual and methodological issues raised by the construction of this type of dataset as well as the scientific interest of such data for research on the political history of the world or on the impact of political status."
 authors: 
-- affiliation: "Sciences Po, Center for History (CHSP), Paris"
-  family-names: Dedinger
-  given-names: "Béatrice"
-  orcid: "https://orcid.org/0000-0002-1963-4631"
-- affiliation: "OuestWare, nantes"
-  family-names: Girard
-  given-names: Paul
-  orcid: "https://orcid.org/0000-0001-9332-3308"
+  -
+    affiliation: "Sciences Po, Center for History (CHSP), Paris"
+    family-names: Dedinger
+    given-names: "Béatrice"
+    orcid: "https://orcid.org/0000-0002-1963-4631"
+  -
+    affiliation: "OuestWare, nantes"
+    family-names: Girard
+    given-names: Paul
+    orcid: "https://orcid.org/0000-0001-9332-3308"
+cff-version: "1.1.0"
 date-released: 2021-07-02
 doi: "10.1080/01615440.2021.1939826"
+message: "If you use this data set, please cite it as below."
 repository-code: "https://github.com/medialab/GeoPolHist"
+title: "How many countries in the world? The geopolitical entities of the world and their political status from 1816 to the present"
