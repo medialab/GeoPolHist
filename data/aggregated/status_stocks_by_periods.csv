@@ -1,7 +1,9 @@
 name,1816,1886,1950,2020
+League of Nations,?,International,?,?
+United Nations,?,International,International,International
 United States of America,Sovereign,Sovereign,Sovereign,Sovereign
 Alaska,Colony of,Colony of,Colony of,Part of
-Hawaii,Sovereign (limited),Sovereign (limited),Colony of,Part of
+Hawaii (Sandwich Is.),Sovereign (limited),Sovereign (limited),Colony of,Part of
 Virgin Islands,Colony of,Colony of,Colony of,Colony of
 Puerto Rico,Part of,Colony of,Colony of,Dependency of
 Texas,Part of,Part of,Part of,Part of
@@ -38,11 +40,11 @@ Nicaragua,Part of,Sovereign,Sovereign,Sovereign
 Costa Rica,Part of,Sovereign,Sovereign,Sovereign
 Panama,Colony of,Part of,Sovereign,Sovereign
 Panama Canal Zone,Part of,Part of,Leased to,Part of
-Colombia (Gran Colombia),Colony of,Sovereign,Sovereign,Sovereign
+Colombia (Gran Colombia) (New Granada),Colony of,Sovereign,Sovereign,Sovereign
 Venezuela,Colony of,Sovereign,Sovereign,Sovereign
-Guyana (Br. Guiana),Colony of,Colony of,Colony of,Sovereign
-Surinam,Colony of,Colony of,Colony of,Sovereign
-French Guyana,Occupied by,Colony of,Part of,Part of
+Guyana (British Guiana),Colony of,Colony of,Colony of,Sovereign
+Surinam (Dutch Guiana),Colony of,Colony of,Colony of,Sovereign
+French Guiana,Occupied by,Colony of,Part of,Part of
 Ecuador,Colony of,Sovereign,Sovereign,Sovereign
 Peru,Part of,Sovereign,Sovereign,Sovereign
 Bolivia-Peru Confederation,Sovereign (unrecognized),?,?,?
@@ -50,7 +52,7 @@ Brazil,Colony of,Sovereign,Sovereign,Sovereign
 Bolivia,Colony of,Sovereign,Sovereign,Sovereign
 Paraguay,Sovereign,Sovereign,Sovereign,Sovereign
 Chile,Part of,Sovereign,Sovereign,Sovereign
-Argentina,Sovereign,Sovereign,Sovereign,Sovereign
+Argentina (Río de la Plata),Sovereign,Sovereign,Sovereign,Sovereign
 Uruguay,Part of,Sovereign,Sovereign,Sovereign
 United Kingdom,Sovereign,Sovereign,Sovereign,Sovereign
 Ireland,Part of,Part of,Sovereign,Sovereign
@@ -81,7 +83,7 @@ Hohenzollern Sigmaringen,Sovereign (limited),?,?,?
 Lippe,Sovereign (limited),Part of,?,?
 Mecklenburg Strelitz,Sovereign (limited),Part of,?,?
 Nassau,Sovereign (limited),?,?,?
-Germany,Informal,Sovereign,Sovereign,Sovereign
+Germany (Zollverein),Informal,Sovereign,Sovereign,Sovereign
 Saar,Part of,Part of,Protectorate of,Part of
 Oldenburg,Sovereign (limited),Part of,?,?
 "Reuss, Older Line",Sovereign (limited),Part of,?,?
@@ -190,7 +192,7 @@ British Cameroons,?,Occupied by,Mandated to,?
 Nigeria,?,Colony of,Colony of,Sovereign
 French Equatorial Africa,?,Colony of,Colony of,?
 Gabon,Discovered,Protectorate of,Part of,Sovereign
-Central African Republic (Ubangi Shari),?,Part of,Part of,Sovereign
+Central African Republic (Ubangi Shari),?,Claimed by,Part of,Sovereign
 Chad,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Sovereign
 Congo (Brazzaville) (French Congo) (Middle Congo),Discovered,Colony of,Part of,Sovereign
 Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo) (Congo Free State),Discovered,Possession of,Colony of,Sovereign
@@ -213,7 +215,7 @@ Zambia (Northern Rhodesia),?,Part of,Colony of,Sovereign
 Zimbabwe (Rhodesia) (Southern Rhodesia),?,Colony of,Colony of,Sovereign
 Malawi (Nyasaland) (British Central Africa Protectorate),Discovered,Discovered,Protectorate of,Sovereign
 South Africa,?,Colony of,Sovereign,Sovereign
-Cape Colony,Colony of,Colony of,Part of,Part of
+Cape Colony (Cape of Good Hope),Colony of,Colony of,Part of,Part of
 Natal,Discovered,Colony of,Part of,Part of
 Transvaal,Discovered,Sovereign (unrecognized),Part of,Part of
 Orange Free State (Orange River Colony),Discovered,Sovereign (unrecognized),Part of,Part of
@@ -227,7 +229,7 @@ Botswana (Bechuanaland),Discovered,Protectorate of,Protectorate of,Sovereign
 Eswatini (Swaziland),Sovereign (unrecognized),Sovereign (unrecognized),Colony of,Sovereign
 Madagascar (Malagasy Republic),Sovereign (unrecognized),Protectorate of,Colony of,Sovereign
 Comoros,?,Protectorate of,Dependency of,Sovereign
-Reunion,Colony of,Colony of,Part of,Part of
+Reunion (Bourbon I.),Colony of,Colony of,Part of,Part of
 Mauritius,Colony of,Colony of,Colony of,Sovereign
 Seychelles,Part of,Part of,Colony of,Sovereign
 Morocco,Sovereign (unrecognized),Sovereign,Protectorate of,Sovereign
@@ -236,9 +238,9 @@ Spanish Morocco,?,Protectorate of,Part of,?
 Ifni,Part of,Part of,Colony of,Part of
 Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara),Protectorate of,Protectorate of,Protectorate of,Sovereign (unrecognized)
 Spanish West Africa,?,Colony of,Colony of,?
-Algeria,Part of,Colony of,Colony of,Sovereign
-Tunisia,Vassal of,Protectorate of,Protectorate of,Sovereign
-"Libya (Tripolitania, Cyrenaica, Fezzan)",Part of,Part of,Occupied by,Sovereign
+Algeria (Algiers),Part of,Colony of,Colony of,Sovereign
+Tunisia (Tunis),Vassal of,Protectorate of,Protectorate of,Sovereign
+Libya,?,Colony of,Occupied by,Sovereign
 North Sudan (Sudan) (Anglo-Egyptian),Part of,Part of,Colony of,Sovereign
 South Sudan,?,?,Sovereign,Sovereign
 Iran (Persia),Sovereign (unrecognized),Sovereign,Sovereign,Sovereign
@@ -301,12 +303,12 @@ Laos,Part of,Part of,Part of,Sovereign
 Vietnam,Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sovereign
 "Vietnam, Democratic Rep.",?,Colony of,Colony of,?
 Republic of Vietnam,?,Colony of,Colony of,?
-Malaysia (Malaya),?,Colony of,Colony of,Sovereign
+Malaysia (British Malaya),Informal,Informal,Colony of,Sovereign
 Federated Malay States,?,Colony of,?,?
 Sabah (North Borneo),Part of,Leased to,Colony of,Claimed by
 Sarawak,Part of,Sovereign (unrecognized),Colony of,Part of
 Straits Settlements,Colony of,Colony of,?,?
-Singapore,Colony of,Part of,Colony of,Sovereign
+Singapore,Part of,Part of,Colony of,Sovereign
 Brunei,Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 Philippines,Part of,Colony of,Sovereign,Sovereign
 Indonesia (Dutch East Indies),Colony of,Colony of,Sovereign,Sovereign
@@ -319,9 +321,9 @@ South Australia,Part of,Colony of,Part of,Part of
 Victoria,Part of,Colony of,Part of,Part of
 Queensland,Part of,Colony of,Part of,Part of
 Tasmania,Part of,Colony of,Part of,Part of
-Papua New Guinea,?,Mandated to,Mandated to,Sovereign
-Papua,Part of,Protectorate of,Part of,Part of
-New Guinea (German New Guinea) (Kaiser Wilhelmsland),Part of,Colony of,Mandated to,Part of
+Papua New Guinea,?,Part of,Part of,Sovereign
+Papua (British New Guinea),Part of,Protectorate of,Dependency of,?
+New Guinea (German New Guinea) (Kaiser Wilhelmsland),Part of,Colony of,Mandated to,?
 New Zealand,Part of,Colony of,Sovereign,Sovereign
 Cook Is.,Discovered,Discovered,Colony of,Associated state of
 New Caledonia and Dependencies,Sovereign (unrecognized),Colony of,Dependency of,Colony of
@@ -334,8 +336,8 @@ Fiji,Discovered,Colony of,Colony of,Sovereign
 Tonga (Ha'apai),Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 French Polynesia,Sovereign (unrecognized),Protectorate of,Colony of,Colony of
 Nauru,Sovereign (unrecognized),Sovereign (unrecognized),Mandated to,Sovereign
-U. S. Pacific Trust Territories,?,Mandated to,Mandated to,?
-Marshall Is.,Part of,Colony of,Part of,Sovereign
+U. S. Pacific Trust Territories (South Seas Mandate),?,Mandated to,Mandated to,?
+Marshall Is.,Part of,Part of,Part of,Sovereign
 Northern Marianas Is.,Part of,Part of,Part of,Dependency of
 Guam,Part of,Part of,Colony of,Colony of
 Republic of Palau,Part of,Part of,Part of,Sovereign
@@ -360,7 +362,7 @@ Cherokee,Part of,Part of,Part of,Part of
 Oregon (Oregon Country),Claimed by,Part of,Part of,Part of
 Eastern Greenland,?,Possession of,Part of,Part of
 U.S. Leased Bases in Newfoundland,?,Leased to,Leased to,?
-Rupert's Land,Possession of,Dissolved into,Dissolved into,Dissolved into
+Rupert's Land,Possession of,?,?,?
 San Juan Island,Claimed by,Part of,Part of,Part of
 Cape Breton I.,Colony of,Part of,Part of,Part of
 Nova Scotia,Colony of,Part of,Part of,Part of
@@ -375,11 +377,6 @@ U.S. Leased Bases in Bermuda,?,Leased to,Leased to,?
 Mayaguana,Part of,Part of,Part of,Part of
 Turks and Caicos Is.,Part of,Part of,Part of,Colony of
 Cayman Is.,Part of,Part of,Part of,Colony of
-North-Western Territory,Dissolved into,?,?,?
-Manitoba,Part of,Part of,Part of,Part of
-Alberta,Part of,Part of,Part of,Part of
-Saskatchewan,Part of,Part of,Part of,Part of
-Labrador,Claimed by,Claimed by,Part of,Part of
 Guantanamo,Part of,Part of,Leased to,Leased to
 North Haiti,Sovereign (unrecognized),Part of,Part of,Part of
 Navassa I.,Discovered,Claimed by,Dependency of,Dependency of
@@ -483,6 +480,7 @@ Vorarlberg,Part of,Part of,Part of,Part of
 Tyrol,Part of,Part of,Part of,Part of
 Milan,Part of,?,?,?
 Republic of St. Mark,Part of,?,?,?
+Lombardy-Venetia,Part of,?,?,?
 Ancona,Part of,Part of,Part of,Part of
 Sicily,Part of,Part of,Part of,Part of
 Carpatho-Ukraine,?,Part of,Part of,Part of
@@ -791,6 +789,7 @@ Rodrigues I.,Possession of,Possession of,Possession of,Dependency of
 Agalega Is.,Possession of,Possession of,Possession of,Possession of
 Cargados Carajos Shoals,Colony of,Possession of,Possession of,Possession of
 British Indian Ocean Territory (Chagos Archipelago),Part of,Part of,Part of,Dependency of
+Amirante Is.,Part of,Part of,Part of,Part of
 Oujda,Part of,Part of,Part of,Part of
 Southern zone of Spanish Morocco,?,Part of,Part of,?
 Republic of the Rif,?,Part of,?,?
@@ -807,8 +806,9 @@ Kabylie,Part of,Part of,Part of,Part of
 Leased Posts in Algeria,Leased to,?,?,?
 Bizerte,Part of,Part of,Part of,Part of
 Sanussid Cyrenaica,Part of,Part of,Part of,Part of
-Cyrenaica,Part of,Part of,Part of,?
-Tripolitania,Part of,Part of,Part of,?
+Cyrenaica,Part of,Part of,Part of,Part of
+Tripolitania,Vassal of,Part of,Part of,Part of
+Fezzan,Part of,Part of,Part of,Part of
 Darfur,Sovereign (unrecognized),Part of,?,?
 Funj Sultanate,Sovereign (unrecognized),?,?,?
 Kordofan,Part of,Part of,Part of,?
@@ -1099,7 +1099,7 @@ Paracel Is.,Claimed by,Claimed by,Claimed by,Occupied by
 Perak,Sovereign (unrecognized),Colony of,Part of,Part of
 Selangore,Sovereign (unrecognized),Colony of,Part of,Part of
 Pahang,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
-Negeri Sembilan,Unknown,Unknown,Part of,Part of
+Negeri Sembilan,Vassal of,Colony of,Part of,Part of
 Seremban (Songei Ujong),Part of,Part of,Part of,Part of
 Rembau,Unknown,Unknown,Part of,Part of
 Seri Menanti,Unknown,Part of,Part of,Part of
@@ -1118,8 +1118,11 @@ Penang,Possession of,Part of,Part of,Part of
 Sulu Sultanate,Sovereign (unrecognized),Protectorate of,Part of,Part of
 Bohol,Discovered,Part of,Part of,Part of
 Mindanao,Part of,Part of,Part of,Dependency of
-Sambas,Part of,Part of,Part of,Part of
-Atjeh,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
+Lanfang,Vassal of,?,?,?
+Bulungan,Vassal of,Vassal of,Part of,?
+Pontianak,Part of,Part of,Dissolved into,?
+Sambas,Sovereign (unrecognized),Part of,Part of,?
+Aceh,Protectorate of,Protectorate of,Part of,Part of
 Deli,Unknown,Part of,Part of,Part of
 Siak,Part of,Part of,Part of,Part of
 Minangkabau (Melayu),Unknown,Part of,Part of,Part of
@@ -1130,7 +1133,7 @@ Kutai,Sovereign (unrecognized),Part of,Part of,Part of
 Toraja,Discovered,Discovered,Part of,Part of
 Bali,Sovereign (unrecognized),Part of,Part of,Part of
 Lombok,Occupied by,Occupied by,Part of,Part of
-Banjermassin,Occupied by,Part of,Part of,Part of
+Banjarmasin,Occupied by,?,?,?
 Riau,Occupied by,Part of,Part of,Part of
 Tapanuli Selatan (Angkola),Unknown,Part of,Part of,Part of
 Mandailing,Unknown,Part of,Part of,Part of
@@ -1153,8 +1156,7 @@ Macquarie I.,Possession of,Possession of,Possession of,Possession of
 Lord Howe I.,Possession of,Possession of,Possession of,Possession of
 Ashmore and Cartier Is,Discovered,Possession of,Possession of,Dependency of
 New Guinea,Claimed by,?,?,?
-Republic of the Northern Solomons,?,?,Sovereign (unrecognized),?
-Bougainville,Discovered,Part of,Part of,Part of
+Bougainville (Republic of the North Solomons),Discovered,Discovered,Part of,Part of
 Tokelau Is.,Discovered,Protectorate of,Colony of,Colony of
 Kermadec Is.,Discovered,Possession of,Possession of,Possession of
 Chatham Is.,Claimed by,Possession of,Possession of,Possession of
@@ -1204,6 +1206,7 @@ Baker I.,Discovered,Claimed by,Dependency of,Dependency of
 Jarvis I.,Discovered,Claimed by,Dependency of,Dependency of
 Caroline Is.,Part of,Colony of,?,?
 Mariana Is.,Part of,Colony of,?,?
+Bismarck Archipelago (New Britain) (Neupommern),Discovered,Part of,Part of,Part of
 Samoa,Sovereign (unrecognized),Sovereign (unrecognized),?,?
 Australian Antarctic Territory,Claimed by,Claimed by,Claimed by,Dependency of
 French and Southern Antarctic Territories (F.S.A.T.),?,?,Dependency of,Dependency of
@@ -1225,5 +1228,11 @@ Bouvet I.,Discovered,Discovered,Dependency of,Dependency of
 Ross Dependency,Discovered,Discovered,Dependency of,Dependency of
 Concessions in China,International,International,?,?
 Inter-Allied Commission of Control,?,International,?,?
-League of Nations,?,International,?,?
-United Nations,?,International,International,International
+North-Western Territory,Possession of,?,?,?
+Northwest Territories,Part of,Part of,Part of,Part of
+Alberta,Part of,Part of,Part of,Part of
+Saskatchewan,Part of,Part of,Part of,Part of
+Manitoba,Part of,Part of,Part of,Part of
+Yukon,?,Part of,Part of,Part of
+Nunavut,?,?,Part of,Part of
+Labrador,Claimed by,Claimed by,Part of,Part of

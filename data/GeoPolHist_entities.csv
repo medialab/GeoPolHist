@@ -1,8 +1,10 @@
 GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,notes
+0,League of Nations,World,https://www.wikidata.org/wiki/Q38130,,,,
+1,United Nations,World,https://www.wikidata.org/wiki/Q1065,,,,
 2,United States of America,America,http://www.wikidata.org/entity/Q30,,,,
 3,Alaska,America,http://www.wikidata.org/entity/Q797,,,,
-4,Hawaii,America,http://www.wikidata.org/entity/Q782,,,,
-5,Virgin Islands (Danish West Indies),America,http://www.wikidata.org/entity/Q11703,,,,
+4,Hawaii (Sandwich Is.),Oceania,http://www.wikidata.org/entity/Q782,,,,
+5,Virgin Islands,America,http://www.wikidata.org/entity/Q11703,,,,
 6,Puerto Rico,America,http://www.wikidata.org/entity/Q1183,,,,
 7,Texas,America,http://www.wikidata.org/entity/Q1439,,,,
 10,Greenland,America,http://www.wikidata.org/entity/Q223,,,,
@@ -38,11 +40,11 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 94,Costa Rica,America,http://www.wikidata.org/entity/Q800,,,,
 95,Panama,America,http://www.wikidata.org/entity/Q804,,,,
 96,Panama Canal Zone,America,http://www.wikidata.org/entity/Q498979,,,,
-100,Colombia (Gran Colombia),America,http://www.wikidata.org/entity/Q739,,,,
+100,Colombia (Gran Colombia) (New Granada),America,http://www.wikidata.org/entity/Q739,,,,
 101,Venezuela,America,http://www.wikidata.org/entity/Q717,,,,
-110,Guyana (Br. Guiana),America,http://www.wikidata.org/entity/Q734,,,,
-115,Surinam,America,http://www.wikidata.org/entity/Q730,,,,
-120,French Guyana,America,http://www.wikidata.org/entity/Q3769,,,,
+110,Guyana (British Guiana),America,http://www.wikidata.org/entity/Q734,,,,
+115,Surinam (Dutch Guiana),America,http://www.wikidata.org/entity/Q730,,,,
+120,French Guiana,America,http://www.wikidata.org/entity/Q3769,,,,
 130,Ecuador,America,http://www.wikidata.org/entity/Q736,,,,
 135,Peru,America,http://www.wikidata.org/entity/Q419,,,,
 136,Bolivia-Peru Confederation,America,http://www.wikidata.org/entity/Q899706,,,,
@@ -50,7 +52,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 145,Bolivia,America,http://www.wikidata.org/entity/Q750,,,,
 150,Paraguay,America,http://www.wikidata.org/entity/Q733,,,,
 155,Chile,America,http://www.wikidata.org/entity/Q298,,,,
-160,Argentina,America,http://www.wikidata.org/entity/Q414,,,,
+160,Argentina (Río de la Plata),America,http://www.wikidata.org/entity/Q414,https://www.wikidata.org/wiki/Q738144,,,
 165,Uruguay,America,http://www.wikidata.org/entity/Q77,,,,
 200,United Kingdom,Europe,http://www.wikidata.org/entity/Q145,,,,
 205,Ireland,Europe,http://www.wikidata.org/entity/Q27,,,,
@@ -81,7 +83,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 252,Lippe,Europe,http://www.wikidata.org/entity/Q14551680,,,,
 253,Mecklenburg Strelitz,Europe,http://www.wikidata.org/entity/Q161215,,,,
 254,Nassau,Europe,http://www.wikidata.org/entity/Q836680,,,,
-255,Germany (Zollverein),Europe,http://www.wikidata.org/entity/Q183,,,,
+255,Germany (Zollverein),Europe,http://www.wikidata.org/entity/Q183,https://www.wikidata.org/wiki/Q155707,,,
 256,Saar,Europe,http://www.wikidata.org/entity/Q1201,,,,
 257,Oldenburg,Europe,http://www.wikidata.org/entity/Q693669,,,,
 258,"Reuss, Older Line",Europe,http://www.wikidata.org/entity/Q531783,,,,
@@ -227,7 +229,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 572,Eswatini (Swaziland),Africa,http://www.wikidata.org/entity/Q1050,,,,
 580,Madagascar (Malagasy Republic),Africa,http://www.wikidata.org/entity/Q1019,,,,
 581,Comoros,Africa,http://www.wikidata.org/entity/Q970,,,,
-585,Reunion,Africa,http://www.wikidata.org/entity/Q17070,,,,
+585,Reunion (Bourbon I.),Africa,http://www.wikidata.org/entity/Q17070,,,,
 590,Mauritius,Africa,http://www.wikidata.org/entity/Q1027,,,,
 591,Seychelles,Africa,http://www.wikidata.org/entity/Q1042,,,,
 600,Morocco,Africa,http://www.wikidata.org/entity/Q1028,,,,
@@ -236,9 +238,9 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 605,Ifni,Africa,http://www.wikidata.org/entity/Q763141,,,,
 609,Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara),Africa,http://www.wikidata.org/entity/Q40362,,,,
 610,Spanish West Africa,Africa,http://www.wikidata.org/entity/Q1191986,,,,
-615,Algeria,Africa,http://www.wikidata.org/entity/Q262,,,,
-616,Tunisia,Africa,http://www.wikidata.org/entity/Q948,,,,
-620,"Libya (Tripolitania, Cyrenaica, Fezzan)",Africa,http://www.wikidata.org/entity/Q7252591,http://www.wikidata.org/entity/Q1016,,,
+615,Algeria (Algiers),Africa,http://www.wikidata.org/entity/Q262,,,,
+616,Tunisia (Tunis),Africa,http://www.wikidata.org/entity/Q948,,,,
+620,Libya,Africa,http://www.wikidata.org/entity/Q7252591,http://www.wikidata.org/entity/Q1016,,,
 625,North Sudan (Sudan) (Anglo-Egyptian),Africa,http://www.wikidata.org/entity/Q541455,http://www.wikidata.org/entity/Q1049,,,
 626,South Sudan,Africa,http://www.wikidata.org/entity/Q958,,,,
 630,Iran (Persia),Asia,http://www.wikidata.org/entity/Q794,,,,
@@ -301,7 +303,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 815,Vietnam,Asia,http://www.wikidata.org/entity/Q881,,,,
 816,"Vietnam, Democratic Rep.",Asia,http://www.wikidata.org/entity/Q172640,,,,
 817,Republic of Vietnam,Asia,http://www.wikidata.org/entity/Q180573,,,,
-820,Malaysia (Malaya),Asia,http://www.wikidata.org/entity/Q833,,,,
+820,Malaysia (British Malaya),Asia,http://www.wikidata.org/entity/Q833,,,,
 821,Federated Malay States,Asia,http://www.wikidata.org/entity/Q1400154,,,,
 823,Sabah (North Borneo),Asia,http://www.wikidata.org/entity/Q179029,,,,
 824,Sarawak,Asia,http://www.wikidata.org/entity/Q170462,,,,
@@ -320,7 +322,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 905,Queensland,Oceania,http://www.wikidata.org/entity/Q36074,,,,
 906,Tasmania,Oceania,http://www.wikidata.org/entity/Q34366,,,,
 910,Papua New Guinea,Oceania,http://www.wikidata.org/entity/Q691,,,,
-911,Papua,Oceania,http://www.wikidata.org/entity/Q5095,,,,
+911,Papua (British New Guinea),Oceania,http://www.wikidata.org/entity/Q5095,,,,
 912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),Oceania,http://www.wikidata.org/entity/Q691017,http://www.wikidata.org/entity/Q165008,,,
 920,New Zealand,Oceania,http://www.wikidata.org/entity/Q664,,,,
 925,Cook Is.,Oceania,http://www.wikidata.org/entity/Q26988,,,,
@@ -334,7 +336,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 955,Tonga (Ha'apai),Oceania,http://www.wikidata.org/entity/Q678,https://www.wikidata.org/wiki/Q612098,,,
 960,French Polynesia,Oceania,http://www.wikidata.org/entity/Q30971,,,,
 970,Nauru,Oceania,http://www.wikidata.org/entity/Q697,,,,
-980,U. S. Pacific Trust Territories,Oceania,http://www.wikidata.org/entity/Q129237,,,,
+980,U. S. Pacific Trust Territories (South Seas Mandate),Oceania,http://www.wikidata.org/entity/Q129237,https://www.wikidata.org/wiki/Q718763,,,
 983,Marshall Is.,Oceania,http://www.wikidata.org/entity/Q709,,,,
 984,Northern Marianas Is.,Oceania,http://www.wikidata.org/entity/Q16644,,,,
 985,Guam,Oceania,http://www.wikidata.org/entity/Q16635,,,,
@@ -375,11 +377,6 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 1031,Mayaguana,America,http://www.wikidata.org/entity/Q1540098,,,,
 1032,Turks and Caicos Is.,America,http://www.wikidata.org/entity/Q18221,,,,
 1033,Cayman Island,America,http://www.wikidata.org/entity/Q5785,,,,
-1034,North-Western Territory,America,https://www.wikidata.org/wiki/Q1998931,,,,
-1035,Manitoba,America,https://www.wikidata.org/wiki/Q1948,,,,
-1036,Alberta,America,https://www.wikidata.org/wiki/Q1951,,,,
-1037,Saskatchewan,America,https://www.wikidata.org/wiki/Q1989,,,,
-1038,Labrador,America,https://www.wikidata.org/wiki/Q380307,,,,
 1040,Guantanamo,America,http://www.wikidata.org/entity/Q208035,http://www.wikidata.org/entity/Q115319,,,
 1041,North Haiti,America,http://www.wikidata.org/entity/Q1472105,http://www.wikidata.org/entity/Q943932,,,
 1044,Navassa I.,America,http://www.wikidata.org/entity/Q25359,,,,
@@ -464,7 +461,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 2481,Bergedorf,Europe,http://www.wikidata.org/entity/Q1637,,,,
 2482,Schleswig Plebiscite Zone,Europe,,http://www.wikidata.org/entity/Q692146,,,
 2551,Allenstein Plebiscite Zone,Europe,,http://www.wikidata.org/entity/Q574321,,,
-2552,Marienwerder Plebiscite Zone,Europe,,http://www.wikidata.org/entity/Q479818,,,no geo-localization
+2552,Marienwerder Plebiscite Zone,Europe,,http://www.wikidata.org/entity/Q479818,,,
 2553,Silesia Plebiscite Zone,Europe,,http://www.wikidata.org/entity/Q574321,,,see map on wikipedia links
 2554,Brandenburg,Europe,http://www.wikidata.org/entity/Q1208,,,,
 2555,Schleswig-Holstein,Europe,http://www.wikidata.org/entity/Q1194,,,,
@@ -483,6 +480,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 3053,Tyrol,Europe,http://www.wikidata.org/entity/Q42880,,,,
 3253,Milan,Europe,http://www.wikidata.org/entity/Q490,,,,
 3261,Republic of St. Mark,Europe,http://www.wikidata.org/entity/Q4948,,,,
+3262,Lombardy-Venetia,Europe,https://www.wikidata.org/wiki/Q209857,,,,
 3271,Ancona,Europe,http://www.wikidata.org/entity/Q3415,,,,
 3291,Sicily,Europe,http://www.wikidata.org/entity/Q1460,,,,
 3316,Carpatho-Ukraine,Europe,http://www.wikidata.org/entity/Q950644,,,,
@@ -518,7 +516,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 3461,Bosnia,Europe,http://www.wikidata.org/entity/Q188736,,,,
 3462,Herzegovina,Europe,http://www.wikidata.org/entity/Q189863,,,,
 3471,Novi Pazar,Europe,http://www.wikidata.org/entity/Q202453,,,,
-3481,Brda,Europe,http://www.wikidata.org/entity/Q3512355,,,,no geo-localization
+3481,Brda,Europe,http://www.wikidata.org/entity/Q3512355,,,,
 3501,Western Thrace,Europe,http://www.wikidata.org/entity/Q1192701,,,,
 3502,Mount Athos,Europe,http://www.wikidata.org/entity/Q130321,,,,
 3503,New Greece,Europe,,,,,
@@ -564,21 +562,21 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 4322,Timbuctu,Africa,http://www.wikidata.org/entity/Q9427,,,,
 4323,Bambuk,Africa,http://www.wikidata.org/entity/Q805975,,,,
 4324,Dinguiray,Africa,http://www.wikidata.org/entity/Q1006013,,,,
-4325,Kaarta,Africa,http://www.wikidata.org/entity/Q924833,,,,no geo-localization
-4326,Macina,Africa,http://www.wikidata.org/entity/Q635394,,,,no geo-localization
+4325,Kaarta,Africa,http://www.wikidata.org/entity/Q924833,,,,
+4326,Macina,Africa,http://www.wikidata.org/entity/Q635394,,,,
 4327,Segu,Africa,http://www.wikidata.org/entity/Q333476,,,,
 4328,Sikasso,Africa,http://www.wikidata.org/entity/Q461298,,,,
 4331,Futa Toro,Africa,http://www.wikidata.org/entity/Q1440091,,,,
 4332,Futa Bondu,Africa,http://www.wikidata.org/entity/Q892272,,,,
 4333,Cayor,Africa,http://www.wikidata.org/entity/Q1052040,,,,
-4334,Rip,Africa,http://www.wikidata.org/entity/Q3433004,,,,no geo-localization
+4334,Rip,Africa,http://www.wikidata.org/entity/Q3433004,,,,
 4335,Saloum,Africa,http://www.wikidata.org/entity/Q1471373,,,,
-4336,Sine,Africa,http://www.wikidata.org/entity/Q862467,,,,no geo-localization
+4336,Sine,Africa,http://www.wikidata.org/entity/Q862467,,,,
 4337,Walo,Africa,http://www.wikidata.org/entity/Q206279,,,,
 4338,Goree,Africa,http://www.wikidata.org/entity/Q244347,,,,
 4341,Old Dahomey,Africa,http://www.wikidata.org/entity/Q468814,,,,
 4342,Gun,Africa,,http://www.wikidata.org/entity/Q22132744,,,links to a tribe or a language
-4343,Ketu,Africa,http://www.wikidata.org/entity/Q3311513,,,,no geo-localization
+4343,Ketu,Africa,http://www.wikidata.org/entity/Q3311513,,,,
 4344,Grand Popo,Africa,http://www.wikidata.org/entity/Q1542478,,,,
 4345,Ouidah,Africa,http://www.wikidata.org/entity/Q850031,http://www.wikidata.org/entity/Q1716449,,,
 4346,Anecho (Little Popo),Africa,http://www.wikidata.org/entity/Q1018574,,,,
@@ -589,7 +587,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 4352,Brakna,Africa,http://www.wikidata.org/entity/Q12632,,,,
 4353,Tagant,Africa,http://www.wikidata.org/entity/Q843903,,,,
 4354,Trarza,Africa,http://www.wikidata.org/entity/Q1812976,,,,
-4361,Aïr,Africa,http://www.wikidata.org/entity/Q1502813,,,,no geo-localization
+4361,Aïr,Africa,http://www.wikidata.org/entity/Q1502813,,,,
 4362,Zinder,Africa,http://www.wikidata.org/entity/Q204365,,,,
 4371,Odienne,Africa,http://www.wikidata.org/entity/Q506811,,,,
 4372,Grand Bassam,Africa,http://www.wikidata.org/entity/Q582922,,,,
@@ -608,31 +606,31 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 4512,Aku,Africa,,http://www.wikidata.org/entity/Q24697842,,,
 4513,Banana Islands,Africa,http://www.wikidata.org/entity/Q806076,,,,
 4514,Bumpe,Africa,http://www.wikidata.org/entity/Q2946676,,,,
-4515,Koya-Temne,Africa,http://www.wikidata.org/entity/Q6412616,,,,no geo-localization
+4515,Koya-Temne,Africa,http://www.wikidata.org/entity/Q6412616,,,,
 4516,Shenge (Plantation Island),Africa,http://www.wikidata.org/entity/Q7494263,,,,
 4521,Asante,Africa,http://www.wikidata.org/entity/Q722071,,,,
-4522,Adansi,Africa,http://www.wikidata.org/entity/Q4680636,,,,no geo-localization
-4523,Akwamu,Africa,http://www.wikidata.org/entity/Q1791839,,,,no geo-localization
+4522,Adansi,Africa,http://www.wikidata.org/entity/Q4680636,,,,
+4523,Akwamu,Africa,http://www.wikidata.org/entity/Q1791839,,,,
 4524,Akwapim,Africa,,http://www.wikidata.org/entity/Q423691,http://www.wikidata.org/entity/Q176435,,
 4525,Akyem,Africa,http://www.wikidata.org/entity/Q418389,,,,links to a tribe or a language
 4526,Dagomba,Africa,http://www.wikidata.org/entity/Q24697413,,,,
-4527,Denkyira,Africa,http://www.wikidata.org/entity/Q1164302,,,,no geo-localization
+4527,Denkyira,Africa,http://www.wikidata.org/entity/Q1164302,,,,
 4528,Fante,Africa,https://en.wikipedia.org/wiki/Fante_Confederacy,,,,
 4529,Ga,Africa,,http://www.wikidata.org/entity/Q2553691,http://www.wikidata.org/entity/Q2553740,http://www.wikidata.org/entity/Q431729,
-4531,Gonja,Africa,http://www.wikidata.org/entity/Q1477754,,,,no geo-localization
-4532,Gyamen,Africa,http://www.wikidata.org/entity/Q1644002,,,,no geo-localization
+4531,Gonja,Africa,http://www.wikidata.org/entity/Q1477754,,,,
+4532,Gyamen,Africa,http://www.wikidata.org/entity/Q1644002,,,,
 4533,Wassa,Africa,,http://www.wikidata.org/entity/Q7972734,,,links to a tribe or a language
-4534,Danish Posts (Gold Coast),Africa,http://www.wikidata.org/entity/Q770833,,,,no geo-localization
-4535,Dutch Posts (Gold Coast),Africa,http://www.wikidata.org/entity/Q770776,,,,no geo-localization
+4534,Danish Posts (Gold Coast),Africa,http://www.wikidata.org/entity/Q770833,,,,
+4535,Dutch Posts (Gold Coast),Africa,http://www.wikidata.org/entity/Q770776,,,,
 4536,Northern Territories (Gold Coast),Africa,http://www.wikidata.org/entity/Q503623,,,,
-4559,Gold Coast-Togoland (Neutral Zone),Africa,http://www.wikidata.org/entity/Q319125,,,,no geo-localization
+4559,Gold Coast-Togoland (Neutral Zone),Africa,http://www.wikidata.org/entity/Q319125,,,,
 4711,Bamum (Bamoun),Africa,http://www.wikidata.org/entity/Q1629505,,,,
 4735,Kontagora,Africa,http://www.wikidata.org/entity/Q6430319,,,,
-4736,Keana,Africa,http://www.wikidata.org/entity/Q6382153,,,,no geo-localization
-4737,Fika,Africa,http://www.wikidata.org/entity/Q5448221,,,,no geo-localization
+4736,Keana,Africa,http://www.wikidata.org/entity/Q6382153,,,,
+4737,Fika,Africa,http://www.wikidata.org/entity/Q5448221,,,,
 4738,Doma (Gara),Africa,,,,,
-4741,Abuja (Suleja),Africa,http://www.wikidata.org/entity/Q1814476,,,,no geo-localization
-4742,Igala,Africa,http://www.wikidata.org/entity/Q17029087,,,,no geo-localization
+4741,Abuja (Suleja),Africa,http://www.wikidata.org/entity/Q1814476,,,,
+4742,Igala,Africa,http://www.wikidata.org/entity/Q17029087,,,,
 4744,Wukari (Kwararafa),Africa,http://www.wikidata.org/entity/Q15043630,http://www.wikidata.org/entity/Q2518009,,,
 4746,Yauri,Africa,http://www.wikidata.org/entity/Q8050352,,,,
 4750,Oyo Empire,Africa,https://www.wikidata.org/wiki/Q849623,,,,
@@ -645,21 +643,21 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 4757,Kano,Africa,http://www.wikidata.org/entity/Q182984,http://www.wikidata.org/entity/Q3123512,,,
 4758,Katsina,Africa,http://www.wikidata.org/entity/Q937487,,,,
 4759,Katagum,Africa,http://www.wikidata.org/entity/Q6375000,,,,
-4761,Nupe,Africa,http://www.wikidata.org/entity/Q121869,,,,no geo-localization
+4761,Nupe,Africa,http://www.wikidata.org/entity/Q121869,,,,
 4762,Zaria,Africa,http://www.wikidata.org/entity/Q147975,,,,
-4763,Bornu (Kanem),Africa,http://www.wikidata.org/entity/Q1139762,,,,no geo-localization
-4765,Mandara,Africa,http://www.wikidata.org/entity/Q1796221,,,,no geo-localization
+4763,Bornu (Kanem),Africa,http://www.wikidata.org/entity/Q1139762,,,,
+4765,Mandara,Africa,http://www.wikidata.org/entity/Q1796221,,,,
 4766,Rabah,Africa,http://www.wikidata.org/entity/Q7278481,,,,
 4768,Egba,Africa,,http://www.wikidata.org/entity/Q3268656,,,
 4769,Ibadan,Africa,http://www.wikidata.org/entity/Q183298,,,,
 4771,Ife,Africa,http://www.wikidata.org/entity/Q180084,,,,
-4772,Ijaiye,Africa,http://www.wikidata.org/entity/Q5995069,,,,no geo-localization
-4773,Ijebu,Africa,http://www.wikidata.org/entity/Q1658023,,,,no geo-localization
+4772,Ijaiye,Africa,http://www.wikidata.org/entity/Q5995069,,,,
+4773,Ijebu,Africa,http://www.wikidata.org/entity/Q1658023,,,,
 4774,Ilesha,Africa,http://www.wikidata.org/entity/Q763595,,,,
-4775,New Oyo,Africa,http://www.wikidata.org/entity/Q849623,http://www.wikidata.org/entity/Q1023703,,,no geo-localization
+4775,New Oyo,Africa,http://www.wikidata.org/entity/Q849623,http://www.wikidata.org/entity/Q1023703,,,
 4776,Benin (Edo),Africa,http://www.wikidata.org/entity/Q171203,,,,
 4781,Lagos,Africa,http://www.wikidata.org/entity/Q8673,,,,
-4782,Oil Rivers Protectorate,Africa,http://www.wikidata.org/entity/Q2566427,,,,no geo-localization
+4782,Oil Rivers Protectorate,Africa,http://www.wikidata.org/entity/Q2566427,,,,
 4783,Southern Nigeria (Niger Coast Protectorate),Africa,http://www.wikidata.org/entity/Q2062030,,,,
 4784,Northern Nigeria (British Nigeria),Africa,http://www.wikidata.org/entity/Q585408,,,,
 4790,Biafra,Africa,http://www.wikidata.org/entity/Q178469,,,,
@@ -671,28 +669,28 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 4796,Okrika,Africa,http://www.wikidata.org/entity/Q7082573,,,,
 4821,Bangassou,Africa,http://www.wikidata.org/entity/Q806478,,,,
 4822,Rafai,Africa,http://www.wikidata.org/entity/Q665219,,,,
-4823,Zemio,Africa,http://www.wikidata.org/entity/Q55425392,,,,no geo-localization
-4831,Bagirmi,Africa,http://www.wikidata.org/entity/Q1472873,,,,no geo-localization
-4832,Wadai,Africa,http://www.wikidata.org/entity/Q1132786,,,,no geo-localization
-4841,Bateke (Anziku),Africa,http://www.wikidata.org/entity/Q4778463,,,,no geo-localization
+4823,Zemio,Africa,http://www.wikidata.org/entity/Q55425392,,,,
+4831,Bagirmi,Africa,http://www.wikidata.org/entity/Q1472873,,,,
+4832,Wadai,Africa,http://www.wikidata.org/entity/Q1132786,,,,
+4841,Bateke (Anziku),Africa,http://www.wikidata.org/entity/Q4778463,,,,
 4842,Loango,Africa,http://www.wikidata.org/entity/Q1479630,,,,
-4901,Tippu Tip Empire,Africa,http://www.wikidata.org/entity/Q60775599,,,,no geo-localization
-4902,Mwata Yamvo (Lunda),Africa,http://www.wikidata.org/entity/Q1796223,,,,no geo-localization
+4901,Tippu Tip Empire,Africa,http://www.wikidata.org/entity/Q60775599,,,,
+4902,Mwata Yamvo (Lunda),Africa,http://www.wikidata.org/entity/Q1796223,,,,
 4903,Kalagne,Africa,,http://www.wikidata.org/entity/Q22141829,,,
 4904,Baluba,Africa,http://www.wikidata.org/entity/Q1768252,,,,
 4905,Katanga,Africa,http://www.wikidata.org/entity/Q217242,,,,
-4906,Kasai,Africa,http://www.wikidata.org/entity/Q3820436,,,,no geo-localization
-4907,Msiri (Yeke),Africa,http://www.wikidata.org/entity/Q3321385,,,,no geo-localization
+4906,Kasai,Africa,http://www.wikidata.org/entity/Q3820436,,,,
+4907,Msiri (Yeke),Africa,http://www.wikidata.org/entity/Q3321385,,,,
 4908,Azande,Africa,,http://www.wikidata.org/entity/Q793575,,,links to a tribe or a language
 4909,Mangbetu,Africa,,http://www.wikidata.org/entity/Q1602764,,,
-4910,Kuba,Africa,http://www.wikidata.org/entity/Q209327,,,,no geo-localization
+4910,Kuba,Africa,http://www.wikidata.org/entity/Q209327,,,,
 5001,Buganda,Africa,http://www.wikidata.org/entity/Q473748,,,,
 5002,Ankole,Africa,http://www.wikidata.org/entity/Q538636,,,,
-5003,Bunyoro,Africa,http://www.wikidata.org/entity/Q889897,,,,no geo-localization
-5004,Busoga,Africa,http://www.wikidata.org/entity/Q691037,,,,no geo-localization
+5003,Bunyoro,Africa,http://www.wikidata.org/entity/Q889897,,,,
+5004,Busoga,Africa,http://www.wikidata.org/entity/Q691037,,,,
 5005,Butoro,Africa,,,,,
-5006,Rwenzururu,Africa,http://www.wikidata.org/entity/Q2795682,,,,no geo-localization
-5011,Kenya Protectorate,Africa,http://www.wikidata.org/entity/Q2538511,,,,no geo-localization
+5006,Rwenzururu,Africa,http://www.wikidata.org/entity/Q2795682,,,,
+5011,Kenya Protectorate,Africa,http://www.wikidata.org/entity/Q2538511,,,,
 5012,Mombassa,Africa,http://www.wikidata.org/entity/Q1112885,,,,
 5013,Pate,Africa,http://www.wikidata.org/entity/Q542168,,,,
 5017,Vumbu Kuu,Africa,,,,,
@@ -700,16 +698,16 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 5101,Ha,Africa,,http://www.wikidata.org/entity/Q2995962,,,
 5102,Haya,Africa,http://www.wikidata.org/entity/Q1824726,,,,
 5103,Hehe,Africa,,http://www.wikidata.org/entity/Q1261861,,,links to a tribe or a language
-5104,Karagwe,Africa,http://www.wikidata.org/entity/Q28455505,,,,no geo-localization
+5104,Karagwe,Africa,http://www.wikidata.org/entity/Q28455505,,,,
 5105,Urambo,Africa,http://www.wikidata.org/entity/Q2500021,,,,
 5106,Gwangara,Africa,,,,,links to a tribe or a language
 5107,North Gwangara,Africa,,,,,
 5108,South Gwangara,Africa,,http://www.wikidata.org/entity/Q1474869,,,
 5200,Italian Somaliland,Africa,http://www.wikidata.org/entity/Q319984,,,,
 5201,Italian East Africa,Africa,http://www.wikidata.org/entity/Q328478,,,,
-5202,Oltre Giuba,Africa,http://www.wikidata.org/entity/Q1231992,,,,incomplete
+5202,Oltre Giuba,Africa,http://www.wikidata.org/entity/Q1231992,,,,
 5203,Alula (Majeerteen),Africa,http://www.wikidata.org/entity/Q448076,http://www.wikidata.org/entity/Q2257830,,,
-5204,Obbia,Africa,http://www.wikidata.org/entity/Q862404,,,,no geo-localization
+5204,Obbia,Africa,http://www.wikidata.org/entity/Q862404,,,,
 5205,Somali Coast Leased Territory,Africa,http://www.wikidata.org/entity/Q806070,,,,
 5206,Puntland,Africa,http://www.wikidata.org/entity/Q485112,http://www.wikidata.org/entity/Q822679,,,
 5207,Mogadishu,Africa,http://www.wikidata.org/entity/Q2449,,,,
@@ -724,44 +722,44 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 5303,Shewa,Africa,http://www.wikidata.org/entity/Q971375,,,,
 5304,Tigray,Africa,http://www.wikidata.org/entity/Q200127,,,,
 5305,Gojjam,Africa,http://www.wikidata.org/entity/Q1533914,,,,
-5306,Harar,Africa,http://www.wikidata.org/entity/Q5372551,,,,no geo-localization
+5306,Harar,Africa,http://www.wikidata.org/entity/Q5372551,,,,
 5307,"Jijega, Reserve Areas and Haud",Africa,,http://www.wikidata.org/entity/Q755763,,,
 5309,Kaffa,Africa,http://www.wikidata.org/entity/Q1462877,,,,
-5321,Limmu-Ennarea,Africa,http://www.wikidata.org/entity/Q48723590,,,,no geo-localization
+5321,Limmu-Ennarea,Africa,http://www.wikidata.org/entity/Q48723590,,,,
 5322,Jimma-Kakka (Jimma Abba Jifar),Africa,http://www.wikidata.org/entity/Q1759078,,,,
 5323,Gera,Africa,http://www.wikidata.org/entity/Q500965,,,,
-5324,Gomma,Africa,http://www.wikidata.org/entity/Q501684,,,,no geo-localization
-5325,Guma,Africa,http://www.wikidata.org/entity/Q5618018,,,,no geo-localization
+5324,Gomma,Africa,http://www.wikidata.org/entity/Q501684,,,,
+5325,Guma,Africa,http://www.wikidata.org/entity/Q5618018,,,,
 5331,Assab,Africa,http://www.wikidata.org/entity/Q5785,,,,
-5332,Awsa Sultanate,Africa,http://www.wikidata.org/entity/Q791787,,,,no geo-localization
+5332,Awsa Sultanate,Africa,http://www.wikidata.org/entity/Q791787,,,,
 5401,Chokwe,Africa,http://www.wikidata.org/entity/Q618643,,,,
 5402,Ovimbundu,Africa,http://www.wikidata.org/entity/Q214248,,,,
 5411,Kionga,Africa,http://www.wikidata.org/entity/Q1742340,,,,
 5511,Citimukulu Bemba,Africa,,http://www.wikidata.org/entity/Q644450,,,
 5512,Mwamba Bemba,Africa,,http://www.wikidata.org/entity/Q644450,,,
-5513,Barotse,Africa,http://www.wikidata.org/entity/Q808750,,,,no geo-localization
+5513,Barotse,Africa,http://www.wikidata.org/entity/Q808750,,,,
 5515,Maseko Ngoni,Africa,,http://www.wikidata.org/entity/Q17109664,,,
 5516,Shangane (Gaza Empire),Africa,http://www.wikidata.org/entity/Q3780537,,,,
-5517,Kazembe,Africa,http://www.wikidata.org/entity/Q5675285,,,,no geo-localization
-5518,Northeastern Rhodesia,Africa,http://www.wikidata.org/entity/Q2753015,,,,no geo-localization
-5519,Northwestern Rhodesia,Africa,http://www.wikidata.org/entity/Q2400545,,,,no geo-localization
+5517,Kazembe,Africa,http://www.wikidata.org/entity/Q5675285,,,,
+5518,Northeastern Rhodesia,Africa,http://www.wikidata.org/entity/Q2753015,,,,
+5519,Northwestern Rhodesia,Africa,http://www.wikidata.org/entity/Q2400545,,,,
 5521,Rozwi,Africa,http://www.wikidata.org/entity/Q986822,,,,
 5522,Ndebele (Matabeleland),Africa,http://www.wikidata.org/entity/Q1266775,,,,
 5523,Mashona,Africa,http://www.wikidata.org/entity/Q1640913,,,,
 5524,Mbelwa Ngoni,Africa,,http://www.wikidata.org/entity/Q17109664,,,links to a tribe or a language
-5525,Mpezeni Ngoni,Africa,http://www.wikidata.org/entity/Q7135313,,,,no geo-localization
+5525,Mpezeni Ngoni,Africa,http://www.wikidata.org/entity/Q7135313,,,,
 5526,Kamanga,Africa,,,,,
 5531,Zwangendaba Ngoni,Africa,,http://www.wikidata.org/entity/Q17109664,,,
 5532,Ciwere (Chewa),Africa,,http://www.wikidata.org/entity/Q1071390,,,links to a tribe or a language
 5601,Zulu,Africa,,http://www.wikidata.org/entity/Q129962,,,links to a tribe or a language
-5602,Ndandwe,Africa,,http://www.wikidata.org/entity/Q3337519,,,no geo-localization
+5602,Ndandwe,Africa,,http://www.wikidata.org/entity/Q3337519,,,
 5603,Mtetwa,Africa,http://www.wikidata.org/entity/Q600562,,,,
 5606,Prince Edward and Marion Is.,Africa,http://www.wikidata.org/entity/Q46623,,,,
 5611,"Griqualand, West",Africa,http://www.wikidata.org/entity/Q2547918,,,,
 5612,British Bechuanaland,Africa,http://www.wikidata.org/entity/Q4530733,,,,
 5613,Stellaland & Goshen,Africa,http://www.wikidata.org/entity/Q1269234,http://www.wikidata.org/entity/Q2145397,,,
 5614,British Kaffraria,Africa,http://www.wikidata.org/entity/Q918121,,,,
-5615,Lydenburg Republic,Africa,http://www.wikidata.org/entity/Q220167,,,,no geo-localization
+5615,Lydenburg Republic,Africa,http://www.wikidata.org/entity/Q220167,,,,
 5618,Zoutpansberg,Africa,http://www.wikidata.org/entity/Q3110404,,,,
 5621,Zululand,Africa,http://www.wikidata.org/entity/Q729768,,,,
 5622,New Republic,Africa,,http://www.wikidata.org/entity/Q552157,,,
@@ -791,6 +789,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 5902,Agalega Is.,Africa,http://www.wikidata.org/entity/Q196042,,,,
 5903,Cargados Carajos Shoals,Africa,http://www.wikidata.org/entity/Q511859,,,,
 5920,British Indian Ocean Territory (Chagos Archipelago),Africa,http://www.wikidata.org/entity/Q43448,,,,
+5921,Amirante Is.,Africa,https://www.wikidata.org/wiki/Q472207,,,,
 6001,Oujda,Africa,http://www.wikidata.org/entity/Q193802,,,,
 6021,Southern zone of Spanish Morocco,Africa,http://www.wikidata.org/entity/Q1538846,,,,
 6023,Republic of the Rif,Africa,http://www.wikidata.org/entity/Q37102,,,,
@@ -809,6 +808,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 6201,Sanussid Cyrenaica,Africa,,http://www.wikidata.org/entity/Q165198,,,
 6202,Cyrenaica,Africa,http://www.wikidata.org/entity/Q165198,,,,
 6203,Tripolitania,Africa,http://www.wikidata.org/entity/Q192435,,,,
+6204,Fezzan,Africa,https://www.wikidata.org/wiki/Q188258,,,,
 6251,Darfur,Africa,http://www.wikidata.org/entity/Q1474791,,,,
 6252,Funj Sultanate,Africa,http://www.wikidata.org/entity/Q1475713,,,,
 6253,Kordofan,Africa,http://www.wikidata.org/entity/Q867052,,,,
@@ -903,8 +903,8 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 7031,Karakalpakstan,Asia,http://www.wikidata.org/entity/Q484245,,,,
 7040,Kazakh Lesser Horde,Asia,,http://www.wikidata.org/entity/Q4208097,,,
 7050,Kazakh Middle Horde,Asia,,http://www.wikidata.org/entity/Q4208097,,,
-7060,Kazakh Horde of Bukey,Asia,,http://www.wikidata.org/entity/Q129799,,,no geo-localization
-7070,Kazakh Greater Horde,Asia,,http://www.wikidata.org/entity/Q4208097,,,no geo-localization
+7060,Kazakh Horde of Bukey,Asia,,http://www.wikidata.org/entity/Q129799,,,
+7070,Kazakh Greater Horde,Asia,,http://www.wikidata.org/entity/Q4208097,,,
 7100,Spratley Is.,Asia,http://www.wikidata.org/entity/Q215664,,,,
 7101,Ping-nan,Asia,http://www.wikidata.org/entity/Q1355243,,,,
 7102,Jungaria,Asia,http://www.wikidata.org/entity/Q284027,,,,
@@ -920,8 +920,8 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 7112,Szechwan (Sichuan),Asia,http://www.wikidata.org/entity/Q19770,,,,
 7113,Chinghai (Tsinghai),Asia,http://www.wikidata.org/entity/Q45833,,,,
 7114,Xinjiang (Sinkiang),Asia,http://www.wikidata.org/entity/Q34800,,,,
-7115,Provisional Government of the Republic of China,Asia,http://www.wikidata.org/entity/Q704714,,,,no geo-localization
-7116,Reformed Government of China,Asia,http://www.wikidata.org/entity/Q708865,,,,no geo-localization
+7115,Provisional Government of the Republic of China,Asia,http://www.wikidata.org/entity/Q704714,,,,
+7116,Reformed Government of China,Asia,http://www.wikidata.org/entity/Q708865,,,,
 7117,Reorganized National Government of the Republic of China,Asia,http://www.wikidata.org/entity/Q696242,,,,
 7118,Ningxia,Asia,http://www.wikidata.org/entity/Q57448,,,,
 7121,Inner Mongolia,Asia,http://www.wikidata.org/entity/Q41079,,,,
@@ -981,7 +981,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 7544,Sirmur,Asia,http://www.wikidata.org/entity/Q1541353,,,,
 7545,Suket,Asia,http://www.wikidata.org/entity/Q3503368,,,,
 7546,Garwahl,Asia,http://www.wikidata.org/entity/Q1381495,,,,
-7548,Bagelkhand,Asia,http://www.wikidata.org/entity/Q3628827,,,,no geo-localization
+7548,Bagelkhand,Asia,http://www.wikidata.org/entity/Q3628827,,,,
 7549,Bundelkhand,Asia,http://www.wikidata.org/entity/Q851955,,,,
 7551,Malwa,Asia,http://www.wikidata.org/entity/Q550691,,,,
 7552,Khairpur,Asia,http://www.wikidata.org/entity/Q2512083,,,,
@@ -1030,9 +1030,9 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 7708,Azad Kashmir,Asia,http://www.wikidata.org/entity/Q200130,,,,
 7709,Gilgit Baltistan (Northern Areas),Asia,http://www.wikidata.org/entity/Q200697,,,,
 7712,Tin Bigha,Asia,http://www.wikidata.org/entity/Q4233073,,,,
-7746,Bawlake,Asia,http://www.wikidata.org/entity/Q7987998,,,,no geo-localization
-7747,Kyebogyi,Asia,http://www.wikidata.org/entity/Q7987998,,,,no geo-localization
-7748,Naungpale,Asia,http://www.wikidata.org/entity/Q7987998,,,,no geo-localization
+7746,Bawlake,Asia,http://www.wikidata.org/entity/Q7987998,,,,
+7747,Kyebogyi,Asia,http://www.wikidata.org/entity/Q7987998,,,,
+7748,Naungpale,Asia,http://www.wikidata.org/entity/Q7987998,,,,
 7749,Nammekon,Asia,http://www.wikidata.org/entity/Q7987998,http://www.wikidata.org/entity/Q12901160,,,
 7750,Hsenwi,Asia,http://www.wikidata.org/entity/Q783492,,,,
 7751,Hsipaw,Asia,http://www.wikidata.org/entity/Q18125758,,,,
@@ -1048,16 +1048,16 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 7761,Loi Maw,Asia,,,,,
 7762,Maw,Asia,http://www.wikidata.org/entity/Q6746014,,,,
 7763,Mawnang,Asia,http://www.wikidata.org/entity/Q16937734,,,,
-7764,Mawson,Asia,http://www.wikidata.org/entity/Q6794457,,,,no geo-localization
-7765,Namhkam,Asia,http://www.wikidata.org/entity/Q11938356,http://www.wikidata.org/entity/Q6963579,,,no geo-localization
+7764,Mawson,Asia,http://www.wikidata.org/entity/Q6794457,,,,
+7765,Namhkam,Asia,http://www.wikidata.org/entity/Q11938356,http://www.wikidata.org/entity/Q6963579,,,
 7766,Namtok,Asia,http://www.wikidata.org/entity/Q775848,,,,
-7767,Pangmi,Asia,http://www.wikidata.org/entity/Q642143,,,,no geo-localization
+7767,Pangmi,Asia,http://www.wikidata.org/entity/Q642143,,,,
 7768,Pangtara,Asia,http://www.wikidata.org/entity/Q25182697,,,,
-7769,Pwehla,Asia,http://www.wikidata.org/entity/Q7207854,,,,no geo-localization
-7770,Yengan,Asia,http://www.wikidata.org/entity/Q11955494,,,,no geo-localization
+7769,Pwehla,Asia,http://www.wikidata.org/entity/Q7207854,,,,
+7770,Yengan,Asia,http://www.wikidata.org/entity/Q11955494,,,,
 7771,Yawnghwe,Asia,http://www.wikidata.org/entity/Q18750170,,,,
 7772,Lawksawk,Asia,http://www.wikidata.org/entity/Q18164160,,,,
-7773,Wanyin,Asia,http://www.wikidata.org/entity/Q675039,,,,no geo-localization
+7773,Wanyin,Asia,http://www.wikidata.org/entity/Q675039,,,,
 7774,Samka,Asia,http://www.wikidata.org/entity/Q7409604,,,,
 7775,Hsahtung,Asia,http://www.wikidata.org/entity/Q5924160,http://www.wikidata.org/entity/Q5924170,,,
 7776,Hopong,Asia,http://www.wikidata.org/entity/Q18125697,http://www.wikidata.org/entity/Q5901153,,,
@@ -1083,7 +1083,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 7796,Mong Mit,Asia,http://www.wikidata.org/entity/Q3319734,,,,
 7797,Hkamti Long,Asia,http://www.wikidata.org/entity/Q19459677,,,,
 7798,Western Karenni,Asia,http://www.wikidata.org/entity/Q18126598,http://www.wikidata.org/entity/Q7987998,,,
-7799,Kantarawadi (Eastern Karenni),Asia,http://www.wikidata.org/entity/Q6365345,,,,no geo-localization
+7799,Kantarawadi (Eastern Karenni),Asia,http://www.wikidata.org/entity/Q6365345,,,,
 7806,Jaffna Peninsula,Asia,http://www.wikidata.org/entity/Q2495624,,,,
 7910,Tibet,Asia,http://www.wikidata.org/entity/Q17252,http://www.wikidata.org/entity/Q2444884,,,
 8001,Chiang Mai (Lan-na),Asia,http://www.wikidata.org/entity/Q233588,,,,
@@ -1101,7 +1101,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 8203,Pahang,Asia,http://www.wikidata.org/entity/Q191346,,,,
 8210,Negeri Sembilan,Asia,http://www.wikidata.org/entity/Q213893,,,,
 8211,Seremban (Songei Ujong),Asia,http://www.wikidata.org/entity/Q847610,,,,
-8212,Rembau,Asia,http://www.wikidata.org/entity/Q2219158,,,,incomplete
+8212,Rembau,Asia,http://www.wikidata.org/entity/Q2219158,,,,
 8213,Seri Menanti,Asia,http://www.wikidata.org/entity/Q3132595,,,,
 8214,Ulu Muar,Asia,http://www.wikidata.org/entity/Q1832744,,,,
 8215,Jempol,Asia,http://www.wikidata.org/entity/Q2048692,,,,
@@ -1118,19 +1118,22 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 8401,Sulu Sultanate,Asia,http://www.wikidata.org/entity/Q422065,,,,
 8402,Bohol,Asia,http://www.wikidata.org/entity/Q6497558,,,,
 8403,Mindanao,Asia,http://www.wikidata.org/entity/Q124873,,,,
-8525,Sambas,Asia,http://www.wikidata.org/entity/Q14164,,,,
-8531,Atjeh,Asia,http://www.wikidata.org/entity/Q1823,,,,
+8522,Lanfang,Asia,https://www.wikidata.org/wiki/Q3233989,,,,
+8523,Bulungan,Asia,https://www.wikidata.org/wiki/Q3503548,,,,
+8524,Pontianak,Asia,https://www.wikidata.org/wiki/Q3048747,,,,
+8525,Sambas,Asia,https://www.wikidata.org/wiki/Q3109927,,,,
+8531,Aceh,Asia,https://www.wikidata.org/wiki/Q1061057,,,,
 8532,Deli,Asia,http://www.wikidata.org/entity/Q5804,http://www.wikidata.org/entity/Q2030015,,,
 8533,Siak,Asia,http://www.wikidata.org/entity/Q7777,,,,
-8534,Minangkabau (Melayu),Asia,http://www.wikidata.org/entity/Q3112053,,,,no geo-localization
+8534,Minangkabau (Melayu),Asia,http://www.wikidata.org/entity/Q3112053,,,,
 8535,Kulon,Asia,http://www.wikidata.org/entity/Q11479,,,,
 8536,Jambi,Asia,http://www.wikidata.org/entity/Q2051,,,,
 8537,Palembang,Asia,http://www.wikidata.org/entity/Q8131,,,,
-8538,Kutai,Asia,http://www.wikidata.org/entity/Q1794655,,,,no geo-localization
+8538,Kutai,Asia,http://www.wikidata.org/entity/Q1794655,,,,
 8539,Toraja,Asia,http://www.wikidata.org/entity/Q14632,,,,
 8541,Bali,Asia,http://www.wikidata.org/entity/Q12491027,,,,
 8542,Lombok,Asia,http://www.wikidata.org/entity/Q7564,,,,
-8543,Banjarmasin (Sultanate of Banjar),Asia,http://www.wikidata.org/entity/Q14182,,,,
+8543,Banjarmasin,Asia,https://www.wikidata.org/wiki/Q1660566,,,,
 8544,Riau,Asia,http://www.wikidata.org/entity/Q2175,,,,
 8545,Tapanuli Selatan (Angkola),Asia,http://www.wikidata.org/entity/Q5914,,,,
 8546,Mandailing,Asia,http://www.wikidata.org/entity/Q5837,,,,
@@ -1153,8 +1156,8 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 9007,Lord Howe I.,Oceania,http://www.wikidata.org/entity/Q104784,,,,
 9008,Ashmore and Cartier Is,Oceania,http://www.wikidata.org/entity/Q133888,,,,
 9100,New Guinea,Oceania,http://www.wikidata.org/entity/Q40285,,,,
-9101,Republic of the Northern Solomons,Oceania,http://www.wikidata.org/entity/Q4393602,,,,
-9102,Bougainville,Oceania,http://www.wikidata.org/entity/Q201766,,,,
+9101,Bougainville (Republic of the North Solomons),Oceania,http://www.wikidata.org/entity/Q201766,http://www.wikidata.org/entity/Q4393602,,,
+9102,Bougainville,Oceania,,,,,
 9201,Tokelau Is.,Oceania,http://www.wikidata.org/entity/Q36823,,,,
 9202,Kermadec Is.,Oceania,http://www.wikidata.org/entity/Q114935,,,,
 9203,Chatham Is.,Oceania,http://www.wikidata.org/entity/Q1427436,,,,
@@ -1204,6 +1207,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 9772,Jarvis I.,Oceania,http://www.wikidata.org/entity/Q62218,,,,
 9810,Caroline Is.,Oceania,http://www.wikidata.org/entity/Q822151,,,,
 9820,Mariana Is.,Oceania,http://www.wikidata.org/entity/Q153732,,,,
+9830,Bismarck Archipelago (New Britain) (Neupommern),Oceania,https://www.wikidata.org/wiki/Q154628,,,,
 9900,Samoa,Oceania,http://www.wikidata.org/entity/Q683,,,,
 9960,Australian Antarctic Territory,Oceania,http://www.wikidata.org/entity/Q178994,,,,
 9970,French and Southern Antarctic Territories(F.S.A.T.),Oceania,http://www.wikidata.org/entity/Q129003,,,,
@@ -1225,5 +1229,11 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 9994,Ross Dependency,Oceania,http://www.wikidata.org/entity/Q203073,,,,
 9998,Concessions in China,World,https://www.wikidata.org/wiki/Q1376651,,,,
 9999,Inter-Allied Commission of Control,World,https://www.wikidata.org/wiki/Q1665892,,,,
-0,League of Nations,World,https://www.wikidata.org/wiki/Q38130,,,,
-1,United Nations,World,https://www.wikidata.org/wiki/Q1065,,,,
+10200,North-Western Territory,America,https://www.wikidata.org/wiki/Q1998931,,,,
+10201,Northwest Territories,America,https://www.wikidata.org/wiki/Q2007,,,,
+10202,Alberta,America,https://www.wikidata.org/wiki/Q1951,,,,
+10203,Saskatchewan,America,https://www.wikidata.org/wiki/Q1989,,,,
+10204,Manitoba,America,https://www.wikidata.org/wiki/Q1948,,,,
+10205,Yukon,America,https://www.wikidata.org/wiki/Q2009,,,,
+10206,Nunavut,America,https://www.wikidata.org/wiki/Q2023,,,,
+10210,Labrador,America,https://www.wikidata.org/wiki/Q380307,,,,
