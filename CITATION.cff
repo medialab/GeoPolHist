@@ -9,6 +9,7 @@ authors:
     given-names: Paul
     orcid: "https://orcid.org/0000-0001-9332-3308"
 cff-version: "1.2.0"
+version: 202103
 date-released: 2021-07-02
 doi: 10.1080/01615440.2021.1939826
 message: "If you use this data set, please cite it as below."
