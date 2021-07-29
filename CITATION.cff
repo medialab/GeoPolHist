@@ -1,12 +1,15 @@
-cff-version: 1.2.0
-message: "If you use this data set, please cite it as below."
+--- 
 authors: 
-- family-names: "Dedinger"
-  given-names: "Beatrice"
-  orcid: "https://orcid.org/0000-0002-1963-4631"
-- family-names: "Girard"
-  given-names: "Paul"
-  orcid: "https://orcid.org/0000-0001-9332-3308"
+  - 
+    family-names: Dedinger
+    given-names: Beatrice
+    orcid: "https://orcid.org/0000-0002-1963-4631"
+  - 
+    family-names: Girard
+    given-names: Paul
+    orcid: "https://orcid.org/0000-0001-9332-3308"
+cff-version: "1.2.0"
 date-released: 2021-07-02
 doi: 10.1080/01615440.2021.1939826
+message: "If you use this data set, please cite it as below."
 title: "How many countries in the world? The geopolitical entities of the world and their political status from 1816 to the present"
