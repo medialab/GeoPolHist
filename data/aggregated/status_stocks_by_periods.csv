@@ -4,7 +4,7 @@ United Nations,?,International,International,International
 United States of America,Sovereign,Sovereign,Sovereign,Sovereign
 Alaska,Colony of,Colony of,Colony of,Part of
 Hawaii (Sandwich Is.),Sovereign (limited),Sovereign (limited),Colony of,Part of
-Virgin Islands,Colony of,Colony of,Colony of,Colony of
+Virgin Islands (Danish West Indies),Colony of,Colony of,Colony of,Colony of
 Puerto Rico,Part of,Colony of,Colony of,Dependency of
 Texas,Part of,Part of,Part of,Part of
 Greenland,Colony of,Colony of,Colony of,Dependency of
@@ -24,7 +24,7 @@ Dominica,Colony of,Part of,Part of,Sovereign
 Grenada,Colony of,Part of,Part of,Sovereign
 St. Lucia,Colony of,Part of,Part of,Sovereign
 St. Vincent and the Grenadines,Colony of,Part of,Part of,Sovereign
-Antigua & Barbuda,Colony of,Part of,Part of,Sovereign
+Antigua and Barbuda,Colony of,Part of,Part of,Sovereign
 Montserrat,Colony of,Part of,Part of,Colony of
 St. Kitts-Nevis,Part of,Part of,Part of,Sovereign
 Guadeloupe,Colony of,Colony of,Part of,Part of
@@ -40,7 +40,7 @@ Nicaragua,Part of,Sovereign,Sovereign,Sovereign
 Costa Rica,Part of,Sovereign,Sovereign,Sovereign
 Panama,Colony of,Part of,Sovereign,Sovereign
 Panama Canal Zone,Part of,Part of,Leased to,Part of
-Colombia (Gran Colombia) (New Granada),Colony of,Sovereign,Sovereign,Sovereign
+Colombia (New Granada) (Gran Colombia),Colony of,Sovereign,Sovereign,Sovereign
 Venezuela,Colony of,Sovereign,Sovereign,Sovereign
 Guyana (British Guiana),Colony of,Colony of,Colony of,Sovereign
 Surinam (Dutch Guiana),Colony of,Colony of,Colony of,Sovereign
@@ -52,7 +52,7 @@ Brazil,Colony of,Sovereign,Sovereign,Sovereign
 Bolivia,Colony of,Sovereign,Sovereign,Sovereign
 Paraguay,Sovereign,Sovereign,Sovereign,Sovereign
 Chile,Part of,Sovereign,Sovereign,Sovereign
-Argentina (Río de la Plata),Sovereign,Sovereign,Sovereign,Sovereign
+Argentina (La Plata),Sovereign,Sovereign,Sovereign,Sovereign
 Uruguay,Part of,Sovereign,Sovereign,Sovereign
 United Kingdom,Sovereign,Sovereign,Sovereign,Sovereign
 Ireland,Part of,Part of,Sovereign,Sovereign
@@ -91,8 +91,8 @@ Oldenburg,Sovereign (limited),Part of,?,?
 German Federal Republic,?,Occupied by,Sovereign (unrecognized),?
 Saxe Weimar,Sovereign (limited),Part of,?,?
 Saxe Altenburg,Part of,?,?,?
-Saxe Gotha,Sovereign (limited),?,?,?
-Saxe Coburg,Sovereign (limited),Part of,?,?
+Saxe Gotha Altenburg,Sovereign (limited),?,?,?
+Saxe Coburg and Gotha,Sovereign (limited),Part of,?,?
 German Democratic Republic,?,Occupied by,Sovereign (unrecognized),?
 Saxe Meiningen,Sovereign (limited),Part of,?,?
 Baden,Sovereign,Part of,Occupied by,Part of
@@ -109,7 +109,7 @@ Mecklenburg Schwerin,Sovereign (limited),Part of,?,?
 Mecklenburg,?,Part of,?,?
 Mecklenburg Vorpommern,?,Occupied by,Part of,Part of
 Poland,Part of,Part of,Sovereign,Sovereign
-Danzig,Part of,Part of,Part of,Part of
+Danzig (Free City of Danzig),Part of,Part of,Part of,Part of
 Austria-Hungary,Sovereign,Sovereign,?,?
 Austria,Sovereign,Part of,Occupied by,Sovereign
 Hungary,Part of,Part of,Sovereign,Sovereign
@@ -129,13 +129,14 @@ Lucca,Part of,?,?,?
 Tuscany,Sovereign,?,?,?
 Malta,Colony of,Colony of,Colony of,Sovereign
 Albania,Part of,Part of,Sovereign,Sovereign
-Montenegro,Colony of,Sovereign (unrecognized),Part of,Sovereign
-Serbia,Vassal of,Sovereign,Sovereign,Sovereign
-"Macedonia, Former Yugoslav Republic of",Part of,Part of,Part of,Sovereign
+Montenegro,Sovereign (unrecognized),Sovereign,Part of,Sovereign
+Kingdom of Serbia,Vassal of,Sovereign,?,?
+North Macedonia (Former Yugoslav Republic of Macedonia) (Macedonia),Part of,Part of,Part of,Sovereign
 Croatia,Part of,Part of,Part of,Sovereign
-Serbia and Montenegro (Yugoslavia),?,Occupied by,Sovereign,?
+"Yugoslavia (Kingdom of Serbs, Croats and Slovenes)",?,Sovereign,Sovereign,?
 Bosnia-Herzegovina,Part of,Occupied by,Part of,Sovereign
 Kosovo,Part of,Part of,Part of,Sovereign (unrecognized)
+Serbia (Serbia and Montenegro) (Federal Republic of Yugoslavia),?,?,Sovereign,Sovereign
 Slovenia,Part of,Part of,Part of,Sovereign
 Greece,Part of,Sovereign,Sovereign,Sovereign
 Crete,Part of,Part of,Part of,Part of
@@ -178,7 +179,7 @@ Benin (Dahomey),Part of,Part of,Part of,Sovereign
 Mauritania,Part of,Part of,Part of,Sovereign
 Niger,Part of,Part of,Part of,Sovereign
 Ivory Coast,Part of,Protectorate of,Part of,Sovereign
-Guinea (French Guinea) (Rivieres du Sud),Part of,Protectorate of,Part of,Sovereign
+Guinea (French Guinea) (Rivieres du Sud),Part of,Part of,Part of,Sovereign
 Burkina Faso (Upper Volta),Part of,Part of,Colony of,Sovereign
 Liberia,Colony of,Sovereign (unrecognized),Sovereign,Sovereign
 Sierra Leone,Colony of,Colony of,Colony of,Sovereign
@@ -198,11 +199,12 @@ Congo (Brazzaville) (French Congo) (Middle Congo),Discovered,Colony of,Part of,S
 Democratic Republic of the Congo (Zaire) (Kinshasa) (Belgian Congo) (Congo Free State),Discovered,Possession of,Colony of,Sovereign
 Uganda,Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 Kenya (British East Africa Protectorate),Discovered,Discovered,Colony of,Sovereign
-Tanzania (Tanganyika) (German East Africa),Discovered,Discovered,Mandated to,Sovereign
+German East Africa,Colony of,Colony of,?,?
 Zanzibar,Colony of,Sovereign (unrecognized),Protectorate of,Part of
-Ruanda-Urundi,?,Part of,Mandated to,?
+Tanzania (Tanganyika),Unknown,Protectorate of,Mandated to,Sovereign
+Ruanda-Urundi,?,Occupied by,Mandated to,?
 Burundi,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Sovereign
-Rwanda,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Sovereign
+Rwanda,Sovereign (unrecognized),Part of,Part of,Sovereign
 Somalia,Sovereign (unrecognized),Part of,Part of,Sovereign
 Somaliland Republic (British Somaliland),Part of,Protectorate of,Colony of,Sovereign (unrecognized)
 Djibouti (Afar and Issas) (French Somaliland),Part of,Colony of,Colony of,Sovereign
@@ -211,15 +213,15 @@ Eritrea,Part of,Colony of,Protectorate of,Sovereign
 Angola,Colony of,Colony of,Colony of,Sovereign
 Mozambique,Colony of,Colony of,Colony of,Sovereign
 Federation of Rhodesia and Nyasaland,?,?,Colony of,?
-Zambia (Northern Rhodesia),?,Part of,Colony of,Sovereign
-Zimbabwe (Rhodesia) (Southern Rhodesia),?,Colony of,Colony of,Sovereign
+Zambia (Northern Rhodesia),?,Part of,Protectorate of,Sovereign
+Zimbabwe (Rhodesia) (Southern Rhodesia),?,Protectorate of,Colony of,Sovereign
 Malawi (Nyasaland) (British Central Africa Protectorate),Discovered,Discovered,Protectorate of,Sovereign
 South Africa,?,Colony of,Sovereign,Sovereign
 Cape Colony (Cape of Good Hope),Colony of,Colony of,Part of,Part of
 Natal,Discovered,Colony of,Part of,Part of
 Transvaal,Discovered,Sovereign (unrecognized),Part of,Part of
 Orange Free State (Orange River Colony),Discovered,Sovereign (unrecognized),Part of,Part of
-Namibia (South West Africa) (German West Africa),Discovered,Colony of,Mandated to,Sovereign
+Namibia (South West Africa) (German South West Africa),Discovered,Colony of,Mandated to,Sovereign
 Transkei,?,?,Sovereign (unrecognized),Part of
 Bophuthatswana,?,?,Sovereign (unrecognized),Part of
 Venda,?,?,Sovereign (unrecognized),Part of
@@ -233,7 +235,7 @@ Reunion (Bourbon I.),Colony of,Colony of,Part of,Part of
 Mauritius,Colony of,Colony of,Colony of,Sovereign
 Seychelles,Part of,Part of,Colony of,Sovereign
 Morocco,Sovereign (unrecognized),Sovereign,Protectorate of,Sovereign
-Tangier,Part of,Part of,Mandated to,Part of
+Tangier,Part of,Part of,Sovereign (unrecognized),Part of
 Spanish Morocco,?,Protectorate of,Part of,?
 Ifni,Part of,Part of,Colony of,Part of
 Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara),Protectorate of,Protectorate of,Protectorate of,Sovereign (unrecognized)
@@ -340,7 +342,7 @@ U. S. Pacific Trust Territories (South Seas Mandate),?,Mandated to,Mandated to,?
 Marshall Is.,Part of,Part of,Part of,Sovereign
 Northern Marianas Is.,Part of,Part of,Part of,Dependency of
 Guam,Part of,Part of,Colony of,Colony of
-Republic of Palau,Part of,Part of,Part of,Sovereign
+Palau,Part of,Part of,Part of,Sovereign
 Federated States of Micronesia,Part of,Part of,Part of,Sovereign
 Samoa (Western Samoa) (German Samoa),Part of,Part of,Mandated to,Sovereign
 American Samoa,Part of,Part of,Colony of,Colony of
@@ -401,7 +403,7 @@ Yucatan,Part of,Part of,Part of,Part of
 Revillagigedo Is,Possession of,Possession of,Possession of,Possession of
 Sint Maarten,Colony of,Part of,Part of,Dependency of
 Dutch Windward Is.,Part of,Part of,Part of,?
-St.Kitts,Colony of,Part of,Part of,Part of
+St. Kitts,Colony of,Part of,Part of,Part of
 Nevis,Colony of,Part of,Part of,Part of
 St. Martin,Part of,Part of,Part of,Dependency of
 Mosquito Coast,Protectorate of,Occupied by,Part of,Part of
@@ -427,7 +429,7 @@ Juan Fernandez I.,Discovered,Discovered,Possession of,Part of
 Desventuradas Is. (San Felix and San Ambrosio),Discovered,Discovered,Possession of,Part of
 Sala y Gomez,Discovered,Discovered,Possession of,Part of
 Araucania,Unknown,Part of,Part of,Part of
-Viceroyalty of La Plata,Dissolved into,?,?,?
+Río de la Plata United Provinces,Sovereign (unrecognized),?,?,?
 Buenos Aires,Part of,Part of,Part of,Part of
 Cordoba,Part of,Part of,Part of,Part of
 Falkland Is.,Possession of,Colony of,Colony of,Colony of
@@ -446,6 +448,7 @@ St. Paul's Rocks,Discovered,Discovered,Possession of,Possession of
 Trindade Island,Discovered,Discovered,Possession of,Possession of
 Rockall I.,Discovered,Discovered,Discovered,Part of
 Lundy,Part of,Part of,Part of,Part of
+Channel Is.,Possession of,Possession of,Dependency of,Dependency of
 UK Bases in Ireland,?,Possession of,Part of,Part of
 Moresnet,Neutral or demilitarized zone of,Neutral or demilitarized zone of,Part of,Part of
 Alsace Lorraine,Part of,Part of,?,?
@@ -455,7 +458,7 @@ Schleswig,Part of,Part of,Part of,Part of
 Holstein,Part of,Part of,Part of,Part of
 Heligoland,Colony of,Colony of,?,?
 Neuchatel,Part of,Part of,Part of,Part of
-Cracow,Occupied by,Part of,Part of,Part of
+Cracow (Free City of Cracow),Occupied by,Part of,Part of,Part of
 Spain-Gibraltar Neutral Zone,?,Neutral or demilitarized zone of,Neutral or demilitarized zone of,Neutral or demilitarized zone of
 Ile des Faisans,Neutral or demilitarized zone of,Neutral or demilitarized zone of,Neutral or demilitarized zone of,Neutral or demilitarized zone of
 Bergedorf,Part of,Part of,?,?
@@ -511,12 +514,15 @@ Hangö,Part of,Part of,Part of,Part of
 Elba,Part of,Part of,Part of,Part of
 Svalbard Is.,Discovered,Discovered,Dependency of,Dependency of
 Jan Mayen Is.,Discovered,Discovered,Dependency of,Dependency of
-Serb Republic of Krajina,?,?,Part of,?
+Independent State of Croatia,?,Sovereign (unrecognized),?,?
+"State of Slovenes, Croats and Serbs",?,Dissolved into,?,?
+Serb Republic of Krajina,?,?,Sovereign (unrecognized),?
 Serb Republic of Bosnia,?,?,Part of,Part of
+Vojvodina,Part of,Part of,Part of,Part of
 Bosnia,Part of,Part of,Part of,Part of
 Herzegovina,Part of,Part of,Part of,Part of
 Novi Pazar,Part of,Occupied by,Part of,Part of
-Brda,Unknown,Part of,Part of,Part of
+Brda,Part of,Part of,Part of,Part of
 Western Thrace,Part of,Part of,Part of,Part of
 Mount Athos,Part of,Part of,Dependency of,Dependency of
 New Greece,Part of,Part of,Part of,Part of
@@ -598,7 +604,7 @@ Gurma,Sovereign (unrecognized),Sovereign (unrecognized),Part of,?
 Kong,Sovereign (unrecognized),Sovereign (unrecognized),Part of,?
 Mandinka (Wassoulou) Empire,Unknown,Sovereign (unrecognized),?,?
 Mamprussi,Sovereign (unrecognized),Sovereign (unrecognized),Part of,?
-Ouga Dougou,Sovereign (unrecognized),Sovereign (unrecognized),Part of,?
+Ouagadougou (Mossi Empire),Sovereign (unrecognized),Sovereign (unrecognized),?,?
 Yatenga,Sovereign (unrecognized),Sovereign (unrecognized),Part of,?
 Busuma,Sovereign (unrecognized),Sovereign (unrecognized),Part of,?
 Riziam,Unknown,Unknown,Part of,?
@@ -675,12 +681,11 @@ Wadai,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Bateke (Anziku),Sovereign (unrecognized),Part of,Part of,Part of
 Loango,Sovereign (unrecognized),Part of,Part of,Part of
 Tippu Tip Empire,Sovereign (unrecognized),Sovereign (unrecognized),?,?
-Mwata Yamvo (Lunda),Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
+Lunda Kingdom (Mwata Yamvo),Sovereign (unrecognized),?,?,?
 Kalagne,Unknown,Part of,Part of,Part of
-Baluba,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
-Katanga,Unknown,Part of,Part of,Part of
+Luba Kingdom,Sovereign (unrecognized),Sovereign (unrecognized),?,?
+Katanga (State of Katanga) (Msiri's Yeke Kingdom),Part of,Sovereign (unrecognized),Part of,?
 Kasai,Part of,Part of,Part of,Part of
-Msiri (Yeke),Part of,Sovereign (unrecognized),Part of,Part of
 Azande,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Mangbetu,Unknown,Unknown,Part of,Part of
 Kuba,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
@@ -734,15 +739,15 @@ Assab,Unknown,Part of,?,?
 Awsa Sultanate,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Chokwe,Unknown,Unknown,Part of,Part of
 Ovimbundu,Unknown,Unknown,Part of,Part of
-Kionga,Unknown,Unknown,Part of,Part of
-Citimukulu Bemba,Unknown,Unknown,?,?
-Mwamba Bemba,Unknown,Unknown,?,?
-Barotse,Sovereign (unrecognized),Part of,?,?
+Kionga,Unknown,Possession of,Part of,Part of
+Citimukulu Bemba,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
+Mwamba Bemba,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
+Barotseland (Lozi),Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Maseko Ngoni,Unknown,Unknown,Part of,Part of
 Shangane (Gaza Empire),Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
-Kazembe,Sovereign (unrecognized),Unknown,?,?
-Northeastern Rhodesia,?,Colony of,?,?
-Northwestern Rhodesia,?,Colony of,?,?
+Kazembe,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
+Northeastern Rhodesia,?,Protectorate of,?,?
+Barotseland_North_Western Rhodesia (Northwestern Rhodesia),?,Possession of,?,?
 Rozwi,Sovereign (unrecognized),?,?,?
 Ndebele (Matabeleland),Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Mashona,Part of,Part of,Part of,Part of
@@ -757,7 +762,7 @@ Mtetwa,Part of,Part of,?,?
 Prince Edward and Marion Is.,Possession of,Possession of,Possession of,Possession of
 "Griqualand, West",Sovereign (unrecognized),Part of,Part of,Part of
 British Bechuanaland,Colony of,Colony of,Part of,Part of
-Stellaland & Goshen,Part of,?,?,?
+Stellaland and Goshen,Part of,?,?,?
 British Kaffraria,Discovered,Part of,?,?
 Lydenburg Republic,Sovereign (unrecognized),Part of,Part of,Part of
 Zoutpansberg,Sovereign (unrecognized),Part of,Part of,Part of
@@ -801,6 +806,7 @@ Melilla,Colony of,Part of,Part of,Dependency of
 Penon de Velez,Part of,Part of,Part of,Dependency of
 Morocco-Melilla Neutral Zone,Neutral or demilitarized zone of,Neutral or demilitarized zone of,Part of,?
 Captaincy-general of north Africa,Part of,Colony of,Part of,Part of
+Río de Oro,Colony of,Colony of,Colony of,?
 Abdelkader Emirate,Part of,?,?,?
 Kabylie,Part of,Part of,Part of,Part of
 Leased Posts in Algeria,Leased to,?,?,?
@@ -1155,6 +1161,7 @@ Heard and McDonald Is.,Possession of,Possession of,Dependency of,Dependency of
 Macquarie I.,Possession of,Possession of,Possession of,Possession of
 Lord Howe I.,Possession of,Possession of,Possession of,Possession of
 Ashmore and Cartier Is,Discovered,Possession of,Possession of,Dependency of
+Torres Strait Is.,Discovered,Part of,Part of,Part of
 New Guinea,Claimed by,?,?,?
 Bougainville (Republic of the North Solomons),Discovered,Discovered,Part of,Part of
 Tokelau Is.,Discovered,Protectorate of,Colony of,Colony of
@@ -1183,6 +1190,7 @@ Starbuck I.,Discovered,Claimed by,Claimed by,Part of
 Vostok I.,Discovered,Claimed by,Claimed by,Part of
 Flint I.,Discovered,Claimed by,Claimed by,Part of
 Caroline I.,Discovered,Claimed by,Claimed by,Part of
+Phoenix Is.,Discovered,Discovered,Dependency of,Part of
 Rotuma I.,Discovered,Part of,Part of,Part of
 Vava'u,Sovereign (unrecognized),Part of,Part of,Part of
 Tongatapu,Sovereign (unrecognized),Part of,Part of,Part of
@@ -1236,3 +1244,7 @@ Manitoba,Part of,Part of,Part of,Part of
 Yukon,?,Part of,Part of,Part of
 Nunavut,?,?,Part of,Part of
 Labrador,Claimed by,Claimed by,Part of,Part of
+Haut-Katanga,?,?,Part of,Part of
+Tanganyika,?,?,Part of,Part of
+Lualaba,?,?,Part of,Part of
+Haut-Lomani,?,?,Part of,Part of
