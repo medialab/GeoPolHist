@@ -1,284 +1,294 @@
 {
-    "name": "geopolhist",
-    "datapackage_version": "1.0.0",
-    "title": "GeoPolHist",
-    "description": "Geo-Political entities History dataset",
-    "version": "1.0",
-    "keywords": [
-      "history",
-      "politic",
-      "sovereign",
-      "19th century"
-    ],
-    "created": "2020-07-28T12:31:50.52Z",
-    "licenses": [
-      {
-        "url": "http://opendatacommons.org/licenses/odbl/",
-        "title": "Open Data Commons Open Database License",
-        "version": "1.0",
-        "name": "odc-odbl"
-      }
-    ],
-    "sources": [
-      {
-        "title": "State System Membership (v2016) by Correlates of War",
-         "path": "https://correlatesofwar.org/data-sets/state-system-membership"
-      },
-      {
-        "title": "Colonial/Dependency Contiguity (v3.1) by Correlates of War",
-        "path": "https://correlatesofwar.org/data-sets/colonial-dependency-contiguity"
-      }
-    ],
-    "contributors": [
-      {
-        "title": "Béatrice Dedinger",
-        "email": "beatrice.dedinger@sciencespo.fr",
-        "web": "http://sciencespo.fr/chsp",
-        "organization": "Sciences Po, Centre d'Histoire (CHSP), Paris, France",
-        "role": "author"
-      },
-      {
-        "title": "Paul Girard",
-        "email": "paul@ouestware.com",
-        "web": "http://ouestware.com",
-        "organization": "OuestWare, Nantes, France",
-        "role": "author"
-      },
-      {
-        "title": "Ariane Treguer",
-        "email": "ariane.treguer@sciencespo.fr",
-        "web": "http://sciencespo.fr/chsp",
-        "organization": "Sciences Po, Centre d'Histoire (CHSP), Paris, France",
-        "role": "contributor"
-      }
-    ],
-    "dependencies": {
-      "data-package-name": ">=1.0"
+  "name": "geopolhist",
+  "datapackage_version": "1.0.0",
+  "title": "GeoPolHist",
+  "description": "Geo-Political entities History dataset",
+  "version": "1.0",
+  "keywords": [
+    "history",
+    "politic",
+    "sovereign",
+    "19th century"
+  ],
+  "created": "2020-07-28T12:31:50.52Z",
+  "licenses": [
+    {
+      "url": "http://opendatacommons.org/licenses/odbl/",
+      "title": "Open Data Commons Open Database License",
+      "version": "1.0",
+      "name": "odc-odbl"
+    }
+  ],
+  "sources": [
+    {
+      "title": "State System Membership (v2016) by Correlates of War",
+      "path": "https://correlatesofwar.org/data-sets/state-system-membership"
     },
-    "profile": "tabular-data-package",
-    "resources": [
-      {
-        "name": "entities_status",
-        "title": "Geo-Political entities status over time",
-        "description": "Sovereignty status of geo-political entities of the World 1816-2020",
-        "format": "csv",
-        "encoding": "utf-8",
-        "path": "data/GeoPolHist_entities_status_over_time.csv",
-        "profile": "tabular-data-resource",
-        "schema": {
-          "missingValues": ["?",""],
-          "fields": [
-            {
-              "name": "GPH_code",
-              "type": "string",
-              "description": "GPH entity identifier",
-              "constraints": {
-                "required": true
-              }
-            },
-            {
-              "name": "GPH_name",
-              "type": "string",
-              "description": "Name of the entity (redundant with entity table)",
-              "constraints": {
-                "required": true
-              }
-            },
-            {
-              "name": "start_year",
-              "type": "year",
-              "description": "year at which the status starts"
-            },
-            {
-              "name": "end_year",
-              "type": "year",
-              "description": "year at which the status ends"
-            },
-            {
-              "name": "GPH_status",
-              "type": "string",
-              "description": "The status of the entity between start_year and end_year",
-              "constraints": {
-                "required": true
-              }
-            },
-            {
-              "name": "sovereign_GPH_code",
-              "type": "string",
-              "description": "GPH entity identifier"
+    {
+      "title": "Colonial/Dependency Contiguity (v3.1) by Correlates of War",
+      "path": "https://correlatesofwar.org/data-sets/colonial-dependency-contiguity"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Béatrice Dedinger",
+      "email": "beatrice.dedinger@sciencespo.fr",
+      "web": "http://sciencespo.fr/chsp",
+      "organization": "Sciences Po, Centre d'Histoire (CHSP), Paris, France",
+      "role": "author"
+    },
+    {
+      "title": "Paul Girard",
+      "email": "paul@ouestware.com",
+      "web": "http://ouestware.com",
+      "organization": "OuestWare, Nantes, France",
+      "role": "author"
+    },
+    {
+      "title": "Ariane Treguer",
+      "email": "ariane.treguer@sciencespo.fr",
+      "web": "http://sciencespo.fr/chsp",
+      "organization": "Sciences Po, Centre d'Histoire (CHSP), Paris, France",
+      "role": "contributor"
+    }
+  ],
+  "dependencies": {
+    "data-package-name": ">=1.0"
+  },
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "entities_status",
+      "title": "Geo-Political entities status over time",
+      "description": "Sovereignty status of geo-political entities of the World 1816-2020",
+      "format": "csv",
+      "encoding": "utf-8",
+      "path": "data/GeoPolHist_entities_status_over_time.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "missingValues": [
+          "?",
+          ""
+        ],
+        "fields": [
+          {
+            "name": "GPH_code",
+            "type": "string",
+            "description": "GPH entity identifier",
+            "constraints": {
+              "required": true
             }
-          ],
-          "foreignKeys": [
-            {
-              "fields": "GPH_code",
-              "reference": {
-                "resource": "entities",
-                "fields": "GPH_code"
-              }
-            },
-            {
-              "fields": "GPH_status",
-              "reference": {
-                "resource": "status",
-                "fields": "GPH_status"
-              }
-            },
-            {
-              "fields": "sovereign_GPH_code",
-              "reference": {
-                "resource": "entities",
-                "fields": "GPH_code"
-              }
+          },
+          {
+            "name": "GPH_name",
+            "type": "string",
+            "description": "Name of the entity (redundant with entity table)",
+            "constraints": {
+              "required": true
             }
-          ]
-        }
-      },
-      {
-        "name": "entities",
-        "title": "Geo-Political entities",
-        "description": "Geo-Political entities list of entities of the world between 1816 and 2020.",
-        "format": "csv",
-        "encoding": "utf-8",
-        "path": "data/GeoPolHist_entities.csv",
-        "profile": "tabular-data-resource",
-        "schema": {
-          "fields": [
-            {
-              "name": "GPH_code",
-              "type": "string",
-              "description": "GPH entity identifier",
-              "constraints": {
-                "required": true
-              }
-            },
-            {
-              "name": "GPH_name",
-              "type": "string",
-              "description": "Name of the entity (redundant with entity table)",
-              "constraints": {
-                "required": true
-              }
-            },
-            {
-              "name": "continent",
-              "type": "string",
-              "description": "continent the entity belongs to (Ocean are considered as continents).",
-              "constraints": {
-                "enum": [
-                  "Adriatic",
-                  "Africa",
-                  "America",
-                  "Antarctic",
-                  "Arctic",
-                  "Asia",
-                  "Atlantic",
-                  "Baltic",
-                  "Europe",
-                  "Mediterranean",
-                  "Oceania",
-                  "Pacific",
-                  "Red Sea",
-                  "World"
-                ]
-              }
-            },
-            {
-              "name": "wikidata",
-              "type": "string",
-              "format": "uri",
-              "description": "The wikidata entity URI representing this entity."
-            },
-            {
-              "name": "wikidata_alt1",
-              "type": "string",
-              "format": "uri",
-              "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
-            },
-            {
-              "name": "wikidata_alt2",
-              "type": "string",
-              "format": "uri",
-              "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
-            },
-            {
-              "name": "wikidata_alt3",
-              "type": "string",
-              "format": "uri",
-              "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
-            },
-            {
-              "name": "notes",
-              "type": "string",
-              "description": "Notes about wikidata reconciliation process."
+          },
+          {
+            "name": "start_year",
+            "type": "year",
+            "description": "year at which the status starts"
+          },
+          {
+            "name": "end_year",
+            "type": "year",
+            "description": "year at which the status ends"
+          },
+          {
+            "name": "GPH_status",
+            "type": "string",
+            "description": "The status of the entity between start_year and end_year",
+            "constraints": {
+              "required": true
             }
-          ]
-        }
-      },
-      {
-        "name": "status",
-        "title": "Geo-Political status",
-        "description": "This table documents the list of possible political status.",
-        "format": "csv",
-        "encoding": "utf-8",
-        "path": "data/GeoPolHist_status.csv",
-        "profile": "tabular-data-resource",
-        "schema": {
-          "fields": [
-            {
-              "name": "GPH_status",
-              "type": "string",
-              "description": "The GeoPolHist status.",
-              "constraints": {
-                "unique": true,
-                "required": true
-              }
-            },
-            {
-              "name": "slug",
-              "type": "string",
-              "description": "shorter version of the status.",
-              "constraints": {
-                "unique": true,
-                "required": true
-              }
-            },
-            {
-              "name": "group",
-              "type": "string",
-              "description": "Group of status.",
-              "constraints": {
-                "enum": [
-                  "Sovereign (all)",
-                  "Non sovereign",
-                  "Part of",
-                  "Miscellaneous"
-                ]
-              }
-            },
-            {
-              "name": "priority_order",
-              "type": "number",
-              "constraints":{
-                "required": true
-              }
-            },
-            {
-              "name": "COW_status",
-              "type": "string",
-              "description": "The corresponding status in the Correlates Of War data set."
-            },
-            {
-              "name": "UN_status",
-              "type": "string",
-              "description": "The corresponding status in the United Nations nomenclature."
-            },
-            {
-              "name": "definition",
-              "type": "string",
-              "description": "The definition of the status."
+          },
+          {
+            "name": "sovereign_GPH_code",
+            "type": "string",
+            "description": "GPH entity identifier"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "GPH_code",
+            "reference": {
+              "resource": "entities",
+              "fields": "GPH_code"
             }
-          ]
-        }
+          },
+          {
+            "fields": "GPH_status",
+            "reference": {
+              "resource": "status",
+              "fields": "GPH_status"
+            }
+          },
+          {
+            "fields": "GPH_name",
+            "reference": {
+              "resource": "entities",
+              "fields": "GPH_name"
+            }
+          },
+          {
+            "fields": "sovereign_GPH_code",
+            "reference": {
+              "resource": "entities",
+              "fields": "GPH_code"
+            }
+          }
+        ]
       }
-    ]
-  }
+    },
+    {
+      "name": "entities",
+      "title": "Geo-Political entities",
+      "description": "Geo-Political entities list of entities of the world between 1816 and 2020.",
+      "format": "csv",
+      "encoding": "utf-8",
+      "path": "data/GeoPolHist_entities.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "GPH_code",
+            "type": "string",
+            "description": "GPH entity identifier",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "GPH_name",
+            "type": "string",
+            "description": "Name of the entity (redundant with entity table)",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "continent",
+            "type": "string",
+            "description": "continent the entity belongs to (Ocean are considered as continents).",
+            "constraints": {
+              "enum": [
+                "Adriatic",
+                "Africa",
+                "America",
+                "Antarctic",
+                "Arctic",
+                "Asia",
+                "Atlantic",
+                "Baltic",
+                "Europe",
+                "Mediterranean",
+                "Oceania",
+                "Pacific",
+                "Red Sea",
+                "World"
+              ]
+            }
+          },
+          {
+            "name": "wikidata",
+            "type": "string",
+            "format": "uri",
+            "description": "The wikidata entity URI representing this entity."
+          },
+          {
+            "name": "wikidata_alt1",
+            "type": "string",
+            "format": "uri",
+            "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
+          },
+          {
+            "name": "wikidata_alt2",
+            "type": "string",
+            "format": "uri",
+            "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
+          },
+          {
+            "name": "wikidata_alt3",
+            "type": "string",
+            "format": "uri",
+            "description": "Alternative wikidata entity URI representing an other historic representation of the entity."
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Notes about wikidata reconciliation process."
+          }
+        ]
+      }
+    },
+    {
+      "name": "status",
+      "title": "Geo-Political status",
+      "description": "This table documents the list of possible political status.",
+      "format": "csv",
+      "encoding": "utf-8",
+      "path": "data/GeoPolHist_status.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "GPH_status",
+            "type": "string",
+            "description": "The GeoPolHist status.",
+            "constraints": {
+              "unique": true,
+              "required": true
+            }
+          },
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "shorter version of the status.",
+            "constraints": {
+              "unique": true,
+              "required": true
+            }
+          },
+          {
+            "name": "group",
+            "type": "string",
+            "description": "Group of status.",
+            "constraints": {
+              "enum": [
+                "Sovereign (all)",
+                "Non sovereign",
+                "Part of",
+                "Miscellaneous"
+              ]
+            }
+          },
+          {
+            "name": "priority_order",
+            "type": "number",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "COW_status",
+            "type": "string",
+            "description": "The corresponding status in the Correlates Of War data set."
+          },
+          {
+            "name": "UN_status",
+            "type": "string",
+            "description": "The corresponding status in the United Nations nomenclature."
+          },
+          {
+            "name": "definition",
+            "type": "string",
+            "description": "The definition of the status."
+          }
+        ]
+      }
+    }
+  ]
+}

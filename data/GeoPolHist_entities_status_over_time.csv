@@ -91,13 +91,13 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 57,St. Vincent and the Grenadines,1962,1969,Colony of,200
 57,St. Vincent and the Grenadines,1969,1979,Associated state of,200
 57,St. Vincent and the Grenadines,1979,2020,Sovereign,
-58,Antigua & Barbuda,1816,1833,Colony of,200
-58,Antigua & Barbuda,1833,1956,Part of,1063
-58,Antigua & Barbuda,1956,1958,Colony of,200
-58,Antigua & Barbuda,1958,1962,Part of,50
-58,Antigua & Barbuda,1962,1967,Colony of,200
-58,Antigua & Barbuda,1967,1981,Associated state of,200
-58,Antigua & Barbuda,1981,2020,Sovereign,
+58,Antigua and Barbuda,1816,1833,Colony of,200
+58,Antigua and Barbuda,1833,1956,Part of,1063
+58,Antigua and Barbuda,1956,1958,Colony of,200
+58,Antigua and Barbuda,1958,1962,Part of,50
+58,Antigua and Barbuda,1962,1967,Colony of,200
+58,Antigua and Barbuda,1967,1981,Associated state of,200
+58,Antigua and Barbuda,1981,2020,Sovereign,
 59,Montserrat,1816,1833,Colony of,200
 59,Montserrat,1833,1956,Part of,1063
 59,Montserrat,1956,1958,Colony of,200
@@ -316,10 +316,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 261,Saxe Weimar,1867,1918,Part of,255
 262,Saxe Altenburg,1816,1826,Part of,263
 262,Saxe Altenburg,1826,1867,Part of,2661
-263,Saxe Gotha,1816,1826,Sovereign (limited),
-263,Saxe Gotha,1826,1867,Part of,264
-264,Saxe Coburg,1816,1867,Sovereign (limited),
-264,Saxe Coburg,1867,1920,Part of,255
+263,Saxe Gotha Altenburg,1816,1826,Sovereign (limited),
+263,Saxe Gotha Altenburg,1826,1867,Part of,264
+264,Saxe Coburg and Gotha,1816,1867,Sovereign (limited),
+264,Saxe Coburg and Gotha,1867,1920,Part of,255
 265,German Democratic Republic,1945,1949,Occupied by,365
 265,German Democratic Republic,1949,1954,Sovereign (unrecognized),
 265,German Democratic Republic,1954,1990,Sovereign,
@@ -1318,9 +1318,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 985,Guam,1898,1941,Colony of,2
 985,Guam,1941,1944,Occupied by,740
 985,Guam,1944,2020,Colony of,2
-986,Republic of Palau,1816,1947,Part of,9810
-986,Republic of Palau,1947,1994,Part of,980
-986,Republic of Palau,1994,2020,Sovereign,
+986,Palau,1816,1947,Part of,9810
+986,Palau,1947,1994,Part of,980
+986,Palau,1994,2020,Sovereign,
 987,Federated States of Micronesia,1816,1947,Part of,9810
 987,Federated States of Micronesia,1947,1986,Part of,980
 987,Federated States of Micronesia,1986,1991,Dependency of,2
@@ -1492,9 +1492,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 1073,Sint Maarten,1828,2010,Part of,1074
 1073,Sint Maarten,2010,2020,Dependency of,210
 1074,Dutch Windward Is.,1828,2010,Part of,68
-1075,St.Kitts,1816,1833,Colony of,200
-1075,St.Kitts,1833,1882,Part of,1063
-1075,St.Kitts,1882,2020,Part of,60
+1075,St. Kitts,1816,1833,Colony of,200
+1075,St. Kitts,1833,1882,Part of,1063
+1075,St. Kitts,1882,2020,Part of,60
 1076,Nevis,1816,1833,Colony of,200
 1076,Nevis,1833,1882,Part of,1063
 1076,Nevis,1882,2020,Part of,60
