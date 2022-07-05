@@ -24,7 +24,7 @@ Dominica,Colony of,Part of,Part of,Sovereign
 Grenada,Colony of,Part of,Part of,Sovereign
 St. Lucia,Colony of,Part of,Part of,Sovereign
 St. Vincent and the Grenadines,Colony of,Part of,Part of,Sovereign
-Antigua and Barbuda,Colony of,Part of,Part of,Sovereign
+Antigua and Barbuda (Antigua),Colony of,Part of,Part of,Sovereign
 Montserrat,Colony of,Part of,Part of,Colony of
 St. Kitts-Nevis,Part of,Part of,Part of,Sovereign
 Guadeloupe,Colony of,Colony of,Part of,Part of
@@ -110,8 +110,8 @@ Mecklenburg,?,Part of,?,?
 Mecklenburg Vorpommern,?,Occupied by,Part of,Part of
 Poland,Part of,Part of,Sovereign,Sovereign
 Danzig (Free City of Danzig),Part of,Part of,Part of,Part of
-Austria-Hungary,Sovereign,Sovereign,?,?
-Austria,Sovereign,Part of,Occupied by,Sovereign
+Austria-Hungary (Austrian Empire),Sovereign,Sovereign,?,?
+Austria,Part of,Part of,Occupied by,Sovereign
 Hungary,Part of,Part of,Sovereign,Sovereign
 Czechoslovakia,?,Sovereign,Sovereign,?
 Czech Republic,Part of,Part of,Part of,Sovereign
@@ -129,7 +129,7 @@ Lucca,Part of,?,?,?
 Tuscany,Sovereign,?,?,?
 Malta,Colony of,Colony of,Colony of,Sovereign
 Albania,Part of,Part of,Sovereign,Sovereign
-Montenegro,Sovereign (unrecognized),Sovereign,Part of,Sovereign
+Montenegro,Vassal of,Sovereign,Part of,Sovereign
 Kingdom of Serbia,Vassal of,Sovereign,?,?
 North Macedonia (Former Yugoslav Republic of Macedonia) (Macedonia),Part of,Part of,Part of,Sovereign
 Croatia,Part of,Part of,Part of,Sovereign
@@ -140,10 +140,10 @@ Serbia (Serbia and Montenegro) (Federal Republic of Yugoslavia),?,?,Sovereign,So
 Slovenia,Part of,Part of,Part of,Sovereign
 Greece,Part of,Sovereign,Sovereign,Sovereign
 Crete,Part of,Part of,Part of,Part of
-Cyprus,Part of,Occupied by,Colony of,Sovereign
-Bulgaria,Part of,Part of,Sovereign,Sovereign
+Cyprus,Part of,Protectorate of,Colony of,Sovereign
+Bulgaria,Part of,Vassal of,Sovereign,Sovereign
 Moldova (Bessarabia) (Moldavian Republic),Part of,Part of,Part of,Sovereign
-Romania,Part of,Sovereign,Sovereign,Sovereign
+Romania,Vassal of,Sovereign,Sovereign,Sovereign
 Russia (USSR),Sovereign,Sovereign,Sovereign,Sovereign
 Estonia,Part of,Part of,Part of,Sovereign
 Latvia,Part of,Part of,Part of,Sovereign
@@ -184,7 +184,7 @@ Burkina Faso (Upper Volta),Part of,Part of,Colony of,Sovereign
 Liberia,Colony of,Sovereign (unrecognized),Sovereign,Sovereign
 Sierra Leone,Colony of,Colony of,Colony of,Sovereign
 Ghana (Gold Coast),Colony of,Colony of,Colony of,Sovereign
-German Togoland,Colony of,Colony of,?,?
+German Togoland,Protectorate of,Protectorate of,?,?
 Togo (French Togoland),?,Mandated to,Mandated to,Sovereign
 British Togoland,?,Mandated to,Mandated to,?
 Kamerun,Colony of,Colony of,Part of,?
@@ -228,7 +228,7 @@ Venda,?,?,Sovereign (unrecognized),Part of
 Ciskei,?,Part of,Part of,Part of
 Lesotho (Basutoland),Sovereign (unrecognized),Colony of,Colony of,Sovereign
 Botswana (Bechuanaland),Discovered,Protectorate of,Protectorate of,Sovereign
-Eswatini (Swaziland),Sovereign (unrecognized),Sovereign (unrecognized),Colony of,Sovereign
+Eswatini (Swaziland),Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 Madagascar (Malagasy Republic),Sovereign (unrecognized),Protectorate of,Colony of,Sovereign
 Comoros,?,Protectorate of,Dependency of,Sovereign
 Reunion (Bourbon I.),Colony of,Colony of,Part of,Part of
@@ -240,25 +240,25 @@ Spanish Morocco,?,Protectorate of,Part of,?
 Ifni,Part of,Part of,Colony of,Part of
 Sahrawi Arab Democratic Republic (Western Sahara) (Spanish Sahara),Protectorate of,Protectorate of,Protectorate of,Sovereign (unrecognized)
 Spanish West Africa,?,Colony of,Colony of,?
-Algeria (Algiers),Part of,Colony of,Colony of,Sovereign
-Tunisia (Tunis),Vassal of,Protectorate of,Protectorate of,Sovereign
+Algeria (Regency of Algiers),Part of,Colony of,Colony of,Sovereign
+Tunisia (Regency of Tunis),Vassal of,Protectorate of,Protectorate of,Sovereign
 Libya,?,Colony of,Occupied by,Sovereign
-North Sudan (Sudan) (Anglo-Egyptian),Part of,Part of,Colony of,Sovereign
+Sudan (Anglo-Egyptian Sudan) (Mahdist State),Part of,Sovereign (unrecognized),Colony of,Sovereign
 South Sudan,?,?,Sovereign,Sovereign
 Iran (Persia),Sovereign (unrecognized),Sovereign,Sovereign,Sovereign
 Turkey (Ottoman Empire),Sovereign,Sovereign,Sovereign,Sovereign
 Iraq (Mesopotamia),Part of,Part of,Sovereign,Sovereign
-Egypt Arab Republic (Egypt),Vassal of,Occupied by,Sovereign,Sovereign
+Egypt Arab Republic (Egypt),Part of,Vassal of,Sovereign,Sovereign
 Syria,Part of,Part of,Sovereign,Sovereign
 Lebanon,Part of,Part of,Sovereign,Sovereign
 Jordan (Transjordan),Part of,Part of,Sovereign,Sovereign
 Palestine,Part of,Part of,Occupied by,Sovereign
 Israel,?,Sovereign,Sovereign,Sovereign
-Saudi Arabia (Emirate of Nejd),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sovereign
+Saudi Arabia (Emirate of Nejd) (Emirate of Diriyah),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sovereign
 Hejaz Sultanate,Unknown,Part of,Part of,Part of
 Asir,Vassal of,Occupied by,Part of,Part of
 Al Hasa,Part of,Occupied by,Part of,Part of
-Jabal Shammar,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
+Jabal Shammar,Vassal of,Vassal of,Part of,Part of
 Yemen Arab Republic (North Yemen) (Kingdom of Yemen),Sovereign (unrecognized),Part of,Sovereign,?
 Yemen,?,?,Sovereign,Sovereign
 Yemen People's Republic (South Yemen),?,?,Sovereign,?
@@ -266,7 +266,7 @@ Aden,Part of,Colony of,Colony of,Part of
 Aden Protectorate,Protectorate of,Protectorate of,?,?
 Kuwait,Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 Bahrain,Part of,Protectorate of,Protectorate of,Sovereign
-Qatar,Sovereign (unrecognized),Part of,Protectorate of,Sovereign
+Qatar,Dependency of,Vassal of,Protectorate of,Sovereign
 United Arab Emirates (Trucial Oman),Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 Oman (Sultanate of Muscat and Oman),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign
 Afghanistan,Sovereign (unrecognized),Protectorate of,Sovereign,Sovereign
@@ -335,7 +335,7 @@ Gilbert and Ellice Is.,?,Protectorate of,Colony of,?
 Kiribati,Discovered,Discovered,Part of,Sovereign
 Tuvalu,Discovered,Discovered,Part of,Sovereign
 Fiji,Discovered,Colony of,Colony of,Sovereign
-Tonga (Ha'apai),Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
+Tonga (Haʻapai),Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 French Polynesia,Sovereign (unrecognized),Protectorate of,Colony of,Colony of
 Nauru,Sovereign (unrecognized),Sovereign (unrecognized),Mandated to,Sovereign
 U. S. Pacific Trust Territories (South Seas Mandate),?,Mandated to,Mandated to,?
@@ -385,6 +385,8 @@ Navassa I.,Discovered,Claimed by,Dependency of,Dependency of
 Tobago,Colony of,Part of,Part of,Part of
 U.S. Leased Bases in Jamaica,?,Leased to,?,?
 U.S. Leased Bases in Trinidad,?,Leased to,?,?
+Morant Cays,Discovered,Part of,Part of,Part of
+Pedro Bank,Discovered,Part of,Part of,Part of
 Windward Is.,Colony of,Colony of,Colony of,?
 Gros Islet Bay,Part of,Part of,Part of,Part of
 Barbuda,Possession of,Part of,Part of,Part of
@@ -449,6 +451,7 @@ Trindade Island,Discovered,Discovered,Possession of,Possession of
 Rockall I.,Discovered,Discovered,Discovered,Part of
 Lundy,Part of,Part of,Part of,Part of
 Channel Is.,Possession of,Possession of,Dependency of,Dependency of
+Isle of Man,Dependency of,Dependency of,Dependency of,Dependency of
 UK Bases in Ireland,?,Possession of,Part of,Part of
 Moresnet,Neutral or demilitarized zone of,Neutral or demilitarized zone of,Part of,Part of
 Alsace Lorraine,Part of,Part of,?,?
@@ -481,12 +484,16 @@ Saxe Hildburghausen,Sovereign (limited),?,?,?
 Klagenfurt Plebiscite Zone,Part of,Part of,?,?
 Vorarlberg,Part of,Part of,Part of,Part of
 Tyrol,Part of,Part of,Part of,Part of
+Bohemia,Part of,Part of,Part of,Part of
+Moravia,Part of,Part of,?,?
+Czech Silesia,Part of,Part of,?,?
+Carpathian Ruthenia,Part of,Part of,?,?
+Carpatho-Ukraine,?,Part of,Part of,Part of
 Milan,Part of,?,?,?
 Republic of St. Mark,Part of,?,?,?
 Lombardy-Venetia,Part of,?,?,?
 Ancona,Part of,Part of,Part of,Part of
 Sicily,Part of,Part of,Part of,Part of
-Carpatho-Ukraine,?,Part of,Part of,Part of
 Venezia-Giulia,Part of,Part of,Part of,Part of
 "S.M.O.M. (Sovereign & Military Order of Jerusalem, Rhodes and Malta)",Part of,Sovereign (unrecognized),Sovereign (unrecognized),Sovereign (unrecognized)
 Scutari,Part of,Part of,Part of,Part of
@@ -500,8 +507,8 @@ Dodecanese Is. (Aegean Is.),Part of,Part of,Part of,Part of
 Janina,Part of,Part of,Part of,Part of
 Akrotiri and Dhekelia (British Bases in Cyprus),Part of,Part of,Part of,Dependency of
 Castellorizo,Part of,Part of,Part of,Part of
-Moldavia,Part of,Part of,Part of,Part of
-Wallachia,Part of,Part of,Part of,Part of
+Moldavia,Vassal of,?,?,?
+Wallachia,Vassal of,?,?,?
 Memel,Part of,Part of,Part of,Part of
 North Ingria,Part of,Part of,Part of,Part of
 Batum,Part of,Part of,Part of,Part of
@@ -519,17 +526,17 @@ Independent State of Croatia,?,Sovereign (unrecognized),?,?
 Serb Republic of Krajina,?,?,Sovereign (unrecognized),?
 Serb Republic of Bosnia,?,?,Part of,Part of
 Vojvodina,Part of,Part of,Part of,Part of
-Bosnia,Part of,Part of,Part of,Part of
-Herzegovina,Part of,Part of,Part of,Part of
+Bosnia,Part of,?,?,?
+Herzegovina,Part of,?,?,?
 Novi Pazar,Part of,Occupied by,Part of,Part of
 Brda,Part of,Part of,Part of,Part of
 Western Thrace,Part of,Part of,Part of,Part of
 Mount Athos,Part of,Part of,Dependency of,Dependency of
 New Greece,Part of,Part of,Part of,Part of
-Samos,Part of,Part of,Part of,Part of
+Samos,Part of,Vassal of,Part of,Part of
 Lemnos,Part of,Part of,Part of,Part of
 UN Buffer Zone in Cyprus,Part of,Part of,Part of,Neutral or demilitarized zone of
-Eastern Rumelia,Part of,Part of,Part of,Part of
+Eastern Rumelia,Vassal of,Part of,?,?
 Transdniestria (Pridnestrovian Moldavian Republic),?,Part of,Part of,Sovereign (unrecognized)
 Gagauzia,Part of,Part of,Part of,Dependency of
 Danube Islands Neutral Zone,Neutral or demilitarized zone of,?,?,?
@@ -538,6 +545,7 @@ Altai Republic,Part of,Part of,Part of,Dependency of
 Bashkir Republic,Part of,Part of,Part of,Dependency of
 Buryatia,Colony of,Colony of,Part of,Dependency of
 Karelia Republic,Part of,Part of,Part of,Dependency of
+Kresy,Part of,Part of,Part of,Part of
 Western Ukraine,Part of,Part of,Part of,Part of
 Northeren Russia,Part of,Part of,Part of,Part of
 Republic of the Don,Part of,Part of,Part of,Part of
@@ -564,6 +572,8 @@ Tristan da Cunha,Possession of,Possession of,Part of,Part of
 Ascension I.,Possession of,Possession of,Part of,Part of
 Annobon I.,Possession of,Part of,Part of,Part of
 Corisco I.,Possession of,Part of,Part of,Part of
+Elobey Is.,Unknown,Part of,Part of,Part of
+"Elobey, Annóbon and Corisco",Protectorate of,Protectorate of,?,?
 Tokolor Empire,Sovereign (unrecognized),Sovereign (unrecognized),?,?
 Timbuctu,Vassal of,Unknown,Part of,Part of
 Bambuk,Unknown,Unknown,Part of,Part of
@@ -600,6 +610,7 @@ Grand Bassam,Discovered,Part of,Part of,Part of
 Assini,Discovered,Part of,Part of,Part of
 Futa Djallon,Sovereign (unrecognized),Sovereign (unrecognized),?,?
 Kankan,Sovereign (unrecognized),Occupied by,Part of,?
+Loos Is.,Unknown,Colony of,Part of,Part of
 Gurma,Sovereign (unrecognized),Sovereign (unrecognized),Part of,?
 Kong,Sovereign (unrecognized),Sovereign (unrecognized),Part of,?
 Mandinka (Wassoulou) Empire,Unknown,Sovereign (unrecognized),?,?
@@ -614,7 +625,7 @@ Banana Islands,Discovered,Part of,Part of,Part of
 Bumpe,Unknown,Unknown,Part of,Part of
 Koya-Temne,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Shenge (Plantation Island),Discovered,Discovered,Part of,Part of
-Asante,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
+Asante (Ashanti Empire),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign (unrecognized),Part of
 Adansi,Part of,Part of,Part of,Part of
 Akwamu,Part of,Part of,Part of,Part of
 Akwapim,Part of,Part of,Part of,Part of
@@ -708,6 +719,7 @@ Urambo,Unknown,Unknown,Part of,Part of
 Gwangara,Part of,Part of,?,?
 North Gwangara,?,Part of,Part of,Part of
 South Gwangara,?,Part of,Part of,Part of
+Mafia I.,Part of,Part of,Part of,Part of
 Italian Somaliland,?,Protectorate of,Occupied by,Part of
 Italian East Africa,?,Colony of,?,?
 Oltre Giuba,Part of,Part of,Part of,Part of
@@ -727,7 +739,7 @@ Gondar,Part of,Part of,Part of,Part of
 Shewa,Sovereign (unrecognized),Part of,Part of,Part of
 Tigray,Part of,Part of,Part of,Part of
 Gojjam,Part of,Part of,Part of,Part of
-Harar,Sovereign (unrecognized),Part of,Part of,Part of
+Harar,Vassal of,Part of,?,?
 "Jijega, Reserve Areas and Haud",Vassal of,Vassal of,Occupied by,Part of
 Kaffa,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Limmu-Ennarea,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
@@ -813,12 +825,11 @@ Leased Posts in Algeria,Leased to,?,?,?
 Bizerte,Part of,Part of,Part of,Part of
 Sanussid Cyrenaica,Part of,Part of,Part of,Part of
 Cyrenaica,Part of,Part of,Part of,Part of
-Tripolitania,Vassal of,Part of,Part of,Part of
+Tripolitania (Regency of Tripoli),Vassal of,Part of,Part of,Part of
 Fezzan,Part of,Part of,Part of,Part of
-Darfur,Sovereign (unrecognized),Part of,?,?
+Darfur (Darfur Sultanate),Sovereign (unrecognized),Part of,Part of,Part of
 Funj Sultanate,Sovereign (unrecognized),?,?,?
 Kordofan,Part of,Part of,Part of,?
-Mahdist Empire,Sovereign (unrecognized),Sovereign (unrecognized),?,?
 Shilluk,Sovereign (unrecognized),Part of,Part of,Part of
 North Kordofan,?,?,Part of,Part of
 South Kordofan,?,?,Part of,Part of
@@ -849,7 +860,7 @@ Rouad I.,Part of,Part of,Part of,Part of
 Damascus,Part of,Part of,Part of,Part of
 Aleppo,Part of,Part of,Part of,Part of
 Latakia (Alaouites),Part of,Part of,Part of,Part of
-Jebel Druze,?,Mandated to,?,?
+Jebel Druze,?,Mandated to,Part of,Part of
 South Lebanon Security Zone (Free State of South Lebanon),?,Part of,Part of,Part of
 West Bank,?,Part of,Occupied by,Occupied by
 Israel-Jordan Neutral Zone,?,Part of,Neutral or demilitarized zone of,Part of
@@ -953,6 +964,7 @@ Nicobar Is.,Part of,Part of,Part of,Part of
 Coromandel Coast Posts,Occupied by,Part of,Part of,Part of
 Tranquebar and Serampore,Colony of,Part of,Part of,Part of
 Hyderabad,Vassal of,Vassal of,Part of,Part of
+Malabar Coast,Part of,Part of,Part of,Part of
 Kashmir,Part of,Vassal of,Part of,Part of
 Bikaner,Vassal of,Vassal of,Part of,Part of
 Jaipur,Sovereign (unrecognized),Vassal of,Part of,Part of
