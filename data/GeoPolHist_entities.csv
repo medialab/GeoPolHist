@@ -219,7 +219,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 560,South Africa,Africa,http://www.wikidata.org/entity/Q258,,,,
 561,Cape Colony (Cape of Good Hope),Africa,http://www.wikidata.org/entity/Q370736,,,,
 562,Natal,Africa,http://www.wikidata.org/entity/Q1301901,,,,
-563,Transvaal,Africa,http://www.wikidata.org/entity/Q190959,,,,
+563,Transvaal (South African Republic),Africa,http://www.wikidata.org/entity/Q190959,https://www.wikidata.org/wiki/Q550374,,,
 564,Orange Free State (Orange River Colony),Africa,http://www.wikidata.org/entity/Q1142179,http://www.wikidata.org/entity/Q160284,,,
 565,Namibia (South West Africa) (German South West Africa),Africa,http://www.wikidata.org/entity/Q1030,http://www.wikidata.org/entity/Q953068,https://www.wikidata.org/wiki/Q153665,,
 566,Transkei,Africa,http://www.wikidata.org/entity/Q466551,,,,

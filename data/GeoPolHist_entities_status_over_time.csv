@@ -245,11 +245,11 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 240,Hanover,1837,1866,Sovereign,
 240,Hanover,1866,1871,Part of,239
 241,Anhalt Dessau,1816,1863,Sovereign (limited),
-241,Anhalt Dessau,1863,1867,Part of,249
-242,Anhalt Köthen,1816,1847,Sovereign (limited),
-242,Anhalt Köthen,1847,1863,Part of,241
+241,Anhalt Dessau,1863,1863,Dissolved into,249
+242,Anhalt Köthen,1816,1853,Sovereign (limited),
+242,Anhalt Köthen,1853,1853,Dissolved into,241
 243,Anhalt Bernburg,1816,1863,Sovereign (limited),
-243,Anhalt Bernburg,1863,1867,Part of,241
+243,Anhalt Bernburg,1863,1863,Dissolved into,249
 244,Brunswick,1816,1871,Sovereign (limited),
 244,Brunswick,1871,1945,Part of,255
 245,Bavaria,1816,1871,Sovereign,
@@ -420,6 +420,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 326,Trieste,1954,2022,Part of,325
 327,Papal States,1816,1861,Sovereign,
 327,Papal States,1861,1870,Part of,325
+327,Papal States,1870,1870,Dissolved into,328
 328,Vatican City,1816,1870,Part of,327
 328,Vatican City,1870,1929,Part of,325
 328,Vatican City,1929,1964,Sovereign (unrecognized),
@@ -514,8 +515,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 352,Cyprus,1816,1878,Part of,640
 352,Cyprus,1878,1914,Vassal of,640
 352,Cyprus,1878,1914,Protectorate of,200
-352,Cyprus,1914,1925,Part of,200
-352,Cyprus,1925,1960,Colony of,200
+352,Cyprus,1914,1960,Colony of,200
 352,Cyprus,1960,2022,Sovereign,
 355,Bulgaria,1816,1878,Part of,640
 355,Bulgaria,1878,1908,Vassal of,640
@@ -683,7 +683,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 450,Liberia,1822,1847,Colony of,2
 450,Liberia,1847,1920,Sovereign (unrecognized),
 450,Liberia,1920,2022,Sovereign,
-451,Sierra Leone,1816,1961,Colony of,200
+451,Sierra Leone,1816,1896,Colony of,200
 451,Sierra Leone,1896,1961,Protectorate of,200
 451,Sierra Leone,1961,2022,Sovereign,
 452,Ghana (Gold Coast),1816,1821,Colony of,200
@@ -834,13 +834,12 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 562,Natal,1844,1856,Part of,561
 562,Natal,1856,1910,Colony of,200
 562,Natal,1910,2022,Part of,560
-563,Transvaal,1816,1838,Discovered,
-563,Transvaal,1838,1877,Sovereign (unrecognized),
-563,Transvaal,1877,1881,Colony of,200
-563,Transvaal,1881,1884,Protectorate of,200
-563,Transvaal,1884,1902,Sovereign (unrecognized),
-563,Transvaal,1902,1910,Colony of,200
-563,Transvaal,1910,2022,Part of,560
+563,Transvaal (South African Republic),1852,1877,Sovereign (unrecognized),
+563,Transvaal (South African Republic),1877,1881,Colony of,200
+563,Transvaal (South African Republic),1881,1884,Protectorate of,200
+563,Transvaal (South African Republic),1884,1902,Sovereign (unrecognized),
+563,Transvaal (South African Republic),1902,1910,Colony of,200
+563,Transvaal (South African Republic),1910,2022,Part of,560
 564,Orange Free State (Orange River Colony),1816,1848,Discovered,
 564,Orange Free State (Orange River Colony),1848,1854,Colony of,200
 564,Orange Free State (Orange River Colony),1854,1902,Sovereign (unrecognized),
@@ -919,6 +918,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 615,Algeria (Regency of Algiers),1831,1962,Colony of,220
 615,Algeria (Regency of Algiers),1962,2022,Sovereign,
 616,Tunisia (Regency of Tunis),1816,1881,Vassal of,640
+616,Tunisia (Regency of Tunis),1825,1881,Sovereign,
 616,Tunisia (Regency of Tunis),1881,1956,Protectorate of,220
 616,Tunisia (Regency of Tunis),1956,2022,Sovereign,
 620,Libya,1934,1943,Colony of,325
@@ -931,8 +931,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1821,1882,Part of,651
 625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1882,1885,Occupied by,200
 625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1885,1899,Sovereign (unrecognized),
-625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1899,1956,Colony of,200
-625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1899,1956,Colony of,651
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1899,1956,Protectorate of,200
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1899,1956,Protectorate of,651
 625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1956,2022,Sovereign,
 626,South Sudan,2011,2022,Sovereign,
 630,Iran (Persia),1816,1855,Sovereign (unrecognized),
@@ -947,6 +947,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 645,Iraq (Mesopotamia),1932,2022,Sovereign,
 651,Egypt Arab Republic (Egypt),1816,1867,Part of,640
 651,Egypt Arab Republic (Egypt),1867,1914,Vassal of,640
+651,Egypt Arab Republic (Egypt),1816,1855,Sovereign (unrecognized),
+651,Egypt Arab Republic (Egypt),1855,1882,Sovereign,
 651,Egypt Arab Republic (Egypt),1882,1914,Occupied by,200
 651,Egypt Arab Republic (Egypt),1914,1922,Protectorate of,200
 651,Egypt Arab Republic (Egypt),1922,1937,Occupied by,200
@@ -1165,7 +1167,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 812,Laos,1975,1989,Occupied by,816
 812,Laos,1954,2022,Sovereign,
 815,Vietnam,1816,1887,Sovereign (unrecognized),
-815,Vietnam,1887,1949,Part of,810
+815,Vietnam,1887,1887,Dissolved into,810
 815,Vietnam,1945,1946,Occupied by,710
 815,Vietnam,1945,1945,Dissolved into,816
 815,Vietnam,1949,1949,Dissolved into,817
