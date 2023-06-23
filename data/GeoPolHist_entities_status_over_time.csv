@@ -209,7 +209,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 211,Belgium,1914,1918,Occupied by,255
 211,Belgium,1940,1945,Occupied by,255
 211,Belgium,1945,2022,Sovereign,
-212,Luxemburg,1816,1890,Part of,210
+212,Luxemburg,1816,1890,Sovereign (limited),
 212,Luxemburg,1890,1914,Sovereign (unrecognized),
 212,Luxemburg,1914,1918,Occupied by,255
 212,Luxemburg,1918,1940,Sovereign,
@@ -241,9 +241,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 239,Prussia,1945,1945,Part of,290
 239,Prussia,1947,1947,Dissolved into,260
 239,Prussia,1947,1947,Dissolved into,265
-240,Hanover,1816,1837,Part of,200
+240,Hanover,1816,1837,Sovereign (unrecognized),
 240,Hanover,1837,1866,Sovereign,
-240,Hanover,1866,1871,Part of,239
+240,Hanover,1866,1946,Part of,239
 241,Anhalt Dessau,1816,1863,Sovereign (limited),
 241,Anhalt Dessau,1863,1863,Dissolved into,249
 242,Anhalt Köthen,1816,1853,Sovereign (limited),
@@ -263,7 +263,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 246,Bremen,1949,1990,Part of,260
 246,Bremen,1990,2022,Part of,255
 247,Frankfurt,1816,1867,Sovereign (unrecognized),
-247,Frankfurt,1867,1871,Part of,239
+247,Frankfurt,1867,1945,Part of,239
+247,Frankfurt,1945,1949,Part of,2602
+247,Frankfurt,1949,1949,Dissolved into,260
 248,Hamburg,1816,1867,Sovereign (unrecognized),
 248,Hamburg,1867,1945,Part of,255
 248,Hamburg,1945,1949,Occupied by,200
@@ -276,16 +278,17 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 249,Saxony Anhalt (Anhalt),1952,1952,Dissolved into,265
 249,Saxony Anhalt (Anhalt),1990,2022,Part of,255
 250,Hohenzollern Hechingen,1816,1849,Sovereign (limited),
-250,Hohenzollern Hechingen,1849,1871,Part of,239
+250,Hohenzollern Hechingen,1849,1946,Part of,239
 251,Hohenzollern Sigmaringen,1816,1849,Sovereign (limited),
-251,Hohenzollern Sigmaringen,1849,1871,Part of,239
+251,Hohenzollern Sigmaringen,1849,1946,Part of,239
 252,Lippe,1816,1867,Sovereign (limited),
-252,Lippe,1867,1945,Part of,255
+252,Lippe,1867,1947,Part of,255
+252,Lippe,1947,2022,Part of,2604
 253,Mecklenburg Strelitz,1816,1867,Sovereign (limited),
 253,Mecklenburg Strelitz,1867,1934,Part of,255
 253,Mecklenburg Strelitz,1934,1934,Dissolved into,281
 254,Nassau,1816,1867,Sovereign (limited),
-254,Nassau,1867,1871,Part of,239
+254,Nassau,1867,1944,Part of,239
 255,Germany (Zollverein),1816,1867,Informal,
 255,Germany (Zollverein),1867,1871,Sovereign (limited),
 255,Germany (Zollverein),1871,1945,Sovereign,
@@ -310,27 +313,34 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 260,German Federal Republic,1949,1955,Sovereign (unrecognized),
 260,German Federal Republic,1955,1990,Sovereign,
 260,German Federal Republic,1990,1990,Dissolved into,255
-261,Saxe Weimar,1816,1867,Sovereign (limited),
-261,Saxe Weimar,1867,1918,Part of,255
-262,Saxe Altenburg,1816,1826,Part of,263
-262,Saxe Altenburg,1826,1867,Part of,2661
+261,Saxe Weimar Eisenach,1816,1867,Sovereign (limited),
+261,Saxe Weimar Eisenach,1867,1920,Part of,255
+261,Saxe Weimar Eisenach,1920,1920,Dissolved into,2558
+262,Saxe Altenburg,1826,1867,Sovereign (limited),263
+262,Saxe Altenburg,1867,1920,Part of,255
+262,Saxe Altenburg,1920,2022,Part of,2558
 263,Saxe Gotha Altenburg,1816,1826,Sovereign (limited),
-263,Saxe Gotha Altenburg,1826,1867,Part of,264
+263,Saxe Gotha Altenburg,1826,1826,Dissolved into,264
+263,Saxe Gotha Altenburg,1826,1826,Dissolved into,262
 264,Saxe Coburg and Gotha,1816,1867,Sovereign (limited),
 264,Saxe Coburg and Gotha,1867,1920,Part of,255
+264,Saxe Coburg and Gotha,1920,1920,Dissolved into,2558
+264,Saxe Coburg and Gotha,1920,1920,Dissolved into,245
 265,German Democratic Republic,1945,1949,Occupied by,365
 265,German Democratic Republic,1949,1954,Sovereign (unrecognized),
 265,German Democratic Republic,1954,1990,Sovereign,
 265,German Democratic Republic,1990,1990,Dissolved into,255
 266,Saxe Meiningen,1816,1867,Sovereign (limited),
-266,Saxe Meiningen,1867,1918,Part of,255
+266,Saxe Meiningen,1867,1920,Part of,255
+266,Saxe Meiningen,1920,1920,Dissolved into,2558
 267,Baden,1816,1871,Sovereign,
 267,Baden,1871,1945,Part of,255
 267,Baden,1945,1952,Occupied by,2
 267,Baden,1945,1952,Occupied by,220
 267,Baden,1952,2022,Part of,2606
 268,Schwarzburg Sondershausen,1816,1867,Sovereign (limited),
-268,Schwarzburg Sondershausen,1867,1918,Part of,255
+268,Schwarzburg Sondershausen,1867,1920,Part of,255
+268,Schwarzburg Sondershausen,1920,1920,Dissolved into,2558
 269,Saxony,1816,1867,Sovereign,
 269,Saxony,1867,1945,Part of,255
 269,Saxony,1945,1949,Occupied by,365
@@ -338,22 +348,34 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 269,Saxony,1952,1952,Dissolved into,265
 269,Saxony,1990,2022,Part of,255
 270,Schwarzburg Rudolstadt,1816,1867,Sovereign (limited),
-270,Schwarzburg Rudolstadt,1867,1918,Part of,255
+270,Schwarzburg Rudolstadt,1867,1920,Part of,255
+270,Schwarzburg Rudolstadt,1920,1920,Dissolved into,2558
 271,Wuerttemberg,1816,1871,Sovereign,
 271,Wuerttemberg,1871,1945,Part of,255
 271,Wuerttemberg,1945,1952,Occupied by,2
 271,Wuerttemberg,1945,1952,Occupied by,220
 271,Wuerttemberg,1952,2022,Part of,2606
-272,Waldeck,1816,1867,Sovereign (limited),
-272,Waldeck,1867,1921,Part of,255
+272,Waldeck and Pyrmont,1816,1867,Sovereign (limited),
+272,Waldeck and Pyrmont,1867,1929,Part of,255
+272,Waldeck and Pyrmont,1921,1946,Part of,240
+272,Waldeck and Pyrmont,1929,1944,Part of,239
 273,Hesse Electoral,1816,1866,Sovereign,
-273,Hesse Electoral,1867,1945,Part of,239
+273,Hesse Electoral,1866,1945,Part of,239
 274,Schaumburg Lippe,1816,1867,Sovereign (limited),
-274,Schaumburg Lippe,1867,1945,Part of,255
-275,Hesse Grand Ducal,1816,1867,Sovereign,
-275,Hesse Grand Ducal,1867,1945,Part of,239
-276,Lübeck,1816,1867,Sovereign,
-276,Lübeck,1867,1945,Part of,255
+274,Schaumburg Lippe,1867,1946,Part of,255
+274,Schaumburg Lippe,1946,1946,Dissolved into,2603
+275,People’s State of Hesse (Hesse Grand Ducal),1816,1867,Sovereign,
+275,People’s State of Hesse (Hesse Grand Ducal),1867,1945,Part of,239
+275,People’s State of Hesse (Hesse Grand Ducal),1871,1918,Part of,255
+275,People’s State of Hesse (Hesse Grand Ducal),1918,1945,Part of,255
+275,People’s State of Hesse (Hesse Grand Ducal),1945,1945,Dissolved into,2602
+275,People’s State of Hesse (Hesse Grand Ducal),1946,1946,Dissolved into,2605
+276,Lübeck,1816,1867,Sovereign (limited),
+276,Lübeck,1867,1937,Part of,255
+276,Lübeck,1937,1937,Dissolved into,2555
+277,Hesse Homburg,1817,1866,Sovereign (limited),
+277,Hesse Homburg,1866,1945,Part of,275
+277,Hesse Homburg,1866,1945,Part of,239
 280,Mecklenburg Schwerin,1816,1843,Sovereign (limited),
 280,Mecklenburg Schwerin,1843,1867,Sovereign,
 280,Mecklenburg Schwerin,1867,1934,Part of,255
@@ -583,7 +605,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 376,Chechen-Ingush Republic,1991,1991,Dissolved into,3761
 376,Chechen-Ingush Republic,1991,1991,Dissolved into,3762
 380,Sweden,1816,2022,Sovereign,
-385,Norway,1816,1905,Part of,380
+385,Norway,1816,1905,Sovereign (unrecognized),
 385,Norway,1905,1940,Sovereign,
 385,Norway,1940,1945,Occupied by,255
 385,Norway,1945,2022,Sovereign,
@@ -945,8 +967,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 645,Iraq (Mesopotamia),1917,1921,Occupied by,200
 645,Iraq (Mesopotamia),1921,1932,Mandated to,200
 645,Iraq (Mesopotamia),1932,2022,Sovereign,
-651,Egypt Arab Republic (Egypt),1816,1867,Part of,640
-651,Egypt Arab Republic (Egypt),1867,1914,Vassal of,640
 651,Egypt Arab Republic (Egypt),1816,1855,Sovereign (unrecognized),
 651,Egypt Arab Republic (Egypt),1855,1882,Sovereign,
 651,Egypt Arab Republic (Egypt),1882,1914,Occupied by,200
@@ -1169,13 +1189,14 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 815,Vietnam,1816,1887,Sovereign (unrecognized),
 815,Vietnam,1887,1887,Dissolved into,810
 815,Vietnam,1945,1946,Occupied by,710
-815,Vietnam,1945,1945,Dissolved into,816
-815,Vietnam,1949,1949,Dissolved into,817
+815,Vietnam,1946,1949,Colony of,220
+815,Vietnam,1949,1955,Associated state of,220
+815,Vietnam,1954,1954,Dissolved into,816
+815,Vietnam,1955,1955,Dissolved into,817
 815,Vietnam,1975,2022,Sovereign,
 816,"Vietnam, Democratic Rep.",1945,1954,Colony of,220
 816,"Vietnam, Democratic Rep.",1954,1975,Sovereign,
 816,"Vietnam, Democratic Rep.",1975,1975,Dissolved into,815
-817,Republic of Vietnam,1949,1955,Colony of,220
 817,Republic of Vietnam,1955,1975,Sovereign,
 817,Republic of Vietnam,1975,1975,Dissolved into,815
 820,Malaysia (British Malaya),1826,1946,Informal,
@@ -1685,6 +1706,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 2004,Isle of Man,1816,2022,Dependency of,200
 2051,UK Bases in Ireland,1922,1938,Possession of,200
 2051,UK Bases in Ireland,1938,2022,Part of,205
+2101,Limburg,1816,1830,Part of,210
+2101,Limburg,1830,1839,Part of,211
+2101,Limburg,1839,1867,Sovereign (limited),
+2101,Limburg,1867,2022,Part of,210
 2111,Moresnet,1816,1830,Neutral or demilitarized zone of,210
 2111,Moresnet,1830,1914,Neutral or demilitarized zone of,211
 2111,Moresnet,1914,1919,Occupied by,255
@@ -1694,13 +1719,14 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 2221,Roquebrune and Menton,1816,1848,Part of,221
 2221,Roquebrune and Menton,1848,1860,Part of,324
 2221,Roquebrune and Menton,1860,2022,Part of,220
-2246,Lauenburg,1816,1865,Part of,390
-2246,Lauenburg,1865,1867,Part of,239
-2246,Lauenburg,1867,1945,Part of,255
-2247,Schleswig,1816,1865,Part of,390
+2246,Saxe Lauenburg,1816,1865,Sovereign (limited),
+2246,Saxe Lauenburg,1865,1866,Part of,239
+2246,Saxe Lauenburg,1866,1876,Part of,255
+2246,Saxe Lauenburg,1876,1876,Dissolved into,2555
+2247,Schleswig,1816,1865,Sovereign (limited),
 2247,Schleswig,1865,1867,Occupied by,239
 2247,Schleswig,1867,2022,Part of,2555
-2248,Holstein,1816,1865,Part of,390
+2248,Holstein,1816,1865,Sovereign (limited),
 2248,Holstein,1865,1867,Occupied by,300
 2248,Holstein,1867,2022,Part of,2555
 2249,Heligoland,1816,1890,Colony of,200
@@ -1775,7 +1801,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 2606,Baden Wuerttemberg,1952,1990,Part of,260
 2606,Baden Wuerttemberg,1990,2022,Part of,255
 2661,Saxe Hildburghausen,1816,1826,Sovereign (limited),
-2661,Saxe Hildburghausen,1826,1867,Part of,266
+2661,Saxe Hildburghausen,1826,1826,Dissolved into,264
+2661,Saxe Hildburghausen,1826,1826,Dissolved into,266
 3051,Klagenfurt Plebiscite Zone,1816,1918,Part of,300
 3051,Klagenfurt Plebiscite Zone,1918,1920,Part of,305
 3051,Klagenfurt Plebiscite Zone,1920,1920,Occupied by,9999
@@ -2496,13 +2523,13 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 5012,Mombassa,1824,1826,Occupied by,200
 5012,Mombassa,1826,1837,Occupied by,698
 5012,Mombassa,1837,1856,Part of,698
-5012,Mombassa,1856,1887,Part of,511
-5012,Mombassa,1887,1963,Part of,5011
+5012,Mombassa,1856,1920,Part of,511
+5012,Mombassa,1920,1963,Part of,5011
 5012,Mombassa,1963,2022,Part of,501
 5013,Pate,1816,1824,Unknown,
 5013,Pate,1824,1856,Vassal of,698
-5013,Pate,1856,1887,Part of,511
-5013,Pate,1887,1963,Part of,5011
+5013,Pate,1856,1920,Part of,511
+5013,Pate,1920,1963,Part of,5011
 5013,Pate,1963,2022,Part of,501
 5017,Vumbu Kuu,1816,1840,Unknown,
 5017,Vumbu Kuu,1840,1856,Part of,698
@@ -3835,20 +3862,22 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8124,Champassak,1904,1904,Dissolved into,812
 8151,Cochin China,1816,1862,Part of,815
 8151,Cochin China,1862,1887,Colony of,220
-8151,Cochin China,1887,1949,Part of,810
-8151,Cochin China,1949,1954,Part of,815
-8151,Cochin China,1954,1975,Part of,817
+8151,Cochin China,1887,1945,Part of,810
+8151,Cochin China,1941,1945,Occupied by,740
+8151,Cochin China,1945,1949,Occupied by,220
+8151,Cochin China,1949,1955,Part of,815
+8151,Cochin China,1955,1955,Dissolved into,817
 8152,Annam,1816,1883,Part of,815
 8152,Annam,1883,1887,Protectorate of,220
 8152,Annam,1887,1949,Part of,810
 8152,Annam,1949,1954,Part of,815
-8152,Annam,1954,1975,Part of,817
-8152,Annam,1954,1975,Part of,816
+8152,Annam,1954,1954,Dissolved into,817
+8152,Annam,1954,1954,Dissolved into,816
 8153,Tonkin,1816,1883,Part of,815
 8153,Tonkin,1883,1887,Protectorate of,220
 8153,Tonkin,1887,1949,Part of,810
 8153,Tonkin,1949,1954,Part of,815
-8153,Tonkin,1954,1975,Part of,816
+8153,Tonkin,1954,1954,Dissolved into,816
 8171,Paracel Is.,1816,1945,Claimed by,710
 8171,Paracel Is.,1931,1954,Claimed by,220
 8171,Paracel Is.,1939,1945,Occupied by,740
