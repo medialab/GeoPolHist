@@ -1417,19 +1417,19 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 1010,Georgia (U.S.),1861,1865,Part of,1002
 1010,Georgia (U.S.),1865,2022,Part of,2
 1011,Alabama,1816,1821,Part of,1070
-1011,Alabama,1816,1861,Part of,2
+1011,Alabama,1821,1861,Part of,2
 1011,Alabama,1861,1865,Part of,1002
 1011,Alabama,1865,2022,Part of,2
 1012,Mississippi,1816,1821,Part of,1070
-1012,Mississippi,1816,1861,Part of,2
+1012,Mississippi,1821,1861,Part of,2
 1012,Mississippi,1861,1865,Part of,1002
 1012,Mississippi,1865,2022,Part of,2
 1013,Louisiana,1816,1821,Part of,1070
-1013,Louisiana,1816,1861,Part of,2
+1013,Louisiana,1821,1861,Part of,2
 1013,Louisiana,1861,1865,Part of,1002
 1013,Louisiana,1865,2022,Part of,2
 1014,California (Great Bear Republic),1816,1821,Part of,1070
-1014,California (Great Bear Republic),1816,1846,Part of,70
+1014,California (Great Bear Republic),1821,1846,Part of,70
 1014,California (Great Bear Republic),1846,2022,Part of,2
 1015,Cherokee,1816,2022,Part of,2
 1016,Oregon (Oregon Country),1816,1821,Part of,1070
@@ -1834,15 +1834,15 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 3154,Carpatho-Ukraine,1939,1945,Part of,310
 3154,Carpatho-Ukraine,1945,1991,Part of,365
 3154,Carpatho-Ukraine,1991,2022,Part of,369
-3253,Milan,1816,1848,Part of,300
-3253,Milan,1848,1859,Part of,300
-3253,Milan,1859,1861,Part of,324
-3253,Milan,1861,1861,Part of,325
+3253,Milan,1816,1866,Part of,3262
+3253,Milan,1866,1866,Dissolved into,325
 3261,Republic of St. Mark,1816,1848,Part of,3262
 3261,Republic of St. Mark,1848,1849,Sovereign (unrecognized),
 3261,Republic of St. Mark,1849,1866,Part of,3262
 3261,Republic of St. Mark,1866,1866,Dissolved into,325
-3262,Lombardy-Venetia,1816,1866,Part of,300
+3262,Lombardy-Venetia,1816,1859,Part of,300
+3262,Lombardy-Venetia,1859,1861,Part of,324
+3262,Lombardy-Venetia,1861,1866,Part of,325
 3262,Lombardy-Venetia,1866,1866,Dissolved into,325
 3271,Ancona,1816,1832,Part of,327
 3271,Ancona,1832,1839,Occupied by,220
@@ -2878,8 +2878,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 6153,Leased Posts in Algeria,1830,1830,Dissolved into,615
 6161,Bizerte,1816,2022,Part of,616
 6161,Bizerte,1956,1963,Occupied by,220
-6201,Sanussid Cyrenaica,1835,1879,Part of,640
-6201,Sanussid Cyrenaica,1931,2022,Part of,620
 6202,Cyrenaica,1816,1879,Part of,6203
 6202,Cyrenaica,1879,1912,Part of,640
 6202,Cyrenaica,1912,1919,Protectorate of,325
