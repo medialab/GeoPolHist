@@ -120,9 +120,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 70,Mexico,1821,2022,Sovereign,
 70,Mexico,1847,1848,Occupied by,2
 70,Mexico,1863,1867,Occupied by,220
-80,Belize (British Honduras),1816,1862,Colony of,200
-80,Belize (British Honduras),1862,1884,Part of,51
-80,Belize (British Honduras),1884,1981,Colony of,200
+80,Belize (British Honduras),1816,1981,Colony of,200
 80,Belize (British Honduras),1981,2022,Sovereign,
 89,United States of Central America,1816,1821,Part of,1070
 89,United States of Central America,1816,1821,Colony of,230
@@ -532,7 +530,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 351,Crete,1897,1898,Occupied by,220
 351,Crete,1897,1898,Occupied by,325
 351,Crete,1897,1898,Occupied by,365
-351,Crete,1898,1913,Vassal of,640
+351,Crete,1898,1913,Sovereign (unrecognized),
 351,Crete,1913,2022,Part of,350
 352,Cyprus,1816,1878,Part of,640
 352,Cyprus,1878,1914,Vassal of,640
