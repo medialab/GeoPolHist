@@ -201,16 +201,16 @@ const Home: React.FC<RouterProps> = (props) => {
         <p>
           A geopolitical entity is any form of human social community or
           territory that has been involved in an international or intra-national
-          conflict during the post-Napoleonic period and is also geographically
+          conflict during the post-Napoleonic period and is also territorially
           based. These entities are “political” in the Aristotelian sense of the
           political order, whose ultimate goal is to maintain peace through
           justice within the entity, while war and conflicts remain a
           possibility outside the limits of the entity. Throughout the period
           covered by the GPH database, political entities of the “human social
           community” type have taken the form of the tribe, chiefdom,
-          city-state, kingdom, empire, seigneury, or nation. GPH entities may or
-          may not be sovereign and independent. Political entities of the
-          “territory” type are made up of uninhabited islands, atolls or reefs.
+          city-state, kingdom, empire, or nation. GPH entities may or may not be
+          sovereign and independent. Political entities of the “territory” type
+          are made up of uninhabited islands, atolls or reefs.
         </p>
         <p>
           The GeoPolHist dataset is fully described in the paper:{" "}
