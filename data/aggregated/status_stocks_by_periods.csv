@@ -58,7 +58,7 @@ United Kingdom,Sovereign,Sovereign,Sovereign,Sovereign
 Ireland,Part of,Part of,Sovereign,Sovereign
 Netherlands,Sovereign,Sovereign,Sovereign,Sovereign
 Belgium,Part of,Sovereign,Sovereign,Sovereign
-Luxemburg,Part of,Part of,Sovereign,Sovereign
+Luxemburg,Sovereign (limited),Sovereign (limited),Sovereign,Sovereign
 France,Sovereign,Sovereign,Sovereign,Sovereign
 Monaco,Protectorate of,Sovereign (unrecognized),Sovereign (unrecognized),Sovereign
 Liechtenstein,Sovereign (limited),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign
@@ -68,29 +68,29 @@ Gibraltar,Colony of,Colony of,Colony of,Colony of
 Andorra,Sovereign (unrecognized),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign
 Portugal,Sovereign,Sovereign,Sovereign,Sovereign
 Prussia,Sovereign,Part of,?,?
-Hanover,Part of,?,?,?
+Hanover,Sovereign (unrecognized),Part of,?,?
 Anhalt Dessau,Sovereign (limited),?,?,?
 Anhalt Köthen,Sovereign (limited),?,?,?
 Anhalt Bernburg,Sovereign (limited),?,?,?
 Brunswick,Sovereign (limited),Part of,?,?
 Bavaria,Sovereign,Part of,Part of,Part of
 Bremen,Sovereign (unrecognized),Part of,Part of,Part of
-Frankfurt,Sovereign (unrecognized),?,?,?
+Frankfurt,Sovereign (unrecognized),Part of,?,?
 Hamburg,Sovereign (unrecognized),Part of,Part of,Part of
 Saxony Anhalt (Anhalt),Sovereign (limited),Part of,Part of,Part of
-Hohenzollern Hechingen,Sovereign (limited),?,?,?
-Hohenzollern Sigmaringen,Sovereign (limited),?,?,?
-Lippe,Sovereign (limited),Part of,?,?
+Hohenzollern Hechingen,Sovereign (limited),Part of,?,?
+Hohenzollern Sigmaringen,Sovereign (limited),Part of,?,?
+Lippe,Sovereign (limited),Part of,Part of,Part of
 Mecklenburg Strelitz,Sovereign (limited),Part of,?,?
-Nassau,Sovereign (limited),?,?,?
+Nassau,Sovereign (limited),Part of,?,?
 Germany (Zollverein),Informal,Sovereign,Sovereign,Sovereign
 Saar,Part of,Part of,Protectorate of,Part of
 Oldenburg,Sovereign (limited),Part of,?,?
 "Reuss, Older Line",Sovereign (limited),Part of,?,?
 "Reuss, Younger Line",Sovereign (limited),Part of,?,?
 German Federal Republic,?,Occupied by,Sovereign (unrecognized),?
-Saxe Weimar,Sovereign (limited),Part of,?,?
-Saxe Altenburg,Part of,?,?,?
+Saxe Weimar Eisenach,Sovereign (limited),Part of,?,?
+Saxe Altenburg,Sovereign (limited),Part of,Part of,Part of
 Saxe Gotha Altenburg,Sovereign (limited),?,?,?
 Saxe Coburg and Gotha,Sovereign (limited),Part of,?,?
 German Democratic Republic,?,Occupied by,Sovereign (unrecognized),?
@@ -100,11 +100,12 @@ Schwarzburg Sondershausen,Sovereign (limited),Part of,?,?
 Saxony,Sovereign,Part of,Part of,Part of
 Schwarzburg Rudolstadt,Sovereign (limited),Part of,?,?
 Wuerttemberg,Sovereign,Part of,Occupied by,Part of
-Waldeck,Sovereign (limited),Part of,?,?
+Waldeck and Pyrmont,Sovereign (limited),Part of,?,?
 Hesse Electoral,Sovereign,Part of,?,?
 Schaumburg Lippe,Sovereign (limited),Part of,?,?
-Hesse Grand Ducal,Sovereign,Part of,?,?
-Lübeck,Sovereign,Part of,?,?
+People’s State of Hesse (Hesse Grand Ducal),Sovereign,Part of,?,?
+Lübeck,Sovereign (limited),Part of,?,?
+Hesse Homburg,Sovereign (limited),Part of,?,?
 Mecklenburg Schwerin,Sovereign (limited),Part of,?,?
 Mecklenburg,?,Part of,?,?
 Mecklenburg Vorpommern,?,Occupied by,Part of,Part of
@@ -157,7 +158,7 @@ Transcaucasia,Part of,Part of,?,?
 Finland,Part of,Part of,Sovereign,Sovereign
 Chechen-Ingush Republic,?,Part of,Part of,?
 Sweden,Sovereign,Sovereign,Sovereign,Sovereign
-Norway,Part of,Part of,Sovereign,Sovereign
+Norway,Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sovereign
 Denmark,Sovereign,Sovereign,Sovereign,Sovereign
 Iceland,Colony of,Colony of,Sovereign,Sovereign
 European Union (European Economic Community),?,?,Informal,Informal
@@ -182,7 +183,7 @@ Ivory Coast,Part of,Protectorate of,Part of,Sovereign
 Guinea (French Guinea) (Rivieres du Sud),Part of,Part of,Part of,Sovereign
 Burkina Faso (Upper Volta),Part of,Part of,Colony of,Sovereign
 Liberia,Colony of,Sovereign (unrecognized),Sovereign,Sovereign
-Sierra Leone,Colony of,Colony of,Colony of,Sovereign
+Sierra Leone,Colony of,Colony of,Protectorate of,Sovereign
 Ghana (Gold Coast),Colony of,Colony of,Colony of,Sovereign
 German Togoland,Protectorate of,Protectorate of,?,?
 Togo (French Togoland),?,Mandated to,Mandated to,Sovereign
@@ -219,7 +220,7 @@ Malawi (Nyasaland) (British Central Africa Protectorate),Discovered,Discovered,P
 South Africa,?,Colony of,Sovereign,Sovereign
 Cape Colony (Cape of Good Hope),Colony of,Colony of,Part of,Part of
 Natal,Discovered,Colony of,Part of,Part of
-Transvaal,Discovered,Sovereign (unrecognized),Part of,Part of
+Transvaal (South African Republic),Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Orange Free State (Orange River Colony),Discovered,Sovereign (unrecognized),Part of,Part of
 Namibia (South West Africa) (German South West Africa),Discovered,Colony of,Mandated to,Sovereign
 Transkei,?,?,Sovereign (unrecognized),Part of
@@ -243,12 +244,12 @@ Spanish West Africa,?,Colony of,Colony of,?
 Algeria (Regency of Algiers),Part of,Colony of,Colony of,Sovereign
 Tunisia (Regency of Tunis),Vassal of,Protectorate of,Protectorate of,Sovereign
 Libya,?,Colony of,Occupied by,Sovereign
-Sudan (Anglo-Egyptian Sudan) (Mahdist State),Part of,Sovereign (unrecognized),Colony of,Sovereign
+Sudan (Anglo-Egyptian Sudan) (Mahdist State),Part of,Sovereign (unrecognized),Protectorate of,Sovereign
 South Sudan,?,?,Sovereign,Sovereign
 Iran (Persia),Sovereign (unrecognized),Sovereign,Sovereign,Sovereign
 Turkey (Ottoman Empire),Sovereign,Sovereign,Sovereign,Sovereign
 Iraq (Mesopotamia),Part of,Part of,Sovereign,Sovereign
-Egypt Arab Republic (Egypt),Part of,Vassal of,Sovereign,Sovereign
+Egypt Arab Republic (Egypt),Sovereign (unrecognized),Occupied by,Sovereign,Sovereign
 Syria,Part of,Part of,Sovereign,Sovereign
 Lebanon,Part of,Part of,Sovereign,Sovereign
 Jordan (Transjordan),Part of,Part of,Sovereign,Sovereign
@@ -302,9 +303,9 @@ Thailand (Siam),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sove
 French Indochina,?,Colony of,Colony of,?
 Cambodia (Kampuchea),Vassal of,Protectorate of,Part of,Sovereign
 Laos,Part of,Part of,Part of,Sovereign
-Vietnam,Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sovereign
+Vietnam,Sovereign (unrecognized),Sovereign (unrecognized),Associated state of,Sovereign
 "Vietnam, Democratic Rep.",?,Colony of,Colony of,?
-Republic of Vietnam,?,Colony of,Colony of,?
+Republic of Vietnam,?,?,Sovereign,?
 Malaysia (British Malaya),Informal,Informal,Colony of,Sovereign
 Federated Malay States,?,Colony of,?,?
 Sabah (North Borneo),Part of,Leased to,Colony of,Claimed by
@@ -453,12 +454,13 @@ Lundy,Part of,Part of,Part of,Part of
 Channel Is.,Possession of,Possession of,Dependency of,Dependency of
 Isle of Man,Dependency of,Dependency of,Dependency of,Dependency of
 UK Bases in Ireland,?,Possession of,Part of,Part of
+Limburg,Part of,Part of,Part of,Part of
 Moresnet,Neutral or demilitarized zone of,Neutral or demilitarized zone of,Part of,Part of
 Alsace Lorraine,Part of,Part of,?,?
 Roquebrune and Menton,Part of,Part of,Part of,Part of
-Lauenburg,Part of,Part of,?,?
-Schleswig,Part of,Part of,Part of,Part of
-Holstein,Part of,Part of,Part of,Part of
+Saxe Lauenburg,Sovereign (limited),?,?,?
+Schleswig,Sovereign (limited),Part of,Part of,Part of
+Holstein,Sovereign (limited),Part of,Part of,Part of
 Heligoland,Colony of,Colony of,?,?
 Neuchatel,Part of,Part of,Part of,Part of
 Cracow (Free City of Cracow),Occupied by,Part of,Part of,Part of
@@ -566,6 +568,7 @@ Principe,Part of,Part of,Part of,Dependency of
 Cacheu,Possession of,Part of,Part of,Part of
 Bissau,Possession of,Part of,Part of,Part of
 Oio,Unknown,Unknown,Part of,Part of
+British Guinea (Bolama),Colony of,Part of,Part of,Part of
 St. Helena,Colony of,Colony of,Colony of,Colony of
 Longwood,Part of,Possession of,Possession of,Possession of
 Tristan da Cunha,Possession of,Possession of,Part of,Part of
@@ -823,7 +826,6 @@ Abdelkader Emirate,Part of,?,?,?
 Kabylie,Part of,Part of,Part of,Part of
 Leased Posts in Algeria,Leased to,?,?,?
 Bizerte,Part of,Part of,Part of,Part of
-Sanussid Cyrenaica,Part of,Part of,Part of,Part of
 Cyrenaica,Part of,Part of,Part of,Part of
 Tripolitania (Regency of Tripoli),Vassal of,Part of,Part of,Part of
 Fezzan,Part of,Part of,Part of,Part of
