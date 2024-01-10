@@ -211,8 +211,8 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 522,Djibouti (Afar and Issas) (French Somaliland),Africa,http://www.wikidata.org/entity/Q977,https://www.wikidata.org/wiki/Q1450765,https://www.wikidata.org/wiki/Q333126,,
 530,Ethiopia (Abyssinia),Africa,http://www.wikidata.org/entity/Q115,https://www.wikidata.org/wiki/Q207521,,,
 531,Eritrea,Africa,http://www.wikidata.org/entity/Q986,,,,
-540,Angola,Africa,http://www.wikidata.org/entity/Q916,,,,
-541,Mozambique,Africa,http://www.wikidata.org/entity/Q1029,,,,
+540,Angola (Portuguese West Africa),Africa,http://www.wikidata.org/entity/Q916,https://www.wikidata.org/wiki/Q2826232,,,
+541,Mozambique (Portuguese East Africa),Africa,http://www.wikidata.org/entity/Q1029,https://www.wikidata.org/wiki/Q889394,,,
 550,Federation of Rhodesia and Nyasaland,Africa,http://www.wikidata.org/entity/Q654342,,,,
 551,Zambia (Northern Rhodesia),Africa,http://www.wikidata.org/entity/Q953,https://www.wikidata.org/wiki/Q953903,,,
 552,Zimbabwe (Rhodesia) (Southern Rhodesia),Africa,http://www.wikidata.org/entity/Q954,https://www.wikidata.org/wiki/Q217169,https://www.wikidata.org/wiki/Q750583,,
@@ -754,6 +754,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 5332,Awsa Sultanate,Africa,http://www.wikidata.org/entity/Q791787,,,,
 5401,Chokwe,Africa,http://www.wikidata.org/entity/Q618643,,,,
 5402,Ovimbundu,Africa,http://www.wikidata.org/entity/Q214248,,,,
+5403,Cabinda (Portuguese Congo),Africa,https://www.wikidata.org/wiki/Q168787,,,,
 5411,Kionga,Africa,http://www.wikidata.org/entity/Q1742340,,,,
 5511,Citimukulu Bemba,Africa,http://www.wikidata.org/entity/Q644450,,,,links to a tribe
 5512,Mwamba Bemba,Africa,http://www.wikidata.org/entity/Q644450,,,,links to a tribe
@@ -1261,4 +1262,3 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 49050,Haut-Katanga,Africa,https://www.wikidata.org/wiki/Q130268,,,,
 49051,Tanganyika,Africa,https://www.wikidata.org/wiki/Q826585,,,,
 49052,Lualaba,Africa,https://www.wikidata.org/wiki/Q1159531,,,,
-49053,Haut-Lomani,Africa,https://www.wikidata.org/wiki/Q605672,,,,
