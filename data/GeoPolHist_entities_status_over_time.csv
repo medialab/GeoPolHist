@@ -116,6 +116,12 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 66,Martinique,1947,2022,Part of,220
 68,Netherlands Antilles,1828,1954,Colony of,210
 68,Netherlands Antilles,1954,2010,Dependency of,210
+68,Netherlands Antilles,2010,2010,Dissolved into,1065
+68,Netherlands Antilles,2010,2010,Dissolved into,1066
+68,Netherlands Antilles,2010,2010,Dissolved into,1067
+68,Netherlands Antilles,2010,2010,Dissolved into,1068
+68,Netherlands Antilles,2010,2010,Dissolved into,1069
+68,Netherlands Antilles,2010,2010,Dissolved into,1073
 70,Mexico,1816,1821,Part of,1070
 70,Mexico,1821,2022,Sovereign,
 70,Mexico,1847,1848,Occupied by,2
@@ -822,10 +828,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 531,Eritrea,1945,1952,Protectorate of,1
 531,Eritrea,1952,1993,Part of,530
 531,Eritrea,1993,2022,Sovereign,
-540,Angola,1816,1975,Colony of,235
-540,Angola,1975,2022,Sovereign,
-541,Mozambique,1816,1975,Colony of,235
-541,Mozambique,1975,2022,Sovereign,
+540,Angola (Portuguese West Africa),1816,1975,Colony of,235
+540,Angola (Portuguese West Africa),1975,2022,Sovereign,
+541,Mozambique (Portuguese East Africa),1816,1975,Colony of,235
+541,Mozambique (Portuguese East Africa),1975,2022,Sovereign,
 550,Federation of Rhodesia and Nyasaland,1953,1963,Colony of,200
 551,Zambia (Northern Rhodesia),1889,1899,Part of,552
 551,Zambia (Northern Rhodesia),1899,1911,Part of,5518
@@ -1376,13 +1382,11 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 987,Federated States of Micronesia,1947,1986,Part of,980
 987,Federated States of Micronesia,1986,1991,Dependency of,2
 987,Federated States of Micronesia,1991,2022,Sovereign,
-990,Samoa (Western Samoa) (German Samoa),1816,1900,Part of,9900
 990,Samoa (Western Samoa) (German Samoa),1900,1914,Colony of,255
 990,Samoa (Western Samoa) (German Samoa),1914,1920,Occupied by,920
 990,Samoa (Western Samoa) (German Samoa),1920,1962,Mandated to,920
 990,Samoa (Western Samoa) (German Samoa),1962,1976,Sovereign (unrecognized),
 990,Samoa (Western Samoa) (German Samoa),1976,2022,Sovereign,
-991,American Samoa,1816,1900,Part of,9900
 991,American Samoa,1900,2022,Colony of,2
 1001,States of America,1861,1877,Occupied by,2
 1001,States of America,1877,1877,Dissolved into,2
@@ -2564,6 +2568,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 5200,Italian Somaliland,1941,1950,Occupied by,200
 5200,Italian Somaliland,1950,1960,Mandated to,325
 5200,Italian Somaliland,1960,2022,Part of,520
+5201,Italian East Africa,1882,1936,Informal,
 5201,Italian East Africa,1936,1941,Colony of,325
 5202,Oltre Giuba,1816,1836,Part of,5212
 5202,Oltre Giuba,1836,1856,Part of,698
@@ -2651,6 +2656,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 5401,Chokwe,1917,2022,Part of,540
 5402,Ovimbundu,1816,1903,Unknown,
 5402,Ovimbundu,1903,2022,Part of,540
+5403,Cabinda (Portuguese Congo),1816,1885,Occupied by,235
+5403,Cabinda (Portuguese Congo),1827,1830,Colony of,140
+5403,Cabinda (Portuguese Congo),1885,1975,Protectorate of,235
+5403,Cabinda (Portuguese Congo),1975,2022,Part of,540
 5411,Kionga,1816,1885,Unknown,
 5411,Kionga,1885,1891,Possession of,235
 5411,Kionga,1891,1916,Part of,510
@@ -3983,6 +3992,23 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8402,Bohol,1829,2022,Part of,840
 8403,Mindanao,1816,1977,Part of,840
 8403,Mindanao,1977,2022,Dependency of,840
+8501,Bali,1816,1856,Sovereign (unrecognized),
+8501,Bali,1856,1949,Part of,850
+8501,Bali,1949,2022,Part of,850
+8502,Buleleng,1816,1856,Sovereign (unrecognized),
+8502,Buleleng,1856,1949,Part of,850
+8502,Buleleng,1949,2022,Part of,850
+8503,Jembrana,1816,1856,Sovereign (unrecognized),
+8503,Jembrana,1856,1949,Part of,850
+8503,Jembrana,1949,2022,Part of,850
+8510,Lombok,1816,1894,Occupied by,8541
+8510,Lombok,1894,1949,Part of,850
+8510,Lombok,1949,2022,Part of,850
+8520,Banjarmasin,1816,1860,Occupied by,210
+8520,Banjarmasin,1860,1860,Dissolved into,850
+8521,Kutai,1816,1844,Sovereign (unrecognized),
+8521,Kutai,1844,1949,Part of,850
+8521,Kutai,1949,2022,Part of,850
 8522,Lanfang,1816,1884,Vassal of,710
 8522,Lanfang,1884,1884,Dissolved into,850
 8523,Bulungan,1816,1888,Vassal of,8401
@@ -3993,61 +4019,62 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8525,Sambas,1816,1819,Sovereign (unrecognized),
 8525,Sambas,1819,1956,Part of,850
 8525,Sambas,1956,1956,Dissolved into,850
+8530,Belitung (Billiton),1816,1824,Possession of,200
+8530,Belitung (Billiton),1824,1949,Part of,850
+8530,Belitung (Billiton),1942,1945,Occupied by,740
+8530,Belitung (Billiton),1949,2022,Part of,850
 8531,Aceh,1816,1903,Protectorate of,640
 8531,Aceh,1873,1903,Occupied by,210
 8531,Aceh,1949,2022,Part of,850
-8532,Deli,1816,1872,Unknown,
-8532,Deli,1872,1949,Part of,850
-8532,Deli,1949,2022,Part of,850
+8532,Riau,1818,1844,Occupied by,210
+8532,Riau,1844,1949,Part of,850
+8532,Riau,1949,2022,Part of,850
 8533,Siak,1816,1946,Part of,8551
 8533,Siak,1946,1949,Part of,850
 8533,Siak,1949,2022,Part of,850
 8534,Minangkabau (Melayu),1816,1837,Unknown,
 8534,Minangkabau (Melayu),1837,1949,Part of,850
 8534,Minangkabau (Melayu),1949,2022,Part of,850
-8535,Kulon,1816,1824,Sovereign (unrecognized),
-8535,Kulon,1824,1949,Part of,850
-8535,Kulon,1949,2022,Part of,850
+8535,Mandailing,1816,1832,Unknown,
+8535,Mandailing,1832,1949,Part of,850
+8535,Mandailing,1949,2022,Part of,850
 8536,Jambi,1816,1834,Sovereign (unrecognized),
 8536,Jambi,1834,1949,Part of,850
 8536,Jambi,1949,2022,Part of,850
 8537,Palembang,1816,1825,Sovereign (unrecognized),
 8537,Palembang,1825,1949,Part of,850
 8537,Palembang,1949,2022,Part of,850
-8538,Kutai,1816,1844,Sovereign (unrecognized),
-8538,Kutai,1844,1949,Part of,850
-8538,Kutai,1949,2022,Part of,850
-8539,Toraja,1816,1907,Discovered,
-8539,Toraja,1907,1949,Part of,850
-8539,Toraja,1949,2022,Part of,850
-8541,Bali,1816,1856,Sovereign (unrecognized),
-8541,Bali,1856,1949,Part of,850
-8541,Bali,1949,2022,Part of,850
-8542,Lombok,1816,1894,Occupied by,8541
-8542,Lombok,1894,1949,Part of,850
-8542,Lombok,1949,2022,Part of,850
-8543,Banjarmasin,1816,1860,Occupied by,210
-8543,Banjarmasin,1860,1860,Dissolved into,850
-8544,Riau,1818,1844,Occupied by,210
-8544,Riau,1844,1949,Part of,850
-8544,Riau,1949,2022,Part of,850
-8545,Tapanuli Selatan (Angkola),1816,1832,Unknown,
-8545,Tapanuli Selatan (Angkola),1832,1949,Part of,850
-8545,Tapanuli Selatan (Angkola),1949,2022,Part of,850
-8546,Mandailing,1816,1832,Unknown,
-8546,Mandailing,1832,1949,Part of,850
-8546,Mandailing,1949,2022,Part of,850
-8547,Tapanuli,1816,1840,Unknown,
-8547,Tapanuli,1840,1949,Part of,850
-8547,Tapanuli,1949,2022,Part of,850
-8548,Lampung,1816,1949,Part of,850
-8548,Lampung,1949,2022,Part of,850
-8549,Buni,1816,1859,Unknown,
-8549,Buni,1859,1949,Part of,850
-8549,Buni,1949,2022,Part of,850
-8551,Indrapura,1816,1861,Sovereign (unrecognized),
-8551,Indrapura,1861,1946,Part of,850
-8551,Indrapura,1946,2022,Part of,850
+8538,Tapanuli Selatan (Angkola),1816,1832,Unknown,
+8538,Tapanuli Selatan (Angkola),1832,1949,Part of,850
+8538,Tapanuli Selatan (Angkola),1949,2022,Part of,850
+8539,Tapanuli,1816,1840,Unknown,
+8539,Tapanuli,1840,1949,Part of,850
+8539,Tapanuli,1949,2022,Part of,850
+8541,Lampung,1816,1949,Part of,850
+8541,Lampung,1949,2022,Part of,850
+8542,Indrapura,1816,1861,Sovereign (unrecognized),
+8542,Indrapura,1861,1946,Part of,850
+8542,Indrapura,1946,2022,Part of,850
+8543,Bengkulu (Bencoolen),1816,1825,Part of,750
+8543,Bengkulu (Bencoolen),1825,1949,Part of,850
+8543,Bengkulu (Bencoolen),1949,2022,Part of,850
+8544,Deli,1816,1872,Unknown,
+8544,Deli,1872,1949,Part of,850
+8544,Deli,1949,2022,Part of,850
+8545,Kulon,1816,1824,Sovereign (unrecognized),
+8545,Kulon,1824,1949,Part of,850
+8545,Kulon,1949,2022,Part of,850
+8546,Madura,1816,1949,Part of,850
+8546,Madura,1949,2022,Part of,850
+8547,Ternate,1817,1949,Part of,850
+8547,Ternate,1949,2022,Part of,850
+8548,Halmahera (Buli),1816,1949,Part of,850
+8548,Halmahera (Buli),1949,2022,Part of,850
+8549,Ambon,1816,1949,Part of,850
+8549,Ambon,1949,2022,Part of,850
+8551,Toraja,1816,1907,Discovered,
+8551,Toraja,1907,1949,Part of,850
+8551,Toraja,1949,2022,Part of,850
 8552,Bone,1816,1905,Sovereign (unrecognized),
 8552,Bone,1905,1949,Part of,850
 8552,Bone,1949,2022,Part of,850
@@ -4057,15 +4084,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8554,Luwu,1816,1861,Sovereign (unrecognized),
 8554,Luwu,1861,1949,Part of,850
 8554,Luwu,1949,2022,Part of,850
-8555,Bencoolen,1816,1825,Part of,750
-8555,Bencoolen,1825,1949,Part of,850
-8555,Bencoolen,1949,2022,Part of,850
-8560,Buleleng,1816,1856,Sovereign (unrecognized),
-8560,Buleleng,1856,1949,Part of,850
-8560,Buleleng,1949,2022,Part of,850
-8561,Jembrana,1816,1856,Sovereign (unrecognized),
-8561,Jembrana,1856,1949,Part of,850
-8561,Jembrana,1949,2022,Part of,850
 9001,Christmas I.,1816,1888,Discovered,
 9001,Christmas I.,1888,1889,Possession of,200
 9001,Christmas I.,1889,1942,Part of,827
@@ -4353,4 +4371,4 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 49050,Haut-Katanga,2015,2022,Part of,490
 49051,Tanganyika,2015,2022,Part of,490
 49052,Lualaba,2015,2022,Part of,490
-49053,Haut-Lomani,2015,2022,Part of,490
+49053,Haut-Lomami,2015,2022,Part of,490
