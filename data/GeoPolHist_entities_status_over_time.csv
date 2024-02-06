@@ -828,8 +828,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 531,Eritrea,1945,1952,Protectorate of,1
 531,Eritrea,1952,1993,Part of,530
 531,Eritrea,1993,2022,Sovereign,
-540,Angola (Portuguese West Africa),1816,1975,Colony of,235
-540,Angola (Portuguese West Africa),1975,2022,Sovereign,
+540,Angola,1816,1975,Colony of,235
+540,Angola,1975,2022,Sovereign,
 541,Mozambique (Portuguese East Africa),1816,1975,Colony of,235
 541,Mozambique (Portuguese East Africa),1975,2022,Sovereign,
 550,Federation of Rhodesia and Nyasaland,1953,1963,Colony of,200
