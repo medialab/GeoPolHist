@@ -828,8 +828,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 531,Eritrea,1945,1952,Protectorate of,1
 531,Eritrea,1952,1993,Part of,530
 531,Eritrea,1993,2022,Sovereign,
-540,Angola (Portuguese West Africa),1816,1975,Colony of,235
-540,Angola (Portuguese West Africa),1975,2022,Sovereign,
+540,Angola,1816,1975,Colony of,235
+540,Angola,1975,2022,Sovereign,
 541,Mozambique (Portuguese East Africa),1816,1975,Colony of,235
 541,Mozambique (Portuguese East Africa),1975,2022,Sovereign,
 550,Federation of Rhodesia and Nyasaland,1953,1963,Colony of,200
@@ -1139,9 +1139,13 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 751,French India,1816,1816,Occupied by,200
 751,French India,1816,1954,Colony of,220
 751,French India,1954,2022,Part of,750
-752,"Portuguese India (incl. Goa, Diu, Daman)",1816,1961,Colony of,235
-752,"Portuguese India (incl. Goa, Diu, Daman)",1961,1962,Occupied by,750
-752,"Portuguese India (incl. Goa, Diu, Daman)",1962,2022,Part of,750
+752,Portuguese India,1816,1961,Colony of,235
+752,Portuguese India,1961,1962,Occupied by,750
+752,Portuguese India,1962,1962,Dissolved into,7591
+752,Portuguese India,1962,1962,Dissolved into,7592
+752,Portuguese India,1962,1962,Dissolved into,7593
+752,Portuguese India,1962,1962,Dissolved into,7594
+752,Portuguese India,1962,1962,Dissolved into,7595
 760,Bhutan,1816,1865,Part of,7910
 760,Bhutan,1865,1949,Protectorate of,200
 760,Bhutan,1949,1971,Protectorate of,750
@@ -3623,6 +3627,21 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 7588,Baluchistan (Kalat),1947,1955,Vassal of,770
 7588,Baluchistan (Kalat),1955,2022,Part of,770
 7589,Maratha Empire,1816,1818,Sovereign (unrecognized),
+7591,Goa,1816,1961,Part of,752
+7591,Goa,1961,1962,Occupied by,750
+7591,Goa,1962,2022,Part of,750
+7592,Diu,1816,1961,Part of,752
+7592,Diu,1961,1962,Occupied by,750
+7592,Diu,1962,2022,Part of,750
+7593,Daman,1816,1961,Part of,752
+7593,Daman,1961,1962,Occupied by,750
+7593,Daman,1962,2022,Part of,750
+7594,Dadra,1816,1818,Part of,7589
+7594,Dadra,1818,1954,Part of,752
+7594,Dadra,1954,2022,Part of,750
+7595,Nagar Haveli,1816,1818,Part of,7589
+7595,Nagar Haveli,1818,1954,Part of,752
+7595,Nagar Haveli,1954,2022,Part of,750
 7691,Lahore (Sikh Empire),1816,1849,Sovereign (unrecognized),
 7691,Lahore (Sikh Empire),1849,1947,Part of,750
 7691,Lahore (Sikh Empire),1947,2022,Part of,770
@@ -4369,6 +4388,3 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 10210,Labrador,1816,1927,Claimed by,20
 10210,Labrador,1927,2022,Part of,21
 49050,Haut-Katanga,2015,2022,Part of,490
-49051,Tanganyika,2015,2022,Part of,490
-49052,Lualaba,2015,2022,Part of,490
-49053,Haut-Lomami,2015,2022,Part of,490
