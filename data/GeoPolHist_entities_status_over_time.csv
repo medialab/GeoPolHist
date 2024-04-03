@@ -2245,12 +2245,12 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 4371,Odienne,1816,1880,Unknown,
 4371,Odienne,1880,1898,Part of,4393
 4371,Odienne,1898,2022,Part of,437
-4372,Grand Bassam,1816,1843,Discovered,
-4372,Grand Bassam,1843,1871,Possession of,220
-4372,Grand Bassam,1871,2022,Part of,437
-4373,Assini,1816,1843,Discovered,
-4373,Assini,1843,1871,Possession of,220
-4373,Assini,1871,2022,Part of,437
+4372,Grand-Bassam,1816,1843,Discovered,
+4372,Grand-Bassam,1843,1871,Possession of,220
+4372,Grand-Bassam,1871,2022,Part of,437
+4373,Assinie,1816,1843,Discovered,
+4373,Assinie,1843,1871,Possession of,220
+4373,Assinie,1871,2022,Part of,437
 4381,Futa Djallon,1816,1896,Sovereign (unrecognized),
 4381,Futa Djallon,1896,1912,Part of,430
 4381,Futa Djallon,1912,1912,Dissolved into,438
@@ -2587,8 +2587,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 5204,Obbia,1889,1905,Protectorate of,325
 5204,Obbia,1905,1960,Part of,5200
 5204,Obbia,1960,2022,Part of,520
-5205,Somali Coast Leased Territory,1889,1905,Leased to,325
-5205,Somali Coast Leased Territory,1905,1905,Dissolved into,5200
+5205,Somali Coast Territory,1889,1905,Leased to,325
+5205,Somali Coast Territory,1905,1905,Dissolved into,5200
 5206,Puntland,1816,1889,Part of,5212
 5206,Puntland,1889,1905,Protectorate of,325
 5206,Puntland,1905,1960,Part of,5200
@@ -3301,11 +3301,11 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 7103,Kashgar,1816,1863,Part of,710
 7103,Kashgar,1863,1878,Unknown,
 7103,Kashgar,1878,2022,Part of,710
-7104,Kwangtung Territory (Leased),1816,1898,Part of,710
-7104,Kwangtung Territory (Leased),1898,1905,Leased to,365
-7104,Kwangtung Territory (Leased),1905,1945,Leased to,740
-7104,Kwangtung Territory (Leased),1945,1955,Occupied by,365
-7104,Kwangtung Territory (Leased),1955,2022,Part of,710
+7104,Kwangtung Territory,1816,1898,Part of,710
+7104,Kwangtung Territory,1898,1905,Leased to,365
+7104,Kwangtung Territory,1905,1945,Leased to,740
+7104,Kwangtung Territory,1945,1955,Occupied by,365
+7104,Kwangtung Territory,1955,2022,Part of,710
 7105,Weihaiwei,1816,1898,Part of,710
 7105,Weihaiwei,1898,1930,Leased to,200
 7105,Weihaiwei,1930,1945,Part of,713
