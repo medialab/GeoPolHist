@@ -2448,10 +2448,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 4791,Bonny,1885,1899,Part of,4782
 4791,Bonny,1899,1914,Part of,4783
 4791,Bonny,1914,2022,Part of,475
-4792,0ld Calabar (Efik),1816,1885,Sovereign (unrecognized),
-4792,0ld Calabar (Efik),1885,1899,Part of,4782
-4792,0ld Calabar (Efik),1899,1914,Part of,4783
-4792,0ld Calabar (Efik),1914,2022,Part of,475
+4792,Old Calabar (Efik),1816,1885,Sovereign (unrecognized),
+4792,Old Calabar (Efik),1885,1899,Part of,4782
+4792,Old Calabar (Efik),1899,1914,Part of,4783
+4792,Old Calabar (Efik),1914,2022,Part of,475
 4793,New Calabar (Kalabari),1816,1885,Sovereign (unrecognized),
 4793,New Calabar (Kalabari),1885,1899,Part of,4782
 4793,New Calabar (Kalabari),1899,1914,Part of,4783
@@ -3310,11 +3310,17 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 7105,Weihaiwei,1898,1930,Leased to,200
 7105,Weihaiwei,1930,1945,Part of,713
 7105,Weihaiwei,1945,2022,Part of,710
-7106,Tientsin,1816,1860,Part of,710
-7106,Tientsin,1860,1937,Leased to,9998
-7106,Tientsin,1937,1945,Occupied by,740
-7106,Tientsin,1945,1949,Unknown,
-7106,Tientsin,1949,2022,Part of,710
+7106,Tientsin (Tianjin),1816,1860,Part of,710
+7106,Tientsin (Tianjin),1860,1945,Leased to,200
+7106,Tientsin (Tianjin),1860,1902,Leased to,2
+7106,Tientsin (Tianjin),1861,1946,Leased to,220
+7106,Tientsin (Tianjin),1895,1917,Leased to,255
+7106,Tientsin (Tianjin),1898,1945,Occupied by,740
+7106,Tientsin (Tianjin),1900,1924,Leased to,365
+7106,Tientsin (Tianjin),1901,1947,Leased to,325
+7106,Tientsin (Tianjin),1902,1917,Leased to,300
+7106,Tientsin (Tianjin),1902,1931,Leased to,211
+7106,Tientsin (Tianjin),1945,2022,Part of,710
 7107,Anhwei-Fukien,1816,1917,Part of,710
 7107,Anhwei-Fukien,1920,1928,Part of,7111
 7108,Yangtze Valley,1816,1917,Part of,710
@@ -3350,20 +3356,92 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 7117,Reorganized National Government of the Republic of China,1940,1945,Occupied by,740
 7118,Ningxia,1816,1958,Part of,710
 7118,Ningxia,1958,2022,Dependency of,710
-7121,Inner Mongolia,1816,1937,Part of,710
-7121,Inner Mongolia,1937,1945,Occupied by,740
-7121,Inner Mongolia,1945,1947,Part of,710
-7121,Inner Mongolia,1947,2022,Dependency of,710
-7131,Diaoyu (Senkaku) Is.,1816,1895,Discovered,
-7131,Diaoyu (Senkaku) Is.,1895,1945,Occupied by,740
-7131,Diaoyu (Senkaku) Is.,1945,1972,Occupied by,2
-7131,Diaoyu (Senkaku) Is.,1972,2022,Possession of,740
-7131,Diaoyu (Senkaku) Is.,1972,2022,Claimed by,713
-7131,Diaoyu (Senkaku) Is.,1972,2022,Claimed by,710
-7220,Kiauchau,1816,1898,Part of,710
-7220,Kiauchau,1898,1914,Leased to,255
-7220,Kiauchau,1914,1922,Occupied by,740
-7220,Kiauchau,1922,2022,Part of,710
+7119,Inner Mongolia,1816,1937,Part of,710
+7119,Inner Mongolia,1937,1945,Occupied by,740
+7119,Inner Mongolia,1945,1947,Part of,710
+7119,Inner Mongolia,1947,2022,Dependency of,710
+7120,Kiauchau,1816,1898,Part of,710
+7120,Kiauchau,1898,1914,Leased to,255
+7120,Kiauchau,1914,1922,Occupied by,740
+7120,Kiauchau,1922,2022,Part of,710
+7121,Shangai,1816,1839,Part of,710
+7121,Shangai,1839,1842,Occupied by,200
+7121,Shangai,1842,1846,Part of,710
+7121,Shangai,1846,1863,Leased to,200
+7121,Shangai,1848,1863,Leased to,2
+7121,Shangai,1849,1946,Leased to,220
+7121,Shangai,1902,1943,Leased to,325
+7121,Shangai,1863,1943,Leased to,9998
+7121,Shangai,1932,1945,Occupied by,740
+7121,Shangai,1945,2022,Part of,710
+7122,Beijing,1816,1861,Part of,710
+7122,Beijing,1861,1945,Leased to,9998
+7122,Beijing,1945,2022,Part of,710
+7123,Gulangyu (Kulangsu),1816,1902,Part of,710
+7123,Gulangyu (Kulangsu),1902,1943,Leased to,9998
+7123,Gulangyu (Kulangsu),1943,2022,Part of,710
+7124,Guangzhou (Canton),1816,1861,Part of,710
+7124,Guangzhou (Canton),1859,1945,Leased to,200
+7124,Guangzhou (Canton),1859,1946,Leased to,220
+7124,Guangzhou (Canton),1946,2022,Part of,710
+7125,Hankou,1816,1861,Part of,710
+7125,Hankou,1861,1927,Leased to,200
+7125,Hankou,1895,1917,Leased to,255
+7125,Hankou,1896,1943,Leased to,220
+7125,Hankou,1896,1924,Leased to,365
+7125,Hankou,1898,1945,Occupied by,740
+7125,Hankou,1945,1954,Part of,710
+7125,Hankou,1954,1954,Dissolved into,710
+7126,Kunming,1816,1904,Part of,710
+7126,Kunming,1904,1940,Leased to,220
+7126,Kunming,1940,2022,Part of,710
+7127,Xiamen (Amoy),1816,1852,Part of,710
+7127,Xiamen (Amoy),1852,1930,Leased to,200
+7127,Xiamen (Amoy),1902,1943,Leased to,325
+7127,Xiamen (Amoy),1943,2022,Part of,710
+7128,Chongqing,1816,1897,Part of,710
+7128,Chongqing,1897,1937,Leased to,740
+7128,Chongqing,1937,2022,Part of,710
+7129,Suzhou,1816,1897,Part of,710
+7129,Suzhou,1897,1943,Leased to,740
+7129,Suzhou,1943,2022,Part of,710
+7130,Hangzhou,1816,1897,Part of,710
+7130,Hangzhou,1897,1943,Leased to,740
+7130,Hangzhou,1943,2022,Part of,710
+7131,"Shashi, Jingzhou",1816,1898,Part of,710
+7131,"Shashi, Jingzhou",1898,1943,Leased to,740
+7131,"Shashi, Jingzhou",1943,2022,Part of,710
+7132,Dalian,1816,1858,Part of,710
+7132,Dalian,1858,1860,Leased to,200
+7132,Dalian,1860,1898,Part of,710
+7132,Dalian,1898,1905,Leased to,365
+7132,Dalian,1905,1945,Part of,7104
+7132,Dalian,1945,1950,Occupied by,365
+7132,Dalian,1950,2022,Part of,710
+7133,Harbin,1816,1896,Part of,710
+7133,Harbin,1896,1952,Leased to,365
+7133,Harbin,1952,2022,Part of,710
+7134,Lüshun Port (Port Arthur),1816,1895,Part of,710
+7134,Lüshun Port (Port Arthur),1895,1905,Leased to,365
+7134,Lüshun Port (Port Arthur),1905,1945,Part of,7104
+7134,Lüshun Port (Port Arthur),1945,1956,Occupied by,365
+7134,Lüshun Port (Port Arthur),1956,2022,Part of,710
+7135,Liugong I.,1816,1898,Part of,710
+7135,Liugong I.,1898,1930,Part of,7105
+7135,Liugong I.,1930,1940,Leased to,200
+7135,Liugong I.,1940,2022,Part of,710
+7136,Jiujiang,1816,1861,Part of,710
+7136,Jiujiang,1861,1929,Leased to,200
+7136,Jiujiang,1929,2022,Part of,710
+7137,Zhenjiang,1816,1861,Part of,710
+7137,Zhenjiang,1861,1929,Leased to,200
+7137,Zhenjiang,1929,2022,Part of,710
+7220,Diaoyu (Senkaku) Is.,1816,1895,Discovered,
+7220,Diaoyu (Senkaku) Is.,1895,1945,Occupied by,740
+7220,Diaoyu (Senkaku) Is.,1945,1972,Occupied by,2
+7220,Diaoyu (Senkaku) Is.,1972,2022,Possession of,740
+7220,Diaoyu (Senkaku) Is.,1972,2022,Claimed by,713
+7220,Diaoyu (Senkaku) Is.,1972,2022,Claimed by,710
 7301,Port Hamilton (Komundo),1816,1885,Part of,730
 7301,Port Hamilton (Komundo),1885,1887,Occupied by,200
 7301,Port Hamilton (Komundo),1887,1905,Part of,730
