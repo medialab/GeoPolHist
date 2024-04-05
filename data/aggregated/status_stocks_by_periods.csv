@@ -212,7 +212,7 @@ Djibouti (Afar and Issas) (French Somaliland),Part of,Colony of,Colony of,Sovere
 Ethiopia (Abyssinia),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sovereign
 Eritrea,Part of,Colony of,Protectorate of,Sovereign
 Angola,Colony of,Colony of,Colony of,Sovereign
-Mozambique,Colony of,Colony of,Colony of,Sovereign
+Mozambique (Portuguese East Africa),Colony of,Colony of,Colony of,Sovereign
 Federation of Rhodesia and Nyasaland,?,?,Colony of,?
 Zambia (Northern Rhodesia),?,Part of,Protectorate of,Sovereign
 Zimbabwe (Rhodesia) (Southern Rhodesia),?,Protectorate of,Colony of,Sovereign
@@ -290,7 +290,7 @@ Japan,Sovereign (unrecognized),Sovereign,Occupied by,Sovereign
 Ryukyu Is.,Protectorate of,Part of,Occupied by,Part of
 India,Colony of,Colony of,Sovereign,Sovereign
 French India,Colony of,Colony of,Colony of,Part of
-"Portuguese India (incl. Goa, Diu, Daman)",Colony of,Colony of,Colony of,Part of
+Portuguese India,Colony of,Colony of,Colony of,?
 Bhutan,Part of,Protectorate of,Protectorate of,Sovereign
 Sikkim,Part of,Protectorate of,Protectorate of,Part of
 Pakistan,Part of,Part of,Sovereign,Sovereign
@@ -345,8 +345,8 @@ Northern Marianas Is.,Part of,Part of,Part of,Dependency of
 Guam,Part of,Part of,Colony of,Colony of
 Palau,Part of,Part of,Part of,Sovereign
 Federated States of Micronesia,Part of,Part of,Part of,Sovereign
-Samoa (Western Samoa) (German Samoa),Part of,Part of,Mandated to,Sovereign
-American Samoa,Part of,Part of,Colony of,Colony of
+Samoa (Western Samoa) (German Samoa),?,Colony of,Mandated to,Sovereign
+American Samoa,?,Colony of,Colony of,Colony of
 States of America,Occupied by,?,?,?
 Confederate States of America,Sovereign (limited),?,?,?
 Attu and Kiska,Part of,Part of,Part of,Part of
@@ -609,8 +609,8 @@ Trarza,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Aïr,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Zinder,Vassal of,Vassal of,Part of,Part of
 Odienne,Unknown,Part of,Part of,Part of
-Grand Bassam,Discovered,Part of,Part of,Part of
-Assini,Discovered,Part of,Part of,Part of
+Grand-Bassam,Discovered,Part of,Part of,Part of
+Assinie,Discovered,Part of,Part of,Part of
 Futa Djallon,Sovereign (unrecognized),Sovereign (unrecognized),?,?
 Kankan,Sovereign (unrecognized),Occupied by,Part of,?
 Loos Is.,Unknown,Colony of,Part of,Part of
@@ -682,7 +682,7 @@ Southern Nigeria (Niger Coast Protectorate),Protectorate of,Protectorate of,?,?
 Northern Nigeria (British Nigeria),Possession of,Possession of,?,?
 Biafra,?,?,Sovereign (unrecognized),?
 Bonny,Sovereign (unrecognized),Part of,Part of,Part of
-0ld Calabar (Efik),Sovereign (unrecognized),Part of,Part of,Part of
+Old Calabar (Efik),Sovereign (unrecognized),Part of,Part of,Part of
 New Calabar (Kalabari),Sovereign (unrecognized),Part of,Part of,Part of
 Opobo,Sovereign (unrecognized),Part of,Part of,Part of
 Nembe (Brass),Sovereign (unrecognized),Part of,?,?
@@ -724,11 +724,11 @@ North Gwangara,?,Part of,Part of,Part of
 South Gwangara,?,Part of,Part of,Part of
 Mafia I.,Part of,Part of,Part of,Part of
 Italian Somaliland,?,Protectorate of,Occupied by,Part of
-Italian East Africa,?,Colony of,?,?
+Italian East Africa,Informal,Informal,?,?
 Oltre Giuba,Part of,Part of,Part of,Part of
 Alula (Majeerteen),Sovereign (unrecognized),Sovereign (unrecognized),?,?
 Obbia,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
-Somali Coast Leased Territory,?,Leased to,?,?
+Somali Coast Territory,?,Leased to,?,?
 Puntland,Part of,Part of,Part of,Dependency of
 Mogadishu,Part of,Part of,Part of,Part of
 Merca,Part of,Part of,Part of,Part of
@@ -754,6 +754,7 @@ Assab,Unknown,Part of,?,?
 Awsa Sultanate,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Chokwe,Unknown,Unknown,Part of,Part of
 Ovimbundu,Unknown,Unknown,Part of,Part of
+Cabinda (Portuguese Congo),Occupied by,Protectorate of,Protectorate of,Part of
 Kionga,Unknown,Possession of,Part of,Part of
 Citimukulu Bemba,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Mwamba Bemba,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
@@ -928,9 +929,9 @@ Spratley Is.,Discovered,Discovered,Occupied by,Occupied by
 Ping-nan,Part of,Part of,Part of,Part of
 Jungaria,Part of,Part of,Part of,Part of
 Kashgar,Part of,Part of,Part of,Part of
-Kwangtung Territory (Leased),Part of,Part of,Occupied by,Part of
+Kwangtung Territory,Part of,Part of,Occupied by,Part of
 Weihaiwei,Part of,Part of,Part of,Part of
-Tientsin,Part of,Leased to,Part of,Part of
+Tientsin (Tianjin),Part of,Leased to,Part of,Part of
 Anhwei-Fukien,Part of,Part of,?,?
 Yangtze Valley,Part of,Part of,Part of,Part of
 Yunnan,Part of,Part of,Part of,Part of
@@ -944,8 +945,25 @@ Reformed Government of China,?,Occupied by,?,?
 Reorganized National Government of the Republic of China,?,Occupied by,?,?
 Ningxia,Part of,Part of,Part of,Dependency of
 Inner Mongolia,Part of,Part of,Dependency of,Dependency of
-Diaoyu (Senkaku) Is.,Discovered,Discovered,Occupied by,Possession of
 Kiauchau,Part of,Part of,Part of,Part of
+Shangai,Part of,Leased to,Part of,Part of
+Beijing,Part of,Leased to,Part of,Part of
+Gulangyu (Kulangsu),Part of,Part of,Part of,Part of
+Guangzhou (Canton),Part of,Leased to,Part of,Part of
+Hankou,Part of,Leased to,Part of,?
+Kunming,Part of,Part of,Part of,Part of
+Xiamen (Amoy),Part of,Leased to,Part of,Part of
+Chongqing,Part of,Part of,Part of,Part of
+Suzhou,Part of,Part of,Part of,Part of
+Hangzhou,Part of,Part of,Part of,Part of
+"Shashi, Jingzhou",Part of,Part of,Part of,Part of
+Dalian,Part of,Part of,Occupied by,Part of
+Harbin,Part of,Part of,Leased to,Part of
+Lüshun Port (Port Arthur),Part of,Part of,Occupied by,Part of
+Liugong I.,Part of,Part of,Part of,Part of
+Jiujiang,Part of,Leased to,Part of,Part of
+Zhenjiang,Part of,Leased to,Part of,Part of
+Diaoyu (Senkaku) Is.,Discovered,Discovered,Occupied by,Possession of
 Port Hamilton (Komundo),Part of,Occupied by,?,?
 Kaesong,Part of,Part of,Part of,Dependency of
 Sinuiju,Part of,Part of,Part of,Dependency of
@@ -1036,6 +1054,11 @@ Oudh,Vassal of,Part of,?,?
 Manipur,Occupied by,Vassal of,Part of,Part of
 Baluchistan (Kalat),Sovereign (unrecognized),Vassal of,Vassal of,Part of
 Maratha Empire,Sovereign (unrecognized),?,?,?
+Goa,Part of,Part of,Part of,Part of
+Diu,Part of,Part of,Part of,Part of
+Daman,Part of,Part of,Part of,Part of
+Dadra,Part of,Part of,Part of,Part of
+Nagar Haveli,Part of,Part of,Part of,Part of
 Lahore (Sikh Empire),Sovereign (unrecognized),Part of,Part of,Part of
 Peshawar,Part of,Part of,Part of,Part of
 Sindh,Sovereign (unrecognized),Part of,Part of,Part of
@@ -1138,35 +1161,39 @@ Penang,Possession of,Part of,Part of,Part of
 Sulu Sultanate,Sovereign (unrecognized),Protectorate of,Part of,Part of
 Bohol,Discovered,Part of,Part of,Part of
 Mindanao,Part of,Part of,Part of,Dependency of
+Bali,Sovereign (unrecognized),Part of,Part of,Part of
+Buleleng,Sovereign (unrecognized),Part of,Part of,Part of
+Jembrana,Sovereign (unrecognized),Part of,Part of,Part of
+Lombok,Occupied by,Occupied by,Part of,Part of
+Banjarmasin,Occupied by,?,?,?
+Kutai,Sovereign (unrecognized),Part of,Part of,Part of
 Lanfang,Vassal of,?,?,?
 Bulungan,Vassal of,Vassal of,Part of,?
 Pontianak,Part of,Part of,Dissolved into,?
 Sambas,Sovereign (unrecognized),Part of,Part of,?
+Belitung (Billiton),Possession of,Part of,Part of,Part of
 Aceh,Protectorate of,Protectorate of,Part of,Part of
-Deli,Unknown,Part of,Part of,Part of
+Riau,Occupied by,Part of,Part of,Part of
 Siak,Part of,Part of,Part of,Part of
 Minangkabau (Melayu),Unknown,Part of,Part of,Part of
-Kulon,Sovereign (unrecognized),Part of,Part of,Part of
+Mandailing,Unknown,Part of,Part of,Part of
 Jambi,Sovereign (unrecognized),Part of,Part of,Part of
 Palembang,Sovereign (unrecognized),Part of,Part of,Part of
-Kutai,Sovereign (unrecognized),Part of,Part of,Part of
-Toraja,Discovered,Discovered,Part of,Part of
-Bali,Sovereign (unrecognized),Part of,Part of,Part of
-Lombok,Occupied by,Occupied by,Part of,Part of
-Banjarmasin,Occupied by,?,?,?
-Riau,Occupied by,Part of,Part of,Part of
 Tapanuli Selatan (Angkola),Unknown,Part of,Part of,Part of
-Mandailing,Unknown,Part of,Part of,Part of
 Tapanuli,Unknown,Part of,Part of,Part of
 Lampung,Part of,Part of,Part of,Part of
-Buni,Unknown,Part of,Part of,Part of
 Indrapura,Sovereign (unrecognized),Part of,Part of,Part of
+Bengkulu (Bencoolen),Part of,Part of,Part of,Part of
+Deli,Unknown,Part of,Part of,Part of
+Kulon,Sovereign (unrecognized),Part of,Part of,Part of
+Madura,Part of,Part of,Part of,Part of
+Ternate,Part of,Part of,Part of,Part of
+Halmahera (Buli),Part of,Part of,Part of,Part of
+Ambon,Part of,Part of,Part of,Part of
+Toraja,Discovered,Discovered,Part of,Part of
 Bone,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Gowa,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Luwu,Sovereign (unrecognized),Part of,Part of,Part of
-Bencoolen,Part of,Part of,Part of,Part of
-Buleleng,Sovereign (unrecognized),Part of,Part of,Part of
-Jembrana,Sovereign (unrecognized),Part of,Part of,Part of
 Christmas I.,Discovered,Discovered,Part of,Dependency of
 Cocos (Keeling) Is.,Unknown,Part of,Part of,Dependency of
 Coral Sea Is.,Discovered,Discovered,Part of,Dependency of
@@ -1259,6 +1286,3 @@ Yukon,?,Part of,Part of,Part of
 Nunavut,?,?,Part of,Part of
 Labrador,Claimed by,Claimed by,Part of,Part of
 Haut-Katanga,?,?,Part of,Part of
-Tanganyika,?,?,Part of,Part of
-Lualaba,?,?,Part of,Part of
-Haut-Lomani,?,?,Part of,Part of
