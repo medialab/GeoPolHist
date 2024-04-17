@@ -56,7 +56,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 51,Jamaica,1816,1958,Colony of,200
 51,Jamaica,1958,1962,Part of,50
 51,Jamaica,1962,2022,Sovereign,
-52,Trinidad and Tobago,1816,1958,Colony of,200
+52,Trinidad and Tobago,1889,1958,Colony of,200
 52,Trinidad and Tobago,1958,1962,Part of,50
 52,Trinidad and Tobago,1962,2022,Sovereign,
 53,Barbados,1816,1833,Colony of,200
@@ -1498,6 +1498,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 1044,Navassa I.,1857,1903,Claimed by,2
 1044,Navassa I.,1874,2022,Claimed by,41
 1044,Navassa I.,1903,2022,Dependency of,2
+1048,Trinidad,1816,1889,Colony of,200
+1048,Trinidad,1889,2022,Part of,52
 1049,Tobago,1816,1833,Colony of,200
 1049,Tobago,1833,1889,Part of,1055
 1049,Tobago,1889,2022,Part of,52
