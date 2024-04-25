@@ -1740,15 +1740,13 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 2249,Heligoland,1816,1890,Colony of,200
 2249,Heligoland,1890,1945,Part of,255
 2251,Neuchatel,1816,2022,Part of,225
-2292,Cracow (Free City of Cracow),1816,1846,Occupied by,239
-2292,Cracow (Free City of Cracow),1816,1846,Occupied by,300
-2292,Cracow (Free City of Cracow),1816,1846,Occupied by,365
-2292,Cracow (Free City of Cracow),1846,1918,Part of,300
-2292,Cracow (Free City of Cracow),1918,2022,Part of,290
 2311,Spain-Gibraltar Neutral Zone,1909,2022,Neutral or demilitarized zone of,230
 2311,Spain-Gibraltar Neutral Zone,1909,2022,Neutral or demilitarized zone of,200
 2333,Ile des Faisans,1816,2022,Neutral or demilitarized zone of,220
 2333,Ile des Faisans,1816,2022,Neutral or demilitarized zone of,230
+2390,Posen-West Prussia,1922,1938,Part of,239
+2390,Posen-West Prussia,1938,1938,Dissolved into,255
+2390,Posen-West Prussia,1947,1947,Dissolved into,290
 2481,Bergedorf,1816,1867,Part of,248
 2481,Bergedorf,1867,1945,Part of,255
 2482,Schleswig Plebiscite Zone,1867,1920,Part of,2555
@@ -1811,6 +1809,29 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 2661,Saxe Hildburghausen,1816,1826,Sovereign (limited),
 2661,Saxe Hildburghausen,1826,1826,Dissolved into,264
 2661,Saxe Hildburghausen,1826,1826,Dissolved into,266
+2901,Congress Poland,1816,1830,Sovereign (limited),
+2901,Congress Poland,1830,1863,Dependency of,365
+2901,Congress Poland,1863,1915,Part of,365
+2901,Congress Poland,1915,1918,Occupied by,255
+2901,Congress Poland,1918,1918,Dissolved into,290
+2902,Province of Posen (Grand Duchy of Posen),1816,1848,Dependency of,239
+2902,Province of Posen (Grand Duchy of Posen),1848,1919,Part of,239
+2902,Province of Posen (Grand Duchy of Posen),1919,1939,Part of,290
+2902,Province of Posen (Grand Duchy of Posen),1922,1922,Dissolved into,2390
+2902,Province of Posen (Grand Duchy of Posen),1939,1945,Occupied by,255
+2902,Province of Posen (Grand Duchy of Posen),1945,1945,Dissolved into,290
+2903,Cracow (Free City of Cracow),1816,1846,Protectorate of,239
+2903,Cracow (Free City of Cracow),1816,1846,Protectorate of,300
+2903,Cracow (Free City of Cracow),1816,1846,Protectorate of,365
+2903,Cracow (Free City of Cracow),1846,1918,Part of,300
+2903,Cracow (Free City of Cracow),1918,2022,Part of,290
+3001,Galicia (Kingdom of Galicia and Lodomeria),1816,1918,Part of,300
+3001,Galicia (Kingdom of Galicia and Lodomeria),1918,1921,Part of,290
+3001,Galicia (Kingdom of Galicia and Lodomeria),1918,1919,Sovereign (unrecognized),
+3001,Galicia (Kingdom of Galicia and Lodomeria),1919,1921,Part of,369
+3001,Galicia (Kingdom of Galicia and Lodomeria),1921,1945,Part of,290
+3001,Galicia (Kingdom of Galicia and Lodomeria),1945,2022,Part of,290
+3001,Galicia (Kingdom of Galicia and Lodomeria),1945,2022,Part of,369
 3051,Klagenfurt Plebiscite Zone,1816,1918,Part of,300
 3051,Klagenfurt Plebiscite Zone,1918,1920,Part of,305
 3051,Klagenfurt Plebiscite Zone,1920,1920,Occupied by,9999
@@ -4468,3 +4489,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 10210,Labrador,1816,1927,Claimed by,20
 10210,Labrador,1927,2022,Part of,21
 49050,Haut-Katanga,2015,2022,Part of,490
+49051,Tanganyika,2015,2022,Part of,490
+49052,Lualaba,2015,2022,Part of,490
+49053,Haut-Lomami,2015,2022,Part of,490
