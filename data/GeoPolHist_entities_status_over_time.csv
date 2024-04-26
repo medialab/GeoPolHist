@@ -1824,14 +1824,14 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 2903,Cracow (Free City of Cracow),1816,1846,Protectorate of,300
 2903,Cracow (Free City of Cracow),1816,1846,Protectorate of,365
 2903,Cracow (Free City of Cracow),1846,1918,Part of,300
-2903,Cracow (Free City of Cracow),1918,2022,Part of,290
+2903,Cracow (Free City of Cracow),1918,1918,Dissolved into,290
 3001,Galicia (Kingdom of Galicia and Lodomeria),1816,1918,Part of,300
 3001,Galicia (Kingdom of Galicia and Lodomeria),1918,1921,Part of,290
 3001,Galicia (Kingdom of Galicia and Lodomeria),1918,1919,Sovereign (unrecognized),
 3001,Galicia (Kingdom of Galicia and Lodomeria),1919,1921,Part of,369
 3001,Galicia (Kingdom of Galicia and Lodomeria),1921,1945,Part of,290
-3001,Galicia (Kingdom of Galicia and Lodomeria),1945,2022,Part of,290
-3001,Galicia (Kingdom of Galicia and Lodomeria),1945,2022,Part of,369
+3001,Galicia (Kingdom of Galicia and Lodomeria),1945,1945,Dissolved into,290
+3001,Galicia (Kingdom of Galicia and Lodomeria),1945,1945,Dissolved into,369
 3051,Klagenfurt Plebiscite Zone,1816,1918,Part of,300
 3051,Klagenfurt Plebiscite Zone,1918,1920,Part of,305
 3051,Klagenfurt Plebiscite Zone,1920,1920,Occupied by,9999
