@@ -4111,19 +4111,16 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8402,Bohol,1829,2022,Part of,840
 8403,Mindanao,1816,1977,Part of,840
 8403,Mindanao,1977,2022,Dependency of,840
-8501,Bali,1816,1856,Sovereign (unrecognized),
-8501,Bali,1856,1949,Part of,850
+8501,Bali,1816,1908,Sovereign (unrecognized),
+8501,Bali,1846,1908,Occupied by,210
+8501,Bali,1908,1939,Protectorate of,210
+8501,Bali,1939,1945,Occupied by,740
+8501,Bali,1945,1949,Colony of,210
 8501,Bali,1949,2022,Part of,850
-8502,Buleleng,1816,1856,Sovereign (unrecognized),
-8502,Buleleng,1856,1949,Part of,850
-8502,Buleleng,1949,2022,Part of,850
-8503,Jembrana,1816,1856,Sovereign (unrecognized),
-8503,Jembrana,1856,1949,Part of,850
-8503,Jembrana,1949,2022,Part of,850
 8510,Lombok,1816,1894,Occupied by,8541
 8510,Lombok,1894,1949,Part of,850
 8510,Lombok,1949,2022,Part of,850
-8520,Banjarmasin,1816,1860,Occupied by,210
+8520,Banjarmasin,1816,1860,Protectorate of,210
 8520,Banjarmasin,1860,1860,Dissolved into,850
 8521,Kutai,1816,1844,Sovereign (unrecognized),
 8521,Kutai,1844,1949,Part of,850
@@ -4142,27 +4139,25 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8530,Belitung (Billiton),1824,1949,Part of,850
 8530,Belitung (Billiton),1942,1945,Occupied by,740
 8530,Belitung (Billiton),1949,2022,Part of,850
-8531,Aceh,1816,1903,Protectorate of,640
+8531,Aceh,1816,1903,Sovereign (unrecognized),
 8531,Aceh,1873,1903,Occupied by,210
-8531,Aceh,1949,2022,Part of,850
+8531,Aceh,1903,1903,Dissolved into,850
 8532,Riau,1818,1844,Occupied by,210
 8532,Riau,1844,1949,Part of,850
 8532,Riau,1949,2022,Part of,850
-8533,Siak,1816,1946,Part of,8551
-8533,Siak,1946,1949,Part of,850
+8533,Siak,1816,1949,Sovereign (unrecognized),
 8533,Siak,1949,2022,Part of,850
-8534,Minangkabau (Melayu),1816,1837,Unknown,
-8534,Minangkabau (Melayu),1837,1949,Part of,850
-8534,Minangkabau (Melayu),1949,2022,Part of,850
+8534,Minangkabau,1816,1837,Unknown,
+8534,Minangkabau,1837,1949,Part of,850
+8534,Minangkabau,1949,2022,Part of,850
 8535,Mandailing,1816,1832,Unknown,
 8535,Mandailing,1832,1949,Part of,850
 8535,Mandailing,1949,2022,Part of,850
 8536,Jambi,1816,1834,Sovereign (unrecognized),
 8536,Jambi,1834,1949,Part of,850
 8536,Jambi,1949,2022,Part of,850
-8537,Palembang,1816,1825,Sovereign (unrecognized),
-8537,Palembang,1825,1949,Part of,850
-8537,Palembang,1949,2022,Part of,850
+8537,Palembang,1816,1823,Sovereign (unrecognized),
+8537,Palembang,1823,1823,Dissolved into,850
 8538,Tapanuli Selatan (Angkola),1816,1832,Unknown,
 8538,Tapanuli Selatan (Angkola),1832,1949,Part of,850
 8538,Tapanuli Selatan (Angkola),1949,2022,Part of,850
@@ -4177,9 +4172,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8543,Bengkulu (Bencoolen),1816,1825,Part of,750
 8543,Bengkulu (Bencoolen),1825,1949,Part of,850
 8543,Bengkulu (Bencoolen),1949,2022,Part of,850
-8544,Deli,1816,1872,Unknown,
-8544,Deli,1872,1949,Part of,850
-8544,Deli,1949,2022,Part of,850
+8544,Deli,1816,1854,Vassal of,8533
+8544,Deli,1854,1862,Vassal of,8531
+8544,Deli,1862,1946,Part of,850
+8544,Deli,1946,2022,Part of,850
 8545,Kulon,1816,1824,Sovereign (unrecognized),
 8545,Kulon,1824,1949,Part of,850
 8545,Kulon,1949,2022,Part of,850
