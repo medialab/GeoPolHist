@@ -4486,7 +4486,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 10205,Yukon,1898,2022,Part of,20
 10206,Nunavut,1999,2022,Part of,20
 10210,Labrador,1816,1927,Part of,21
-10210,Labrador,1816,1927,Claimed by,20
+10210,Labrador,1816,1841,Claimed by,1025
+10210,Labrador,1841,1927,Claimed by,20
 10210,Labrador,1927,2022,Part of,21
 49050,Haut-Katanga,2015,2022,Part of,490
 49051,Tanganyika,2015,2022,Part of,490
