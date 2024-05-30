@@ -39,7 +39,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 40,Cuba,1898,1902,Occupied by,2
 40,Cuba,1902,1906,Sovereign,
 40,Cuba,1906,1909,Occupied by,2
-40,Cuba,1906,2022,Sovereign,
+40,Cuba,1909,2022,Sovereign,
 41,Haiti,1816,1859,Sovereign (unrecognized),
 41,Haiti,1859,1915,Sovereign,
 41,Haiti,1915,1934,Occupied by,2
@@ -390,9 +390,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 282,Mecklenburg Vorpommern,1947,1952,Part of,265
 282,Mecklenburg Vorpommern,1952,1952,Dissolved into,265
 282,Mecklenburg Vorpommern,1990,2022,Part of,255
-290,Poland,1816,1918,Part of,365
-290,Poland,1816,1918,Part of,300
-290,Poland,1816,1918,Part of,239
+290,Poland,1816,1816,Dissolved into,2901
+290,Poland,1816,1816,Dissolved into,2902
+290,Poland,1816,1816,Dissolved into,2903
 290,Poland,1918,1939,Sovereign,
 290,Poland,1939,1945,Occupied by,255
 290,Poland,1939,1941,Occupied by,365
