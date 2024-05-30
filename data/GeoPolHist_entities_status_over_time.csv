@@ -37,8 +37,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 40,Cuba,1816,1821,Part of,1070
 40,Cuba,1821,1898,Colony of,230
 40,Cuba,1898,1902,Occupied by,2
-40,Cuba,1902,2022,Sovereign,
+40,Cuba,1902,1906,Sovereign,
 40,Cuba,1906,1909,Occupied by,2
+40,Cuba,1906,2022,Sovereign,
 41,Haiti,1816,1859,Sovereign (unrecognized),
 41,Haiti,1859,1915,Sovereign,
 41,Haiti,1915,1934,Occupied by,2
