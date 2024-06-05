@@ -562,21 +562,21 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 365,Russia (USSR),1941,1943,Occupied by,255
 366,Estonia,1816,1918,Part of,365
 366,Estonia,1918,1940,Sovereign,
-366,Estonia,1939,1940,Occupied by,365
-366,Estonia,1940,1991,Part of,365
-366,Estonia,1941,1943,Occupied by,255
+366,Estonia,1940,1941,Occupied by,365
+366,Estonia,1944,1991,Occupied by,365
+366,Estonia,1941,1944,Occupied by,255
 366,Estonia,1991,2022,Sovereign,
 367,Latvia,1816,1918,Part of,365
 367,Latvia,1918,1940,Sovereign,
-367,Latvia,1939,1940,Occupied by,365
-367,Latvia,1940,1991,Part of,365
-367,Latvia,1941,1943,Occupied by,255
+367,Latvia,1940,1941,Occupied by,365
+367,Latvia,1944,1991,Occupied by,365
+367,Latvia,1941,1944,Occupied by,255
 367,Latvia,1991,2022,Sovereign,
 368,Lithuania,1816,1918,Part of,365
 368,Lithuania,1918,1940,Sovereign,
-368,Lithuania,1939,1940,Occupied by,365
-368,Lithuania,1940,1991,Part of,365
-368,Lithuania,1941,1943,Occupied by,255
+368,Lithuania,1940,1941,Occupied by,365
+368,Lithuania,1944,1991,Occupied by,365
+368,Lithuania,1941,1944,Occupied by,255
 368,Lithuania,1991,2022,Sovereign,
 369,Ukraine,1816,1918,Part of,365
 369,Ukraine,1918,1920,Sovereign (unrecognized),
