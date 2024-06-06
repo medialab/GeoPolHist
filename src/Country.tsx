@@ -1,13 +1,13 @@
-import React, { useContext, useCallback, useMemo, useState } from "react";
-import sort from "ramda/es/sort";
-import sortBy from "ramda/es/sortBy";
 import equals from "ramda/es/equals";
 import reduce from "ramda/es/reduce";
+import sort from "ramda/es/sort";
+import sortBy from "ramda/es/sortBy";
+import React, { useCallback, useContext, useMemo, useState } from "react";
 
+import { max, min, scaleOrdinal, scaleTime } from "d3";
+import { RouteComponentProps } from "react-router-dom";
 import { AppContext } from "./AppContext";
 import Timelines from "./timeline";
-import { Link as RLink, RouteComponentProps } from "react-router-dom";
-import { min, max, scaleTime, scaleOrdinal } from "d3";
 
 import "./Country.css";
 
@@ -29,6 +29,7 @@ const orderMethods = {
       +sortDate(bLinks.map((l) => l.start_year))[0]
   ),
   name: sortBy(([entity]) => entity.name),
+  continent: sortBy(([entity]) => entity.continent),
 };
 const sortByStartYear = sort((a: Link, b: Link) => a.start_year > b.start_year);
 const deOverlapLinks = (os: [Entity, Link[]][]) =>
@@ -165,6 +166,7 @@ const Country: React.FC<
                 { value: "year", label: "first date" },
                 { value: "duration", label: "duration" },
                 { value: "name", label: "entity name" },
+                { value: "continent", label: "continent" },
               ]}
             />
           </span>
@@ -179,6 +181,7 @@ const Country: React.FC<
           width={1000}
           xScale={xScale}
           colorScale={colorScale}
+          groupBy={orderBy === "continent" ? "continent" : undefined}
         />
       </div>
     </>

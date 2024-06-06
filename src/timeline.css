@@ -135,3 +135,7 @@
 .group.has_status.int rect.int {
   opacity: 1;
 }
+
+.continentLabel {
+  font-weight: 600;
+}
