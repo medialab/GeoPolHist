@@ -3271,8 +3271,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 7010,Kokand,1991,2022,Part of,702
 7010,Kokand,1991,2022,Part of,703
 7010,Kokand,1991,2022,Part of,704
-7020,Bokhara,1816,1868,Sovereign (unrecognized),
-7020,Bokhara,1868,1991,Part of,365
+7020,Bokhara,1816,1873,Sovereign (unrecognized),
+7020,Bokhara,1873,1920,Protectorate of,365
+7020,Bokhara,1920,1991,Part of,365
 7020,Bokhara,1991,2022,Part of,704
 7021,Gorno Badakhshan,1895,1925,Claimed by,710
 7021,Gorno Badakhshan,1895,1925,Claimed by,365
@@ -4492,4 +4493,4 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 49050,Haut-Katanga,2015,2022,Part of,490
 49051,Tanganyika,2015,2022,Part of,490
 49052,Lualaba,2015,2022,Part of,490
-49053,Haut-Lomami,2015,2022,Part of,490
+49053,Haut-Lomani,2015,2022,Part of,490
