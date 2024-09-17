@@ -126,7 +126,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 70,Mexico,1821,2022,Sovereign,,America
 70,Mexico,1847,1848,Occupied by,2,America
 70,Mexico,1863,1867,Occupied by,220,America
-80,Belize (British Honduras),1816,1981,Colony of,200,America
+80,Belize (British Honduras),1816,1884,Part of,51,America
+80,Belize (British Honduras),1884,1981,Colony of,200,America
 80,Belize (British Honduras),1981,2022,Sovereign,,America
 89,United States of Central America,1816,1821,Part of,1070,America
 89,United States of Central America,1816,1821,Colony of,230,America
@@ -609,7 +610,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 376,Chechen-Ingush Republic,1991,1991,Dissolved into,3761,Europe
 376,Chechen-Ingush Republic,1991,1991,Dissolved into,3762,Europe
 380,Sweden,1816,2022,Sovereign,,Europe
-385,Norway,1816,1905,Sovereign (unrecognized),,Europe
+385,Norway,1816,1905,Sovereign (limited),,Europe
 385,Norway,1905,1940,Sovereign,,Europe
 385,Norway,1940,1945,Occupied by,255,Europe
 385,Norway,1945,2022,Sovereign,,Europe
@@ -1484,8 +1485,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 1031,Mayaguana,1816,1940,Part of,31,America
 1031,Mayaguana,1940,1945,Leased to,2,America
 1031,Mayaguana,1945,2022,Part of,31,America
-1032,Turks and Caicos Is.,1816,1848,Part of,31,America
-1032,Turks and Caicos Is.,1848,1962,Part of,51,America
+1032,Turks and Caicos Is.,1816,1873,Part of,31,America
+1032,Turks and Caicos Is.,1873,1962,Part of,51,America
 1032,Turks and Caicos Is.,1962,1973,Part of,31,America
 1032,Turks and Caicos Is.,1973,2022,Colony of,200,America
 1033,Cayman Is.,1816,1962,Part of,51,America
@@ -1578,7 +1579,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 1082,Bay Is.,1830,1839,Part of,89,America
 1082,Bay Is.,1839,1841,Part of,91,America
 1082,Bay Is.,1841,1852,Part of,80,America
-1082,Bay Is.,1852,1860,Colony of,200,America
+1082,Bay Is.,1852,1860,Part of,51,America
 1082,Bay Is.,1860,2022,Part of,91,America
 1087,Swan Is.,1816,1821,Part of,1070,America
 1087,Swan Is.,1821,1823,Part of,70,America
@@ -2595,7 +2596,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 5200,Italian Somaliland,1941,1950,Occupied by,200,Africa
 5200,Italian Somaliland,1950,1960,Mandated to,325,Africa
 5200,Italian Somaliland,1960,2022,Part of,520,Africa
-5201,Italian East Africa,1882,1936,Informal,,Africa
 5201,Italian East Africa,1936,1941,Colony of,325,Africa
 5202,Oltre Giuba,1816,1836,Part of,5212,Africa
 5202,Oltre Giuba,1836,1856,Part of,698,Africa
@@ -3271,8 +3271,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 7010,Kokand,1991,2022,Part of,702,Asia
 7010,Kokand,1991,2022,Part of,703,Asia
 7010,Kokand,1991,2022,Part of,704,Asia
-7020,Bokhara,1816,1868,Sovereign (unrecognized),,Asia
-7020,Bokhara,1868,1991,Part of,365,Asia
+7020,Bokhara,1816,1873,Sovereign (unrecognized),,Asia
+7020,Bokhara,1873,1920,Protectorate of,365,Asia
+7020,Bokhara,1920,1991,Part of,365,Asia
 7020,Bokhara,1991,2022,Part of,704,Asia
 7021,Gorno Badakhshan,1895,1925,Claimed by,710,Asia
 7021,Gorno Badakhshan,1895,1925,Claimed by,365,Asia
@@ -4492,4 +4493,4 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 49050,Haut-Katanga,2015,2022,Part of,490,Africa
 49051,Tanganyika,2015,2022,Part of,490,Africa
 49052,Lualaba,2015,2022,Part of,490,Africa
-49053,Haut-Lomami,2015,2022,Part of,490,Africa
+49053,Haut-Lomani,2015,2022,Part of,490,Africa
