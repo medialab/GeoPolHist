@@ -31,7 +31,7 @@ Guadeloupe,Colony of,Colony of,Part of,Part of
 Martinique,Colony of,Colony of,Part of,Part of
 Netherlands Antilles,Colony of,Colony of,Colony of,?
 Mexico,Part of,Sovereign,Sovereign,Sovereign
-Belize (British Honduras),Colony of,Colony of,Colony of,Sovereign
+Belize (British Honduras),Part of,Colony of,Colony of,Sovereign
 United States of Central America,Colony of,?,?,?
 Guatemala,Part of,Sovereign,Sovereign,Sovereign
 Honduras,Part of,Sovereign,Sovereign,Sovereign
@@ -158,7 +158,7 @@ Transcaucasia,Part of,Part of,?,?
 Finland,Part of,Part of,Sovereign,Sovereign
 Chechen-Ingush Republic,?,Part of,Part of,?
 Sweden,Sovereign,Sovereign,Sovereign,Sovereign
-Norway,Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sovereign
+Norway,Sovereign (limited),Sovereign (limited),Sovereign,Sovereign
 Denmark,Sovereign,Sovereign,Sovereign,Sovereign
 Iceland,Colony of,Colony of,Sovereign,Sovereign
 European Union (European Economic Community),?,?,Informal,Informal
@@ -729,7 +729,7 @@ North Gwangara,?,Part of,Part of,Part of
 South Gwangara,?,Part of,Part of,Part of
 Mafia I.,Part of,Part of,Part of,Part of
 Italian Somaliland,?,Protectorate of,Occupied by,Part of
-Italian East Africa,Informal,Informal,?,?
+Italian East Africa,?,Colony of,?,?
 Oltre Giuba,Part of,Part of,Part of,Part of
 Alula (Majeerteen),Sovereign (unrecognized),Sovereign (unrecognized),?,?
 Obbia,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
@@ -922,7 +922,7 @@ Kandahar,Part of,Part of,Part of,Part of
 Herat,Part of,Part of,Part of,Part of
 Badakhshan,Part of,Part of,Part of,Part of
 Kokand,Sovereign (unrecognized),Part of,Part of,Part of
-Bokhara,Sovereign (unrecognized),Part of,Part of,Part of
+Bokhara,Sovereign (unrecognized),Protectorate of,Part of,Part of
 Gorno Badakhshan,?,Claimed by,Part of,Dependency of
 Khiva,Sovereign (unrecognized),Protectorate of,Part of,Part of
 Karakalpakstan,Part of,Part of,Part of,Dependency of
@@ -1291,4 +1291,4 @@ Labrador,Claimed by,Claimed by,Part of,Part of
 Haut-Katanga,?,?,Part of,Part of
 Tanganyika,?,?,Part of,Part of
 Lualaba,?,?,Part of,Part of
-Haut-Lomami,?,?,Part of,Part of
+Haut-Lomani,?,?,Part of,Part of

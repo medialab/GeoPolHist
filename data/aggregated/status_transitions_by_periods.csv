@@ -1,10 +1,10 @@
 period,transition,nb
 1816-1885,Part of>Non sovereign,96
 1816-1885,Part of>Sovereign (all),38
-1816-1885,Sovereign (all)>Part of,76
+1816-1885,Sovereign (all)>Part of,75
 1816-1885,Non sovereign>Sovereign (all),20
-1816-1885,Sovereign (all)>Non sovereign,56
-1816-1885,Non sovereign>Part of,144
+1816-1885,Sovereign (all)>Non sovereign,57
+1816-1885,Non sovereign>Part of,143
 1816-1885,Sovereign (all)>,15
 1816-1885,>Sovereign (all),2
 1816-1885,Part of>,12
@@ -19,7 +19,7 @@ period,transition,nb
 1816-1885,Miscellaneous>,1
 1886-1949,Sovereign (all)>Non sovereign,67
 1886-1949,Non sovereign>Sovereign (all),51
-1886-1949,Non sovereign>Part of,324
+1886-1949,Non sovereign>Part of,325
 1886-1949,Part of>Sovereign (all),24
 1886-1949,Part of>Non sovereign,190
 1886-1949,Part of>,32
@@ -28,7 +28,7 @@ period,transition,nb
 1886-1949,Sovereign (all)>Part of,76
 1886-1949,Non sovereign>,32
 1886-1949,Miscellaneous>Non sovereign,33
-1886-1949,>Non sovereign,7
+1886-1949,>Non sovereign,6
 1886-1949,Miscellaneous>Part of,50
 1886-1949,>Part of,5
 1886-1949,Part of>Miscellaneous,1
