@@ -1186,14 +1186,18 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 811,Cambodia (Kampuchea),1816,1833,Vassal of,800
 811,Cambodia (Kampuchea),1816,1833,Vassal of,815
 811,Cambodia (Kampuchea),1833,1863,Occupied by,815
-811,Cambodia (Kampuchea),1863,1887,Protectorate of,220
+811,Cambodia (Kampuchea),1863,1953,Protectorate of,220
 811,Cambodia (Kampuchea),1887,1953,Part of,810
+811,Cambodia (Kampuchea),1941,1945,Occupied by,740
+811,Cambodia (Kampuchea),1945,1945,Sovereign (unrecognized),
 811,Cambodia (Kampuchea),1979,1989,Occupied by,816
 811,Cambodia (Kampuchea),1953,2022,Sovereign,
 812,Laos,1816,1893,Part of,800
+812,Laos,1893,1953,Protectorate of,220
 812,Laos,1893,1954,Part of,810
-812,Laos,1975,1989,Occupied by,816
+812,Laos,1945,1945,Occupied by,740
 812,Laos,1954,2022,Sovereign,
+812,Laos,1975,1989,Occupied by,816
 815,Vietnam,1816,1887,Sovereign (unrecognized),
 815,Vietnam,1887,1887,Dissolved into,810
 815,Vietnam,1945,1946,Occupied by,710
@@ -1212,7 +1216,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 820,Malaysia (British Malaya),1948,1957,Colony of,200
 820,Malaysia (British Malaya),1957,2022,Sovereign,
 821,Federated Malay States,1896,1942,Colony of,200
-821,Federated Malay States,1896,1946,Part of,820
 821,Federated Malay States,1942,1945,Occupied by,740
 821,Federated Malay States,1945,1946,Colony of,200
 821,Federated Malay States,1946,1946,Dissolved into,820
@@ -1231,7 +1234,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 824,Sarawak,1945,1963,Colony of,200
 824,Sarawak,1963,2022,Part of,820
 827,Straits Settlements,1826,1942,Colony of,200
-827,Straits Settlements,1826,1946,Part of,820
 827,Straits Settlements,1942,1945,Occupied by,740
 827,Straits Settlements,1945,1946,Colony of,200
 827,Straits Settlements,1946,1946,Dissolved into,820
@@ -3976,7 +3978,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 7910,Tibet,1912,1951,Sovereign (unrecognized),
 7910,Tibet,1951,2022,Dependency of,710
 8001,Chiang Mai (Lan-na),1816,2022,Part of,800
-8002,Pattani,1817,2022,Part of,800
+8002,Patani,1816,1902,Vassal of,800
+8002,Patani,1902,1902,Dissolved into,800
 8121,Vientiane,1816,1828,Part of,800
 8121,Vientiane,1828,1893,Part of,800
 8121,Vientiane,1893,1949,Part of,810
@@ -3987,24 +3990,23 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8123,Xiangkhouang,1816,1893,Part of,800
 8123,Xiangkhouang,1893,1949,Part of,810
 8123,Xiangkhouang,1949,2022,Part of,812
-8124,Champassak,1817,1826,Part of,800
-8124,Champassak,1826,1904,Sovereign (unrecognized),
-8124,Champassak,1904,1904,Dissolved into,812
+8124,Champasak,1816,1904,Vassal of,800
+8124,Champasak,1904,1904,Dissolved into,812
 8151,Cochin China,1816,1862,Part of,815
-8151,Cochin China,1862,1887,Colony of,220
+8151,Cochin China,1862,1945,Colony of,220
 8151,Cochin China,1887,1945,Part of,810
 8151,Cochin China,1941,1945,Occupied by,740
 8151,Cochin China,1945,1949,Occupied by,220
 8151,Cochin China,1949,1955,Part of,815
 8151,Cochin China,1955,1955,Dissolved into,817
 8152,Annam,1816,1883,Part of,815
-8152,Annam,1883,1887,Protectorate of,220
+8152,Annam,1883,1949,Protectorate of,220
 8152,Annam,1887,1949,Part of,810
 8152,Annam,1949,1954,Part of,815
 8152,Annam,1954,1954,Dissolved into,817
 8152,Annam,1954,1954,Dissolved into,816
 8153,Tonkin,1816,1883,Part of,815
-8153,Tonkin,1883,1887,Protectorate of,220
+8153,Tonkin,1883,1949,Protectorate of,220
 8153,Tonkin,1887,1949,Part of,810
 8153,Tonkin,1949,1954,Part of,815
 8153,Tonkin,1954,1954,Dissolved into,816
@@ -4019,28 +4021,24 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8171,Paracel Is.,1999,2022,Claimed by,713
 8201,Perak,1816,1874,Sovereign (unrecognized),
 8201,Perak,1874,1895,Colony of,200
-8201,Perak,1874,1895,Part of,820
 8201,Perak,1895,1946,Part of,821
 8201,Perak,1942,1945,Occupied by,740
 8201,Perak,1945,1946,Occupied by,200
 8201,Perak,1946,2022,Part of,820
 8202,Selangore,1816,1875,Sovereign (unrecognized),
 8202,Selangore,1875,1895,Colony of,200
-8202,Selangore,1875,1895,Part of,820
 8202,Selangore,1895,1946,Part of,821
 8202,Selangore,1942,1945,Occupied by,740
 8202,Selangore,1945,1946,Colony of,200
 8202,Selangore,1946,2022,Part of,820
 8203,Pahang,1816,1888,Sovereign (unrecognized),
 8203,Pahang,1888,1895,Colony of,200
-8203,Pahang,1888,1895,Part of,820
 8203,Pahang,1895,1946,Part of,821
 8203,Pahang,1942,1945,Occupied by,740
 8203,Pahang,1945,1946,Colony of,200
 8203,Pahang,1946,2022,Part of,820
 8210,Negeri Sembilan,1816,1874,Vassal of,8221
 8210,Negeri Sembilan,1874,1895,Colony of,200
-8210,Negeri Sembilan,1874,1895,Part of,820
 8210,Negeri Sembilan,1895,1946,Part of,821
 8210,Negeri Sembilan,1942,1945,Occupied by,740
 8210,Negeri Sembilan,1945,1946,Colony of,200
@@ -4059,35 +4057,33 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8217,Tampin,1816,1840,Part of,8212
 8217,Tampin,1840,1889,Unknown,
 8217,Tampin,1889,2022,Part of,8210
+8218,Manjung (Dindings),1816,1873,Part of,827
+8218,Manjung (Dindings),1874,1935,Colony of,200
+8218,Manjung (Dindings),1935,2022,Part of,8201
 8221,Johore,1816,1914,Sovereign (unrecognized),
 8221,Johore,1914,1942,Protectorate of,200
-8221,Johore,1914,1946,Part of,820
 8221,Johore,1942,1945,Occupied by,740
 8221,Johore,1945,1946,Colony of,200
 8221,Johore,1946,2022,Part of,820
 8222,Kedah,1816,1821,Part of,8272
 8222,Kedah,1821,1909,Part of,800
 8222,Kedah,1909,1942,Protectorate of,200
-8222,Kedah,1909,1946,Part of,820
 8222,Kedah,1942,1945,Occupied by,740
 8222,Kedah,1945,1946,Colony of,200
 8222,Kedah,1946,2022,Part of,820
 8223,Kelantan,1816,1909,Claimed by,800
 8223,Kelantan,1909,1942,Protectorate of,200
-8223,Kelantan,1909,1946,Part of,820
 8223,Kelantan,1942,1945,Occupied by,740
 8223,Kelantan,1945,1946,Colony of,200
 8223,Kelantan,1946,2022,Part of,820
 8224,Perlis,1816,1843,Part of,8222
 8224,Perlis,1843,1909,Sovereign (unrecognized),
 8224,Perlis,1909,1942,Protectorate of,200
-8224,Perlis,1909,1946,Part of,820
 8224,Perlis,1942,1945,Occupied by,740
 8224,Perlis,1945,1946,Colony of,200
 8224,Perlis,1946,2022,Part of,820
 8225,Trengganu,1816,1909,Part of,800
 8225,Trengganu,1909,1942,Protectorate of,200
-8225,Trengganu,1909,1946,Part of,820
 8225,Trengganu,1942,1945,Occupied by,740
 8225,Trengganu,1945,1946,Colony of,200
 8225,Trengganu,1946,2022,Part of,820
