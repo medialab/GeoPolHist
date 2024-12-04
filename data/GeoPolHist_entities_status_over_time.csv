@@ -126,8 +126,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 70,Mexico,1821,2022,Sovereign,
 70,Mexico,1847,1848,Occupied by,2
 70,Mexico,1863,1867,Occupied by,220
-80,Belize (British Honduras),1816,1884,Part of,51
-80,Belize (British Honduras),1884,1981,Colony of,200
+80,Belize (British Honduras),1816,1862,Occupied by,200
+80,Belize (British Honduras),1862,1981,Colony of,200
 80,Belize (British Honduras),1981,2022,Sovereign,
 89,United States of Central America,1816,1821,Part of,1070
 89,United States of Central America,1816,1821,Colony of,230
