@@ -1570,10 +1570,12 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 1076,Nevis,1882,2022,Part of,60
 1077,St. Martin,1816,2007,Part of,65
 1077,St. Martin,2007,2022,Dependency of,220
-1081,Mosquito Coast,1816,1860,Protectorate of,200
+1081,Mosquito Coast,1816,1819,Colony of,230
+1081,Mosquito Coast,1819,1844,Part of,100
+1081,Mosquito Coast,1844,1860,Protectorate of,200
 1081,Mosquito Coast,1860,1894,Occupied by,93
 1081,Mosquito Coast,1894,2022,Part of,93
-1081,Mosquito Coast,1960,2022,Part of,91
+1081,Mosquito Coast,1860,2022,Part of,91
 1082,Bay Is.,1816,1821,Part of,1070
 1082,Bay Is.,1821,1823,Part of,70
 1082,Bay Is.,1823,1830,Part of,89
