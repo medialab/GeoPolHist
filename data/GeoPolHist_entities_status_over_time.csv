@@ -730,9 +730,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 470,Kamerun,1916,1922,Occupied by,220
 470,Kamerun,1922,1960,Part of,471
 470,Kamerun,1922,1961,Part of,472
-471,Cameroun (French Cameroons),1919,1922,Occupied by,220
-471,Cameroun (French Cameroons),1922,1960,Mandated to,220
-471,Cameroun (French Cameroons),1960,2022,Sovereign,
+471,Cameroun (French Cameroon),1919,1922,Occupied by,220
+471,Cameroun (French Cameroon),1922,1960,Mandated to,220
+471,Cameroun (French Cameroon),1960,2022,Sovereign,
 472,British Cameroons,1919,1922,Occupied by,200
 472,British Cameroons,1922,1961,Mandated to,200
 472,British Cameroons,1961,1961,Dissolved into,471
