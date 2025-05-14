@@ -1038,9 +1038,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 679,Yemen,1990,2022,Sovereign,
 680,Yemen People's Republic (South Yemen),1967,1990,Sovereign,
 680,Yemen People's Republic (South Yemen),1990,1990,Dissolved into,679
-681,Aden,1816,1838,Part of,6821
-681,Aden,1838,1962,Colony of,200
-681,Aden,1962,1967,Part of,6801
+681,Aden,1816,1839,Part of,6821
+681,Aden,1937,1963,Colony of,200
+681,Aden,1963,1967,Part of,6801
 681,Aden,1967,1990,Part of,680
 681,Aden,1990,2022,Part of,679
 682,Aden Protectorate,1872,1937,Protectorate of,200
@@ -4490,3 +4490,4 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 49051,Tanganyika,2015,2022,Part of,490
 49052,Lualaba,2015,2022,Part of,490
 49053,Haut-Lomani,2015,2022,Part of,490
+681,Aden,1839,1937,Part of,750
