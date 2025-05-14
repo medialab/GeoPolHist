@@ -126,8 +126,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 70,Mexico,1821,2022,Sovereign,,America
 70,Mexico,1847,1848,Occupied by,2,America
 70,Mexico,1863,1867,Occupied by,220,America
-80,Belize (British Honduras),1816,1884,Part of,51,America
-80,Belize (British Honduras),1884,1981,Colony of,200,America
+80,Belize (British Honduras),1816,1862,Occupied by,200,America
+80,Belize (British Honduras),1862,1981,Colony of,200,America
 80,Belize (British Honduras),1981,2022,Sovereign,,America
 89,United States of Central America,1816,1821,Part of,1070,America
 89,United States of Central America,1816,1821,Colony of,230,America
@@ -371,8 +371,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 274,Schaumburg Lippe,1946,1946,Dissolved into,2603,Europe
 275,People’s State of Hesse (Hesse Grand Ducal),1816,1867,Sovereign,,Europe
 275,People’s State of Hesse (Hesse Grand Ducal),1867,1945,Part of,239,Europe
-275,People’s State of Hesse (Hesse Grand Ducal),1871,1918,Part of,255,Europe
-275,People’s State of Hesse (Hesse Grand Ducal),1918,1945,Part of,255,Europe
 275,People’s State of Hesse (Hesse Grand Ducal),1945,1945,Dissolved into,2602,Europe
 275,People’s State of Hesse (Hesse Grand Ducal),1946,1946,Dissolved into,2605,Europe
 276,Lübeck,1816,1867,Sovereign (limited),,Europe
@@ -732,9 +730,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 470,Kamerun,1916,1922,Occupied by,220,Africa
 470,Kamerun,1922,1960,Part of,471,Africa
 470,Kamerun,1922,1961,Part of,472,Africa
-471,Cameroun (French Cameroons),1919,1922,Occupied by,220,Africa
-471,Cameroun (French Cameroons),1922,1960,Mandated to,220,Africa
-471,Cameroun (French Cameroons),1960,2022,Sovereign,,Africa
+471,Cameroun (French Cameroon),1919,1922,Occupied by,220,Africa
+471,Cameroun (French Cameroon),1922,1960,Mandated to,220,Africa
+471,Cameroun (French Cameroon),1960,2022,Sovereign,,Africa
 472,British Cameroons,1919,1922,Occupied by,200,Africa
 472,British Cameroons,1922,1961,Mandated to,200,Africa
 472,British Cameroons,1961,1961,Dissolved into,471,Africa
@@ -1186,14 +1184,18 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 811,Cambodia (Kampuchea),1816,1833,Vassal of,800,Asia
 811,Cambodia (Kampuchea),1816,1833,Vassal of,815,Asia
 811,Cambodia (Kampuchea),1833,1863,Occupied by,815,Asia
-811,Cambodia (Kampuchea),1863,1887,Protectorate of,220,Asia
+811,Cambodia (Kampuchea),1863,1953,Protectorate of,220,Asia
 811,Cambodia (Kampuchea),1887,1953,Part of,810,Asia
+811,Cambodia (Kampuchea),1941,1945,Occupied by,740,Asia
+811,Cambodia (Kampuchea),1945,1945,Sovereign (unrecognized),,Asia
 811,Cambodia (Kampuchea),1979,1989,Occupied by,816,Asia
 811,Cambodia (Kampuchea),1953,2022,Sovereign,,Asia
 812,Laos,1816,1893,Part of,800,Asia
+812,Laos,1893,1953,Protectorate of,220,Asia
 812,Laos,1893,1954,Part of,810,Asia
-812,Laos,1975,1989,Occupied by,816,Asia
+812,Laos,1945,1945,Occupied by,740,Asia
 812,Laos,1954,2022,Sovereign,,Asia
+812,Laos,1975,1989,Occupied by,816,Asia
 815,Vietnam,1816,1887,Sovereign (unrecognized),,Asia
 815,Vietnam,1887,1887,Dissolved into,810,Asia
 815,Vietnam,1945,1946,Occupied by,710,Asia
@@ -1212,7 +1214,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 820,Malaysia (British Malaya),1948,1957,Colony of,200,Asia
 820,Malaysia (British Malaya),1957,2022,Sovereign,,Asia
 821,Federated Malay States,1896,1942,Colony of,200,Asia
-821,Federated Malay States,1896,1946,Part of,820,Asia
 821,Federated Malay States,1942,1945,Occupied by,740,Asia
 821,Federated Malay States,1945,1946,Colony of,200,Asia
 821,Federated Malay States,1946,1946,Dissolved into,820,Asia
@@ -1231,7 +1232,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 824,Sarawak,1945,1963,Colony of,200,Asia
 824,Sarawak,1963,2022,Part of,820,Asia
 827,Straits Settlements,1826,1942,Colony of,200,Asia
-827,Straits Settlements,1826,1946,Part of,820,Asia
 827,Straits Settlements,1942,1945,Occupied by,740,Asia
 827,Straits Settlements,1945,1946,Colony of,200,Asia
 827,Straits Settlements,1946,1946,Dissolved into,820,Asia
@@ -1568,10 +1568,12 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 1076,Nevis,1882,2022,Part of,60,America
 1077,St. Martin,1816,2007,Part of,65,America
 1077,St. Martin,2007,2022,Dependency of,220,America
-1081,Mosquito Coast,1816,1860,Protectorate of,200,America
+1081,Mosquito Coast,1816,1819,Colony of,230,America
+1081,Mosquito Coast,1819,1844,Part of,100,America
+1081,Mosquito Coast,1844,1860,Protectorate of,200,America
 1081,Mosquito Coast,1860,1894,Occupied by,93,America
 1081,Mosquito Coast,1894,2022,Part of,93,America
-1081,Mosquito Coast,1960,2022,Part of,91,America
+1081,Mosquito Coast,1860,2022,Part of,91,America
 1082,Bay Is.,1816,1821,Part of,1070,America
 1082,Bay Is.,1821,1823,Part of,70,America
 1082,Bay Is.,1823,1830,Part of,89,America
@@ -3976,7 +3978,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 7910,Tibet,1912,1951,Sovereign (unrecognized),,Asia
 7910,Tibet,1951,2022,Dependency of,710,Asia
 8001,Chiang Mai (Lan-na),1816,2022,Part of,800,Asia
-8002,Pattani,1817,2022,Part of,800,Asia
+8002,Patani,1816,1902,Vassal of,800,Asia
+8002,Patani,1902,1902,Dissolved into,800,Asia
 8121,Vientiane,1816,1828,Part of,800,Asia
 8121,Vientiane,1828,1893,Part of,800,Asia
 8121,Vientiane,1893,1949,Part of,810,Asia
@@ -3987,24 +3990,23 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 8123,Xiangkhouang,1816,1893,Part of,800,Asia
 8123,Xiangkhouang,1893,1949,Part of,810,Asia
 8123,Xiangkhouang,1949,2022,Part of,812,Asia
-8124,Champassak,1817,1826,Part of,800,Asia
-8124,Champassak,1826,1904,Sovereign (unrecognized),,Asia
-8124,Champassak,1904,1904,Dissolved into,812,Asia
+8124,Champasak,1816,1904,Vassal of,800,Asia
+8124,Champasak,1904,1904,Dissolved into,812,Asia
 8151,Cochin China,1816,1862,Part of,815,Asia
-8151,Cochin China,1862,1887,Colony of,220,Asia
+8151,Cochin China,1862,1945,Colony of,220,Asia
 8151,Cochin China,1887,1945,Part of,810,Asia
 8151,Cochin China,1941,1945,Occupied by,740,Asia
 8151,Cochin China,1945,1949,Occupied by,220,Asia
 8151,Cochin China,1949,1955,Part of,815,Asia
 8151,Cochin China,1955,1955,Dissolved into,817,Asia
 8152,Annam,1816,1883,Part of,815,Asia
-8152,Annam,1883,1887,Protectorate of,220,Asia
+8152,Annam,1883,1949,Protectorate of,220,Asia
 8152,Annam,1887,1949,Part of,810,Asia
 8152,Annam,1949,1954,Part of,815,Asia
 8152,Annam,1954,1954,Dissolved into,817,Asia
 8152,Annam,1954,1954,Dissolved into,816,Asia
 8153,Tonkin,1816,1883,Part of,815,Asia
-8153,Tonkin,1883,1887,Protectorate of,220,Asia
+8153,Tonkin,1883,1949,Protectorate of,220,Asia
 8153,Tonkin,1887,1949,Part of,810,Asia
 8153,Tonkin,1949,1954,Part of,815,Asia
 8153,Tonkin,1954,1954,Dissolved into,816,Asia
@@ -4019,28 +4021,24 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 8171,Paracel Is.,1999,2022,Claimed by,713,Asia
 8201,Perak,1816,1874,Sovereign (unrecognized),,Asia
 8201,Perak,1874,1895,Colony of,200,Asia
-8201,Perak,1874,1895,Part of,820,Asia
 8201,Perak,1895,1946,Part of,821,Asia
 8201,Perak,1942,1945,Occupied by,740,Asia
 8201,Perak,1945,1946,Occupied by,200,Asia
 8201,Perak,1946,2022,Part of,820,Asia
 8202,Selangore,1816,1875,Sovereign (unrecognized),,Asia
 8202,Selangore,1875,1895,Colony of,200,Asia
-8202,Selangore,1875,1895,Part of,820,Asia
 8202,Selangore,1895,1946,Part of,821,Asia
 8202,Selangore,1942,1945,Occupied by,740,Asia
 8202,Selangore,1945,1946,Colony of,200,Asia
 8202,Selangore,1946,2022,Part of,820,Asia
 8203,Pahang,1816,1888,Sovereign (unrecognized),,Asia
 8203,Pahang,1888,1895,Colony of,200,Asia
-8203,Pahang,1888,1895,Part of,820,Asia
 8203,Pahang,1895,1946,Part of,821,Asia
 8203,Pahang,1942,1945,Occupied by,740,Asia
 8203,Pahang,1945,1946,Colony of,200,Asia
 8203,Pahang,1946,2022,Part of,820,Asia
 8210,Negeri Sembilan,1816,1874,Vassal of,8221,Asia
 8210,Negeri Sembilan,1874,1895,Colony of,200,Asia
-8210,Negeri Sembilan,1874,1895,Part of,820,Asia
 8210,Negeri Sembilan,1895,1946,Part of,821,Asia
 8210,Negeri Sembilan,1942,1945,Occupied by,740,Asia
 8210,Negeri Sembilan,1945,1946,Colony of,200,Asia
@@ -4059,35 +4057,33 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 8217,Tampin,1816,1840,Part of,8212,Asia
 8217,Tampin,1840,1889,Unknown,,Asia
 8217,Tampin,1889,2022,Part of,8210,Asia
+8218,Manjung (Dindings),1816,1873,Part of,827,Asia
+8218,Manjung (Dindings),1874,1935,Colony of,200,Asia
+8218,Manjung (Dindings),1935,2022,Part of,8201,Asia
 8221,Johore,1816,1914,Sovereign (unrecognized),,Asia
 8221,Johore,1914,1942,Protectorate of,200,Asia
-8221,Johore,1914,1946,Part of,820,Asia
 8221,Johore,1942,1945,Occupied by,740,Asia
 8221,Johore,1945,1946,Colony of,200,Asia
 8221,Johore,1946,2022,Part of,820,Asia
 8222,Kedah,1816,1821,Part of,8272,Asia
 8222,Kedah,1821,1909,Part of,800,Asia
 8222,Kedah,1909,1942,Protectorate of,200,Asia
-8222,Kedah,1909,1946,Part of,820,Asia
 8222,Kedah,1942,1945,Occupied by,740,Asia
 8222,Kedah,1945,1946,Colony of,200,Asia
 8222,Kedah,1946,2022,Part of,820,Asia
 8223,Kelantan,1816,1909,Claimed by,800,Asia
 8223,Kelantan,1909,1942,Protectorate of,200,Asia
-8223,Kelantan,1909,1946,Part of,820,Asia
 8223,Kelantan,1942,1945,Occupied by,740,Asia
 8223,Kelantan,1945,1946,Colony of,200,Asia
 8223,Kelantan,1946,2022,Part of,820,Asia
 8224,Perlis,1816,1843,Part of,8222,Asia
 8224,Perlis,1843,1909,Sovereign (unrecognized),,Asia
 8224,Perlis,1909,1942,Protectorate of,200,Asia
-8224,Perlis,1909,1946,Part of,820,Asia
 8224,Perlis,1942,1945,Occupied by,740,Asia
 8224,Perlis,1945,1946,Colony of,200,Asia
 8224,Perlis,1946,2022,Part of,820,Asia
 8225,Trengganu,1816,1909,Part of,800,Asia
 8225,Trengganu,1909,1942,Protectorate of,200,Asia
-8225,Trengganu,1909,1946,Part of,820,Asia
 8225,Trengganu,1942,1945,Occupied by,740,Asia
 8225,Trengganu,1945,1946,Colony of,200,Asia
 8225,Trengganu,1946,2022,Part of,820,Asia
