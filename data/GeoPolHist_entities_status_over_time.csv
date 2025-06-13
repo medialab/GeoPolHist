@@ -1,4 +1,4 @@
-GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+AF8-GPH+AF8-code
+GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 0,League of Nations,1920,1945,International,
 1,United Nations,1945,2022,International,
 2,United States of America,1816,2022,Sovereign,
@@ -103,12 +103,12 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 59,Montserrat,1956,1958,Colony of,200
 59,Montserrat,1958,1962,Part of,50
 59,Montserrat,1962,2022,Colony of,200
-60,St. Kitts+AC0-Nevis,1882,1956,Part of,1063
-60,St. Kitts+AC0-Nevis,1956,1958,Colony of,200
-60,St. Kitts+AC0-Nevis,1958,1962,Part of,50
-60,St. Kitts+AC0-Nevis,1962,1967,Colony of,200
-60,St. Kitts+AC0-Nevis,1967,1983,Associated state of,200
-60,St. Kitts+AC0-Nevis,1983,2022,Sovereign,
+60,St. Kitts-Nevis,1882,1956,Part of,1063
+60,St. Kitts-Nevis,1956,1958,Colony of,200
+60,St. Kitts-Nevis,1958,1962,Part of,50
+60,St. Kitts-Nevis,1962,1967,Colony of,200
+60,St. Kitts-Nevis,1967,1983,Associated state of,200
+60,St. Kitts-Nevis,1983,2022,Sovereign,
 65,Guadeloupe,1816,1816,Occupied by,200
 65,Guadeloupe,1816,1947,Colony of,220
 65,Guadeloupe,1947,2022,Part of,220
@@ -186,7 +186,7 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 135,Peru,1836,1839,Part of,136
 135,Peru,1880,1883,Occupied by,155
 135,Peru,1839,2022,Sovereign,
-136,Bolivia+AC0-Peru Confederation,1836,1839,Sovereign (unrecognized),
+136,Bolivia-Peru Confederation,1836,1839,Sovereign (unrecognized),
 140,Brazil,1816,1822,Colony of,235
 140,Brazil,1822,2022,Sovereign,
 145,Bolivia,1816,1825,Part of,1160
@@ -251,8 +251,8 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 240,Hanover,1866,1946,Part of,239
 241,Anhalt Dessau,1816,1863,Sovereign (limited),
 241,Anhalt Dessau,1863,1863,Dissolved into,249
-242,Anhalt K+//3//Q-then,1816,1853,Sovereign (limited),
-242,Anhalt K+//3//Q-then,1853,1853,Dissolved into,241
+242,Anhalt Köthen,1816,1853,Sovereign (limited),
+242,Anhalt Köthen,1853,1853,Dissolved into,241
 243,Anhalt Bernburg,1816,1863,Sovereign (limited),
 243,Anhalt Bernburg,1863,1863,Dissolved into,249
 244,Brunswick,1816,1871,Sovereign (limited),
@@ -310,10 +310,10 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 256,Saar,1990,2022,Part of,255
 257,Oldenburg,1816,1867,Sovereign (limited),
 257,Oldenburg,1867,1945,Part of,255
-258,+ACI-Reuss, Older Line+ACI-,1816,1867,Sovereign (limited),
-258,+ACI-Reuss, Older Line+ACI-,1867,1945,Part of,255
-259,+ACI-Reuss, Younger Line+ACI-,1816,1867,Sovereign (limited),
-259,+ACI-Reuss, Younger Line+ACI-,1867,1945,Part of,255
+258,"Reuss, Older Line",1816,1867,Sovereign (limited),
+258,"Reuss, Older Line",1867,1945,Part of,255
+259,"Reuss, Younger Line",1816,1867,Sovereign (limited),
+259,"Reuss, Younger Line",1867,1945,Part of,255
 260,German Federal Republic,1945,1949,Occupied by,2
 260,German Federal Republic,1949,1955,Sovereign (unrecognized),
 260,German Federal Republic,1955,1990,Sovereign,
@@ -369,13 +369,13 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 274,Schaumburg Lippe,1816,1867,Sovereign (limited),
 274,Schaumburg Lippe,1867,1946,Part of,255
 274,Schaumburg Lippe,1946,1946,Dissolved into,2603
-275,People+//3//f/9-s State of Hesse (Hesse Grand Ducal),1816,1867,Sovereign,
-275,People+//3//f/9-s State of Hesse (Hesse Grand Ducal),1867,1945,Part of,239
-275,People+//3//f/9-s State of Hesse (Hesse Grand Ducal),1945,1945,Dissolved into,2602
-275,People+//3//f/9-s State of Hesse (Hesse Grand Ducal),1946,1946,Dissolved into,2605
-276,L+//3//Q-beck,1816,1867,Sovereign (limited),
-276,L+//3//Q-beck,1867,1937,Part of,255
-276,L+//3//Q-beck,1937,1937,Dissolved into,2555
+275,People’s State of Hesse (Hesse Grand Ducal),1816,1867,Sovereign,
+275,People’s State of Hesse (Hesse Grand Ducal),1867,1945,Part of,239
+275,People’s State of Hesse (Hesse Grand Ducal),1945,1945,Dissolved into,2602
+275,People’s State of Hesse (Hesse Grand Ducal),1946,1946,Dissolved into,2605
+276,Lübeck,1816,1867,Sovereign (limited),
+276,Lübeck,1867,1937,Part of,255
+276,Lübeck,1937,1937,Dissolved into,2555
 277,Hesse Homburg,1817,1866,Sovereign (limited),
 277,Hesse Homburg,1866,1945,Part of,275
 277,Hesse Homburg,1866,1945,Part of,239
@@ -401,13 +401,13 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 291,Danzig (Free City of Danzig),1920,1939,Mandated to,0
 291,Danzig (Free City of Danzig),1939,1945,Part of,255
 291,Danzig (Free City of Danzig),1945,2022,Part of,290
-300,Austria+AC0-Hungary (Austrian Empire),1816,1867,Sovereign,
-300,Austria+AC0-Hungary (Austrian Empire),1867,1918,Sovereign,
-300,Austria+AC0-Hungary (Austrian Empire),1918,1918,Dissolved into,290
-300,Austria+AC0-Hungary (Austrian Empire),1918,1918,Dissolved into,305
-300,Austria+AC0-Hungary (Austrian Empire),1918,1918,Dissolved into,310
-300,Austria+AC0-Hungary (Austrian Empire),1918,1918,Dissolved into,315
-300,Austria+AC0-Hungary (Austrian Empire),1918,1918,Dissolved into,345
+300,Austria-Hungary (Austrian Empire),1816,1867,Sovereign,
+300,Austria-Hungary (Austrian Empire),1867,1918,Sovereign,
+300,Austria-Hungary (Austrian Empire),1918,1918,Dissolved into,290
+300,Austria-Hungary (Austrian Empire),1918,1918,Dissolved into,305
+300,Austria-Hungary (Austrian Empire),1918,1918,Dissolved into,310
+300,Austria-Hungary (Austrian Empire),1918,1918,Dissolved into,315
+300,Austria-Hungary (Austrian Empire),1918,1918,Dissolved into,345
 305,Austria,1816,1918,Part of,300
 305,Austria,1918,1919,Sovereign (unrecognized),
 305,Austria,1919,1938,Sovereign,
@@ -500,20 +500,20 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 344,Croatia,1941,1945,Part of,310
 344,Croatia,1945,1991,Part of,345
 344,Croatia,1991,2022,Sovereign,
-345,+ACI-Yugoslavia (Kingdom of Serbs, Croats and Slovenes)+ACI-,1918,1941,Sovereign,
-345,+ACI-Yugoslavia (Kingdom of Serbs, Croats and Slovenes)+ACI-,1941,1944,Occupied by,305
-345,+ACI-Yugoslavia (Kingdom of Serbs, Croats and Slovenes)+ACI-,1941,1944,Occupied by,255
-345,+ACI-Yugoslavia (Kingdom of Serbs, Croats and Slovenes)+ACI-,1941,1944,Occupied by,325
-345,+ACI-Yugoslavia (Kingdom of Serbs, Croats and Slovenes)+ACI-,1941,1944,Occupied by,310
-345,+ACI-Yugoslavia (Kingdom of Serbs, Croats and Slovenes)+ACI-,1945,1992,Sovereign,
-345,+ACI-Yugoslavia (Kingdom of Serbs, Croats and Slovenes)+ACI-,1992,1992,Dissolved into,348
-346,Bosnia+AC0-Herzegovina,1816,1878,Part of,640
-346,Bosnia+AC0-Herzegovina,1878,1908,Occupied by,300
-346,Bosnia+AC0-Herzegovina,1908,1918,Part of,300
-346,Bosnia+AC0-Herzegovina,1918,1941,Part of,345
-346,Bosnia+AC0-Herzegovina,1941,1945,Part of,3440
-346,Bosnia+AC0-Herzegovina,1945,1992,Part of,345
-346,Bosnia+AC0-Herzegovina,1992,2022,Sovereign,
+345,"Yugoslavia (Kingdom of Serbs, Croats and Slovenes)",1918,1941,Sovereign,
+345,"Yugoslavia (Kingdom of Serbs, Croats and Slovenes)",1941,1944,Occupied by,305
+345,"Yugoslavia (Kingdom of Serbs, Croats and Slovenes)",1941,1944,Occupied by,255
+345,"Yugoslavia (Kingdom of Serbs, Croats and Slovenes)",1941,1944,Occupied by,325
+345,"Yugoslavia (Kingdom of Serbs, Croats and Slovenes)",1941,1944,Occupied by,310
+345,"Yugoslavia (Kingdom of Serbs, Croats and Slovenes)",1945,1992,Sovereign,
+345,"Yugoslavia (Kingdom of Serbs, Croats and Slovenes)",1992,1992,Dissolved into,348
+346,Bosnia-Herzegovina,1816,1878,Part of,640
+346,Bosnia-Herzegovina,1878,1908,Occupied by,300
+346,Bosnia-Herzegovina,1908,1918,Part of,300
+346,Bosnia-Herzegovina,1918,1941,Part of,345
+346,Bosnia-Herzegovina,1941,1945,Part of,3440
+346,Bosnia-Herzegovina,1945,1992,Part of,345
+346,Bosnia-Herzegovina,1992,2022,Sovereign,
 347,Kosovo,1816,1912,Part of,640
 347,Kosovo,1912,1992,Part of,345
 347,Kosovo,1992,1999,Part of,348
@@ -604,9 +604,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 374,Transcaucasia,1918,1920,Part of,371
 375,Finland,1816,1917,Part of,365
 375,Finland,1917,2022,Sovereign,
-376,Chechen+AC0-Ingush Republic,1934,1991,Part of,365
-376,Chechen+AC0-Ingush Republic,1991,1991,Dissolved into,3761
-376,Chechen+AC0-Ingush Republic,1991,1991,Dissolved into,3762
+376,Chechen-Ingush Republic,1934,1991,Part of,365
+376,Chechen-Ingush Republic,1991,1991,Dissolved into,3761
+376,Chechen-Ingush Republic,1991,1991,Dissolved into,3762
 380,Sweden,1816,2022,Sovereign,
 385,Norway,1816,1905,Sovereign (limited),
 385,Norway,1905,1940,Sovereign,
@@ -629,12 +629,12 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 401,Madeira Isles,1976,2022,Dependency of,235
 402,Cape Verde,1816,1975,Colony of,235
 402,Cape Verde,1975,2022,Sovereign,
-403,Sao Tome+AC0-Principe,1816,1975,Colony of,235
-403,Sao Tome+AC0-Principe,1975,2022,Sovereign,
-404,Guinea+AC0-Bissau (Portuguese Guinea),1816,1852,Part of,4041
-404,Guinea+AC0-Bissau (Portuguese Guinea),1816,1879,Part of,402
-404,Guinea+AC0-Bissau (Portuguese Guinea),1879,1974,Colony of,235
-404,Guinea+AC0-Bissau (Portuguese Guinea),1974,2022,Sovereign,
+403,Sao Tome-Principe,1816,1975,Colony of,235
+403,Sao Tome-Principe,1975,2022,Sovereign,
+404,Guinea-Bissau (Portuguese Guinea),1816,1852,Part of,4041
+404,Guinea-Bissau (Portuguese Guinea),1816,1879,Part of,402
+404,Guinea-Bissau (Portuguese Guinea),1879,1974,Colony of,235
+404,Guinea-Bissau (Portuguese Guinea),1974,2022,Sovereign,
 410,Canary Is.,1816,1821,Colony of,230
 410,Canary Is.,1821,2022,Part of,230
 411,Equatorial Guinea (Spanish Guinea),1816,1960,Colony of,230
@@ -790,10 +790,10 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 512,Tanzania (Tanganyika),1916,1920,Occupied by,200
 512,Tanzania (Tanganyika),1920,1961,Mandated to,200
 512,Tanzania (Tanganyika),1961,2022,Sovereign,
-515,Ruanda+AC0-Urundi,1916,1922,Occupied by,211
-515,Ruanda+AC0-Urundi,1922,1962,Mandated to,211
-515,Ruanda+AC0-Urundi,1962,1962,Dissolved into,516
-515,Ruanda+AC0-Urundi,1962,1962,Dissolved into,517
+515,Ruanda-Urundi,1916,1922,Occupied by,211
+515,Ruanda-Urundi,1922,1962,Mandated to,211
+515,Ruanda-Urundi,1962,1962,Dissolved into,516
+515,Ruanda-Urundi,1962,1962,Dissolved into,517
 516,Burundi,1816,1890,Sovereign (unrecognized),
 516,Burundi,1890,1916,Part of,510
 516,Burundi,1916,1962,Part of,515
@@ -950,15 +950,15 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 620,Libya,1943,1951,Occupied by,200
 620,Libya,1943,1951,Occupied by,220
 620,Libya,1951,2022,Sovereign,
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1816,1821,Part of,6251
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1816,1821,Part of,6252
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1816,1821,Part of,640
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1821,1882,Part of,651
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1882,1885,Occupied by,200
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1885,1899,Sovereign (unrecognized),
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1899,1956,Protectorate of,200
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1899,1956,Protectorate of,651
-625,Sudan (Anglo+AC0-Egyptian Sudan) (Mahdist State),1956,2022,Sovereign,
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1816,1821,Part of,6251
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1816,1821,Part of,6252
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1816,1821,Part of,640
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1821,1882,Part of,651
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1882,1885,Occupied by,200
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1885,1899,Sovereign (unrecognized),
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1899,1956,Protectorate of,200
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1899,1956,Protectorate of,651
+625,Sudan (Anglo-Egyptian Sudan) (Mahdist State),1956,2022,Sovereign,
 626,South Sudan,2011,2022,Sovereign,
 630,Iran (Persia),1816,1855,Sovereign (unrecognized),
 630,Iran (Persia),1855,2022,Sovereign,
@@ -1039,6 +1039,7 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 680,Yemen People's Republic (South Yemen),1967,1990,Sovereign,
 680,Yemen People's Republic (South Yemen),1990,1990,Dissolved into,679
 681,Aden,1816,1839,Part of,6821
+681,Aden,1839,1937,Part of,750
 681,Aden,1937,1963,Colony of,200
 681,Aden,1963,1967,Part of,6801
 681,Aden,1967,1990,Part of,680
@@ -1204,9 +1205,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 815,Vietnam,1954,1954,Dissolved into,816
 815,Vietnam,1955,1955,Dissolved into,817
 815,Vietnam,1975,2022,Sovereign,
-816,+ACI-Vietnam, Democratic Rep.+ACI-,1945,1954,Colony of,220
-816,+ACI-Vietnam, Democratic Rep.+ACI-,1954,1975,Sovereign,
-816,+ACI-Vietnam, Democratic Rep.+ACI-,1975,1975,Dissolved into,815
+816,"Vietnam, Democratic Rep.",1945,1954,Colony of,220
+816,"Vietnam, Democratic Rep.",1954,1975,Sovereign,
+816,"Vietnam, Democratic Rep.",1975,1975,Dissolved into,815
 817,Republic of Vietnam,1955,1975,Sovereign,
 817,Republic of Vietnam,1975,1975,Dissolved into,815
 820,Malaysia (British Malaya),1826,1946,Informal,
@@ -1343,10 +1344,10 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 950,Fiji,1871,1874,Sovereign (unrecognized),
 950,Fiji,1874,1970,Colony of,200
 950,Fiji,1970,2022,Sovereign,
-955,Tonga (Ha+//3//Q-apai),1820,1900,Sovereign (unrecognized),
-955,Tonga (Ha+//3//Q-apai),1900,1970,Protectorate of,200
-955,Tonga (Ha+//3//Q-apai),1970,1999,Sovereign (unrecognized),
-955,Tonga (Ha+//3//Q-apai),1999,2022,Sovereign,
+955,Tonga (Haʻapai),1820,1900,Sovereign (unrecognized),
+955,Tonga (Haʻapai),1900,1970,Protectorate of,200
+955,Tonga (Haʻapai),1970,1999,Sovereign (unrecognized),
+955,Tonga (Haʻapai),1999,2022,Sovereign,
 960,French Polynesia,1816,1842,Sovereign (unrecognized),
 960,French Polynesia,1842,1903,Protectorate of,220
 960,French Polynesia,1903,2022,Colony of,220
@@ -1660,8 +1661,8 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 1156,Araucania,1860,1862,Sovereign (unrecognized),
 1156,Araucania,1862,1884,Unknown,
 1156,Araucania,1884,2022,Part of,155
-1160,R+//3//Q-o de la Plata United Provinces,1816,1835,Sovereign (unrecognized),
-1160,R+//3//Q-o de la Plata United Provinces,1835,1835,Dissolved into,160
+1160,Río de la Plata United Provinces,1816,1835,Sovereign (unrecognized),
+1160,Río de la Plata United Provinces,1835,1835,Dissolved into,160
 1161,Buenos Aires,1816,1852,Part of,160
 1161,Buenos Aires,1852,1861,Sovereign (unrecognized),
 1161,Buenos Aires,1861,2022,Part of,160
@@ -1741,13 +1742,14 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 2249,Heligoland,1816,1890,Colony of,200
 2249,Heligoland,1890,1945,Part of,255
 2251,Neuchatel,1816,2022,Part of,225
-2311,Spain+AC0-Gibraltar Neutral Zone,1909,2022,Neutral or demilitarized zone of,230
-2311,Spain+AC0-Gibraltar Neutral Zone,1909,2022,Neutral or demilitarized zone of,200
+2301,Balearic Islands,1816,2022,Part of,230
+2311,Spain-Gibraltar Neutral Zone,1909,2022,Neutral or demilitarized zone of,230
+2311,Spain-Gibraltar Neutral Zone,1909,2022,Neutral or demilitarized zone of,200
 2333,Ile des Faisans,1816,2022,Neutral or demilitarized zone of,220
 2333,Ile des Faisans,1816,2022,Neutral or demilitarized zone of,230
-2390,Posen+AC0-West Prussia,1922,1938,Part of,239
-2390,Posen+AC0-West Prussia,1938,1938,Dissolved into,255
-2390,Posen+AC0-West Prussia,1947,1947,Dissolved into,290
+2390,Posen-West Prussia,1922,1938,Part of,239
+2390,Posen-West Prussia,1938,1938,Dissolved into,255
+2390,Posen-West Prussia,1947,1947,Dissolved into,290
 2481,Bergedorf,1816,1867,Part of,248
 2481,Bergedorf,1867,1945,Part of,255
 2482,Schleswig Plebiscite Zone,1867,1920,Part of,2555
@@ -1772,10 +1774,10 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 2554,Brandenburg,1949,1952,Part of,265
 2554,Brandenburg,1952,1952,Dissolved into,265
 2554,Brandenburg,1990,2022,Part of,255
-2555,Schleswig+AC0-Holstein,1867,1945,Part of,239
-2555,Schleswig+AC0-Holstein,1945,1949,Part of,200
-2555,Schleswig+AC0-Holstein,1949,1990,Part of,260
-2555,Schleswig+AC0-Holstein,1990,2022,Part of,255
+2555,Schleswig-Holstein,1867,1945,Part of,239
+2555,Schleswig-Holstein,1945,1949,Part of,200
+2555,Schleswig-Holstein,1949,1990,Part of,260
+2555,Schleswig-Holstein,1990,2022,Part of,255
 2556,Rhineland,1816,1871,Part of,239
 2556,Rhineland,1871,1919,Part of,255
 2556,Rhineland,1919,1930,Occupied by,200
@@ -1861,19 +1863,19 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 3153,Carpathian Ruthenia,1918,1919,Part of,310
 3153,Carpathian Ruthenia,1919,1939,Part of,315
 3153,Carpathian Ruthenia,1939,1939,Dissolved into,3154
-3154,Carpatho+AC0-Ukraine,1939,1945,Part of,310
-3154,Carpatho+AC0-Ukraine,1945,1991,Part of,365
-3154,Carpatho+AC0-Ukraine,1991,2022,Part of,369
+3154,Carpatho-Ukraine,1939,1945,Part of,310
+3154,Carpatho-Ukraine,1945,1991,Part of,365
+3154,Carpatho-Ukraine,1991,2022,Part of,369
 3253,Milan,1816,1866,Part of,3262
 3253,Milan,1866,1866,Dissolved into,325
 3261,Republic of St. Mark,1816,1848,Part of,3262
 3261,Republic of St. Mark,1848,1849,Sovereign (unrecognized),
 3261,Republic of St. Mark,1849,1866,Part of,3262
 3261,Republic of St. Mark,1866,1866,Dissolved into,325
-3262,Lombardy+AC0-Venetia,1816,1859,Part of,300
-3262,Lombardy+AC0-Venetia,1859,1861,Part of,324
-3262,Lombardy+AC0-Venetia,1861,1866,Part of,325
-3262,Lombardy+AC0-Venetia,1866,1866,Dissolved into,325
+3262,Lombardy-Venetia,1816,1859,Part of,300
+3262,Lombardy-Venetia,1859,1861,Part of,324
+3262,Lombardy-Venetia,1861,1866,Part of,325
+3262,Lombardy-Venetia,1866,1866,Dissolved into,325
 3271,Ancona,1816,1832,Part of,327
 3271,Ancona,1832,1839,Occupied by,220
 3271,Ancona,1839,1861,Part of,327
@@ -1881,12 +1883,12 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 3291,Sicily,1816,1848,Part of,329
 3291,Sicily,1848,1861,Part of,329
 3291,Sicily,1861,2022,Part of,325
-3326,Venezia+AC0-Giulia,1816,1918,Part of,300
-3326,Venezia+AC0-Giulia,1918,1945,Part of,325
-3326,Venezia+AC0-Giulia,1945,1947,Occupied by,2
-3326,Venezia+AC0-Giulia,1947,2022,Part of,325
-3327,+ACI-S.M.O.M. (Sovereign +ACY- Military Order of Jerusalem, Rhodes and Malta)+ACI-,1816,1822,Part of,327
-3327,+ACI-S.M.O.M. (Sovereign +ACY- Military Order of Jerusalem, Rhodes and Malta)+ACI-,1822,2022,Sovereign (unrecognized),
+3326,Venezia-Giulia,1816,1918,Part of,300
+3326,Venezia-Giulia,1918,1945,Part of,325
+3326,Venezia-Giulia,1945,1947,Occupied by,2
+3326,Venezia-Giulia,1947,2022,Part of,325
+3327,"S.M.O.M. (Sovereign & Military Order of Jerusalem, Rhodes and Malta)",1816,1822,Part of,327
+3327,"S.M.O.M. (Sovereign & Military Order of Jerusalem, Rhodes and Malta)",1822,2022,Sovereign (unrecognized),
 3340,Scutari,1816,1912,Part of,640
 3340,Scutari,1912,1914,Occupied by,339
 3340,Scutari,1914,2022,Part of,339
@@ -1975,10 +1977,10 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 3379,Aland Is.,1918,1921,Part of,375
 3379,Aland Is.,1921,2022,Dependency of,375
 3379,Aland Is.,1918,1918,Occupied by,380
-3380,Hang+//3//Q-,1816,1917,Part of,365
-3380,Hang+//3//Q-,1917,1940,Part of,375
-3380,Hang+//3//Q-,1940,1944,Leased to,365
-3380,Hang+//3//Q-,1944,2022,Part of,375
+3380,Hangö,1816,1917,Part of,365
+3380,Hangö,1917,1940,Part of,375
+3380,Hangö,1940,1944,Leased to,365
+3380,Hangö,1944,2022,Part of,375
 3381,Elba,1816,1860,Part of,337
 3381,Elba,1861,1944,Part of,325
 3381,Elba,1944,1945,Occupied by,220
@@ -1989,8 +1991,8 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 3387,Jan Mayen Is.,1921,2022,Dependency of,385
 3387,Jan Mayen Is.,1941,1946,Occupied by,2
 3440,Independent State of Croatia,1941,1945,Sovereign (unrecognized),
-3450,+ACI-State of Slovenes, Croats and Serbs+ACI-,1918,1918,Sovereign (unrecognized),
-3450,+ACI-State of Slovenes, Croats and Serbs+ACI-,1918,1918,Dissolved into,345
+3450,"State of Slovenes, Croats and Serbs",1918,1918,Sovereign (unrecognized),
+3450,"State of Slovenes, Croats and Serbs",1918,1918,Dissolved into,345
 3451,Serb Republic of Krajina,1991,1995,Sovereign (unrecognized),
 3451,Serb Republic of Krajina,1995,1995,Dissolved into,344
 3452,Serb Republic of Bosnia,1992,2022,Part of,346
@@ -2120,13 +2122,13 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 3761,Chechen Republic,1921,1934,Part of,365
 3761,Chechen Republic,1934,1991,Part of,376
 3761,Chechen Republic,1991,2022,Part of,365
-3762,+ACI-Ingushetia, Republic of+ACI-,1816,1917,Colony of,365
-3762,+ACI-Ingushetia, Republic of+ACI-,1917,1921,Part of,3377
-3762,+ACI-Ingushetia, Republic of+ACI-,1921,1934,Part of,365
-3762,+ACI-Ingushetia, Republic of+ACI-,1934,1991,Part of,376
-3762,+ACI-Ingushetia, Republic of+ACI-,1991,2022,Part of,365
-3805,Sweden+AC0-Norway Neutral Zone,1816,1905,Part of,380
-3805,Sweden+AC0-Norway Neutral Zone,1905,2022,Neutral or demilitarized zone of,380
+3762,"Ingushetia, Republic of",1816,1917,Colony of,365
+3762,"Ingushetia, Republic of",1917,1921,Part of,3377
+3762,"Ingushetia, Republic of",1921,1934,Part of,365
+3762,"Ingushetia, Republic of",1934,1991,Part of,376
+3762,"Ingushetia, Republic of",1991,2022,Part of,365
+3805,Sweden-Norway Neutral Zone,1816,1905,Part of,380
+3805,Sweden-Norway Neutral Zone,1905,2022,Neutral or demilitarized zone of,380
 3901,Bornholm I.,1816,2022,Part of,390
 3901,Bornholm I.,1945,1946,Occupied by,365
 4031,Principe,1816,1995,Part of,403
@@ -2161,11 +2163,11 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 4113,Elobey Is.,1816,1843,Unknown,
 4113,Elobey Is.,1843,1926,Part of,4114
 4113,Elobey Is.,1926,2022,Part of,411
-4114,+ACI-Elobey, Ann+//3//Q-bon and Corisco+ACI-,1843,1903,Protectorate of,230
-4114,+ACI-Elobey, Ann+//3//Q-bon and Corisco+ACI-,1903,1926,Colony of,230
-4114,+ACI-Elobey, Ann+//3//Q-bon and Corisco+ACI-,1926,1926,Dissolved into,4111
-4114,+ACI-Elobey, Ann+//3//Q-bon and Corisco+ACI-,1926,1926,Dissolved into,4112
-4114,+ACI-Elobey, Ann+//3//Q-bon and Corisco+ACI-,1926,1926,Dissolved into,4113
+4114,"Elobey, Annóbon and Corisco",1843,1903,Protectorate of,230
+4114,"Elobey, Annóbon and Corisco",1903,1926,Colony of,230
+4114,"Elobey, Annóbon and Corisco",1926,1926,Dissolved into,4111
+4114,"Elobey, Annóbon and Corisco",1926,1926,Dissolved into,4112
+4114,"Elobey, Annóbon and Corisco",1926,1926,Dissolved into,4113
 4321,Tokolor Empire,1848,1893,Sovereign (unrecognized),
 4321,Tokolor Empire,1893,1895,Occupied by,220
 4321,Tokolor Empire,1895,1895,Dissolved into,432
@@ -2260,18 +2262,18 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 4354,Trarza,1816,1902,Sovereign (unrecognized),
 4354,Trarza,1902,1904,Protectorate of,220
 4354,Trarza,1904,2022,Part of,435
-4361,A+//3//Q-r,1816,1893,Sovereign (unrecognized),
-4361,A+//3//Q-r,1893,1904,Occupied by,220
-4361,A+//3//Q-r,1904,2022,Part of,436
+4361,Aïr,1816,1893,Sovereign (unrecognized),
+4361,Aïr,1893,1904,Occupied by,220
+4361,Aïr,1904,2022,Part of,436
 4362,Zinder,1816,1893,Vassal of,4763
 4362,Zinder,1893,1904,Occupied by,220
 4362,Zinder,1904,2022,Part of,436
 4371,Odienne,1816,1880,Unknown,
 4371,Odienne,1880,1898,Part of,4393
 4371,Odienne,1898,2022,Part of,437
-4372,Grand+AC0-Bassam,1816,1843,Discovered,
-4372,Grand+AC0-Bassam,1843,1871,Possession of,220
-4372,Grand+AC0-Bassam,1871,2022,Part of,437
+4372,Grand-Bassam,1816,1843,Discovered,
+4372,Grand-Bassam,1843,1871,Possession of,220
+4372,Grand-Bassam,1871,2022,Part of,437
 4373,Assinie,1816,1843,Discovered,
 4373,Assinie,1843,1871,Possession of,220
 4373,Assinie,1871,2022,Part of,437
@@ -2310,8 +2312,8 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 4513,Banana Islands,1820,2022,Part of,451
 4514,Bumpe,1816,1888,Unknown,
 4514,Bumpe,1888,2022,Part of,451
-4515,Koya+AC0-Temne,1816,1896,Sovereign (unrecognized),
-4515,Koya+AC0-Temne,1896,2022,Part of,451
+4515,Koya-Temne,1816,1896,Sovereign (unrecognized),
+4515,Koya-Temne,1896,2022,Part of,451
 4516,Shenge (Plantation Island),1816,1888,Discovered,
 4516,Shenge (Plantation Island),1888,2022,Part of,451
 4521,Asante (Ashanti Empire),1816,1896,Sovereign (unrecognized),
@@ -2358,7 +2360,7 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 4535,Dutch Posts (Gold Coast),1872,2022,Part of,452
 4536,Northern Territories (Gold Coast),1897,1901,Protectorate of,200
 4536,Northern Territories (Gold Coast),1901,2022,Part of,452
-4559,Gold Coast+AC0-Togoland (Neutral Zone),1887,1899,Neutral or demilitarized zone of,200
+4559,Gold Coast-Togoland (Neutral Zone),1887,1899,Neutral or demilitarized zone of,200
 4711,Bamum (Bamoun),1816,1884,Sovereign (unrecognized),
 4711,Bamum (Bamoun),1884,1919,Part of,470
 4711,Bamum (Bamoun),1919,2022,Part of,471
@@ -2655,17 +2657,17 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 5306,Harar,1882,1884,Occupied by,200
 5306,Harar,1884,1887,Part of,530
 5306,Harar,1887,1887,Dissolved into,530
-5307,+ACI-Jijega, Reserve Areas and Haud+ACI-,1816,1887,Vassal of,5306
-5307,+ACI-Jijega, Reserve Areas and Haud+ACI-,1887,1942,Part of,530
-5307,+ACI-Jijega, Reserve Areas and Haud+ACI-,1942,1954,Occupied by,200
-5307,+ACI-Jijega, Reserve Areas and Haud+ACI-,1954,2022,Part of,530
+5307,"Jijega, Reserve Areas and Haud",1816,1887,Vassal of,5306
+5307,"Jijega, Reserve Areas and Haud",1887,1942,Part of,530
+5307,"Jijega, Reserve Areas and Haud",1942,1954,Occupied by,200
+5307,"Jijega, Reserve Areas and Haud",1954,2022,Part of,530
 5309,Kaffa,1816,1897,Sovereign (unrecognized),
 5309,Kaffa,1897,2022,Part of,530
-5321,Limmu+AC0-Ennarea,1816,1891,Sovereign (unrecognized),
-5321,Limmu+AC0-Ennarea,1891,2022,Part of,530
-5322,Jimma+AC0-Kakka (Jimma Abba Jifar),1830,1884,Sovereign (unrecognized),
-5322,Jimma+AC0-Kakka (Jimma Abba Jifar),1884,1932,Vassal of,530
-5322,Jimma+AC0-Kakka (Jimma Abba Jifar),1932,2022,Part of,530
+5321,Limmu-Ennarea,1816,1891,Sovereign (unrecognized),
+5321,Limmu-Ennarea,1891,2022,Part of,530
+5322,Jimma-Kakka (Jimma Abba Jifar),1830,1884,Sovereign (unrecognized),
+5322,Jimma-Kakka (Jimma Abba Jifar),1884,1932,Vassal of,530
+5322,Jimma-Kakka (Jimma Abba Jifar),1932,2022,Part of,530
 5323,Gera,1816,1835,Unknown,
 5323,Gera,1835,1887,Sovereign (unrecognized),
 5323,Gera,1887,2022,Part of,530
@@ -2712,9 +2714,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 5517,Kazembe,1911,2022,Part of,551
 5518,Northeastern Rhodesia,1900,1911,Protectorate of,200
 5518,Northeastern Rhodesia,1911,1911,Dissolved into,551
-5519,Barotseland+AF8-North+AF8-Western Rhodesia (Northwestern Rhodesia),1891,1899,Possession of,200
-5519,Barotseland+AF8-North+AF8-Western Rhodesia (Northwestern Rhodesia),1899,1911,Protectorate of,200
-5519,Barotseland+AF8-North+AF8-Western Rhodesia (Northwestern Rhodesia),1911,1911,Dissolved into,551
+5519,Barotseland_North_Western Rhodesia (Northwestern Rhodesia),1891,1899,Possession of,200
+5519,Barotseland_North_Western Rhodesia (Northwestern Rhodesia),1899,1911,Protectorate of,200
+5519,Barotseland_North_Western Rhodesia (Northwestern Rhodesia),1911,1911,Dissolved into,551
 5521,Rozwi,1816,1838,Sovereign (unrecognized),
 5521,Rozwi,1838,1838,Part of,5522
 5522,Ndebele (Matabeleland),1838,1890,Sovereign (unrecognized),
@@ -2744,10 +2746,10 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 5603,Mtetwa,1818,1910,Part of,5601
 5606,Prince Edward and Marion Is.,1816,1919,Possession of,200
 5606,Prince Edward and Marion Is.,1919,2022,Possession of,560
-5611,+ACI-Griqualand, West+ACI-,1816,1871,Sovereign (unrecognized),
-5611,+ACI-Griqualand, West+ACI-,1871,1880,Colony of,200
-5611,+ACI-Griqualand, West+ACI-,1880,1910,Part of,561
-5611,+ACI-Griqualand, West+ACI-,1910,2022,Part of,560
+5611,"Griqualand, West",1816,1871,Sovereign (unrecognized),
+5611,"Griqualand, West",1871,1880,Colony of,200
+5611,"Griqualand, West",1880,1910,Part of,561
+5611,"Griqualand, West",1910,2022,Part of,560
 5612,British Bechuanaland,1885,1895,Colony of,200
 5612,British Bechuanaland,1895,1910,Part of,561
 5612,British Bechuanaland,1910,2022,Part of,560
@@ -2774,10 +2776,10 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 5622,New Republic,1884,1888,Sovereign (unrecognized),
 5622,New Republic,1888,1903,Part of,563
 5622,New Republic,1903,1903,Dissolved into,562
-5641,+ACI-Griqualand, East+ACI-,1816,1869,Part of,5611
-5641,+ACI-Griqualand, East+ACI-,1869,1874,Sovereign (unrecognized),
-5641,+ACI-Griqualand, East+ACI-,1874,1879,Colony of,200
-5641,+ACI-Griqualand, East+ACI-,1879,1910,Part of,561
+5641,"Griqualand, East",1816,1869,Part of,5611
+5641,"Griqualand, East",1869,1874,Sovereign (unrecognized),
+5641,"Griqualand, East",1874,1879,Colony of,200
+5641,"Griqualand, East",1879,1910,Part of,561
 5642,Winburg Republic (Natalia Republic),1839,1843,Sovereign (unrecognized),
 5642,Winburg Republic (Natalia Republic),1843,1843,Dissolved into,564
 5651,Walvis Bay,1816,1878,Discovered,
@@ -2898,14 +2900,14 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 6065,Penon de Velez,1847,1913,Part of,6067
 6065,Penon de Velez,1913,1956,Part of,602
 6065,Penon de Velez,1956,2022,Dependency of,230
-6066,Morocco+AC0-Melilla Neutral Zone,1860,1912,Neutral or demilitarized zone of,600
-6066,Morocco+AC0-Melilla Neutral Zone,1912,1956,Part of,602
-6067,Captaincy+AC0-general of north Africa,1816,1847,Part of,6062
-6067,Captaincy+AC0-general of north Africa,1847,1913,Colony of,230
-6067,Captaincy+AC0-general of north Africa,1913,1956,Part of,602
-6067,Captaincy+AC0-general of north Africa,1956,2022,Part of,230
-6090,R+//3//Q-o de Oro,1884,1958,Colony of,230
-6090,R+//3//Q-o de Oro,1958,1958,Dissolved into,609
+6066,Morocco-Melilla Neutral Zone,1860,1912,Neutral or demilitarized zone of,600
+6066,Morocco-Melilla Neutral Zone,1912,1956,Part of,602
+6067,Captaincy-general of north Africa,1816,1847,Part of,6062
+6067,Captaincy-general of north Africa,1847,1913,Colony of,230
+6067,Captaincy-general of north Africa,1913,1956,Part of,602
+6067,Captaincy-general of north Africa,1956,2022,Part of,230
+6090,Río de Oro,1884,1958,Colony of,230
+6090,Río de Oro,1958,1958,Dissolved into,609
 6151,Abdelkader Emirate,1816,1832,Part of,615
 6151,Abdelkader Emirate,1832,1847,Sovereign (unrecognized),
 6151,Abdelkader Emirate,1847,1847,Dissolved into,615
@@ -2984,19 +2986,19 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 6404,Adalia,1816,1919,Part of,640
 6404,Adalia,1919,1921,Occupied by,325
 6404,Adalia,1921,2022,Part of,640
-6405,Dardanelles+AC0-Istanbul,1816,1919,Part of,640
-6405,Dardanelles+AC0-Istanbul,1919,1921,Occupied by,200
-6405,Dardanelles+AC0-Istanbul,1921,2022,Part of,640
-6451,Iraq+AC0-Saudi Arabia Neutral Zone,1920,1922,Claimed by,670
-6451,Iraq+AC0-Saudi Arabia Neutral Zone,1920,1922,Claimed by,645
-6451,Iraq+AC0-Saudi Arabia Neutral Zone,1922,1991,Neutral or demilitarized zone of,645
+6405,Dardanelles-Istanbul,1816,1919,Part of,640
+6405,Dardanelles-Istanbul,1919,1921,Occupied by,200
+6405,Dardanelles-Istanbul,1921,2022,Part of,640
+6451,Iraq-Saudi Arabia Neutral Zone,1920,1922,Claimed by,670
+6451,Iraq-Saudi Arabia Neutral Zone,1920,1922,Claimed by,645
+6451,Iraq-Saudi Arabia Neutral Zone,1922,1991,Neutral or demilitarized zone of,645
 6452,Iraq Occupation Zone,1920,1991,Part of,645
 6452,Iraq Occupation Zone,1991,1991,Occupied by,2
 6452,Iraq Occupation Zone,1991,2003,Part of,645
 6452,Iraq Occupation Zone,2003,2011,Occupied by,2
 6452,Iraq Occupation Zone,2011,2022,Part of,645
-6453,Iraq+AC0-Kuwait Demilitarized Zone,1920,1991,Part of,645
-6453,Iraq+AC0-Kuwait Demilitarized Zone,1991,2022,Neutral or demilitarized zone of,645
+6453,Iraq-Kuwait Demilitarized Zone,1920,1991,Part of,645
+6453,Iraq-Kuwait Demilitarized Zone,1991,2022,Neutral or demilitarized zone of,645
 6454,Kurdistan Occupation Zone,1920,1991,Part of,645
 6454,Kurdistan Occupation Zone,1991,1991,Occupied by,2
 6454,Kurdistan Occupation Zone,1991,2022,Dependency of,645
@@ -3043,9 +3045,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 6631,West Bank,1948,1950,Occupied by,663
 6631,West Bank,1950,1967,Part of,663
 6631,West Bank,1967,2022,Occupied by,666
-6632,Israel+AC0-Jordan Neutral Zone,1923,1949,Part of,665
-6632,Israel+AC0-Jordan Neutral Zone,1949,1967,Neutral or demilitarized zone of,663
-6632,Israel+AC0-Jordan Neutral Zone,1967,2022,Part of,666
+6632,Israel-Jordan Neutral Zone,1923,1949,Part of,665
+6632,Israel-Jordan Neutral Zone,1949,1967,Neutral or demilitarized zone of,663
+6632,Israel-Jordan Neutral Zone,1967,2022,Part of,666
 6661,Al Auja,1923,1949,Part of,665
 6661,Al Auja,1949,1955,Neutral or demilitarized zone of,651
 6661,Al Auja,1955,2022,Part of,666
@@ -3200,9 +3202,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 6846,Mahri of Qishn and Socotra,1959,1962,Part of,6803
 6846,Mahri of Qishn and Socotra,1962,1967,Part of,6801
 6846,Mahri of Qishn and Socotra,1967,1967,Dissolved into,680
-6901,Neutral Zone (Kuwait+AC0-Saudi Arabia),1920,1922,Claimed by,690
-6901,Neutral Zone (Kuwait+AC0-Saudi Arabia),1922,1969,Neutral or demilitarized zone of,690
-6901,Neutral Zone (Kuwait+AC0-Saudi Arabia),1969,2022,Part of,690
+6901,Neutral Zone (Kuwait-Saudi Arabia),1920,1922,Claimed by,690
+6901,Neutral Zone (Kuwait-Saudi Arabia),1922,1969,Neutral or demilitarized zone of,690
+6901,Neutral Zone (Kuwait-Saudi Arabia),1969,2022,Part of,690
 6959,Buraimi Neutral Zone,1816,1949,Part of,6961
 6959,Buraimi Neutral Zone,1949,1954,Claimed by,670
 6959,Buraimi Neutral Zone,1954,1971,Neutral or demilitarized zone of,670
@@ -3236,11 +3238,11 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 6968,Fujairah,1886,1952,Protectorate of,200
 6968,Fujairah,1952,1971,Part of,696
 6968,Fujairah,1971,2022,Part of,696
-6969,Abu Dhabi+AC0-Dubai Neutral Zone,?,1961,Claimed by,6962
-6969,Abu Dhabi+AC0-Dubai Neutral Zone,?,1961,Claimed by,6961
-6969,Abu Dhabi+AC0-Dubai Neutral Zone,1961,1971,Neutral or demilitarized zone of,6962
-6969,Abu Dhabi+AC0-Dubai Neutral Zone,1961,1971,Neutral or demilitarized zone of,6961
-6969,Abu Dhabi+AC0-Dubai Neutral Zone,1971,2022,Part of,696
+6969,Abu Dhabi-Dubai Neutral Zone,?,1961,Claimed by,6962
+6969,Abu Dhabi-Dubai Neutral Zone,?,1961,Claimed by,6961
+6969,Abu Dhabi-Dubai Neutral Zone,1961,1971,Neutral or demilitarized zone of,6962
+6969,Abu Dhabi-Dubai Neutral Zone,1961,1971,Neutral or demilitarized zone of,6961
+6969,Abu Dhabi-Dubai Neutral Zone,1971,2022,Part of,696
 6971,Abu Musa I.,1816,1971,Part of,6963
 6971,Abu Musa I.,1971,1992,Part of,696
 6971,Abu Musa I.,1992,2022,Part of,630
@@ -3250,9 +3252,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 6982,Kuria Muria Is.,1816,1854,Part of,698
 6982,Kuria Muria Is.,1854,1967,Possession of,200
 6982,Kuria Muria Is.,1967,2022,Part of,698
-6983,Oman+AC0-Sharjah Neutral Zone,1816,1969,Part of,6963
-6983,Oman+AC0-Sharjah Neutral Zone,1969,2022,Neutral or demilitarized zone of,696
-6983,Oman+AC0-Sharjah Neutral Zone,1969,2022,Neutral or demilitarized zone of,698
+6983,Oman-Sharjah Neutral Zone,1816,1969,Part of,6963
+6983,Oman-Sharjah Neutral Zone,1969,2022,Neutral or demilitarized zone of,696
+6983,Oman-Sharjah Neutral Zone,1969,2022,Neutral or demilitarized zone of,698
 7001,Kabul,1816,1839,Part of,700
 7001,Kabul,1839,1842,Occupied by,200
 7001,Kabul,1842,2022,Part of,700
@@ -3316,9 +3318,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 7100,Spratley Is.,1976,2022,Occupied by,840
 7100,Spratley Is.,1985,2022,Claimed by,835
 7100,Spratley Is.,1988,2022,Occupied by,710
-7101,Ping+AC0-nan,1816,1855,Part of,710
-7101,Ping+AC0-nan,1855,1873,Unknown,
-7101,Ping+AC0-nan,1873,2022,Part of,710
+7101,Ping-nan,1816,1855,Part of,710
+7101,Ping-nan,1855,1873,Unknown,
+7101,Ping-nan,1873,2022,Part of,710
 7102,Jungaria,1816,1863,Part of,710
 7102,Jungaria,1863,1876,Unknown,
 7102,Jungaria,1876,2022,Part of,710
@@ -3345,8 +3347,8 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 7106,Tientsin (Tianjin),1902,1917,Leased to,300
 7106,Tientsin (Tianjin),1902,1931,Leased to,211
 7106,Tientsin (Tianjin),1945,2022,Part of,710
-7107,Anhwei+AC0-Fukien,1816,1917,Part of,710
-7107,Anhwei+AC0-Fukien,1920,1928,Part of,7111
+7107,Anhwei-Fukien,1816,1917,Part of,710
+7107,Anhwei-Fukien,1920,1928,Part of,7111
 7108,Yangtze Valley,1816,1917,Part of,710
 7108,Yangtze Valley,1928,2022,Part of,710
 7109,Yunnan,1816,1917,Part of,710
@@ -3432,9 +3434,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 7130,Hangzhou,1816,1897,Part of,710
 7130,Hangzhou,1897,1943,Leased to,740
 7130,Hangzhou,1943,2022,Part of,710
-7131,+ACI-Shashi, Jingzhou+ACI-,1816,1898,Part of,710
-7131,+ACI-Shashi, Jingzhou+ACI-,1898,1943,Leased to,740
-7131,+ACI-Shashi, Jingzhou+ACI-,1943,2022,Part of,710
+7131,"Shashi, Jingzhou",1816,1898,Part of,710
+7131,"Shashi, Jingzhou",1898,1943,Leased to,740
+7131,"Shashi, Jingzhou",1943,2022,Part of,710
 7132,Dalian,1816,1858,Part of,710
 7132,Dalian,1858,1860,Leased to,200
 7132,Dalian,1860,1898,Part of,710
@@ -3445,11 +3447,11 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 7133,Harbin,1816,1896,Part of,710
 7133,Harbin,1896,1952,Leased to,365
 7133,Harbin,1952,2022,Part of,710
-7134,L+//3//Q-shun Port (Port Arthur),1816,1895,Part of,710
-7134,L+//3//Q-shun Port (Port Arthur),1895,1905,Leased to,365
-7134,L+//3//Q-shun Port (Port Arthur),1905,1945,Part of,7104
-7134,L+//3//Q-shun Port (Port Arthur),1945,1956,Occupied by,365
-7134,L+//3//Q-shun Port (Port Arthur),1956,2022,Part of,710
+7134,Lüshun Port (Port Arthur),1816,1895,Part of,710
+7134,Lüshun Port (Port Arthur),1895,1905,Leased to,365
+7134,Lüshun Port (Port Arthur),1905,1945,Part of,7104
+7134,Lüshun Port (Port Arthur),1945,1956,Occupied by,365
+7134,Lüshun Port (Port Arthur),1956,2022,Part of,710
 7135,Liugong I.,1816,1898,Part of,710
 7135,Liugong I.,1898,1930,Part of,7105
 7135,Liugong I.,1930,1940,Leased to,200
@@ -3893,9 +3895,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 7779,Nawng Wawn,1816,1887,Vassal of,775
 7779,Nawng Wawn,1887,1948,Protectorate of,200
 7779,Nawng Wawn,1948,2022,Part of,775
-7780,Sa+AC0-koi,1816,1887,Vassal of,775
-7780,Sa+AC0-koi,1887,1948,Protectorate of,200
-7780,Sa+AC0-koi,1948,2022,Part of,775
+7780,Sa-koi,1816,1887,Vassal of,775
+7780,Sa-koi,1887,1948,Protectorate of,200
+7780,Sa-koi,1948,2022,Part of,775
 7781,Lai Hka,1816,1888,Part of,7750
 7781,Lai Hka,1888,1948,Protectorate of,200
 7781,Lai Hka,1948,2022,Part of,775
@@ -4463,9 +4465,9 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 9994,Ross Dependency,1841,1923,Discovered,
 9994,Ross Dependency,1923,2022,Dependency of,920
 9998,Concessions in China,1846,1949,International,
-9999,Inter+AC0-Allied Commission of Control,1919,1927,International,
-10200,North+AC0-Western Territory,1816,1870,Possession of,200
-10200,North+AC0-Western Territory,1870,1870,Dissolved into,10201
+9999,Inter-Allied Commission of Control,1919,1927,International,
+10200,North-Western Territory,1816,1870,Possession of,200
+10200,North-Western Territory,1870,1870,Dissolved into,10201
 10201,Northwest Territories,1870,2022,Part of,20
 10201,Northwest Territories,1898,1898,Dissolved into,10205
 10201,Northwest Territories,1905,1905,Dissolved into,10202
@@ -4484,9 +4486,7 @@ GPH+AF8-code,GPH+AF8-name,start+AF8-year,end+AF8-year,GPH+AF8-status,sovereign+A
 10210,Labrador,1816,1841,Claimed by,1025
 10210,Labrador,1841,1927,Claimed by,20
 10210,Labrador,1927,2022,Part of,21
-49050,Haut+AC0-Katanga,2015,2022,Part of,490
+49050,Haut-Katanga,2015,2022,Part of,490
 49051,Tanganyika,2015,2022,Part of,490
 49052,Lualaba,2015,2022,Part of,490
-49053,Haut+AC0-Lomani,2015,2022,Part of,490
-681,Aden,1839,1937,Part of,750
-2301,Balearic Islands,1816,2022,Part of,230
+49053,Haut-Lomani,2015,2022,Part of,490
