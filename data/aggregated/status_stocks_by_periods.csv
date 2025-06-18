@@ -31,7 +31,7 @@ Guadeloupe,Colony of,Colony of,Part of,Part of
 Martinique,Colony of,Colony of,Part of,Part of
 Netherlands Antilles,Colony of,Colony of,Colony of,?
 Mexico,Part of,Sovereign,Sovereign,Sovereign
-Belize (British Honduras),Part of,Colony of,Colony of,Sovereign
+Belize (British Honduras),Occupied by,Colony of,Colony of,Sovereign
 United States of Central America,Colony of,?,?,?
 Guatemala,Part of,Sovereign,Sovereign,Sovereign
 Honduras,Part of,Sovereign,Sovereign,Sovereign
@@ -189,7 +189,7 @@ German Togoland,Protectorate of,Protectorate of,?,?
 Togo (French Togoland),?,Mandated to,Mandated to,Sovereign
 British Togoland,?,Mandated to,Mandated to,?
 Kamerun,Colony of,Colony of,Part of,?
-Cameroun (French Cameroons),?,Occupied by,Mandated to,Sovereign
+Cameroun (French Cameroon),?,Occupied by,Mandated to,Sovereign
 British Cameroons,?,Occupied by,Mandated to,?
 Nigeria,?,Colony of,Colony of,Sovereign
 French Equatorial Africa,?,Colony of,Colony of,?
@@ -263,7 +263,7 @@ Jabal Shammar,Vassal of,Vassal of,Part of,Part of
 Yemen Arab Republic (North Yemen) (Kingdom of Yemen),Sovereign (unrecognized),Part of,Sovereign,?
 Yemen,?,?,Sovereign,Sovereign
 Yemen People's Republic (South Yemen),?,?,Sovereign,?
-Aden,Part of,Colony of,Colony of,Part of
+Aden,Part of,Part of,Colony of,Part of
 Aden Protectorate,Protectorate of,Protectorate of,?,?
 Kuwait,Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 Bahrain,Part of,Protectorate of,Protectorate of,Sovereign
@@ -301,8 +301,8 @@ Maldive Islands,Protectorate of,Protectorate of,Protectorate of,Sovereign
 Nepal,Protectorate of,Protectorate of,Sovereign,Sovereign
 Thailand (Siam),Sovereign (unrecognized),Sovereign (unrecognized),Sovereign,Sovereign
 French Indochina,?,Colony of,Colony of,?
-Cambodia (Kampuchea),Vassal of,Protectorate of,Part of,Sovereign
-Laos,Part of,Part of,Part of,Sovereign
+Cambodia (Kampuchea),Vassal of,Protectorate of,Protectorate of,Sovereign
+Laos,Part of,Part of,Protectorate of,Sovereign
 Vietnam,Sovereign (unrecognized),Sovereign (unrecognized),Associated state of,Sovereign
 "Vietnam, Democratic Rep.",?,Colony of,Colony of,?
 Republic of Vietnam,?,?,Sovereign,?
@@ -340,7 +340,7 @@ Tonga (Haʻapai),Sovereign (unrecognized),Sovereign (unrecognized),Protectorate 
 French Polynesia,Sovereign (unrecognized),Protectorate of,Colony of,Colony of
 Nauru,Sovereign (unrecognized),Sovereign (unrecognized),Mandated to,Sovereign
 U. S. Pacific Trust Territories (South Seas Mandate),?,Mandated to,Mandated to,?
-Marshall Is.,Part of,Part of,Part of,Sovereign
+Marshall Is.,Discovered,Protectorate of,Part of,Sovereign
 Northern Marianas Is.,Part of,Part of,Part of,Dependency of
 Guam,Part of,Part of,Colony of,Colony of
 Palau,Part of,Part of,Part of,Sovereign
@@ -410,7 +410,7 @@ Dutch Windward Is.,Part of,Part of,Part of,?
 St. Kitts,Colony of,Part of,Part of,Part of
 Nevis,Colony of,Part of,Part of,Part of
 St. Martin,Part of,Part of,Part of,Dependency of
-Mosquito Coast,Protectorate of,Occupied by,Part of,Part of
+Mosquito Coast,Colony of,Occupied by,Part of,Part of
 Bay Is.,Part of,Part of,Part of,Part of
 Swan Is.,Part of,Leased to,Leased to,Part of
 Corn Is.,Part of,Part of,Leased to,Part of
@@ -1135,11 +1135,11 @@ Kantarawadi (Eastern Karenni),Unknown,Protectorate of,Part of,Part of
 Jaffna Peninsula,?,Part of,Part of,?
 Tibet,Part of,Part of,Sovereign (unrecognized),Dependency of
 Chiang Mai (Lan-na),Part of,Part of,Part of,Part of
-Pattani,Part of,Part of,Part of,Part of
+Patani,Vassal of,Vassal of,?,?
 Vientiane,Part of,Part of,Part of,Part of
 Luang Prabang (Lan Sang),Part of,Part of,Part of,Part of
 Xiangkhouang,Part of,Part of,Part of,Part of
-Champassak,Part of,Sovereign (unrecognized),?,?
+Champasak,Vassal of,Vassal of,?,?
 Cochin China,Part of,Colony of,Part of,?
 Annam,Part of,Protectorate of,Part of,?
 Tonkin,Part of,Protectorate of,Part of,?
@@ -1155,6 +1155,7 @@ Ulu Muar,Part of,Part of,Part of,Part of
 Jempol,Unknown,Part of,Part of,Part of
 Johol,Unknown,Part of,Part of,Part of
 Tampin,Part of,Unknown,Part of,Part of
+Manjung (Dindings),Part of,Colony of,Part of,Part of
 Johore,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Kedah,Part of,Part of,Part of,Part of
 Kelantan,Claimed by,Claimed by,Part of,Part of
@@ -1292,3 +1293,4 @@ Haut-Katanga,?,?,Part of,Part of
 Tanganyika,?,?,Part of,Part of
 Lualaba,?,?,Part of,Part of
 Haut-Lomani,?,?,Part of,Part of
+Balearic Islands,Part of,Part of,Part of,Part of
