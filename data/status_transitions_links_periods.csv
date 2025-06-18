@@ -15,7 +15,7 @@ Colony of 1816-1885,Sovereign 1886-1949,5
 Colony of 1816-1885,Sovereign (unrecognized) 1886-1949,2
 Colony of 1816-1885,Occupied by 1886-1949,1
 Colony of 1816-1885,Possession of 1886-1949,1
-Colony of 1886-1949,Colony of 1950-2019,48
+Colony of 1886-1949,Colony of 1950-2019,47
 Colony of 1886-1949,Dependency of 1950-2019,2
 Colony of 1886-1949,Sovereign 1950-2019,9
 Colony of 1886-1949,Part of 1950-2019,36
@@ -34,8 +34,8 @@ Sovereign (limited) 1816-1885,Sovereign (unrecognized) 1886-1949,1
 Sovereign (limited) 1816-1885,Part of 1886-1949,24
 Sovereign (limited) 1886-1949,Colony of 1950-2019,1
 Sovereign (limited) 1886-1949,Sovereign 1950-2019,2
-Part of 1816-1885,Colony of 1886-1949,21
-Part of 1816-1885,Part of 1886-1949,338
+Part of 1816-1885,Colony of 1886-1949,20
+Part of 1816-1885,Part of 1886-1949,339
 Part of 1816-1885,Sovereign 1886-1949,12
 Part of 1816-1885,Occupied by 1886-1949,4
 Part of 1816-1885,Protectorate of 1886-1949,10
@@ -51,12 +51,12 @@ Part of 1886-1949,Protectorate of 1950-2019,5
 Part of 1886-1949,Occupied by 1950-2019,17
 Part of 1886-1949,Mandated to 1950-2019,1
 Part of 1886-1949,Sovereign (unrecognized) 1950-2019,3
-Part of 1886-1949,Colony of 1950-2019,7
+Part of 1886-1949,Colony of 1950-2019,8
 Part of 1886-1949,Claimed by 1950-2019,3
 Part of 1886-1949,Dependency of 1950-2019,3
 Part of 1886-1949,Neutral or demilitarized zone of 1950-2019,3
 Part of 1886-1949,Dissolved into 1950-2019,1
-Part of 1950-2019,Part of 2020-2020,600
+Part of 1950-2019,Part of 2020-2020,601
 Part of 1950-2019,Sovereign 2020-2020,45
 Part of 1950-2019,Colony of 2020-2020,5
 Part of 1950-2019,Sovereign (unrecognized) 2020-2020,8
@@ -130,7 +130,7 @@ Vassal of 1816-1885,Unknown 1886-1949,1
 Vassal of 1816-1885,Sovereign (unrecognized) 1886-1949,1
 Vassal of 1816-1885,Colony of 1886-1949,2
 Protectorate of 1886-1949,Colony of 1950-2019,8
-Protectorate of 1886-1949,Part of 1950-2019,18
+Protectorate of 1886-1949,Part of 1950-2019,19
 Protectorate of 1886-1949,Mandated to 1950-2019,1
 Protectorate of 1886-1949,Protectorate of 1950-2019,14
 Protectorate of 1886-1949,Dependency of 1950-2019,2
@@ -145,7 +145,7 @@ Vassal of 1886-1949,Unknown 1950-2019,1
 Informal 1950-2019,Informal 2020-2020,1
 Mandated to 1886-1949,Mandated to 1950-2019,3
 Mandated to 1886-1949,Part of 1950-2019,1
-Discovered 1816-1885,Protectorate of 1886-1949,4
+Discovered 1816-1885,Protectorate of 1886-1949,5
 Discovered 1816-1885,Colony of 1886-1949,11
 Discovered 1816-1885,Possession of 1886-1949,8
 Discovered 1816-1885,Discovered 1886-1949,42

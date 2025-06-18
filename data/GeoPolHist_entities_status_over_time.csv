@@ -1038,9 +1038,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 679,Yemen,1990,2022,Sovereign,,Asia
 680,Yemen People's Republic (South Yemen),1967,1990,Sovereign,,Asia
 680,Yemen People's Republic (South Yemen),1990,1990,Dissolved into,679,Asia
-681,Aden,1816,1838,Part of,6821,Asia
-681,Aden,1838,1962,Colony of,200,Asia
-681,Aden,1962,1967,Part of,6801,Asia
+681,Aden,1816,1839,Part of,6821,Asia
+681,Aden,1937,1963,Colony of,200,Asia
+681,Aden,1963,1967,Part of,6801,Asia
 681,Aden,1967,1990,Part of,680,Asia
 681,Aden,1990,2022,Part of,679,Asia
 682,Aden Protectorate,1872,1937,Protectorate of,200,Asia
@@ -1360,10 +1360,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 970,Nauru,1999,2022,Sovereign,,Oceania
 980,U. S. Pacific Trust Territories (South Seas Mandate),1919,1947,Mandated to,740,Oceania
 980,U. S. Pacific Trust Territories (South Seas Mandate),1947,1994,Mandated to,2,Oceania
-983,Marshall Is.,1816,1874,Part of,1070,Oceania
-983,Marshall Is.,1821,1874,Claimed by,230,Oceania
-983,Marshall Is.,1874,1885,Colony of,230,Oceania
-983,Marshall Is.,1885,1914,Part of,912,Oceania
+983,Marshall Is.,1816,1885,Discovered,,Oceania
+983,Marshall Is.,1895,1914,Protectorate of,255,Oceania
 983,Marshall Is.,1914,1920,Occupied by,740,Oceania
 983,Marshall Is.,1920,1945,Mandated to,740,Oceania
 983,Marshall Is.,1945,1947,Occupied by,2,Oceania
@@ -4490,3 +4488,5 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 49051,Tanganyika,2015,2022,Part of,490,Africa
 49052,Lualaba,2015,2022,Part of,490,Africa
 49053,Haut-Lomani,2015,2022,Part of,490,Africa
+681,Aden,1839,1937,Part of,750,Asia
+2301,Balearic Islands,1816,2022,Part of,230,Europe
