@@ -1,0 +1,78 @@
+valid: true
+stats:
+  tasks: 3
+  errors: 0
+  warnings: 0
+  seconds: 0.255
+warnings: []
+errors: []
+tasks:
+  - name: entities_status
+    type: table
+    valid: true
+    place: data/GeoPolHist_entities_status_over_time.csv
+    labels:
+      - GPH_code
+      - GPH_name
+      - start_year
+      - end_year
+      - GPH_status
+      - sovereign_GPH_code
+    stats:
+      errors: 0
+      warnings: 0
+      seconds: 0.167
+      md5: f8bc38c6ff93a6e2000b61c3ab859632
+      sha256: be858bc073517489a91159922677e4ccef92cb093d0479ca2f3ad2b073a7f0a4
+      bytes: 198034
+      fields: 6
+      rows: 4491
+    warnings: []
+    errors: []
+  - name: entities
+    type: table
+    valid: true
+    place: data/GeoPolHist_entities.csv
+    labels:
+      - GPH_code
+      - GPH_name
+      - continent
+      - wikidata
+      - wikidata_alt1
+      - wikidata_alt2
+      - wikidata_alt3
+      - notes
+    stats:
+      errors: 0
+      warnings: 0
+      seconds: 0.077
+      md5: 8dbb24cbd3804e16c0de39249b8d1332
+      sha256: 649ee538fe565407726b613dbcd7ea3c90236f4244720d6a7c6e239dcca45bcf
+      bytes: 93924
+      fields: 8
+      rows: 1295
+    warnings: []
+    errors: []
+  - name: status
+    type: table
+    valid: true
+    place: data/GeoPolHist_status.csv
+    labels:
+      - GPH_status
+      - slug
+      - group
+      - priority_order
+      - COW_status
+      - UN_status
+      - definition
+    stats:
+      errors: 0
+      warnings: 0
+      seconds: 0.007
+      md5: 17d0e1c9a398b3157d9133fa45a67b88
+      sha256: d2329d97736eb66caaa7abc8a4a2a3e6111611922e49e3af7251b4aa2564267b
+      bytes: 3907
+      fields: 7
+      rows: 20
+    warnings: []
+    errors: []

@@ -195,19 +195,20 @@ const Home: React.FC<RouterProps> = (props) => {
         <p style={{ marginTop: "2rem" }}>
           This evolution in the political structure of the world is examined
           from various perspectives in:
+          <blockquote>
+            Dedinger, Béatrice. 2023. ‘Exploring Political Globalization: A
+            Multidisciplinary and Quantitative Analysis of Countries Throughout
+            History’ <i>Global Journal of Human-Social Science</i>, 23(D5),
+            9-23.{" "}
+            <a
+              target="_blank"
+              rel="no-opener"
+              href="https://socialscienceresearch.org/index.php/GJHSS/article/view/103916"
+            >
+              https://socialscienceresearch.org/index.php/GJHSS/article/view/103916
+            </a>
+          </blockquote>
         </p>
-        <blockquote>
-          Dedinger, Béatrice. 2023. ‘Exploring Political Globalization: A
-          Multidisciplinary and Quantitative Analysis of Countries Throughout
-          History’ <i>Global Journal of Human-Social Science</i>, 23(D5), 9-23.{" "}
-          <a
-            target="_blank"
-            rel="no-opener"
-            href="https://socialscienceresearch.org/index.php/GJHSS/article/view/103916"
-          >
-            https://socialscienceresearch.org/index.php/GJHSS/article/view/103916
-          </a>
-        </blockquote>
         <h2 id="methodology">Methodology</h2>
         <p>
           A <b>geopolitical entity</b> is defined as any territorially based

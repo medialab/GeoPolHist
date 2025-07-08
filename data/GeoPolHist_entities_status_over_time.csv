@@ -640,9 +640,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 411,Equatorial Guinea (Spanish Guinea),1816,1960,Colony of,230
 411,Equatorial Guinea (Spanish Guinea),1960,1968,Part of,412
 411,Equatorial Guinea (Spanish Guinea),1968,2022,Sovereign,
-412,Rio Muni,1816,1960,Part of,411
-412,Rio Muni,1960,1968,Colony of,230
-412,Rio Muni,1968,2022,Part of,411
+412,Río Muni,1816,1960,Part of,411
+412,Río Muni,1960,1968,Colony of,230
+412,Río Muni,1968,2022,Part of,411
 413,Fernando Po (Bioko),1816,1829,Colony of,230
 413,Fernando Po (Bioko),1829,1843,Leased to,200
 413,Fernando Po (Bioko),1843,1960,Part of,411
@@ -1195,7 +1195,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 812,Laos,1893,1954,Part of,810
 812,Laos,1945,1945,Occupied by,740
 812,Laos,1954,2022,Sovereign,
-812,Laos,1975,1989,Occupied by,816
+812,Laos,1975,1989,Occupied by,815
 815,Vietnam,1816,1887,Sovereign (unrecognized),
 815,Vietnam,1887,1887,Dissolved into,810
 815,Vietnam,1945,1946,Occupied by,710
@@ -1361,7 +1361,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 980,U. S. Pacific Trust Territories (South Seas Mandate),1919,1947,Mandated to,740
 980,U. S. Pacific Trust Territories (South Seas Mandate),1947,1994,Mandated to,2
 983,Marshall Is.,1816,1885,Discovered,
-983,Marshall Is.,1895,1914,Protectorate of,255
+983,Marshall Is.,1885,1914,Protectorate of,255
 983,Marshall Is.,1914,1920,Occupied by,740
 983,Marshall Is.,1920,1945,Mandated to,740
 983,Marshall Is.,1945,1947,Occupied by,2
