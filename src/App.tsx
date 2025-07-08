@@ -1,15 +1,15 @@
-import React, { useCallback, useContext } from "react";
 import { map } from "ramda";
-import { HashRouter as Router, Route, Link } from "react-router-dom";
-import Select from "react-select";
+import pathOr from "ramda/es/pathOr";
 import sort from "ramda/es/sort";
 import take from "ramda/es/take";
-import pathOr from "ramda/es/pathOr";
+import React, { useCallback, useContext } from "react";
+import { Link, Route, HashRouter as Router } from "react-router-dom";
+import Select from "react-select";
 
-import "./App.css";
-import Country from "./Country";
-import AppContextProvider, { AppContext } from "./AppContext";
 import { RouterProps } from "react-router";
+import "./App.css";
+import AppContextProvider, { AppContext } from "./AppContext";
+import Country from "./Country";
 import { TopMenu } from "./TopMenu";
 
 import { HashLink } from "react-router-hash-link";
@@ -130,22 +130,16 @@ const Home: React.FC<RouterProps> = (props) => {
           by political status since 1816
         </h1>
         <p>
-          GeoPolHist is a quantitative tool that focuses on the questions{" "}
-          <b>“what is a country?”</b> and{" "}
-          <b>“how many countries are there in the world?”</b> Created from the
-          lists of{" "}
-          <a href="https://correlatesofwar.org/data-sets/state-system-membership">
-            states
-          </a>{" "}
-          and{" "}
-          <a href="https://correlatesofwar.org/data-sets/colonial-dependency-contiguity">
-            dependencies
-          </a>{" "}
-          built by the Correlates of War project, GeoPolHist provides a dataset
-          and visual documentation that identifies the political status of each
-          of the geopolitical entities that existed in the world since 1816. It
-          allows for an approach of the political history of the world based on
-          the dichotomy between sovereign and non-sovereign entities.
+          GeoPolHist is a quantitative tool designed to address the fundamental
+          questions: <b>“What is a country?”</b> and{" "}
+          <b>“How many countries are there in the world?”</b> Based on the lists
+          of states and dependencies developed by{" "}
+          <a href="https://correlatesofwar.org/">Correlates of War project</a>,
+          GeoPolHist offers a comprehensive dataset and visual documentation
+          that identify the political status of every geopolitical entity that
+          has existed since 1816. It enables a historical approach to world
+          politics grounded in the distinction between sovereign and
+          non-sovereign entities.
         </p>
         <p>
           See the <HashLink to="#methodology">methodology</HashLink> and{" "}
@@ -182,13 +176,14 @@ const Home: React.FC<RouterProps> = (props) => {
 
         <h2>Three periods in the political history of the world since 1816</h2>
         <p>
-          Over the last two centuries, the political situation of the world can
-          be described as a developmental process in three phases during which
-          one <a href="./data/GeoPolHist_status.csv">status</a> predominated.
-          From 1816 to the Berlin Conference in 1884/85, 14% of the geopolitical
-          entities of the world were sovereign (unrecognized); from 1886 to
-          1949, 20% were ‘colony’, ‘possession or ‘protectorate’’; since 1950,
-          16% are ‘sovereign’ (in the strict sense).
+          Over the past two centuries, the political landscape of the world can
+          be understood as a developmental process unfolding in three distinct
+          phases, each characterized by the predominance of a particular
+          political status. From 1816 to the Berlin Conference of 1884–85, 14%
+          of the world’s geopolitical entities were (unrecognized) sovereign
+          states. Between 1886 and 1949, 20% held the status of colony,
+          possession, or protectorate. Since 1950, 16% of entities have been
+          considered sovereign in the strict sense.
         </p>
         <iframe
           title="GPH status evolutions in 1816,1885,1950 and 2020"
@@ -197,20 +192,36 @@ const Home: React.FC<RouterProps> = (props) => {
         <p style={{ textAlign: "center" }}>
           <a href="./sankey.html">open the diagram in full screen</a>
         </p>
+        <p style={{ marginTop: "2rem" }}>
+          This evolution in the political structure of the world is examined
+          from various perspectives in:
+        </p>
+        <blockquote>
+          Dedinger, Béatrice. 2023. ‘Exploring Political Globalization: A
+          Multidisciplinary and Quantitative Analysis of Countries Throughout
+          History’ <i>Global Journal of Human-Social Science</i>, 23(D5), 9-23.{" "}
+          <a
+            target="_blank"
+            rel="no-opener"
+            href="https://socialscienceresearch.org/index.php/GJHSS/article/view/103916"
+          >
+            https://socialscienceresearch.org/index.php/GJHSS/article/view/103916
+          </a>
+        </blockquote>
         <h2 id="methodology">Methodology</h2>
         <p>
-          A geopolitical entity is any form of human social community or
-          territory that has been involved in an international or intra-national
-          conflict during the post-Napoleonic period and is also territorially
-          based. These entities are “political” in the Aristotelian sense of the
-          political order, whose ultimate goal is to maintain peace through
-          justice within the entity, while war and conflicts remain a
-          possibility outside the limits of the entity. Throughout the period
-          covered by the GPH database, political entities of the “human social
-          community” type have taken the form of the tribe, chiefdom,
-          city-state, kingdom, empire, or nation. GPH entities may or may not be
-          sovereign and independent. Political entities of the “territory” type
-          are made up of uninhabited islands, atolls or reefs.
+          A <b>geopolitical entity</b> is defined as any territorially based
+          human social community or territory that has been involved in
+          international or intra-national conflict during the post-Napoleonic
+          period. These entities are considered “political” in the Aristotelian
+          sense of a political order—one whose ultimate aim is to preserve peace
+          through justice within its boundaries, while acknowledging that war
+          and conflict may arise beyond them. Throughout the period covered by
+          the GPH database, human social communities have taken various
+          political forms, including tribes, chiefdoms, city-states, kingdoms,
+          empires, and nations. GPH entities may or may not possess sovereignty
+          or independence. Geopolitical entities based on “territory” alone
+          typically consist of uninhabited islands, atolls, or reefs.
         </p>
         <p>
           The GeoPolHist dataset is fully described in the paper:{" "}
@@ -232,6 +243,21 @@ const Home: React.FC<RouterProps> = (props) => {
               title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.1080%2F01615440.2021.1939826&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=How%20many%20countries%20in%20the%20world%3F%20The%20geopolitical%20entities%20of%20the%20world%20and%20their%20political%20status%20from%201816%20to%20the%20present&amp;rft.jtitle=Historical%20Methods%3A%20A%20Journal%20of%20Quantitative%20and%20Interdisciplinary%20History&amp;rft.volume=0&amp;rft.issue=0&amp;rft.aufirst=B%C3%A9atrice&amp;rft.aulast=Dedinger&amp;rft.au=B%C3%A9atrice%20Dedinger&amp;rft.au=Paul%20Girard&amp;rft.date=2021-07-02&amp;rft.pages=1-20&amp;rft.spage=1&amp;rft.epage=20&amp;rft.issn=0161-5440"
             ></span>
           </blockquote>
+        </p>
+        <p>
+          All modifications made to the Correlates of War (COW) database in the
+          construction of the GeoPolHist (GPH) database are listed and explained
+          in:
+          <ul>
+            <li>
+              <a href="./GPH2022_vs_COW2016.csv">GPH2022_vs_COW2016.csv</a>
+            </li>
+            <li>
+              <a href="./GPH2022_vs_COW2016_explanatory_note.pdf">
+                GPH2022_vs_COW2016_explanatory_note.pdf
+              </a>
+            </li>
+          </ul>
         </p>
         <h2 id="dataset">GeoPolHist data set</h2>
         <p>
