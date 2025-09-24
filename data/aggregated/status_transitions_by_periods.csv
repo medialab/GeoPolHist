@@ -1,5 +1,5 @@
 period,transition,nb
-1816-1885,Part of>Non sovereign,95
+1816-1885,Part of>Non sovereign,94
 1816-1885,Part of>Sovereign (all),37
 1816-1885,Sovereign (all)>Part of,75
 1816-1885,Non sovereign>Sovereign (all),20
@@ -12,7 +12,7 @@ period,transition,nb
 1816-1885,Miscellaneous>Non sovereign,66
 1816-1885,Miscellaneous>Sovereign (all),6
 1816-1885,Miscellaneous>Part of,39
-1816-1885,Non sovereign>,12
+1816-1885,Non sovereign>,11
 1816-1885,Part of>Miscellaneous,8
 1816-1885,Sovereign (all)>Miscellaneous,2
 1816-1885,Non sovereign>Miscellaneous,1

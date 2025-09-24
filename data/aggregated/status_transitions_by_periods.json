@@ -3,7 +3,7 @@
     "start_year": 1816,
     "end_year": 1885,
     "transitions": {
-      "Part of>Non sovereign": 95,
+      "Part of>Non sovereign": 94,
       "Part of>Sovereign (all)": 37,
       "Sovereign (all)>Part of": 75,
       "Non sovereign>Sovereign (all)": 20,
@@ -16,7 +16,7 @@
       "Miscellaneous>Non sovereign": 66,
       "Miscellaneous>Sovereign (all)": 6,
       "Miscellaneous>Part of": 39,
-      "Non sovereign>": 12,
+      "Non sovereign>": 11,
       "Part of>Miscellaneous": 8,
       "Sovereign (all)>Miscellaneous": 2,
       "Non sovereign>Miscellaneous": 1,
