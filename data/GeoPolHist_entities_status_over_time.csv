@@ -1259,7 +1259,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 850,Indonesia (Dutch East Indies),1942,1945,Occupied by,740
 850,Indonesia (Dutch East Indies),1945,1949,Sovereign (unrecognized),
 850,Indonesia (Dutch East Indies),1949,2022,Sovereign,
-851,West Irian (Dutch New Guinea),1816,1828,Part of,9100
 851,West Irian (Dutch New Guinea),1828,1942,Part of,850
 851,West Irian (Dutch New Guinea),1942,1945,Occupied by,740
 851,West Irian (Dutch New Guinea),1945,1949,Part of,850
@@ -1296,14 +1295,12 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 910,Papua New Guinea,1949,1975,Part of,911
 910,Papua New Guinea,1949,1975,Part of,912
 910,Papua New Guinea,1975,2022,Sovereign,
-911,Papua (British New Guinea),1816,1883,Part of,9100
 911,Papua (British New Guinea),1883,1884,Part of,905
 911,Papua (British New Guinea),1884,1888,Protectorate of,200
 911,Papua (British New Guinea),1888,1902,Colony of,200
 911,Papua (British New Guinea),1902,1975,Dependency of,900
 911,Papua (British New Guinea),1975,1975,Dissolved into,910
-912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1816,1884,Part of,9100
-912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1884,1914,Colony of,255
+912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1883,1914,Colony of,255
 912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1914,1920,Occupied by,900
 912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1919,1919,Dissolved into,980
 912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1920,1975,Mandated to,900
@@ -4235,10 +4232,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 9050,Torres Strait Is.,1816,1862,Discovered,
 9050,Torres Strait Is.,1862,1872,Possession of,200
 9050,Torres Strait Is.,1872,2022,Part of,905
-9100,New Guinea,1816,1828,Claimed by,230
-9100,New Guinea,1828,1828,Dissolved into,851
-9100,New Guinea,1883,1883,Dissolved into,911
-9100,New Guinea,1884,1884,Dissolved into,912
 9101,Bougainville (Republic of the North Solomons),1816,1899,Discovered,
 9101,Bougainville (Republic of the North Solomons),1899,1914,Part of,9401
 9101,Bougainville (Republic of the North Solomons),1914,1975,Part of,912
