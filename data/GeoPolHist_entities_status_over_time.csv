@@ -24,9 +24,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 10,Greenland,1941,1945,Occupied by,2,America
 10,Greenland,1953,1979,Part of,390,America
 10,Greenland,1979,2022,Dependency of,390,America
-11,Faeroe Is.,1816,1947,Colony of,390,America
-11,Faeroe Is.,1940,1945,Occupied by,200,America
-11,Faeroe Is.,1947,2022,Dependency of,390,America
+11,Faeroe Is.,1816,1947,Colony of,390,Europe
+11,Faeroe Is.,1940,1945,Occupied by,200,Europe
+11,Faeroe Is.,1947,2022,Dependency of,390,Europe
 20,Canada (Province of Canada),1841,1920,Colony of,200,America
 20,Canada (Province of Canada),1920,2022,Sovereign,,America
 21,Newfoundland and Labrador (Newfoundland),1816,1949,Colony of,200,America
@@ -1259,7 +1259,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 850,Indonesia (Dutch East Indies),1942,1945,Occupied by,740,Asia
 850,Indonesia (Dutch East Indies),1945,1949,Sovereign (unrecognized),,Asia
 850,Indonesia (Dutch East Indies),1949,2022,Sovereign,,Asia
-851,West Irian (Dutch New Guinea),1816,1828,Part of,9100,Asia
 851,West Irian (Dutch New Guinea),1828,1942,Part of,850,Asia
 851,West Irian (Dutch New Guinea),1942,1945,Occupied by,740,Asia
 851,West Irian (Dutch New Guinea),1945,1949,Part of,850,Asia
@@ -1296,14 +1295,12 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 910,Papua New Guinea,1949,1975,Part of,911,Oceania
 910,Papua New Guinea,1949,1975,Part of,912,Oceania
 910,Papua New Guinea,1975,2022,Sovereign,,Oceania
-911,Papua (British New Guinea),1816,1883,Part of,9100,Oceania
 911,Papua (British New Guinea),1883,1884,Part of,905,Oceania
 911,Papua (British New Guinea),1884,1888,Protectorate of,200,Oceania
 911,Papua (British New Guinea),1888,1902,Colony of,200,Oceania
 911,Papua (British New Guinea),1902,1975,Dependency of,900,Oceania
 911,Papua (British New Guinea),1975,1975,Dissolved into,910,Oceania
-912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1816,1884,Part of,9100,Oceania
-912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1884,1914,Colony of,255,Oceania
+912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1883,1914,Colony of,255,Oceania
 912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1914,1920,Occupied by,900,Oceania
 912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1919,1919,Dissolved into,980,Oceania
 912,New Guinea (German New Guinea) (Kaiser Wilhelmsland),1920,1975,Mandated to,900,Oceania
@@ -3012,8 +3009,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 6513,Sinai Demilitarized Zones,1967,1975,Occupied by,666,Asia
 6513,Sinai Demilitarized Zones,1975,1982,Neutral or demilitarized zone of,651,Asia
 6513,Sinai Demilitarized Zones,1982,2022,Part of,651,Asia
-6514,Suez Canal Zone,1816,2022,Part of,651,Asia
-6514,Suez Canal Zone,1936,1956,Occupied by,200,Asia
+6514,Suez Canal Zone,1816,2022,Part of,651,Africa
+6514,Suez Canal Zone,1936,1956,Occupied by,200,Africa
 6521,Golan Heights,1816,1967,Part of,652,Asia
 6521,Golan Heights,1967,1981,Occupied by,666,Asia
 6521,Golan Heights,1967,2022,Part of,652,Asia
@@ -4235,10 +4232,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 9050,Torres Strait Is.,1816,1862,Discovered,,Oceania
 9050,Torres Strait Is.,1862,1872,Possession of,200,Oceania
 9050,Torres Strait Is.,1872,2022,Part of,905,Oceania
-9100,New Guinea,1816,1828,Claimed by,230,Oceania
-9100,New Guinea,1828,1828,Dissolved into,851,Oceania
-9100,New Guinea,1883,1883,Dissolved into,911,Oceania
-9100,New Guinea,1884,1884,Dissolved into,912,Oceania
 9101,Bougainville (Republic of the North Solomons),1816,1899,Discovered,,Oceania
 9101,Bougainville (Republic of the North Solomons),1899,1914,Part of,9401,Oceania
 9101,Bougainville (Republic of the North Solomons),1914,1975,Part of,912,Oceania
