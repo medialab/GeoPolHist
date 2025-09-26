@@ -4,12 +4,7 @@
   "title": "GeoPolHist",
   "description": "Geo-Political entities History dataset",
   "version": "1.0",
-  "keywords": [
-    "history",
-    "politic",
-    "sovereign",
-    "19th century"
-  ],
+  "keywords": ["history", "politic", "sovereign", "19th century"],
   "created": "2020-07-28T12:31:50.52Z",
   "licenses": [
     {
@@ -66,10 +61,7 @@
       "path": "data/GeoPolHist_entities_status_over_time.csv",
       "profile": "tabular-data-resource",
       "schema": {
-        "missingValues": [
-          "?",
-          ""
-        ],
+        "missingValues": ["?", ""],
         "fields": [
           {
             "name": "GPH_code",
@@ -220,6 +212,16 @@
             "name": "notes",
             "type": "string",
             "description": "Notes about wikidata reconciliation process."
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude"
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Longitude"
           }
         ]
       }
