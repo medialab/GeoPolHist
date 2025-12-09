@@ -1312,10 +1312,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 925,Cook Is.,1888,1901,Protectorate of,200
 925,Cook Is.,1901,1965,Colony of,920
 925,Cook Is.,1965,2022,Associated state of,920
-930,New Caledonia and Dependencies,1816,1853,Sovereign (unrecognized),
-930,New Caledonia and Dependencies,1853,1946,Colony of,220
-930,New Caledonia and Dependencies,1946,1986,Dependency of,220
-930,New Caledonia and Dependencies,1986,2022,Colony of,220
+930,New Caledonia,1816,1853,Sovereign (unrecognized),
+930,New Caledonia,1853,1946,Colony of,220
+930,New Caledonia,1946,1986,Dependency of,220
+930,New Caledonia,1986,2022,Colony of,220
 935,Vanuatu (New Hebrides),1816,1906,Discovered,
 935,Vanuatu (New Hebrides),1906,1980,Colony of,200
 935,Vanuatu (New Hebrides),1906,1980,Colony of,220
