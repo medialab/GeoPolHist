@@ -1133,7 +1133,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 741,Ryukyu Is.,1945,1951,Occupied by,2
 741,Ryukyu Is.,1951,1972,Colony of,2
 741,Ryukyu Is.,1972,2022,Part of,740
-750,India,1816,1947,Colony of,200
+750,India,1816,1857,Colony of,200
 750,India,1947,2022,Sovereign,
 751,French India,1816,1816,Occupied by,200
 751,French India,1816,1954,Colony of,220
@@ -4483,3 +4483,4 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 49053,Haut-Lomani,2015,2022,Part of,490
 681,Aden,1839,1937,Part of,750
 2301,Balearic Islands,1816,2022,Part of,230
+750,India,1857,1947,Colony of,200
