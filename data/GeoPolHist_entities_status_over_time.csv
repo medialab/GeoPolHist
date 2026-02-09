@@ -446,7 +446,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 327,Papal States,1816,1861,Sovereign,
 327,Papal States,1861,1870,Part of,325
 327,Papal States,1870,1870,Dissolved into,328
-328,Vatican City,1816,1869,Part of,327
+328,Vatican City,1816,1870,Part of,327
 328,Vatican City,1870,1929,Part of,325
 328,Vatican City,1929,1964,Sovereign (unrecognized),
 328,Vatican City,1964,2022,Sovereign,
@@ -1466,9 +1466,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 1026,Ontario (Upper Canada),1816,1841,Colony of,200
 1026,Ontario (Upper Canada),1841,2022,Part of,20
 1027,British Columbia,1816,1849,Part of,1016
-1027,British Columbia,1850,1858,Unknown,
-1027,British Columbia,1859,1871,Colony of,200
-1027,British Columbia,1872,2022,Part of,20
+1027,British Columbia,1849,1858,Unknown,
+1027,British Columbia,1858,1871,Colony of,200
+1027,British Columbia,1871,2022,Part of,20
 1028,Vancouver,1816,1849,Discovered,
 1028,Vancouver,1849,1866,Colony of,200
 1028,Vancouver,1866,2022,Part of,1027
@@ -4465,10 +4465,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 10201,Northwest Territories,1905,1905,Dissolved into,10203
 10201,Northwest Territories,1999,1999,Dissolved into,10206
 10202,Alberta,1816,1875,Part of,1019
-10202,Alberta,1875,1904,Part of,10201
+10202,Alberta,1875,1905,Part of,10201
 10202,Alberta,1905,2022,Part of,20
 10203,Saskatchewan,1816,1870,Part of,1019
-10203,Saskatchewan,1870,1904,Part of,10201
+10203,Saskatchewan,1870,1905,Part of,10201
 10203,Saskatchewan,1905,2022,Part of,20
 10204,Manitoba,1870,2022,Part of,20
 10205,Yukon,1898,2022,Part of,20
