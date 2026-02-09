@@ -1133,7 +1133,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 741,Ryukyu Is.,1945,1951,Occupied by,2,Asia
 741,Ryukyu Is.,1951,1972,Colony of,2,Asia
 741,Ryukyu Is.,1972,2022,Part of,740,Asia
-750,India,1816,1947,Colony of,200,Asia
+750,India,1816,1857,Colony of,200,Asia
 750,India,1947,2022,Sovereign,,Asia
 751,French India,1816,1816,Occupied by,200,Asia
 751,French India,1816,1954,Colony of,220,Asia
@@ -1312,10 +1312,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 925,Cook Is.,1888,1901,Protectorate of,200,Oceania
 925,Cook Is.,1901,1965,Colony of,920,Oceania
 925,Cook Is.,1965,2022,Associated state of,920,Oceania
-930,New Caledonia and Dependencies,1816,1853,Sovereign (unrecognized),,Oceania
-930,New Caledonia and Dependencies,1853,1946,Colony of,220,Oceania
-930,New Caledonia and Dependencies,1946,1986,Dependency of,220,Oceania
-930,New Caledonia and Dependencies,1986,2022,Colony of,220,Oceania
+930,New Caledonia,1816,1853,Sovereign (unrecognized),,Oceania
+930,New Caledonia,1853,1946,Colony of,220,Oceania
+930,New Caledonia,1946,1986,Dependency of,220,Oceania
+930,New Caledonia,1986,2022,Colony of,220,Oceania
 935,Vanuatu (New Hebrides),1816,1906,Discovered,,Oceania
 935,Vanuatu (New Hebrides),1906,1980,Colony of,200,Oceania
 935,Vanuatu (New Hebrides),1906,1980,Colony of,220,Oceania
@@ -4483,3 +4483,4 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 49053,Haut-Lomani,2015,2022,Part of,490,Africa
 681,Aden,1839,1937,Part of,750,Asia
 2301,Balearic Islands,1816,2022,Part of,230,Europe
+750,India,1857,1947,Colony of,200,Asia
