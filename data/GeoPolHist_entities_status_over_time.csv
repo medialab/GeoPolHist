@@ -1091,7 +1091,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 710,People's Republic of China (China),1860,2022,Sovereign,
 710,People's Republic of China (China),1937,1945,Occupied by,740
 711,Manchukuo,1932,1945,Occupied by,740
-711,Manchukuo,1945,2022,Part of,710
+711,Manchukuo,1945,1945,Dissolved into,7111
 712,Mongolia,1816,1911,Part of,710
 712,Mongolia,1911,1919,Sovereign (unrecognized),
 712,Mongolia,1919,1921,Occupied by,710
@@ -3358,7 +3358,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 7111,Manchuria,1907,1917,Part of,710
 7111,Manchuria,1905,1932,Occupied by,740
 7111,Manchuria,1932,1945,Part of,711
-7111,Manchuria,1945,2022,Part of,710
+7111,Manchuria,1946,2022,Part of,710
 7112,Szechwan (Sichuan),1816,1912,Part of,710
 7112,Szechwan (Sichuan),1912,1949,Part of,713
 7112,Szechwan (Sichuan),1949,2022,Part of,710
@@ -4485,3 +4485,4 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 1032,Turks and Caicos Is.,1958,1962,Part of,50
 1032,Turks and Caicos Is.,1962,1988,Colony of,200
 827,Straits Settlements,1826,1867,Part of,750
+7111,Manchuria,1945,1946,Occupied by,365
