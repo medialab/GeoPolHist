@@ -1091,7 +1091,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 710,People's Republic of China (China),1860,2022,Sovereign,,Asia
 710,People's Republic of China (China),1937,1945,Occupied by,740,Asia
 711,Manchukuo,1932,1945,Occupied by,740,Asia
-711,Manchukuo,1945,2022,Part of,710,Asia
+711,Manchukuo,1945,1945,Dissolved into,7111,Asia
 712,Mongolia,1816,1911,Part of,710,Asia
 712,Mongolia,1911,1919,Sovereign (unrecognized),,Asia
 712,Mongolia,1919,1921,Occupied by,710,Asia
@@ -1231,7 +1231,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 824,Sarawak,1941,1945,Occupied by,740,Asia
 824,Sarawak,1945,1963,Colony of,200,Asia
 824,Sarawak,1963,2022,Part of,820,Asia
-827,Straits Settlements,1826,1942,Colony of,200,Asia
+827,Straits Settlements,1867,1942,Colony of,200,Asia
 827,Straits Settlements,1942,1945,Occupied by,740,Asia
 827,Straits Settlements,1945,1946,Colony of,200,Asia
 827,Straits Settlements,1946,1946,Dissolved into,820,Asia
@@ -1480,11 +1480,11 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 1031,Mayaguana,1816,1940,Part of,31,America
 1031,Mayaguana,1940,1945,Leased to,2,America
 1031,Mayaguana,1945,2022,Part of,31,America
-1032,Turks and Caicos Is.,1816,1873,Part of,31,America
-1032,Turks and Caicos Is.,1873,1962,Part of,51,America
-1032,Turks and Caicos Is.,1962,1973,Part of,31,America
-1032,Turks and Caicos Is.,1973,2022,Colony of,200,America
-1033,Cayman Is.,1816,1962,Part of,51,America
+1032,Turks and Caicos Is.,1816,1848,Dependency of,31,America
+1032,Turks and Caicos Is.,1848,1873,Colony of,200,America
+1032,Turks and Caicos Is.,1873,1958,Dependency of,51,America
+1032,Turks and Caicos Is.,1988,2022,Dependency of,200,America
+1033,Cayman Is.,1863,1962,Dependency of,51,America
 1033,Cayman Is.,1962,2022,Colony of,200,America
 1040,Guantanamo,1816,1903,Part of,40,America
 1040,Guantanamo,1903,2022,Leased to,2,America
@@ -2523,7 +2523,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 4905,Katanga (State of Katanga) (Msiri's Yeke Kingdom),2015,2015,Dissolved into,49051,Africa
 4905,Katanga (State of Katanga) (Msiri's Yeke Kingdom),2015,2015,Dissolved into,49052,Africa
 4905,Katanga (State of Katanga) (Msiri's Yeke Kingdom),2015,2015,Dissolved into,49053,Africa
-4906,Kasai,1816,1960,Part of,490,Africa
+4906,Kasai,1876,1960,Part of,490,Africa
 4906,Kasai,1960,1961,Sovereign (unrecognized),,Africa
 4906,Kasai,1961,2022,Part of,490,Africa
 4908,Azande,1816,1895,Sovereign (unrecognized),,Africa
@@ -2717,7 +2717,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 5522,Ndebele (Matabeleland),1838,1890,Sovereign (unrecognized),,Africa
 5522,Ndebele (Matabeleland),1890,1923,Colony of,200,Africa
 5522,Ndebele (Matabeleland),1923,2022,Part of,552,Africa
-5523,Mashona,1816,1890,Part of,552,Africa
 5523,Mashona,1890,1923,Colony of,200,Africa
 5523,Mashona,1923,2022,Part of,552,Africa
 5524,Mbelwa Ngoni,1816,1821,Unknown,,Africa
@@ -3359,7 +3358,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 7111,Manchuria,1907,1917,Part of,710,Asia
 7111,Manchuria,1905,1932,Occupied by,740,Asia
 7111,Manchuria,1932,1945,Part of,711,Asia
-7111,Manchuria,1945,2022,Part of,710,Asia
+7111,Manchuria,1946,2022,Part of,710,Asia
 7112,Szechwan (Sichuan),1816,1912,Part of,710,Asia
 7112,Szechwan (Sichuan),1912,1949,Part of,713,Asia
 7112,Szechwan (Sichuan),1949,2022,Part of,710,Asia
@@ -4203,13 +4202,12 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 9001,Christmas I.,1945,1946,Part of,827,Oceania
 9001,Christmas I.,1946,1958,Part of,830,Oceania
 9001,Christmas I.,1958,2022,Dependency of,900,Oceania
-9002,Cocos (Keeling) Is.,1816,1827,Unknown,,Oceania
-9002,Cocos (Keeling) Is.,1827,1857,Sovereign (unrecognized),,Oceania
+9002,Cocos (Keeling) Is.,1826,1857,Sovereign (unrecognized),,Oceania
 9002,Cocos (Keeling) Is.,1857,1878,Possession of,200,Oceania
-9002,Cocos (Keeling) Is.,1878,1882,Part of,780,Oceania
-9002,Cocos (Keeling) Is.,1882,1942,Part of,827,Oceania
-9002,Cocos (Keeling) Is.,1942,1946,Part of,780,Oceania
-9002,Cocos (Keeling) Is.,1946,1955,Part of,830,Oceania
+9002,Cocos (Keeling) Is.,1878,1886,Dependency of,780,Oceania
+9002,Cocos (Keeling) Is.,1886,1942,Dependency of,827,Oceania
+9002,Cocos (Keeling) Is.,1942,1946,Dependency of,780,Oceania
+9002,Cocos (Keeling) Is.,1946,1955,Dependency of,830,Oceania
 9002,Cocos (Keeling) Is.,1955,1984,Possession of,900,Oceania
 9002,Cocos (Keeling) Is.,1984,2022,Dependency of,900,Oceania
 9003,Coral Sea Is.,1816,1901,Discovered,,Oceania
@@ -4481,6 +4479,10 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 49051,Tanganyika,2015,2022,Part of,490,Africa
 49052,Lualaba,2015,2022,Part of,490,Africa
 49053,Haut-Lomani,2015,2022,Part of,490,Africa
-681,Aden,1839,1937,Part of,750,Asia
+681,Aden,1839,1937,Dependency of,750,Asia
 2301,Balearic Islands,1816,2022,Part of,230,Europe
 750,India,1857,1947,Colony of,200,Asia
+1032,Turks and Caicos Is.,1958,1962,Part of,50,America
+1032,Turks and Caicos Is.,1962,1988,Colony of,200,America
+827,Straits Settlements,1826,1867,Part of,750,Asia
+7111,Manchuria,1945,1946,Occupied by,365,Asia
