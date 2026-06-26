@@ -3523,26 +3523,25 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 7500,Andaman and Nicobar Is.,1950,2022,Part of,750
 7501,Andaman Is.,1816,1872,Colony of,200
 7501,Andaman Is.,1872,2022,Part of,7500
-7502,Nicobar Is.,1816,1845,Part of,7504
-7502,Nicobar Is.,1845,1869,Possession of,390
-7502,Nicobar Is.,1869,1872,Part of,750
+7502,Nicobar Is.,1816,1868,Possession of,390
+7502,Nicobar Is.,1868,1872,Part of,750
 7502,Nicobar Is.,1872,2022,Part of,7500
 7503,Coromandel Coast Posts,1816,1818,Occupied by,200
 7503,Coromandel Coast Posts,1818,1825,Colony of,210
 7503,Coromandel Coast Posts,1825,1947,Part of,750
 7503,Coromandel Coast Posts,1947,2022,Part of,750
-7504,Tranquebar and Serampore,1816,1845,Colony of,390
-7504,Tranquebar and Serampore,1845,1947,Part of,750
-7504,Tranquebar and Serampore,1947,2022,Part of,750
-7505,Hyderabad,1816,1948,Vassal of,750
-7505,Hyderabad,1948,2022,Part of,750
-7506,Malabar Coast,1816,2022,Part of,750
-7507,Kashmir,1816,1819,Part of,700
-7507,Kashmir,1819,1846,Part of,7691
-7507,Kashmir,1846,1947,Vassal of,750
-7507,Kashmir,1947,2022,Part of,750
-7507,Kashmir,1947,1947,Dissolved into,7708
-7507,Kashmir,1947,1947,Dissolved into,7709
+7504,Tranquebar,1816,1845,Colony of,390
+7504,Tranquebar,1845,1947,Part of,750
+7504,Tranquebar,1947,2022,Part of,750
+7506,Hyderabad,1816,1948,Vassal of,750
+7506,Hyderabad,1948,2022,Part of,750
+7507,Malabar Coast,1816,2022,Part of,750
+7508,Kashmir,1816,1819,Part of,700
+7508,Kashmir,1819,1846,Part of,7691
+7508,Kashmir,1846,1947,Vassal of,750
+7508,Kashmir,1947,2022,Part of,750
+7508,Kashmir,1947,1947,Dissolved into,7708
+7508,Kashmir,1947,1947,Dissolved into,7709
 7511,Bikaner,1816,1947,Vassal of,750
 7511,Bikaner,1947,2022,Part of,750
 7512,Jaipur,1816,1818,Sovereign (unrecognized),
@@ -4051,7 +4050,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 8217,Tampin,1816,1840,Part of,8212
 8217,Tampin,1840,1889,Unknown,
 8217,Tampin,1889,2022,Part of,8210
-8218,Manjung (Dindings),1816,1873,Part of,827
+8218,Manjung (Dindings),1826,1873,Part of,827
 8218,Manjung (Dindings),1874,1935,Colony of,200
 8218,Manjung (Dindings),1935,2022,Part of,8201
 8221,Johore,1816,1914,Sovereign (unrecognized),
@@ -4486,3 +4485,6 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 1032,Turks and Caicos Is.,1962,1988,Colony of,200
 827,Straits Settlements,1826,1867,Part of,750
 7111,Manchuria,1945,1946,Occupied by,365
+7505,Serampore,1816,1845,Colony of,390
+7505,Serampore,1845,1947,Part of,750
+7505,Serampore,1947,2022,Part of,750
