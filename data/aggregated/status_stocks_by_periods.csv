@@ -263,7 +263,7 @@ Jabal Shammar,Vassal of,Vassal of,Part of,Part of
 Yemen Arab Republic (North Yemen) (Kingdom of Yemen),Sovereign (unrecognized),Part of,Sovereign,?
 Yemen,?,?,Sovereign,Sovereign
 Yemen People's Republic (South Yemen),?,?,Sovereign,?
-Aden,Part of,Part of,Colony of,Part of
+Aden,Part of,Dependency of,Colony of,Part of
 Aden Protectorate,Protectorate of,Protectorate of,?,?
 Kuwait,Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 Bahrain,Part of,Protectorate of,Protectorate of,Sovereign
@@ -277,7 +277,7 @@ Kyrgyzstan,Part of,Part of,Part of,Sovereign
 Uzbekistan,Part of,Part of,Part of,Sovereign
 Kazakhstan,Protectorate of,Part of,Part of,Sovereign
 People's Republic of China (China),Sovereign (unrecognized),Sovereign,Sovereign,Sovereign
-Manchukuo,?,Occupied by,Part of,Part of
+Manchukuo,?,Occupied by,?,?
 Mongolia,Part of,Part of,Sovereign,Sovereign
 Republic of China (Taiwan) (Formosa),Part of,Part of,Sovereign,Sovereign (unrecognized)
 Hong Kong,Part of,Colony of,Colony of,Dependency of
@@ -310,7 +310,7 @@ Malaysia (British Malaya),Informal,Informal,Colony of,Sovereign
 Federated Malay States,?,Colony of,?,?
 Sabah (North Borneo),Part of,Leased to,Colony of,Claimed by
 Sarawak,Part of,Sovereign (unrecognized),Colony of,Part of
-Straits Settlements,Colony of,Colony of,?,?
+Straits Settlements,Part of,Colony of,?,?
 Singapore,Part of,Part of,Colony of,Sovereign
 Brunei,Sovereign (unrecognized),Sovereign (unrecognized),Protectorate of,Sovereign
 Philippines,Part of,Colony of,Sovereign,Sovereign
@@ -378,8 +378,8 @@ Vancouver,Discovered,Part of,Part of,Part of
 St. Pierre and Miquelon,Colony of,Colony of,Colony of,Dependency of
 U.S. Leased Bases in Bermuda,?,Leased to,Leased to,?
 Mayaguana,Part of,Part of,Part of,Part of
-Turks and Caicos Is.,Part of,Part of,Part of,Colony of
-Cayman Is.,Part of,Part of,Part of,Colony of
+Turks and Caicos Is.,Dependency of,Dependency of,Dependency of,Dependency of
+Cayman Is.,Dependency of,Dependency of,Dependency of,Colony of
 Guantanamo,Part of,Part of,Leased to,Leased to
 North Haiti,Sovereign (unrecognized),Part of,Part of,Part of
 Navassa I.,Discovered,Claimed by,Dependency of,Dependency of
@@ -771,7 +771,7 @@ Northeastern Rhodesia,?,Protectorate of,?,?
 Barotseland_North_Western Rhodesia (Northwestern Rhodesia),?,Possession of,?,?
 Rozwi,Sovereign (unrecognized),?,?,?
 Ndebele (Matabeleland),Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
-Mashona,Part of,Part of,Part of,Part of
+Mashona,?,Colony of,Part of,Part of
 Mbelwa Ngoni,Unknown,?,?,?
 Mpezeni Ngoni,Part of,Unknown,Part of,Part of
 Kamanga,Unknown,Part of,Part of,Part of
@@ -1199,7 +1199,7 @@ Gowa,Sovereign (unrecognized),Sovereign (unrecognized),Part of,Part of
 Luwu,Sovereign (unrecognized),Part of,Part of,Part of
 Buton,Sovereign (unrecognized),Sovereign (unrecognized),Sovereign (unrecognized),?
 Christmas I.,Discovered,Discovered,Part of,Dependency of
-Cocos (Keeling) Is.,Unknown,Part of,Part of,Dependency of
+Cocos (Keeling) Is.,Sovereign (unrecognized),Dependency of,Dependency of,Dependency of
 Coral Sea Is.,Discovered,Discovered,Part of,Dependency of
 Norfolk I.,Colony of,Colony of,Colony of,Dependency of
 Heard and McDonald Is.,Possession of,Possession of,Dependency of,Dependency of
