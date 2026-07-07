@@ -3523,26 +3523,25 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 7500,Andaman and Nicobar Is.,1950,2022,Part of,750,Asia
 7501,Andaman Is.,1816,1872,Colony of,200,Asia
 7501,Andaman Is.,1872,2022,Part of,7500,Asia
-7502,Nicobar Is.,1816,1845,Part of,7504,Asia
-7502,Nicobar Is.,1845,1869,Possession of,390,Asia
-7502,Nicobar Is.,1869,1872,Part of,750,Asia
+7502,Nicobar Is.,1816,1868,Possession of,390,Asia
+7502,Nicobar Is.,1868,1872,Part of,750,Asia
 7502,Nicobar Is.,1872,2022,Part of,7500,Asia
 7503,Coromandel Coast Posts,1816,1818,Occupied by,200,Asia
 7503,Coromandel Coast Posts,1818,1825,Colony of,210,Asia
 7503,Coromandel Coast Posts,1825,1947,Part of,750,Asia
 7503,Coromandel Coast Posts,1947,2022,Part of,750,Asia
-7504,Tranquebar and Serampore,1816,1845,Colony of,390,Asia
-7504,Tranquebar and Serampore,1845,1947,Part of,750,Asia
-7504,Tranquebar and Serampore,1947,2022,Part of,750,Asia
-7505,Hyderabad,1816,1948,Vassal of,750,Asia
-7505,Hyderabad,1948,2022,Part of,750,Asia
-7506,Malabar Coast,1816,2022,Part of,750,Asia
-7507,Kashmir,1816,1819,Part of,700,Asia
-7507,Kashmir,1819,1846,Part of,7691,Asia
-7507,Kashmir,1846,1947,Vassal of,750,Asia
-7507,Kashmir,1947,2022,Part of,750,Asia
-7507,Kashmir,1947,1947,Dissolved into,7708,Asia
-7507,Kashmir,1947,1947,Dissolved into,7709,Asia
+7504,Tranquebar,1816,1845,Colony of,390,Asia
+7504,Tranquebar,1845,1947,Part of,750,Asia
+7504,Tranquebar,1947,2022,Part of,750,Asia
+7506,Hyderabad,1816,1948,Vassal of,750,Asia
+7506,Hyderabad,1948,2022,Part of,750,Asia
+7507,Malabar Coast,1816,2022,Part of,750,Asia
+7508,Kashmir,1816,1819,Part of,700,Asia
+7508,Kashmir,1819,1846,Part of,7691,Asia
+7508,Kashmir,1846,1947,Vassal of,750,Asia
+7508,Kashmir,1947,2022,Part of,750,Asia
+7508,Kashmir,1947,1947,Dissolved into,7708,Asia
+7508,Kashmir,1947,1947,Dissolved into,7709,Asia
 7511,Bikaner,1816,1947,Vassal of,750,Asia
 7511,Bikaner,1947,2022,Part of,750,Asia
 7512,Jaipur,1816,1818,Sovereign (unrecognized),,Asia
@@ -4051,7 +4050,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 8217,Tampin,1816,1840,Part of,8212,Asia
 8217,Tampin,1840,1889,Unknown,,Asia
 8217,Tampin,1889,2022,Part of,8210,Asia
-8218,Manjung (Dindings),1816,1873,Part of,827,Asia
+8218,Manjung (Dindings),1826,1873,Part of,827,Asia
 8218,Manjung (Dindings),1874,1935,Colony of,200,Asia
 8218,Manjung (Dindings),1935,2022,Part of,8201,Asia
 8221,Johore,1816,1914,Sovereign (unrecognized),,Asia
@@ -4486,3 +4485,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 1032,Turks and Caicos Is.,1962,1988,Colony of,200,America
 827,Straits Settlements,1826,1867,Part of,750,Asia
 7111,Manchuria,1945,1946,Occupied by,365,Asia
+7505,Serampore,1816,1845,Colony of,390,Asia
+7505,Serampore,1845,1947,Part of,750,Asia
+7505,Serampore,1947,2022,Part of,750,Asia
+7695,Kutch,1816,1819,Sovereign (unrecognized),,Asia
+7695,Kutch,1819,1948,Part of,750,Asia
+7695,Kutch,1948,2022,Part of,750,Asia
