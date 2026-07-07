@@ -297,7 +297,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 771,Bangladesh,Asia,http://www.wikidata.org/entity/Q902,,,,,24.0166666666667,89.8666666666667
 775,Myanmar (Burma),Asia,http://www.wikidata.org/entity/Q836,,,,,22,96
 780,Sri Lanka (Ceylon),Asia,http://www.wikidata.org/entity/Q854,,,,,7,81
-781,Maldive Islands,Asia,http://www.wikidata.org/entity/Q17044696,,,,,,
+781,Maldive Islands,Asia,http://www.wikidata.org/entity/Q12552654,,,,,3.25,73
 790,Nepal,Asia,http://www.wikidata.org/entity/Q837,,,,,28,84
 800,Thailand (Siam),Asia,http://www.wikidata.org/entity/Q869,,,,,14,101
 810,French Indochina,Asia,http://www.wikidata.org/entity/Q185682,,,,,21.033333333333,105.85
@@ -370,10 +370,10 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 1021,Cape Breton I.,America,http://www.wikidata.org/entity/Q188489,,,,,46.295,-60.67
 1022,Nova Scotia,America,http://www.wikidata.org/entity/Q1952,,,,,45,-63
 1023,New Brunswick,America,http://www.wikidata.org/entity/Q1965,,,,,46.6,-66
-1024,Prince Edward Is.,America,http://www.wikidata.org/entity/Q1979,,,,,,
+1024,Prince Edward Is.,America,http://www.wikidata.org/entity/Q1978,,,,,46.4,-63.2
 1025,Quebec (Lower Canada),America,http://www.wikidata.org/entity/Q176,https://www.wikidata.org/wiki/Q1134180,,,,52,-72
 1026,Ontario (Upper Canada),America,http://www.wikidata.org/entity/Q1904,https://www.wikidata.org/wiki/Q795427,,,,50,-85
-1027,British Columbia,America,http://www.wikidata.org/entity/Q1974,,,,,,
+1027,British Columbia,America,http://www.wikidata.org/entity/Q1973,,,,,54.5,-124.5
 1028,Vancouver,America,http://www.wikidata.org/entity/Q24639,,,,,49.2608333333333,-123.113888888889
 1029,St. Pierre and Miquelon,America,http://www.wikidata.org/entity/Q34617,,,,,46.85,-56.3
 1030,U.S. Leased Bases in Bermuda,America,http://www.wikidata.org/entity/Q23635,,,,,32.32,-64.74
@@ -826,7 +826,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 6064,Melilla,Africa,http://www.wikidata.org/entity/Q5831,,,,,35.2825,-2.9475
 6065,Penon de Velez,Africa,http://www.wikidata.org/entity/Q191146,,,,,35.1722222222222,-4.29972222222222
 6066,Morocco-Melilla Neutral Zone,Africa,http://www.wikidata.org/entity/Q2748217,,,,,35.905555555556,-2.1013888888889
-6067,Captaincy-general of north Africa,Africa,,,,,,,
+6067,Captaincy-general of north Africa,Africa,,,,,,35.88849,-5.32648
 6090,Río de Oro,Africa,https://www.wikidata.org/wiki/Q929147,,,,,23,-13
 6151,Abdelkader Emirate,Africa,http://www.wikidata.org/entity/Q3591817,http://www.wikidata.org/entity/Q545707,,,,,
 6152,Kabylie,Africa,http://www.wikidata.org/entity/Q46178,,,,,36.6,5
@@ -1293,5 +1293,5 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 49052,Lualaba,Africa,https://www.wikidata.org/wiki/Q1159531,,,,,-10.71666667,25.46666667
 49053,Haut-Lomani,Africa,https://www.wikidata.org/wiki/Q605672,,,,,-8.73861111,24.99055556
 2301,Balearic Islands,Europe,https://www.wikidata.org/wiki/Q5765,,,,,39.5,3
-7505,Serampore,Asia,https://www.wikidata.org/wiki/Q1815367,,,,,,
-7695,Kutch,Asia,https://www.wikidata.org/wiki/Q1720882,,,,,,
+7505,Serampore,Asia,https://www.wikidata.org/wiki/Q1815367,,,,,22.75,88.34
+7695,Kutch,Asia,https://www.wikidata.org/wiki/Q1720882,,,,,23.915,70.367
