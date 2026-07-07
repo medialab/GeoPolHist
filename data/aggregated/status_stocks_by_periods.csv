@@ -985,9 +985,9 @@ Parece Vela I.,Discovered,Discovered,Occupied by,Part of
 Tsushima Is.,Part of,Part of,Part of,Part of
 Andaman and Nicobar Is.,Part of,Part of,Occupied by,Part of
 Andaman Is.,Colony of,Part of,Part of,Part of
-Nicobar Is.,Part of,Part of,Part of,Part of
+Nicobar Is.,Possession of,Part of,Part of,Part of
 Coromandel Coast Posts,Occupied by,Part of,Part of,Part of
-Tranquebar and Serampore,Colony of,Part of,Part of,Part of
+Tranquebar,Colony of,Part of,Part of,Part of
 Hyderabad,Vassal of,Vassal of,Part of,Part of
 Malabar Coast,Part of,Part of,Part of,Part of
 Kashmir,Part of,Vassal of,Part of,Part of
@@ -1293,3 +1293,5 @@ Tanganyika,?,?,Part of,Part of
 Lualaba,?,?,Part of,Part of
 Haut-Lomani,?,?,Part of,Part of
 Balearic Islands,Part of,Part of,Part of,Part of
+Serampore,Colony of,Part of,Part of,Part of
+Kutch,Sovereign (unrecognized),Part of,Part of,Part of
