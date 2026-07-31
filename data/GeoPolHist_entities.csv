@@ -77,7 +77,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 246,Bremen,Europe,http://www.wikidata.org/entity/Q1209,,,,,53.1333333333333,8.73333333333333
 247,Frankfurt,Europe,http://www.wikidata.org/entity/Q1794,,,,,50.1105555555556,8.68222222222222
 248,Hamburg,Europe,http://www.wikidata.org/entity/Q1055,,,,,53.55,10
-249,Saxony Anhalt (Anhalt),Europe,http://www.wikidata.org/entity/Q16550783,http://www.wikidata.org/entity/Q27916627,http://www.wikidata.org/entity/Q1206,,,51.83416666666667,12.24611111111111
+249,Saxony Anhalt (Anhalt),Europe,http://www.wikidata.org/entity/Q16550783,http://www.wikidata.org/entity/Q27916627,http://www.wikidata.org/entity/Q1206,,,51.8341666666667,12.2461111111111
 250,Hohenzollern Hechingen,Europe,http://www.wikidata.org/entity/Q673865,,,,,48.35,8.96666666666667
 251,Hohenzollern Sigmaringen,Europe,http://www.wikidata.org/entity/Q157013,,,,,48.0880555555556,9.21666666666667
 252,Lippe,Europe,http://www.wikidata.org/entity/Q14551680,,,,,51.93609,8.877296
@@ -769,7 +769,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 5517,Kazembe,Africa,http://www.wikidata.org/entity/Q5675285,,,,,,
 5518,Northeastern Rhodesia,Africa,http://www.wikidata.org/entity/Q2753015,,,,,-11.850968,31.404575
 5519,Barotseland_North_Western Rhodesia (Northwestern Rhodesia),Africa,https://www.wikidata.org/wiki/Q20312596,https://www.wikidata.org/wiki/Q2400545,,,,-14.91914,26.201097
-5521,Rozwi,Africa,http://www.wikidata.org/entity/Q986822,,,,,-19.946666666666665,29.33138888888889
+5521,Rozwi,Africa,http://www.wikidata.org/entity/Q986822,,,,,-19.9466666666667,29.3313888888889
 5522,Ndebele (Matabeleland),Africa,http://www.wikidata.org/entity/Q1266775,,,,,-19.83,28.16
 5523,Mashona,Africa,http://www.wikidata.org/entity/Q1640913,,,,,-17.6,30.6
 5524,Mbelwa Ngoni,Africa,http://www.wikidata.org/entity/Q17109664,,,,links to a tribe or a language,,
@@ -1096,7 +1096,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 7761,Loi Maw,Asia,,,,,,,
 7762,Maw,Asia,http://www.wikidata.org/entity/Q6746014,,,,,21.45,96.3667
 7763,Mawnang,Asia,http://www.wikidata.org/entity/Q16937734,,,,,20.72333333,96.77111111
-7764,Mawson,Asia,http://www.wikidata.org/entity/Q6794457,,,,,20.95,96.77111111111111
+7764,Mawson,Asia,http://www.wikidata.org/entity/Q6794457,,,,,20.95,96.7711111111111
 7765,Namhkam,Asia,http://www.wikidata.org/entity/Q11938356,http://www.wikidata.org/entity/Q6963579,,,,20.5988888888889,96.0619444444444
 7766,Namtok,Asia,http://www.wikidata.org/entity/Q775848,,,,,20.38305556,98.04
 7767,Pangmi,Asia,http://www.wikidata.org/entity/Q642143,,,,,20.585067330237,96.6923159428375
@@ -1111,12 +1111,12 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 7776,Hopong,Asia,http://www.wikidata.org/entity/Q18125697,http://www.wikidata.org/entity/Q5901153,,,,20.7977777777778,97.1761111111111
 7777,Namhkok,Asia,http://www.wikidata.org/entity/Q6746736,,,,,20.62455,97.204242
 7778,Mong Pai,Asia,http://www.wikidata.org/entity/Q6746318,,,,,19.25,97.33333333
-7779,Nawng Wawn,Asia,http://www.wikidata.org/entity/Q6746031,,,,,20.53111111111111,97.21083333333334
+7779,Nawng Wawn,Asia,http://www.wikidata.org/entity/Q6746031,,,,,20.5311111111111,97.2108333333333
 7780,Sa-koi,Asia,http://www.wikidata.org/entity/Q6745279,,,,,19.9049722222222,97.0332222222222
 7781,Lai Hka,Asia,http://www.wikidata.org/entity/Q636410,,,,,21.2667,97.65
 7782,Mong Kung,Asia,http://www.wikidata.org/entity/Q675065,,,,,21.6,97.5167
 7783,Mong Nai,Asia,http://www.wikidata.org/entity/Q18128147,http://www.wikidata.org/entity/Q3813839,,,,20.51666667,97.86666667
-7784,Mawkmai,Asia,http://www.wikidata.org/entity/Q18127914,http://www.wikidata.org/entity/Q6794415,,,,20.226666666666667,97.72500000000001
+7784,Mawkmai,Asia,http://www.wikidata.org/entity/Q18127914,http://www.wikidata.org/entity/Q6794415,,,,20.2266666666667,97.725
 7785,Mong Pawn,Asia,http://www.wikidata.org/entity/Q6745336,,,,,20.7,97.4333
 7786,Mong Sit,Asia,http://www.wikidata.org/entity/Q6745994,,,,,20.55,98.61666667
 7787,Mong Pan,Asia,http://www.wikidata.org/entity/Q6899434,,,,,20.31666667,98.36666667
@@ -1295,3 +1295,4 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 2301,Balearic Islands,Europe,https://www.wikidata.org/wiki/Q5765,,,,,39.5,3
 7505,Serampore,Asia,https://www.wikidata.org/wiki/Q1815367,,,,,22.75,88.34
 7695,Kutch,Asia,https://www.wikidata.org/wiki/Q1720882,,,,,23.915,70.367
+3661,Livonia,Europe,https://www.wikidata.org/wiki/Q183464,,,,,,
