@@ -4491,3 +4491,7 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code,continent
 7695,Kutch,1816,1819,Sovereign (unrecognized),,Asia
 7695,Kutch,1819,1948,Part of,750,Asia
 7695,Kutch,1948,2022,Part of,750,Asia
+3661,Livonia,1816,1918,Part of,365,Europe
+3661,Livonia,1917,1918,Occupied by,255,Europe
+3661,Livonia,1918,1918,Dissolved into,366,Europe
+3661,Livonia,1918,1918,Dissolved into,367,Europe
