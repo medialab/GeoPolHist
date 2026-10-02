@@ -976,8 +976,8 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 651,Egypt Arab Republic (Egypt),1914,1922,Protectorate of,200
 651,Egypt Arab Republic (Egypt),1922,1937,Occupied by,200
 651,Egypt Arab Republic (Egypt),1937,2022,Sovereign,
-652,Syria,1816,1832,Part of,640
-652,Syria,1832,1840,Occupied by,651
+652,Syria,1816,1831,Part of,640
+652,Syria,1831,1840,Occupied by,651
 652,Syria,1840,1918,Part of,640
 652,Syria,1918,1920,Occupied by,200
 652,Syria,1920,1923,Occupied by,220
@@ -985,16 +985,16 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 652,Syria,1958,1961,Part of,651
 652,Syria,1946,1958,Sovereign,
 652,Syria,1961,2022,Sovereign,
-660,Lebanon,1816,1918,Part of,640
+660,Lebanon,1816,1831,Part of,640
 660,Lebanon,1918,1923,Occupied by,220
 660,Lebanon,1923,1946,Mandated to,220
 660,Lebanon,1976,1990,Occupied by,652
 660,Lebanon,1946,2022,Sovereign,
-663,Jordan (Transjordan),1816,1918,Part of,640
+663,Jordan (Transjordan),1816,1831,Part of,640
 663,Jordan (Transjordan),1918,1923,Occupied by,200
 663,Jordan (Transjordan),1923,1946,Mandated to,200
 663,Jordan (Transjordan),1946,2022,Sovereign,
-665,Palestine,1816,1918,Part of,640
+665,Palestine,1816,1831,Part of,640
 665,Palestine,1918,1923,Occupied by,200
 665,Palestine,1923,1948,Mandated to,200
 665,Palestine,1948,1948,Dissolved into,666
@@ -4495,3 +4495,9 @@ GPH_code,GPH_name,start_year,end_year,GPH_status,sovereign_GPH_code
 3661,Livonia,1917,1918,Occupied by,255
 3661,Livonia,1918,1918,Dissolved into,366
 3661,Livonia,1918,1918,Dissolved into,367
+660,Lebanon,1831,1840,Occupied by,651
+660,Lebanon,1840,1918,Part of,640
+663,Jordan (Transjordan),1831,1840,Occupied by,651
+663,Jordan (Transjordan),1840,1918,Part of,640
+665,Palestine,1831,1840,Occupied by,651
+665,Palestine,1840,1918,Part of,640
