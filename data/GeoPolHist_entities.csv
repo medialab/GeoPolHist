@@ -264,7 +264,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 679,Yemen,Asia,http://www.wikidata.org/entity/Q199841,,,,,12.8,45.033333333333
 680,Yemen People's Republic (South Yemen),Asia,http://www.wikidata.org/entity/Q199841,,,,,12.8,45.033333333333
 681,Aden,Asia,http://www.wikidata.org/entity/Q131694,,,,,12.8,45.033333333333
-682,Aden Protectorate,Asia,http://www.wikidata.org/entity/Q1865132,,,,,,
+682,Aden Protectorate,Asia,http://www.wikidata.org/entity/Q1865132,,,,,15.620741184156978,47.4682844001296
 690,Kuwait,Asia,http://www.wikidata.org/entity/Q817,,,,,29.166667,47.6
 692,Bahrain,Asia,http://www.wikidata.org/entity/Q398,,,,,26.0675,50.551111
 694,Qatar,Asia,http://www.wikidata.org/entity/Q846,,,,,25.269535,51.212767
@@ -498,7 +498,7 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 3154,Carpatho-Ukraine,Europe,http://www.wikidata.org/entity/Q950644,,,,,48.4333333333333,23.0666666666667
 3253,Milan,Europe,http://www.wikidata.org/entity/Q490,,,,,45.466944444444,9.19
 3261,Republic of St. Mark,Europe,http://www.wikidata.org/entity/Q4948,,,,,45.583,12.683
-3262,Lombardy-Venetia,Europe,https://www.wikidata.org/wiki/Q209857,,,,,,
+3262,Lombardy-Venetia,Europe,https://www.wikidata.org/wiki/Q209857,,,,,45.466944444444444,9.19
 3271,Ancona,Europe,http://www.wikidata.org/entity/Q3415,,,,,43.616666666667,13.516666666667
 3291,Sicily,Europe,http://www.wikidata.org/entity/Q1460,,,,,37.599958333333,14.015377777778
 3326,Venezia-Giulia,Europe,http://www.wikidata.org/entity/Q306696,,,,,45.633333333333,13.8
@@ -1295,4 +1295,4 @@ GPH_code,GPH_name,continent,wikidata,wikidata_alt1,wikidata_alt2,wikidata_alt3,n
 2301,Balearic Islands,Europe,https://www.wikidata.org/wiki/Q5765,,,,,39.5,3
 7505,Serampore,Asia,https://www.wikidata.org/wiki/Q1815367,,,,,22.75,88.34
 7695,Kutch,Asia,https://www.wikidata.org/wiki/Q1720882,,,,,23.915,70.367
-3661,Livonia,Europe,https://www.wikidata.org/wiki/Q183464,,,,,,
+3661,Livonia,Europe,https://www.wikidata.org/wiki/Q183464,,,,,57.862234,25.967155
